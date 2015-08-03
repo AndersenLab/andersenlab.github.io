@@ -1,0 +1,253 @@
+- first_name: Erik
+  last_name: Andersen
+  title: Principle Investigator
+  group: Principle Investigator
+  # Specify names here to highlight within publications
+  pub_names: ["EC Andersen", "Andersen EC", "Erik C. Andersen", "Erik C Andersen"]
+  photo: Erik_C_Andersen.jpg
+  cv: https://github.com/AndersenLab/cv/blob/master/Andersen_CV.pdf?raw=true
+  email: Erik.Andersen@northwestern.edu
+  github: synmuv
+
+- first_name: Robyn
+  last_name: Tanny
+  description: I manage the lab's strain collection, generate sequencing libraries, monitor undergraduate research and aid in the high-throughput assay pipeline. I am also interested in determining natural variation in thermotolerance in <em>_(__C. elegans__)_</em> to understand mechanisms of stress response.
+  title: Research Associate
+  photo: Robyn.jpg
+  email: Robyn.Tanny@northwestern.edu
+
+#========================#
+# Post-Doc               #
+#========================#
+
+- first_name: Bryn
+  last_name: Gaertner
+  description: I'm interested in natural variation in neurodevelopment and behavior.
+  title: Postdoctoral Researcher, 2014
+  pub_names: []
+  former: true
+  photo: Bryn_Gaertner.jpg
+  email: Bryn.Gaertner@northwestern.edu
+
+- first_name: Mostafa
+  last_name: Zamanian
+  description: My research broadly spans Neglected Disease Genomics and Drug Discovery. I'm currently working to develop genome editing technology for human pathogenic helminths. These tools will be leveraged to study anthelmintic drug resistance, and to help engineer novel platforms for therapeutic delivery.
+  title: Postdoctoral Researcher
+  photo: Mostafa2014.JPG
+  pub_names: []
+  email: zamanian@northwestern.edu 
+
+
+#========================#
+# Graduate Researcher    #
+#========================#
+
+
+
+#================#
+# Research Staff #
+#================#
+
+- first_name: Sam
+  last_name: Rosenberg
+  description: I am interested in learning about quantitative traits in response to a variety of chemicals and compounds to learn about the underlying mechanisms of action in multicellular organisms. I manage the majority of the high-throughput assay pipeline, as well as handle much of the work with our COPAS Biosort large particle flow cytometer.
+  title: Research Technician
+  photo: Sam_Rosenberg.jpg
+  email: Samuel.Rosenberg@northwestern.edu
+
+- first_name: Sarah
+  last_name: Giuliani
+  description: I support the lab maintenance, order supplies, coordinate meetings and Worm-community events, supervise work-study undergraduates, and manage our bacterial and plasmid stocks. I am interested in nematode natural variation in response to bacterial food and pathogen sensing, and also in developing assays to investigate putative hermaphrodite mate-searching behavior.
+  title: Laboratory Manager
+  photo: Sarah_Giuliani.jpg
+  email: Sarah.Giuliani@northwestern.edu
+  former: true
+
+- first_name: Kristen
+  last_name: Laricchia
+  description:
+  title: Computational Specialist
+  photo: Kristen_Laricchia.jpg
+  email: kristenlaricchia2014@u.northwestern.edu
+
+#===================#
+# Graduate Students #
+#===================#
+
+- first_name: Daniel
+  last_name: Cook
+  title: Graduate Student
+  group: Graduate Students
+  pub_names: ["Cook DE"]
+  photo: Daniel_E_Cook.jpg
+  website: http://www.danielecook.com
+  description: "I am interested in using bioinformatics to elucidate how gene by gene, gene by environment, and conserved polygenic mechanisms give rise to complex traits."
+  email: Dec@u.northwestern.edu
+  github: danielecook
+
+- first_name: Stefan
+  last_name: Zdraljevic
+  title: Graduate Student
+  description: I am interested in how organisms perceive and respond to their environment. Specifically, how natural genetic and non-genetic factors contribute to variability in response to environmental cues.
+  group: Graduate Students
+  photo: Stefan_Zdraljevic.jpg
+  github: Thatguy027
+  email: StefanZdraljevic2018@u.northwestern.edu
+
+- first_name: Shannon
+  last_name: Brady
+  title: Graduate Student
+  description: I am interested in the genotypic factors that contribute to drug susceptibility, especially in regards to chemotherapeutics.
+  photo: Shannon_Brady.jpg
+  group: Graduate Students
+  email: shannonbrady2014@u.northwestern.edu
+
+
+#========================#
+# Undergraduates         #
+#========================#
+
+- first_name: Stevie
+  last_name: Hippleheuser
+  title: Undergraduate Researcher
+  description: I am interested in studying the natural variation in heat shock response to identify genes involved in stress response and longevity.
+  pub_names: []
+  photo: Stevie_Hippleheuser.jpg
+  email: StephenHippleheuser2017@u.northwestern.edu
+
+- first_name: Nick
+  last_name: Irons
+  title: Undergraduate Researcher
+  description: 
+  pub_names: []
+  photo: NickIrons.jpg
+  email: NicholasIrons2018@u.northwestern.edu
+
+- first_name: Hilary
+  last_name: Tsang
+  description: I am interested in a potential mate searching behavior in hermaphrodites and developing assays to further quantify natural variation in wild isolates.
+  title: Undergraduate Researcher
+  pub_names: []
+  photo: Hillary.jpg
+  email: HillaryTsang2016@u.northwestern.edu
+
+- first_name: Lautaro
+  last_name: Cilenti
+  title: Undergraduate Researcher
+  pub_names: []
+  photo: Lautaro_Cilenti.jpg
+  email: LautaroCilenti2017@u.northwestern.edu
+
+- first_name: Annika
+  last_name: Zhang
+  title: Undergraduate Lab Assistant
+  email: AnnikaZhang2018@u.northwestern.edu 
+  photo: Annika2014.JPG
+  former: false
+
+- first_name: Michelle
+  last_name: Lee
+  title: Undergraduate, fall 2014
+  email: MichelleLee2018@u.northwestern.edu
+  photo: Michelle2014.JPG
+  former: true
+
+- first_name: Tyler
+  last_name: Shimko
+  description: I am interested in mapping quantitative traits using our set of recombinant inbred lines as well as processing, visualizing, and managing the data generated by our experiments.
+  github: TShimko126
+  email: Tyler.Shimko@utah.edu
+  photo: Tyler_Shimko.png
+  pub_names: ["Shimko TC"]
+  former: false
+  title: Undergraduate, summers 2013, 2014
+
+- first_name: Kreena
+  last_name: Patel
+  email: KreenaPatel2016@u.northwestern.edu
+  photo: Kreena.jpg
+  title: Undergraduate, 2013 - 2014
+
+#========================#
+# High Schooler          #
+#========================#
+
+- first_name: Jacob
+  last_name: Cruger
+  description: ​I'm interested in isolating new and diverse Caenorhabditis strains for use in genome-wide association mapping. 
+  former: true
+  photo: Jacob_Cruger.png
+  email: jacob.o.cruger.18@dartmouth.edu
+  title: High School Student, summers 2013, 2014
+
+#========================#
+# Former Members         #
+#========================#
+
+- first_name: Mazeed
+  last_name: Aro-Lambo
+  former: true
+  description: I am interested in the natural variation in longevity.
+  title: Undergraduate Researcher, 2014-2015
+  pub_names: []
+  photo: Mazeed_AroLambo.jpg
+  email: MazeedAroLambo2017@u.northwestern.edu
+
+- first_name: Michelle
+  last_name: Wang
+  former: true
+  title: Undergraduate, 2013-2014
+  pub_names: []
+  photo: Michelle_Wang.jpg
+  email: J7U3L8@u.northwestern.edu
+
+- first_name: Lucie
+  last_name: Bastin-Heline
+  former: true
+  date_start: 02/01/2014
+  date_end: 06/01/2014
+  title: ENS exchange masters student, winter and spring 2014
+  pub_names: []
+  photo: Lucie_Bastin_Heline.jpg
+  email: Lucie.Bastin@ens.fr
+
+- first_name: Gina
+  last_name: Liu
+  former: true
+  title: High School Student, fall 2013 - spring 2014
+
+- first_name: Camille
+  last_name: Calvin
+  former: true
+  title: Undergraduate, summer 2013
+
+- first_name: Stephen
+  last_name: Chan
+  former: true
+  title: Undergraduate, 2013-2014
+
+- first_name: Sunhong
+  last_name: Jin
+  former: true
+  title: Undergraduate, spring 2013
+
+- first_name: Melissa
+  last_name: Kim
+  former: true
+  title: Undergraduate, fall 2013
+
+- first_name: Esther
+  last_name: Li
+  former: true
+  title: Undergraduate, spring 2013
+
+- first_name: Kevin
+  last_name: Nigaruru
+  former: true
+  title: Undergraduate, spring 2013
+
+
+
+
+
+

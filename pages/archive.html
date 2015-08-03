@@ -1,0 +1,36 @@
+---
+layout: page
+title: News Archive
+permalink: /archive/
+---
+<div class="row">
+	<div class="col-md-12">
+
+
+
+
+
+
+  <article class="post-content">
+<section id="archive">
+<h3>{{ site.time | date: "%Y" }}</h3>
+<ul>
+  {% for post in site.tags.news %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        </ul>
+        <h3>{{ post.date | date: '%Y' }}</h3>
+        <ul class="past">
+      {% endif %}
+
+      <li><time>{{ post.date | date:"%d %b" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</section>
+  </article>
+<br />
+<br />
+<br />
+</div>
+</div>

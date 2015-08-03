@@ -1,0 +1,84 @@
+---
+layout: page
+title: Publications
+permalink: Publications/
+---
+<div class="text-center">
+{% assign prev_year = 1 %}
+	{% for pub in site.data.pubs_data reversed %}
+	{% assign cur_year = pub.Date_Published | substring:0,4 %}
+	{% if cur_year != prev_year %}
+		<a href="#{{  cur_year }}" class="btn btn-link">{{ cur_year }}</a>
+	{% endif %}
+	{% assign prev_year = pub.Date_Published | substring:0,4 %}
+	{% endfor %}
+</div>
+<hr />
+<div class="text-center">
+<strong>Click on paper image to download PDF</strong>
+</div>
+
+{% assign prev_year = 1 %}
+	{% for pub in site.data.pubs_data %}
+	{% assign cur_year = pub.Date_Published | substring:0,4 %}
+	{% if cur_year != prev_year %}
+	<a name="{{ cur_year }}"></a>
+		<h4 name="{{ cur_year }}">{{  cur_year }}</h4>
+	{% endif %}
+	{% assign prev_year = pub.Date_Published | substring:0,4 %}
+<div class="pub">
+
+
+				{% if pub.PDF_switch == true %}
+
+					<div class="pub-img">
+					<a href="/pub/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
+					<img src="/assets/img/thumbs/{{ pub.PDF}}.thumb-{{ pub.PDF_thumb_index }}.png" alt="{{pub.PDF}}" />
+					</a>
+					</div>
+ 
+					<div class="pub-img-small">
+					<a href="/pub/{{pub.PDF}}.pdf" class="thumbnail visible-xs">
+					<img src="/assets/img/thumbs/{{ pub.PDF}}.thumb-{{ pub.PDF_thumb_index }}.png" alt="{{pub.PDF}}" />
+					</a>
+					</div>
+
+			
+
+				{% else if %}
+
+				{% endif %}
+				
+					<strong>{{ pub.Title }}</strong>
+					{% assign pub_authors=pub.Authors|join:", " %}
+						{% for m in site.data.people %}
+							{% for p in m.pub_names %}
+								{% capture user_url %}
+								<a href='../People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
+								{% assign pub_authors=pub_authors|replace: p, user_url %}
+							{% endfor %}
+						{% endfor %}
+							<br /><small>{{ pub_authors }}</small>
+							<!-- Date -->
+							
+							<br />({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
+							<!-- DOI -->
+							[
+								{% if pub contains 'DOI' %}
+									<a title="Document Object Identifier; Takes you to the Journal Website" href="http://dx.doi.org/{{ pub.DOI }}">DOI</a>
+								{% endif %}
+
+							<!-- PMID -->
+								{% if pub contains 'PMID' %}
+								 | <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pub.PMID }}">Pubmed</a>
+								{% endif %}
+							<!-- Pubmed Central -->
+								{% if pub.PMC %}
+								| <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
+								{% endif %}
+							]
+		</div>
+		<div class="clearfix"></div>
+
+		{% endfor %}
+

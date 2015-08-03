@@ -1,0 +1,85 @@
+---
+layout: page
+title: Software
+permalink: /Research/Software/
+menu: research
+---
+
+
+<div class="row">
+
+	<div class="col-md-8">
+
+<div class="row">
+
+<div class="col-md-12">
+		<h4>COPASutils</h4>
+		<h5>Install</h5>
+		<code>install.packages("COPASutils")</code>
+		<br /><br />
+		<p>An R package that presents a logical workflow for the reading, processing, and visualization of data obtained from the Union Biometrica Complex Object Parametric Analyzer and Sorter (COPAS) platform large-particle flow cytometers and a powerful suite of functions for the rapid processing and analysis of large high-throughput screening data sets. It combines the speed of dplyr with the elegance of ggplot2 to make analysis of COPAS data fast and painless.</p>
+		<h5>Additional Resources</h5>
+		<a href="/files/COPASutilsVignette.html">Vignette</a> | <a href="http://cran.rstudio.com/web/packages/COPASutils/index.html" title="Comprehensive R Archive Network">CRAN</a> | <a href="/files/COPASutils.zip">Supplementary Files</a>
+<br /><br /><br />
+	</div>
+
+</div>
+
+<div class="row">
+
+	<div class="col-md-12">
+	<h4>Liftover.py</h4>
+	<h5>Install</h5>
+	{% highlight bash %}pip install docopt # Requires docopt.
+git clone https://github.com/AndersenLab/liftover-utils
+	{% endhighlight %}
+	<p>Liftover.py is a python script that wraps the <code>remap_gff_between_releases.pl</code> script by Gary Williams. It allows for liftover of the following file types:</p>
+
+	<ul>
+	<li>VCF/BCF (Requires bcftools)</li>
+	<li>GFF</li>
+	<li>BED</li>
+	</ul>
+
+	<p>Additionally, <em>custom</em> file formats can be lifted over by specifying chromosome, start position column, and optionally an end position column.</p>
+	
+	<h5>Usage</h5>
+	<p>Note that the end_pos_column parameter is optional, meaning you only need to specify a chromosome and base pair location to be lifted over.</p>
+	{% highlight python %}
+liftover.py <file> <release1> <release2> (bcf|vcf|gff|bed)
+liftover.py <file> <release1> <release2> <chrom_col> <start_pos_column> [<end_pos_column>] [options]
+
+Options:
+  -h --help     Show this screen.
+  --delim=<delim>  File Delimiter; Default is a tab [default: TAB].
+{% endhighlight %}
+
+	</div>
+</div>
+</div>
+
+	<div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading"><h4>Scripts and Utilities</h4></div>
+  <div class="panel-body">
+    <a href="https://gist.github.com/danielecook/8d9198f746c9d2a44d19">depth_of_coverage.py</a><small style="float:right"><em><a href="/People/#Daniel Cook">Daniel Cook</a></em></small><br /><small>Python script for calculating depth of coverage and breadth of coverage by chromosome, nuclear, mtDNA, and genome from a given bam file.</small>
+    <hr />
+
+<a href="https://gist.github.com/danielecook/cfaa5c359d99bcad3200">generate_masked_ranges.py</a><small style="float:right"><em><a href="/People/#Daniel Cook">Daniel Cook</a></em></small><br />
+    <small>Used to produce a bed file of masked ranges within a hard masked ("NNN") fasta file.</small>
+
+    <hr />
+
+       <a href="https://gist.github.com/danielecook/20bd05e461d1e6301a20">het_polarization.py</a><small style="float:right"><em><a href="/People/#Daniel Cook">Daniel Cook</a></em></small><br /><small>Python script for 'polarizing' or re-calling heterogzygous genotype calls as homozygous reference or alternate genotypes based on bayesian probabilities in inbred or largely homozgyous individuals.</small>
+    
+
+  </div>
+</div>
+
+	
+	</div>
+
+</div>
+<br /><br /><br />
+<br /><br /><br />

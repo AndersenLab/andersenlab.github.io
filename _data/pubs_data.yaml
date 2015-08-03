@@ -1,0 +1,327 @@
+- Authors:
+  - Thompson OA
+  - Snoek LB
+  - Nijveen H
+  - Sterken MG
+  - Volkers RJM
+  - Brenchley R
+  - van 't Hof A
+  - Bevers RPJ 
+  - Cossins AR
+  - Yanai I
+  - Hajnal A
+  - Schmid T
+  - Perkins JD
+  - Spencer D
+  - Kruglyak L
+  - Andersen EC
+  - Moerman DG
+  - Hillier LW
+  - Kammenga JE
+  - Waterston RH
+  DOI:
+  - 10.1534/genetics.115.175950
+  PMID: 25995208
+  Journal: Genetics
+  PDF: '2015genetics'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  Date_Published: 2015 May 19
+  Title:
+  - Remarkably Divergent Regions Punctuate the Genome Assembly of the <em>Caenorhabditis elegans</em> Hawaiian Strain CB4856
+- Authors:
+  - Sterken MG
+  - Snoek LB
+  - Kammenga JE
+  - Andersen EC
+  DOI:
+  - 10.1016/j.tig.2015.02.009
+  Date_Published: 2015 Mar 21
+  Journal: Trends in Genetics
+  PDF: '2015Trendsingenetics'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMID: '25804345'
+  Title:
+  - The laboratory domestication of <em>Caenorhabditis elegans</em>.
+- Authors:
+  - Andersen EC
+  - Shimko TC
+  - Crissman JR
+  - Ghosh R
+  - Bloom JS
+  - Seidel HS
+  - Gerke JP
+  - Kruglyak L
+  DOI:
+  - 10.1534/g3.115.017178
+  Date_Published: 2015 Mar 13
+  Journal: G3 (Bethesda)
+  PDF: '2015G3'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMID: '25770127'
+  Title:
+  - "A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant Strains."
+- Authors:
+    - Farhadifar R
+    - Baer CF
+    - Valfort AC
+    - Andersen EC
+    - Muller-Reichert T
+    - Delattre M
+    - Needleman DJ
+  DOI:
+  - 10.1016/j.cub.2014.12.060
+  Date_Published: 2015 Feb 11
+  Journal: Current Biology
+  PDF: '2015currbio'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMID: '25683802'
+  Title:
+  - Scaling, Selection, and Evolutionary Dynamics of the Mitotic Spindle.
+- Authors:
+  - Etienne V
+  - Andersen EC
+  - Ponciano JM
+  - Blanton D
+  - Cadavid A
+  - Joyner-Matos J
+  - Matsuba C
+  - Tabman B
+  - Baer CF
+  DOI:
+  - 10.1111/evo.12585
+  Date_Published: 2015 Feb
+  Journal: Evolution
+  PDF: '2015Evolution'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC4310795
+  PMID: '25495240'
+  Title:
+  - 'The red death meets the abdominal bristle: Polygenic mutation for susceptibility to a bacterial pathogen in <em>Caenorhabditis elegans</em>.'
+- Authors:
+  - Balla KM
+  - Andersen EC
+  - Kruglyak L
+  - Troemel ER
+  DOI:
+  - 10.1371/journal.ppat.1004583
+  Date_Published: 2015 Feb
+  Journal: PLoS Pathogens
+  PDF: '2015PLOSPATHOG'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC4334554
+  PMID: '25680197'
+  Title:
+  - A wild <em>C. elegans</em> strain has enhanced epithelial immunity to a natural microsporidian parasite.
+- Authors:
+  - Shimko TC
+  - Andersen EC
+  DOI:
+  - 10.1371/journal.pone.0111090
+  Date_Published: '2014'
+  Journal: PLoS One
+  PDF: '2014journal.pone.0111090'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC4203834
+  PMID: '25329171'
+  Title:
+  - 'COPASutils: An R Package for Reading, Processing, and Visualizing Data from COPAS Large-Particle Flow Cytometers.'
+- Authors:
+  - Andersen EC
+  - Bloom JS
+  - Gerke JP
+  - Kruglyak L
+  DOI:
+  - 10.1371/journal.pgen.1004156
+  Date_Published: 2014 Feb
+  Journal: PLoS Genetics
+  PDF: '2014PLOSGenetics'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC3937155
+  PMID: '24586193'
+  Title: A variant in the neuropeptide receptor <em>npr-1</em> is a major determinant of <em>Caenorhabditis elegans</em> growth and physiology.
+- Authors:
+  - Felix MA
+  - Jovelin R
+  - Ferrari C
+  - Han S
+  - Cho YR
+  - Andersen EC
+  - Cutter AD
+  - Braendle C
+  DOI:
+  - 10.1186/1471-2148-13-10
+  Date_Published: '2013'
+  Journal: BMC Evolutionary Biology
+  PDF: '2013FelixBMC-EvolBio'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC3556333
+  PMID: '23311925'
+  Title: "Species richness, distribution and genetic diversity of <em>Caenorhabditis</em> nematodes in a remote tropical rainforest."
+- Authors:
+  - Ghosh R
+  - Andersen EC
+  - Shapiro JA
+  - Gerke JP
+  - Kruglyak L
+  DOI:
+  - 10.1126/science.1214318
+  Date_Published: 2012 Feb 3
+  Journal: Science
+  PDF: '2012GhoshScience'
+  PDF_switch: true
+  PDF_thumb_index: 1
+  PMC: PMC3273849
+  PMID: '22301316'
+  Title: Natural variation in a chloride channel subunit confers avermectin resistance in <em>C. elegans</em>.
+- Authors:
+  - Andersen EC
+  - Gerke JP
+  - Shapiro JA
+  - Crissman JR
+  - Ghosh R
+  - Bloom JS
+  - Felix MA
+  - Kruglyak L
+  DOI:
+  - 10.1038/ng.1050
+  Date_Published: 2012 Mar
+  Journal: Nature Genetics
+  PDF: '2012AndersenNat Genet'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC3365839
+  PMID: '22286215'
+  Title: Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic diversity.
+- Authors:
+  - Andersen EC
+  DOI:
+  - 10.1007/978-1-61779-228-1_24
+  Date_Published: '2011'
+  Journal: Methods in Molecular Biology
+  PDF: '2011AndersenMethods-Mol-Biol'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMID: '22065452'
+  Title: "PCR-directed <em>in vivo</em> plasmid construction using homologous recombination in baker's yeast."
+- Authors:
+  - Bessler JB
+  - Andersen EC
+  - Villeneuve AM
+  DOI:
+  - 10.1371/journal.pgen.1000830
+  Date_Published: 2010 Jan
+  Journal: PLoS Genetics
+  PDF: '2010BesslerPLoS-Genet'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC2809760
+  PMID: '20107519'
+  Title: Differential localization and independent acquisition of the H3K9me2 and H3K9me3 chromatin modifications in the <em>Caenorhabditis elegans</em> adult germ line.
+- Authors:
+  - Raj A
+  - Rifkin SA
+  - Andersen EC
+  - van Oudenaarden A
+  DOI:
+  - 10.1038/nature08781
+  Date_Published: 2010 Feb 18
+  Journal: Nature
+  PDF: '2010RajNature'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC2836165
+  PMID: '20164922'
+  Title: Variability in gene expression underlies incomplete penetrance.
+- Authors:
+  - Reddy KC
+  - Andersen EC
+  - Kruglyak L
+  - Kim DH
+  DOI:
+  - 10.1126/science.1166527
+  Date_Published: 2009 Jan 16
+  Journal: Science
+  PDF: '2009ReddyScience'
+  PDF_switch: true
+  PDF_thumb_index: 1
+  PMC: PMC2748219
+  PMID: '19150845'
+  Title: A polymorphism in <em>npr-1</em> is a behavioral determinant of pathogen susceptibility in <em>C. elegans</em>.
+- Authors:
+  - Andersen EC
+  - Saffer AM
+  - Horvitz HR
+  DOI:
+  - 10.1534/genetics.108.092197
+  Date_Published: 2008 Aug
+  Journal: Genetics
+  PDF: '2008AndersenGenetics'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC2516075
+  PMID: '18689876'
+  Title: Multiple levels of redundant processes inhibit <em>Caenorhabditis elegans</em> vulval cell fates.
+- Authors:
+  - Andersen EC
+  - Horvitz HR
+  DOI:
+  - 10.1242/dev.009373
+  Date_Published: 2007 Aug
+  Journal: Development
+  PDF: '2007AndersenDevelopment'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMID: '17634190'
+  Title: Two <em>C. elegans</em> histone methyltransferases repress <em>lin-3</em> EGF transcription to inhibit vulval development.
+- Authors:
+  - Reddien PW
+  - Andersen EC
+  - Huang MC
+  - Horvitz HR
+  DOI:
+  - 10.1534/genetics.106.068148
+  Date_Published: 2007 Apr
+  Journal: Genetics
+  PDF: '2007ReddienGenetics'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMC: PMC1855110
+  PMID: '17237514'
+  Title: DPL-1 DP, LIN-35 Rb and EFL-1 E2F act with the MCD-1 zinc-finger protein to promote programmed cell death in <em>Caenorhabditis elegans</em>.
+- Authors:
+  - Andersen EC
+  - Lu X
+  - Horvitz HR
+  DOI:
+  - 10.1242/dev.02444
+  Date_Published: 2006 Jul
+  Journal: Development
+  PDF: '2006AndersenDevelopment'
+  PDF_switch: true
+  PDF_thumb_index: 0
+  PMID: '16774993'
+  Title: <em>C. elegans</em> ISWI and NURF301 antagonize an Rb-like pathway in the determination of multiple cell fates.
+- Authors:
+  - Furlong EE
+  - Andersen EC
+  - Null B
+  - White KP
+  - Scott MP
+  DOI:
+  - 10.1126/science.1062660
+  Title: Patterns of gene expression during <em>Drosophila</em> mesoderm development
+  Date_Published: 2001 Aug 31
+  Journal: Science
+  PDF: '2001FurlongScience'
+  PDF_switch: true
+  PDF_thumb_index: 1
+  PMID: '11486054'
