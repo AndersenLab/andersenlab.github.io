@@ -1,0 +1,29 @@
+---
+layout: default
+menu: people
+---
+
+<h1>{{page.title}}</h1>
+<hr />
+
+<div class="row">
+	<div class="col-sm-8">
+{{ content }}
+<div class="row" data-no-instant>
+{% for p in site.data.photo_albums[page.album] %}
+<div class="col-sm-4">
+<a data-lightbox="{{ page.album }}" href="/photos/{{page.album}}/{{p}}" data-title="{{ p|replace:".jpg","" }}" ><img class="thumbnail img-responsive" src="/photos/{{page.album}}/thumb_{{p}}#" /></a>
+</div>
+
+{% cycle '', '',  '</div><div class="row" data-no-instant>' %}
+
+{% endfor %}
+</div>
+
+</div>
+<div class="col-sm-4">
+	{% include photo_albums.html %}
+</div>
+</div>
+
+

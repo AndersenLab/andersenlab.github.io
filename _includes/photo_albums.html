@@ -1,0 +1,18 @@
+{% if page.title == "People" %}
+{% assign album_limit = 7 %}
+{% else %}
+{% assign album_limit = 10000 %}
+{% endif %}
+<div class="pull-right" style="line-height:35px;">{{ page.date | date: "%b %-d, %Y" }}</div>
+	<h4>Photo Albums</h4>
+	<div class="list-group" >
+		{% assign albums = site.categories.album %}
+	{% for album in albums limit:album_limit %}
+	{% for p in site.data.photo_albums[album.album] limit:1 %}
+<a href="{{ album.url }}"  class="list-group-item {% if album.title == page.title %}active{% endif%}" style="padding:0px; overflow: hidden;"><img style="width:40px; height:40px; margin-right: 20px;" src="/photos/{{album.album}}/thumb_{{p}}"/>{{album.album}}</a>
+
+	{% endfor %}
+	{% endfor %}
+		{{ page.time }}
+
+	</div>

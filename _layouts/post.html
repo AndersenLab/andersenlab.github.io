@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="row">
+
+
+	<div class="col-md-6 col-sm-6 col-xs-12">
+
+
+
+  <header class="post-header">
+      <p class="meta pull-right">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>	
+    <h3>{{ page.title }}</h3>
+    <hr />
+  </header>
+
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-12">
+
+<h4>News &amp; Updates</h4>
+
+
+
+
+<div class="list-group" style="margin-bottom:0px;">
+	  {% for post in site.tags.news limit:5 %}
+		  <a href="{{ post.url }}" class="list-group-item {% if post.title == page.title %}active{% endif %}">
+		    <h4 class="list-group-item-heading"><small class="pull-right">{{ post.date | date_to_string }}</small>{{ post.title }}</h4>
+		    <p class="list-group-item-text">{{ post.subtitle }}</p>
+		  </a>
+    {% endfor %}
+</div>
+<br />
+<div class="pull-left"><a href="/feeds/rss.xml" type="application/rss+xml" ><img src="/assets/img/rss.png" /></a> <a href="/feeds/rss.xml" type="application/rss+xml" class="btn btn-warning btn-xs">Subscribe RSS</a></div>
+<div class="pull-right"><a href="/archive/">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a></div>
+<br /><br />
+
+</div>
+
+</div>

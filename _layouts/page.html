@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+	{% if page.post_header != false %}
+  {% assign s = page.title | size %}
+	{% if s > 30 %}
+    <h4>{{ page.title }}</h4>
+    {% else %}
+	<h1>{{ page.title }}</h1>
+    {% endif %}
+    <hr />
+    {% endif %}
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+	</div>
+
+	</div>
