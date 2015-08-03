@@ -1,0 +1,57 @@
+---
+layout: page
+title: Genetics and Genomics of Complex Traits
+post_header: false
+---
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4">
+            <img src="/assets/img/logo.png" alt="Andersen Lab Logo" class="pull-left hidden-xs" style="margin-right:20px; width: 250px;"/>
+            <p style="text-align:center; position:relative; left:10px;" class="visible-xs"><img src="/assets/img/logo.png" alt="Andersen Lab Logo"  style="margin-right:20px; max-height:150px; margin: auto; display: inline;" class=" img-responsive"/></p>
+        </div>
+          <h1 class="hidden-xs">Andersen Lab</h1>
+          <h1 class="visible-xs" style="text-align:center">Andersen Lab</h1>
+          <p class="hidden-xs" >Genetics and Genomics of Complex Traits</p>
+          <p class="visible-xs" style="text-align:center">Genetics and Genomics of Complex Traits</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm-3">
+        <h4>Research</h4>
+            <img src="/assets/img/research/worms_drugs2.jpg" class="img-responsive thumbnail" />
+            <p style="text-align:left">We study the genetics and genomics of complex traits. Learn more about <a href="/Research/">our research</a>.</p>
+    </div>
+
+    <div class="col-sm-3">
+        <h4>Open Science</h4>
+        <img src="/assets/img/research/97strains_small.png" class="thumbnail img-responsive"/>
+        <p style="text-align:left">All of our <a href="/Research/Data/">data</a>, <a href="/Research/Software/">software</a>, and <a href="/Research/Protocols/">protocols</a> are available. <a href="/Research/Reagents/">Reagents</a> are available on request.</p>
+    </div>
+
+    <div class="col-sm-6">
+<h4>News &amp; Updates</h4>
+<div class="list-group" style="margin-bottom:0px;">
+      {% for post in site.tags.news limit:5 %}
+      {% if post.category != "album" %}
+          <a href="{{ post.url }}" class="list-group-item ">
+            <h4 class="list-group-item-heading"><small class="pull-right">{{ post.date | date_to_string }}</small>{{ post.title }}</h4>
+            <p class="list-group-item-text">{{ post.subtitle }}</p>
+          </a>
+    {% endif %}
+    {% endfor %}
+</div>
+<br />
+<div class="pull-left"><a href="/feeds/rss.xml" type="application/rss+xml" ><img src="/assets/img/rss.png" /></a> <a href="/feeds/rss.xml" type="application/rss+xml" class="btn btn-warning btn-xs">Subscribe RSS</a></div>
+<div class="pull-right"><a href="/archive/">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a></div>
+<br /><br />
+
+    </div>
+</div>
