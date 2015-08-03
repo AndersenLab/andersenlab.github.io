@@ -6,11 +6,11 @@ permalink: Publications/
 <div class="text-center">
 {% assign prev_year = 1 %}
 	{% for pub in site.data.pubs_data reversed %}
-	{% assign cur_year = pub.Date_Published | substring:0,4 %}
+	{% assign cur_year = pub.Date_Published | date: '%Y' %}
 	{% if cur_year != prev_year %}
 		<a href="#{{  cur_year }}" class="btn btn-link">{{ cur_year }}</a>
 	{% endif %}
-	{% assign prev_year = pub.Date_Published | substring:0,4 %}
+	{% assign prev_year = pub.Date_Published | date: '%Y' %}
 	{% endfor %}
 </div>
 <hr />
@@ -20,12 +20,12 @@ permalink: Publications/
 
 {% assign prev_year = 1 %}
 	{% for pub in site.data.pubs_data %}
-	{% assign cur_year = pub.Date_Published | substring:0,4 %}
+	{% assign cur_year = pub.Date_Published | date: '%Y' %}
 	{% if cur_year != prev_year %}
 	<a name="{{ cur_year }}"></a>
 		<h4 name="{{ cur_year }}">{{  cur_year }}</h4>
 	{% endif %}
-	{% assign prev_year = pub.Date_Published | substring:0,4 %}
+	{% assign prev_year = pub.Date_Published | date: '%Y' %}
 <div class="pub">
 
 
