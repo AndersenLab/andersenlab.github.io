@@ -1,5 +1,5 @@
 ---
-title: Remarkably Divergent Regions Punctuate the Genome Assembly of the Caenorhabditis elegans Hawaiian Strain CB4856 
+title: Remarkably Divergent Regions Punctuate the Genome Assembly of the <em>Caenorhabditis elegans</em> Hawaiian Strain CB4856 
 layout: post
 tags: news
 ---
