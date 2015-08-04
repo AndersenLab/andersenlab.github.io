@@ -1,6 +1,5 @@
 ---
 title: "Congratulations to Stefan for presenting two (!) posters at the 2015 International <em>C. elegans</em> Meeting!"
-subtitle: Invited to present two posters at IWM 2015
 layout: post
 tags: news
 files: 
