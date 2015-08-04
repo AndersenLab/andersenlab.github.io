@@ -17,7 +17,71 @@ layout: default
 
   <article class="post-content">
   {{ content }}
+
+  {% if page.PMID %}
+
+    {% assign publication = (site.data.pubs_data | where: "PMID" , page.PMID) %}
+      {% for pub in publication %}
+          
+<div class="pub">
+
+
+        {% if pub.PDF_switch == true %}
+
+          <div class="pub-img">
+          <a href="/pub/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
+          <img src="/assets/img/thumbs/{{ pub.PDF}}.thumb-{{ pub.PDF_thumb_index }}.png" alt="{{pub.PDF}}" />
+          </a>
+          </div>
+ 
+          <div class="pub-img-small">
+          <a href="/pub/{{pub.PDF}}.pdf" class="thumbnail visible-xs">
+          <img src="/assets/img/thumbs/{{ pub.PDF}}.thumb-{{ pub.PDF_thumb_index }}.png" alt="{{pub.PDF}}" />
+          </a>
+          </div>
+
+      
+
+        {% else if %}
+
+        {% endif %}
+        
+          <strong>{{ pub.Title }}</strong>
+          {% assign pub_authors=pub.Authors|join:", " %}
+            {% for m in site.data.people %}
+              {% for p in m.pub_names %}
+                {% capture user_url %}
+                <a href='../People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
+                {% assign pub_authors=pub_authors|replace: p, user_url %}
+              {% endfor %}
+            {% endfor %}
+              <br /><small>{{ pub_authors }}</small>
+              <!-- Date -->
+              
+              <br />({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
+              <!-- DOI -->
+              [
+                {% if pub contains 'DOI' %}
+                  <a title="Document Object Identifier; Takes you to the Journal Website" href="http://dx.doi.org/{{ pub.DOI }}">DOI</a>
+                {% endif %}
+
+              <!-- PMID -->
+                {% if pub contains 'PMID' %}
+                 | <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pub.PMID }}">Pubmed</a>
+                {% endif %}
+              <!-- Pubmed Central -->
+                {% if pub.PMC %}
+                | <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
+                {% endif %}
+              ]
+    </div>
+    <div class="clearfix"></div>
+
+
+      {% endfor %}
+  {% endif %}
   </article>
+  
 
 </div>
 

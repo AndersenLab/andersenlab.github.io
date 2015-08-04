@@ -41,7 +41,7 @@
   PDF: '2015Trendsingenetics'
   PDF_switch: true
   PDF_thumb_index: 0
-  PMID: '25804345'
+  PMID: 25804345
   Title:
   - The laboratory domestication of <em>Caenorhabditis elegans</em>.
 - Authors:
@@ -60,7 +60,7 @@
   PDF: '2015G3'
   PDF_switch: true
   PDF_thumb_index: 0
-  PMID: '25770127'
+  PMID: 25770127
   Title:
   - "A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant Strains."
 - Authors:
