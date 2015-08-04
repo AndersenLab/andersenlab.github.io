@@ -18,6 +18,29 @@ layout: default
   <article class="post-content">
   {{ content }}
 
+{% if page.files %}
+
+{% for f in page.files %}
+
+<div class="pub">
+          <div class="pub-img">
+          <a href="/files/{{ f.filename }}" class="thumbnail pub_thumb hidden-xs">
+          <img src="/files/{{ f.filename }}.thumb.png" alt="{{ f.filename }}" />
+          </a>
+          </div>
+
+          <div class="pub-img-small">
+          <a href="/files/{{ f.filename }}.pdf" class="thumbnail visible-xs">
+          <img src="/files/{{ f.filename }}.thumb.png" alt="{{ f.filename }}" />
+          </a>
+          </div>
+</div>
+          <strong><a href="/files/{{page.file}}.pdf" > {{f.title}}</a></strong>
+    <div class="clearfix"></div>
+{% endfor %}
+{% endif %}
+
+
   {% if page.PMID %}
 
     {% assign publication = (site.data.pubs_data | where: "PMID" , page.PMID) %}
@@ -40,8 +63,7 @@ layout: default
           </a>
           </div>
 
-      
-
+    
         {% else if %}
 
         {% endif %}
