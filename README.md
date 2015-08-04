@@ -1,2 +1,1 @@
-# andersenlab.github.io
-Testing
+[Andersen Lab](http://andersenlab.org)
