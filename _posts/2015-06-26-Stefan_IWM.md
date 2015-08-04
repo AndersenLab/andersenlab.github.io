@@ -1,5 +1,5 @@
 ---
-title: "Congratulations to Stefan for presenting two (!) posters at the 2015 International C. elegans Meeting!"
+title: "Congratulations to Stefan for presenting two (!) posters at the 2015 International <em>C. elegans</em> Meeting!"
 subtitle: Invited to present two posters at IWM 2015
 layout: post
 tags: news
@@ -12,6 +12,7 @@ published: true
 ---
 
 
-Congratulations to Stefan on being invited to present two posters at the 2015 International Worm Meeting! Special thanks to IBiS, and The Graduate School for providing funding for attending the meeting.
+
+Congratulations to Stefan on being invited to present two posters at the 2015 International <em>C. elegans</em> Meeting! Special thanks to IBiS, and The Graduate School for providing funding for attending the meeting.
 
 PDF's of the posters are available below.
