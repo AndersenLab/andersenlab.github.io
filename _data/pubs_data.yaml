@@ -123,13 +123,13 @@
   - Andersen EC
   DOI:
   - 10.1371/journal.pone.0111090
-  Date_Published: '2014'
+  Date_Published: 2014 Oct 20
   Journal: PLoS One
   PDF: '2014journal.pone.0111090'
   PDF_switch: true
   PDF_thumb_index: 0
   PMC: PMC4203834
-  PMID: '25329171'
+  PMID: 25329171
   Title:
   - 'COPASutils: An R Package for Reading, Processing, and Visualizing Data from COPAS Large-Particle Flow Cytometers.'
 - Authors:
@@ -145,7 +145,7 @@
   PDF_switch: true
   PDF_thumb_index: 0
   PMC: PMC3937155
-  PMID: '24586193'
+  PMID: 24586193
   Title: A variant in the neuropeptide receptor <em>npr-1</em> is a major determinant of <em>Caenorhabditis elegans</em> growth and physiology.
 - Authors:
   - Felix MA
@@ -158,13 +158,13 @@
   - Braendle C
   DOI:
   - 10.1186/1471-2148-13-10
-  Date_Published: 2013
+  Date_Published: 2013 Jan 12
   Journal: BMC Evolutionary Biology
   PDF: '2013FelixBMC-EvolBio'
   PDF_switch: true
   PDF_thumb_index: 0
   PMC: PMC3556333
-  PMID: '23311925'
+  PMID: 23311925
   Title: "Species richness, distribution and genetic diversity of <em>Caenorhabditis</em> nematodes in a remote tropical rainforest."
 - Authors:
   - Ghosh R
@@ -205,7 +205,7 @@
   - Andersen EC
   DOI:
   - 10.1007/978-1-61779-228-1_24
-  Date_Published: 2011
+  Date_Published: 2011 Jul 08
   Journal: Methods in Molecular Biology
   PDF: '2011AndersenMethods-Mol-Biol'
   PDF_switch: true
