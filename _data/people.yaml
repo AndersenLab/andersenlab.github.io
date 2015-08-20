@@ -53,6 +53,7 @@
   description: I am interested in learning about quantitative traits in response to a variety of chemicals and compounds to learn about the underlying mechanisms of action in multicellular organisms. I manage the majority of the high-throughput assay pipeline, as well as handle much of the work with our COPAS Biosort large particle flow cytometer.
   title: Research Technician
   photo: Sam_Rosenberg.jpg
+  former: true
   email: Samuel.Rosenberg@northwestern.edu
 
 - first_name: Sarah
@@ -121,6 +122,7 @@
   description: 
   pub_names: []
   photo: NickIrons.jpg
+  former: true
   email: NicholasIrons2018@u.northwestern.edu
 
 - first_name: Hilary
@@ -152,7 +154,7 @@
   email: Tyler.Shimko@utah.edu
   photo: Tyler_Shimko.png
   pub_names: ["Shimko TC"]
-  former: false
+  former: true
   title: Undergraduate, summers 2013, 2014
 
 - first_name: Kreena
@@ -246,9 +248,3 @@
   last_name: Nigaruru
   former: true
   title: Undergraduate, spring 2013
-
-
-
-
-
-
