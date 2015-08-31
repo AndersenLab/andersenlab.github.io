@@ -34,8 +34,10 @@ menu: people
 		{% endif %}
 
 		<!-- email -->
+		{% if m.email %}
 		<span style="white-space:nowrap;"><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:{{ m.email }}">{{ m.email }}</a></span><br />
-
+		{% endif %}
+		
 		<!-- website -->
 		{% if m.website %}
 		<i class="glyphicon glyphicon-home"></i> <a href="{{ m.website }}">{{ m.website }}</a><br />
