@@ -12,10 +12,23 @@ layout: default
     <hr />
     {% endif %}
 
+{% if page.sidebar %}
+
+ <div class = "row">
+    <div class="col-md-8">
+      {{ content }}
+    </div>
+    <div class="col-md-4">
+      {% include {{ page.sidebar }} %}
+    </div>
+  </div>
+{% else %}
+
   <article class="post-content">
   {{ content }}
   </article>
 
+{% endif %}
 	</div>
 
 	</div>

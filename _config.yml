@@ -18,7 +18,7 @@ pages_list:
   Feed: '/atom.xml'
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
 
 #exclude
