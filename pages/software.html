@@ -3,7 +3,9 @@ layout: page
 title: Software
 permalink: /Research/Software/
 menu: research
+published: true
 ---
+
 
 
 <div class="row">
@@ -11,8 +13,30 @@ menu: research
 	<div class="col-md-8">
 
 <div class="row">
-
+  
 <div class="col-md-12">
+  <h4><a href="http://www.github.com/andersenlab/cegwas">cegwas</a></h4>
+		<h5>Install</h5>
+		<code>source("http://bioconductor.org/biocLite.R")
+biocLite("biomaRt")
+  devtools::install_github("AndersenLab/cegwas")</code>
+		<br /><br />
+		<p>A set of functions to process phenotype data, perform GWAS, and perform post-mapping data processing for C. elegans.</p>
+  <h5>Usage</h5>
+  <code>pheno <- spike(snps, c(80, 1020))
+processed_phenotypes = process_pheno(pheno)
+mapping_df = gwas_mappings(processed_phenotypes, cores = 4, only_sig = FALSE)
+processed_mapping_df = process_mappings(mapping_df, phenotype_df = processed_phenotypes, CI_size = 50, snp_grouping = 200)
+                manplot(processed_mapping_df)</code>
+  
+
+<br /><br /><br />
+	</div>
+
+</div>
+
+  
+  <div class="col-md-12">
 		<h4>COPASutils</h4>
 		<h5>Install</h5>
 		<code>install.packages("COPASutils")</code>
