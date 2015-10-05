@@ -31,7 +31,7 @@
 
 - first_name: Mostafa
   last_name: Zamanian
-  description: My research broadly spans Neglected Disease Genomics and Drug Discovery. I'm currently working to develop genome editing technology for human pathogenic helminths. These tools will be leveraged to study anthelmintic drug resistance, and to help engineer novel platforms for therapeutic delivery.
+  description: My research broadly spans "neglected disease" genomics and drug discovery. I'm currently working to uncover new genetic determinants of anthelmintic resistance and to develop genome editing technology for human pathogenic helminths.
   title: Postdoctoral Researcher
   photo: Mostafa2014.JPG
   github: mzamanian
@@ -84,7 +84,7 @@
 - first_name: Shannon
   last_name: Brady
   title: Graduate Student
-  description: I am interested in the genotypic factors that contribute to drug susceptibility, especially in regards to chemotherapeutics.
+  description: I am interested in the genotypic factors that contribute to drug sensitivity, especially in regards to chemotherapeutics.
   photo: Shannon_brady.jpg
   group: Graduate Students
   email: shannonbrady2014@u.northwestern.edu
