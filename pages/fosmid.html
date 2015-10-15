@@ -12,7 +12,7 @@ permalink: /fosmid/
 <form class="form-inline">
   <div class="form-group">
     <label for="fosmid-search">Search</label>
-    <input type="text" class="form-control" id="fosmid-search" placeholder="II:1-100000" value = "II:1-100000">
+    <input type="text" class="form-control error" id="fosmid-search" placeholder="II:1-100000" value = "I:950000-1000000">
   </div>
 </form>
 
@@ -114,7 +114,7 @@ function filter_results(chrom, start, end) {
    glyph.laneSizes = 18;
    glyph.laneBuffer = 2;
    glyph.scale.min = start;
-   glyph.scale.max = end + end*0.1;
+   glyph.scale.max = end;
 
    filter_data.forEach(function(d) {
       fosmid = glyph.addFeature( new Rect('gene', d["Start"], d["End"] - d["Start"], "+"));
@@ -126,19 +126,18 @@ function filter_results(chrom, start, end) {
 
    glyph.draw();
 
-
    var boundary = document.getElementById("gene_glyph").getContext("2d");
     // Start
     boundary.beginPath();
     boundary.moveTo(glyph.pixelsToNts(start) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 15);
     boundary.lineTo(glyph.pixelsToNts(start) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 1000);
-    boundary.strokeStyle = "Blue";
+    boundary.strokeStyle = "#FF0000";
     boundary.stroke();
     // End
     boundary.beginPath();
     boundary.moveTo(glyph.pixelsToNts(end) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 15);
     boundary.lineTo(glyph.pixelsToNts(end) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 1000);
-    boundary.strokeStyle = "Blue";
+    boundary.strokeStyle = "#FF0000";
     boundary.stroke();
 
 }
