@@ -23,8 +23,8 @@ permalink: /fosmid/
 d3.tsv("/distr/fosmid.tsv").get(function(error, d) {
     if (error) throw error;
     d.forEach(function(d) {
-      d.Start = parseInt(d.Start);
-      d.End = parseInt(d.End);
+      d.Start = +d.Start;
+      d.End = +d.End;
     });
     data = d;
      
@@ -41,6 +41,8 @@ d3.tsv("/distr/fosmid.tsv").get(function(error, d) {
             .append("th")
             .text(function(d) { return d; });
 
+    // Initial Draw
+    draw_fosmids($("#fosmid-search").val())
     });
 
 
@@ -60,7 +62,6 @@ function draw_fosmids(i) {
           start = parseInt(range[0].replace(/,/g,""));
           end = parseInt(range[1].replace(/,/g,""));
           if (end > start) {
-
             filter_results(chrom, start, end);
           }
         }
@@ -147,11 +148,6 @@ $(window).resize(function() {
     draw_fosmids($("#fosmid-search").val());
 });
 
-$( document ).ready(function() {
-    draw_fosmids($("#fosmid-search").val())
-});
-
-
 
 
 
@@ -170,5 +166,3 @@ $( document ).ready(function() {
 <br />
 </div>
 </div>
-
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
