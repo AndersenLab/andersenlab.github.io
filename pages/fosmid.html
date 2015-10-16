@@ -10,6 +10,7 @@ permalink: /fosmid/
 export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, strain = "CB")) %>% ungroup() %>% dplyr::rename(chromosome = chr) %>% dplyr::arrange(strain, chromosome, start) %>% select(-newpos), "~/coding/git/andersenlab.github.io/_data/fosmids.tsv", quote = F)
 -->
 
+
 <div class="pull-right"><a href="/distr/fosmids.tsv">Full Fosmids Dataset</a></div>
 
 <form class="form-inline">
@@ -91,6 +92,9 @@ function draw_fosmids(i) {
       }
 }    
 
+function comma(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 function filter_results(chrom, start, end) {
 
@@ -120,7 +124,11 @@ function filter_results(chrom, start, end) {
     var cells = rows.selectAll("td")
       .data(function(row) {
           return d3.range(Object.keys(row).length).map(function(column, i) {
+              if(["start", "end"].indexOf(Object.keys(row)[i]) >= 0) {
+              return comma(row[Object.keys(row)[i]]);
+              } else {
               return row[Object.keys(row)[i]];
+            }
           }); 
       })
     .enter()

@@ -23,6 +23,14 @@ body {
 }
 
 
+#ftable tr td:nth-child(3), #ftable tr td:nth-child(4),
+#ftable tr th:nth-child(3), #ftable tr th:nth-child(4)   {
+    text-align:right;
+}
+
+#ftable tr td:nth-child(5), #ftable tr th:nth-child(5)  {
+    text-align:center;
+}
 
 .dropdown-menu .sub-menu {
     left: 100%;
