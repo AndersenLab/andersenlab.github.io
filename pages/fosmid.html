@@ -6,25 +6,41 @@ permalink: /fosmid/
 <div class="row">
 	<div class="col-md-12">
 
-
-<canvas id="gene_glyph" height="330"></canvas>
+<!-- Generate fosmid file
+export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, strain = "CB")) %>% ungroup() %>% dplyr::rename(chromosome = chr) %>% dplyr::arrange(strain, chromosome, start) %>% select(-newpos), "~/coding/git/andersenlab.github.io/_data/fosmids.tsv", quote = F)
+-->
 
 <form class="form-inline">
-  <div class="form-group">
+  <div id="search_input" class="form-group">
+  <div class="controls">
     <label for="fosmid-search">Search</label>
     <input type="text" class="form-control error" id="fosmid-search" placeholder="II:1-100000" value = "I:950000-1000000">
+&nbsp;&nbsp;
+<input type="radio" name="strain" id="N2" value="N2" checked> <label for="N2">N2</label>&nbsp;&nbsp;
+<input type="radio" name="strain" id="CB" value="CB"> <label for="CB">CB4856</label>&nbsp;&nbsp;
+<input type="radio" name="strain" id="Both" value="Both"> <label for="Both">Both</label>
+
+
+  <span id="helpBlock" class="help-block">Interval End must be greater than interval start.</span>
+
+    </div>
+
   </div>
 </form>
+<br />
+<br />
+<canvas id="gene_glyph" height="400"></canvas>
+
 
 <script>
 
 
 // Load Fosmid Data
-d3.tsv("/distr/fosmid.tsv").get(function(error, d) {
+d3.tsv("/distr/fosmids.tsv").get(function(error, d) {
     if (error) throw error;
     d.forEach(function(d) {
-      d.Start = +d.Start;
-      d.End = +d.End;
+      d.start = +d.start;
+      d.end = +d.end;
     });
     data = d;
      
@@ -62,9 +78,14 @@ function draw_fosmids(i) {
           start = parseInt(range[0].replace(/,/g,""));
           end = parseInt(range[1].replace(/,/g,""));
           if (end > start) {
+            $("#search_input").removeClass("has-error");
+            $("#helpBlock").hide();
             filter_results(chrom, start, end);
-          }
+          } else {
+          $("#search_input").addClass("has-error");
+          $("#helpBlock").show();
         }
+        } 
       }
 }    
 
@@ -72,14 +93,17 @@ function draw_fosmids(i) {
 function filter_results(chrom, start, end) {
 
     filter_data = data.filter(function(d) {
-      if (d["Chromosome"] == chrom && 
+      subset_strain = $('input[name=strain]:checked').val();
+      if (d["chromosome"] == chrom && 
             (
-              (d["Start"] >= start && d["End"] <= end)
+              (d["start"] >= start && d["end"] <= end)
                || 
-               (d["Start"] <= start && start <= d["End"])
+               (d["start"] <= start && start <= d["end"])
                || 
-               (d["End"] >= end && end >= d["Start"])
-            )
+               (d["end"] >= end && end >= d["start"])
+            ) 
+            &&
+            ( d["strain"] == subset_strain || subset_strain == "Both" )
          )
          {
         return d
@@ -112,19 +136,29 @@ function filter_results(chrom, start, end) {
    glyph = new Scribl(canvas[0], canv_width);
    glyph.redraw();
 
-   glyph.laneSizes = 18;
    glyph.laneBuffer = 2;
-   glyph.scale.min = start;
-   glyph.scale.max = end;
+   glyph.trackBuffer = 2;
+   glyph.scale.min = start - (end-start)*0.1;
+   glyph.scale.max = end + (end-start)*0.1;
 
    filter_data.forEach(function(d) {
-      fosmid = glyph.addFeature( new Rect('gene', d["Start"], d["End"] - d["Start"], "+"));
-      fosmid.name = d["Clone"];
-      fosmid.color = '#3366FF';
+      track = glyph.addTrack();  
+      fosmid = track.addFeature( new Rect('gene', d["start"], d["end"] - d["start"], "+"));
+      fosmid.name = d["clone"];
+      if (d["strain"] == "N2") {
+        fosmid.color = '#F79409';
+      } else {
+        fosmid.color = "#0080FF";
+      }
+      //fosmid.onMouseover = d["Clone"] + " | Start:" + d["Start"] + " | End: " + d
       fosmid.text.color = 'white';
-      fosmid.text.font = 'Times New Roman';
+      fosmid.text.size = 18;
+      fosmid.text.font = 'monospace';
    })
 
+   glyph.laneSizes = (20 + (glyph.getFeatures().length/12)) / (glyph.getFeatures().length/12)
+
+   $("canvas").attr("height", 400);
    glyph.draw();
 
    var boundary = document.getElementById("gene_glyph").getContext("2d");
@@ -141,6 +175,8 @@ function filter_results(chrom, start, end) {
     boundary.strokeStyle = "#FF0000";
     boundary.stroke();
 
+
+
 }
 
 // Redraw canvas when the window is resized.
@@ -148,6 +184,9 @@ $(window).resize(function() {
     draw_fosmids($("#fosmid-search").val());
 });
 
+$('input[name=strain]').change(function() {
+    draw_fosmids($("#fosmid-search").val());
+})
 
 
 
@@ -156,7 +195,7 @@ $(window).resize(function() {
 
 
 
-<div id="ftable">
+<div id="ftable" style = "font-family: 'Courier New'; font-size:16px; text-transform:capitalize;">
 </div>
 
   
@@ -166,3 +205,5 @@ $(window).resize(function() {
 <br />
 </div>
 </div>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
