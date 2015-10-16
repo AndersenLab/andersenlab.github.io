@@ -17,7 +17,7 @@ export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, 
     <input type="text" class="form-control error" id="fosmid-search" placeholder="II:1-100000" value = "I:950000-1000000">
 &nbsp;&nbsp;
 <input type="radio" name="strain" id="N2" value="N2" checked> <label for="N2">N2</label>&nbsp;&nbsp;
-<input type="radio" name="strain" id="CB" value="CB"> <label for="CB">CB4856</label>&nbsp;&nbsp;
+<input type="radio" name="strain" id="CB4856" value="CB4856"> <label for="CB4856">CB4856</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="Both" value="Both"> <label for="Both">Both</label>
 
 
@@ -29,7 +29,7 @@ export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, 
 </form>
 <br />
 <br />
-<canvas id="gene_glyph" height="400"></canvas>
+<canvas id="gene_glyph" style = "border: 1px solid black;" height="400"></canvas><br /><br />
 
 
 <script>
@@ -150,7 +150,6 @@ function filter_results(chrom, start, end) {
       } else {
         fosmid.color = "#0080FF";
       }
-      //fosmid.onMouseover = d["Clone"] + " | Start:" + d["Start"] + " | End: " + d
       fosmid.text.color = 'white';
       fosmid.text.size = 18;
       fosmid.text.font = 'monospace';
