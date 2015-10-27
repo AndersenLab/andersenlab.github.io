@@ -5,11 +5,12 @@ permalink: /Research/Software/
 menu: research
 published: true
 sidebar: software_sidebar.html
-scripts:
-  - het_polarization:
-    - url: https://gist.github.com/danielecook/20bd05e461d1e6301a20
-    - description: 
+scripts: 
+  - het_polarization: 
+      - url: "https://gist.github.com/danielecook/20bd05e461d1e6301a20"
+      - description: null
 ---
+
 
 
 ### [Cegwas](http://www.github.com/andersenlab/cegwas)
@@ -105,7 +106,7 @@ install.packages("COPASutils")
 ### [liftover-utils](https://github.com/AndersenLab/liftover-utils)
 ----
 
-Liftover.py is a python script that wraps the `remap_gff_between_releases.pl` script by Gary Williams. It allows for liftover of the following file types:
+Liftover is a python script that wraps the `remap_gff_between_releases.pl` script by Gary Williams. It expands upon the number of filetypes you can liftover:
 
 * VCF/BCF (Requires bcftools)
 * GFF
@@ -114,9 +115,9 @@ Liftover.py is a python script that wraps the `remap_gff_between_releases.pl` sc
 Additionally, _custom_ file formats can be lifted over by specifying chromosome, start position column, and optionally an end position column.
 
 #### Install
+
 ```bash
-pip install docopt # Requires docopt.
-git clone https://github.com/AndersenLab/liftover-utils
+pip install https://github.com/AndersenLab/liftover-utils/archive/v0.1.tar.gz
 ```
 
 #### Usage
@@ -124,8 +125,8 @@ git clone https://github.com/AndersenLab/liftover-utils
 Note that the end_pos_column parameter is optional, meaning you only need to specify a chromosome and base pair location to be lifted over.
 
 ```python
-liftover.py <file> <release1> <release2> (bcf|vcf|gff|bed)
-liftover.py <file> <release1> <release2> <chrom_col> <start_pos_column> [<end_pos_column>] [options]
+liftover <file> <release1> <release2> (bcf|vcf|gff|bed)
+liftover <file> <release1> <release2> <chrom_col> <start_pos_column> [<end_pos_column>] [options]
 
 
 Options:
