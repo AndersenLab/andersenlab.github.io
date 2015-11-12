@@ -32,7 +32,10 @@ export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, 
 </form>
 <br />
 <br />
-<canvas id="gene_glyph" style = "border: 1px solid black;" height="400"></canvas><br /><br />
+<div class="scroll" style = "border: 1px solid black;">
+<canvas id="gene_glyph" style = "border: 1px solid black;" height="480"></canvas>
+</div>
+<br /><br />
 
 
 <script>
@@ -147,18 +150,19 @@ function filter_results(chrom, start, end) {
    glyph.redraw();
 
    glyph.laneBuffer = 2;
-   glyph.trackBuffer = 2;
+   glyph.trackBuffer = 5;
    glyph.scale.min = start - (end-start)*0.1;
    glyph.scale.max = end + (end-start)*0.1;
 
    filter_data.forEach(function(d) {
-      track = glyph.addTrack();  
+      track = glyph.addTrack().addLane();
       fosmid = track.addFeature( new Rect('gene', d["start"], d["end"] - d["start"], "+"));
       fosmid.name = d["clone"];
       if (d["strain"] == "N2") {
         fosmid.color = '#F79409';
       } else {
         fosmid.color = "#0080FF";
+  
       }
       fosmid.text.color = 'white';
       fosmid.text.size = 18;
@@ -167,7 +171,7 @@ function filter_results(chrom, start, end) {
 
    glyph.laneSizes = (20 + (glyph.getFeatures().length/12)) / (glyph.getFeatures().length/12)
 
-   $("canvas").attr("height", 400);
+   $("canvas").attr("height", 480);
    glyph.draw();
 
    var boundary = document.getElementById("gene_glyph").getContext("2d");

@@ -34,7 +34,8 @@ body {
 
 .scroll {
     height:400px;
-    overflow: auto; 
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .dropdown-menu .sub-menu {
