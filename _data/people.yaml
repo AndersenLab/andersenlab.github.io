@@ -1,7 +1,7 @@
 - first_name: Erik
   last_name: Andersen
-  title: Principle Investigator
-  group: Principle Investigator
+  title: Principal Investigator
+  group: Principal Investigator
   # Specify names here to highlight within publications
   pub_names: ["EC Andersen", "Andersen EC", "Erik C. Andersen", "Erik C Andersen"]
   photo: Erik_C_Andersen.jpg
