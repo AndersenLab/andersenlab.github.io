@@ -54,7 +54,7 @@ permalink: Publications/
 						{% for m in site.data.people %}
 							{% for p in m.pub_names %}
 								{% capture user_url %}
-								<a href='../People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
+								<strong><a href='{{m.website}}'>{{ p }}</a></strong>{% endcapture %}
 								{% assign pub_authors=pub_authors|replace: p, user_url %}
 							{% endfor %}
 						{% endfor %}

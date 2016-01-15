@@ -7,6 +7,7 @@
   photo: Erik_C_Andersen.jpg
   cv: https://github.com/AndersenLab/cv/blob/master/Andersen_CV.pdf?raw=true
   email: Erik.Andersen@northwestern.edu
+  website: "/People/#Erik Andersen"
   github: synmuv
 
 - first_name: Robyn
@@ -106,6 +107,7 @@
   last_name: Di Bernardo
   title: High School Student
   photo: Matteo_2.jpg
+  former: true
 
 - first_name: Nick
   last_name: Irons
@@ -148,11 +150,12 @@
   date_start: 2013
   date_end: 2015
   former: true
+  website: https://tylershimko.com/
   title: Undergraduate, summers 2013, 2014, 2015
 
 - first_name: Kreena
   last_name: Patel
-  email: KreenaPatel2016@u.northwestern.edu
+  email: kreena.patel@northwestern.edu
   photo: Kreena.jpg
   tile: Undergraduate, 2013 - 2014
 
