@@ -10,5 +10,5 @@ published: true
 
 **This is a test**
 
-**aesome**
+**aesome**![image alt text]({{ site.url }}/public/9kIkFo6nKUWlaM61hiog_img_0.png)
 
