@@ -3,6 +3,7 @@ layout: page
 title: Identification of the genes that underly gene-by-environment (GxE) interactions
 permalink: Research/Projects/GxE/
 menu: research
+category: research
 ---
 
 <div class="row">

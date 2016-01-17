@@ -3,6 +3,7 @@ layout: page
 title: Investigation of natural variation in conserved signaling pathways
 permalink: Research/Projects/Signalling/
 menu: research
+category: research
 ---
 
 <div class="row">

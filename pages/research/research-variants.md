@@ -3,6 +3,7 @@ layout: page
 title: Species-wide and genome-wide identification of genomic variants
 permalink: Research/Projects/Variation/
 menu: research
+category: research
 ---
 
 <div class="row">
