@@ -5,6 +5,12 @@ permalink: Research/
 menu: research
 ---
 
+{% for page in site.pages %}
+	{% if page.category == "research" %}
+		{{ page.content }}
+	{% endif %}
+{% endfor %}
+
 <h4>What we Study</h4>
 
 <p>Model organisms provide the opportunity to experimentally test the correlations between genes and disease-related processes because of the high-level of conservation and the ease of manipulation. However, most model organism research is based on a single wild-type strain background with little connection to natural variation, which is like studying a single person to make conclusions about the entire human species. <em>C. elegans</em> is isolated worldwide and has genetic variation comparable to that of humans. Therefore, <em>C. elegans</em> provides the opportunity to identify the genes that vary among individuals and the molecular mechanisms for how genetic variation causes phenotypic differences.</p>
