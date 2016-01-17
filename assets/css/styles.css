@@ -1,6 +1,9 @@
 /* @override 
 	http://localhost:4000/assets/css/styles.css */
 
+p {
+    text-align: justify;
+}
 
 body {
 	text-align:left;

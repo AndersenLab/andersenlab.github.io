@@ -19,14 +19,16 @@ menu: research
 
 
 
-
+<div class="row">
 {% for page in site.pages %}
+<div class="col-md-6">
 	{% if page.category == "research" %}
-	<h3>{{ page.title }}<a name="{{ page.title }}"></a></h3>
+	<h4><a name="{{ page.title }}"></a>{{ page.title }}</h4>
 		{{ page.content }}
 	{% endif %}
+</div>
 {% endfor %}
-
+</div>
 
 
 
