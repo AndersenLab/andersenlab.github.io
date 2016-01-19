@@ -4,12 +4,9 @@ title: High-throughput approaches to understand conserved drug responses
 permalink: Research/Projects/Drug-Response/
 menu: research
 category: research
+image: "worms_drugs2.jpg"
+order: 1
 ---
-
-
-<div>
-	<img src="/assets/img/research/worms_drugs2.jpg" alt="Drug Sensitivities and Stress" class="thumbnail" style="margin:auto;"/><br /><br />
-</div>
 
 To map sensitivities to drugs, we use high-throughput assays to rapidly phenotype a collection of over 400 worldwide natural _C. elegans_ isolates (for association mapping) or a panel of nearly 1200 recombinant inbred lines between the Bristol (N2) and Hawaii (CB4856) strains (for linkage mapping).
 
