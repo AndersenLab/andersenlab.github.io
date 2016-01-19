@@ -24,22 +24,43 @@ post_header: false
 
 
 <div class="row">
-    <div class="col-sm-3">
-        <h4>Research</h4>
-            <img src="/assets/img/research/worms_drugs2.jpg" class="img-responsive thumbnail" />
-            <p style="text-align:left">We study the genetics and genomics of complex traits. Learn more about <a href="/Research/">our research</a>.</p>
-    </div>
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-sm-12">
+          <h4>Research</h4>
+              <div class="row">
+                <div class="col-md-6">
+              <a href="/Research/" class="thumbnail" ><img src="/assets/img/research/worms_drugs2.jpg" class="img-responsive" /></a>
+              </div>
+              <div class="col-md-6">
+              <p style="text-align:left">We study the genetics and genomics of complex traits.</p>
 
-    <div class="col-sm-3">
-        <h4>Open Science</h4>
-        <img src="/assets/img/research/97strains_small.png" class="thumbnail img-responsive"/>
-        <p style="text-align:left">All of our <a href="/Research/Data/">data</a>, <a href="/Research/Software/">software</a>, and <a href="/Research/Protocols/">protocols</a> are available. <a href="/Research/Reagents/">Reagents</a> are available on request.</p>
-    </div>
+              <strong><p>Learn more about <a href="/Research/">our research</a>.</p></strong>
+              </div>
 
-    <div class="col-sm-6">
+              </div>
+                          <hr />
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>Open Science</h4>
+            <img src="/assets/img/research/worm_distr.png" class="thumbnail img-responsive"/>
+            <p style="text-align:left">All of our <a href="/Research/Data/">data</a>, <a href="/Research/Software/">software</a>, and <a href="/Research/Protocols/">protocols</a> are available. <a href="/Research/Reagents/">Reagents</a> are available on request.</p>
+        </div>
+        <div class="col-sm-6">
+            <h4>Join Us!</h4>
+            <a href="/Join-Us/" class="thumbnail">
+            <img src="/photos/labphoto.jpg" />
+            </a>
+            <p style="text-align:left">Learn about positions for undergrads, graduate students, and post-docs. </p>
+        </div>
+    </div>
+  </div>
+<div class="col-md-6 col-sm-12 col-sm-12">
 <h4>News &amp; Updates</h4>
 <div class="list-group" style="margin-bottom:0px;">
-      {% for post in site.tags.news limit:5 %}
+      {% for post in site.tags.news limit:6 %}
       {% if post.category != "album" %}
           <a href="{{ post.url }}" class="list-group-item ">
             <h4 class="list-group-item-heading"><small class="pull-right">{{ post.date | date_to_string }}</small>{{ post.title }}</h4>
@@ -49,9 +70,8 @@ post_header: false
     {% endfor %}
 </div>
 <br />
-<div class="pull-left"><a href="/feeds/rss.xml" type="application/rss+xml" ><img src="/assets/img/rss.png" /></a> <a href="/feeds/rss.xml" type="application/rss+xml" class="btn btn-warning btn-xs">Subscribe RSS</a></div>
-<div class="pull-right"><a href="/archive/">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a></div>
-<br /><br />
-
-    </div>
+  <div class="pull-left"><a href="/feeds/rss.xml" type="application/rss+xml" ><img src="/assets/img/rss.png" /></a> <a href="/feeds/rss.xml" type="application/rss+xml" class="btn btn-warning btn-xs">Subscribe RSS</a></div>
+  <div class="pull-right"><a href="/archive/">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a></div>
+  <br /><br />
+</div>
 </div>
