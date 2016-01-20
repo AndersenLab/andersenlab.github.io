@@ -26,11 +26,15 @@ menu: research
 	{% if page.category == "research" %}
 	<div class="row">
 			<div class="col-md-4">
+			{% if page.image %}
 				<img src="/assets/img/research/{{ page.image }}" style= "margin-top:25px" class = "hidden-sm hidden-xs img-responsive img-thumbnail" alt = "{{ page.title }}" />
+			{% endif %}
 			</div>
 			<div class="col-md-8">
 			<h3>{{ page.title }}</h3>
+			{% if page.image %}
 			<img src="/assets/img/research/{{ page.image }}" style= "margin-top:25px; margin-bottom: 25px;" class="hidden-md hidden-lg img-responsive img-thumbnail" alt = "{{ page.title }}" />
+			{% endif %}
 				{{ page.content }}
 				<hr />
 			</div>

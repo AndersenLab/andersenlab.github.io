@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Investigation of the genetic causes of resistance to anthelmintic compounds
+title: Genetic causes of resistance to anthelmintic compounds
 permalink: Research/Projects/Variation/
 menu: research
 category: research
-image: 
 order: 3
 ---
 

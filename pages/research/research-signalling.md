@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Investigation of natural variation in conserved signaling pathways
+title: Natural variation in conserved signaling pathways
 permalink: Research/Projects/Signalling/
 menu: research
 category: research

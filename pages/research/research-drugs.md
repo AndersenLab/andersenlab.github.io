@@ -4,7 +4,7 @@ title: High-throughput approaches to understand conserved drug responses
 permalink: Research/Projects/Drug-Response/
 menu: research
 category: 
-image: "worms_drugs2.jpg"
+image: worms_drugs2.jpg
 order: 1
 ---
 
