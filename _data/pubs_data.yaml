@@ -1,4 +1,130 @@
 - Authors:
+  - Cook DE
+  status: in_submission
+  Title:
+    The genetic basis of natural variation in <em>C. elegans</em> telomere length
+  pub_data:
+    files:
+        "Supplementary File 01 - Strain isotype grouping and collection information.tsv": 
+            title: Supplementary File 01
+            description: Strain isotype grouping and collection information
+        "Supplementary File 02 - TelSeq telomere length estimates among wild isolates.tsv":
+            title: Supplementary File 02
+            description: TelSeq telomere length estimates among wild isolates
+        "Supplementary File 03 - Telomere length measurements comparison.tsv":
+            title: Supplementary File 03
+            description: Telomere length measurements comparison
+        "Supplementary File 04 - QTL Mapping Results.tsv":
+            title: Supplementary File 04
+            description: Genome-wide association mapping results
+        "Supplementary File 05 - QTL Confidence Interval Genes.tsv":
+            title: Supplementary File 05
+            description: Correlations of variants within QTL on chromosome II
+        "Supplementary File 06 - Sequence run information.tsv":
+            title: Supplementary File 06
+            description: Summary of sequencing libraries and preparation
+        "Supplementary File 07 - Rates of heterozygosity for different SNV calling methods.tsv":
+            title: Supplementary File 07
+            description: Rates of heterozygosity for different SNV calling methods
+        "Supplementary File 08 - Summary of variant filters.tsv":
+            title: Supplementary File 08
+            description: Summary of variant filters
+        "Supplementary File 09 - Telomere Hexamer Locations Across WS245.tsv":
+            title: Supplementary File 09
+            description: Telomere Hexamer Locations Across WS245
+        "Supplementary File 10 - Telseq length estimates by sequencing run.tsv":
+            title: Supplementary File 10
+            description: Telseq length estimates by sequencing run
+        "Supplementary File 11 - P-values from MMP enrichment test.tsv":
+            title: Supplementary File 11
+            description: p-values for enrichment test of protein coding genes
+    figures:
+      s_doc-1.png:
+        prefix: Supplementary Figure 1
+        title: Distribution of the depth of coverage among 152 isotypes
+        caption: "The distribution of depth of coverage for 152 isotypes is shown.
+        The red line indicates median depth of coverage: 70x."
+      s_snvs_per_strain-1.png:
+        prefix: Supplementary Figure 2
+        title: "Distribution of number of variant sites as compared to reference genome"
+        caption: "Number of single nucleotide variants (SNVs) is plotted on the x-axis for each isotype (y-axis)."
+      s_snp_distribution-1.png:
+        prefix: Supplementary Figure 3
+        title: Distribution of SNVs by chromosome
+        caption: "The frequency of SNVs per 100 kb bin across 152 isotypes is plotted by genomic position (x-axis).
+        The density of SNVs is greater on chromosome arms than in centers."
+      s_dendogram_wgs-1.png:
+        prefix: Supplementary Figure 4
+        title: Similarity dendrogram of 152 C. elegans isotypes.
+      s_lib_prep-1.png:
+        prefix: Supplementary Figure 5
+        title: TelSeq differences by DNA fragmentation method
+        caption: "Differences in TelSeq length estimates based on DNA fragmentation method shown as boxplots. 
+        Dark lines within the center of each box represent the median, and the box represents the interquartile range (IQR) from the 25th – 75th percentile.
+        Whiskers extend to 1.5x the IQR above and below the box. Points represent estimates beyond 1.5x the IQR.
+        <strong>(A)</strong> Uncorrected TelSeq length estimates are plotted on the y-axis by DNA fragmentation method. \
+        <strong>(B)</strong> Residual telomere length estimates are plotted by DNA fragmentation method."
+      s_doc-control.png:
+        prefix: Supplementary Figure 6
+        title: Lack of a significant correlation between depth of coverage and TelSeq length estimate
+        caption: "Scatterplots of the depths of coverage for isotypes on the x-axis plotted against <strong>(A)</strong> the TelSeq telomere-length estimates (rho = 0.045, p = 0.576).
+        <strong>(B)</strong> Depths of coverage are plotted against the residuals of the TelSeq length estimates after adjusting for sequencing center (run) and sequencing library (rho = -0.134, p =  0.097)."
+      S_longevity-1.png:
+        prefix: Supplementary Figure 7
+        title: Longevity is not associated with telomere length
+        caption: "Median day of survival (x-axis) is plotted against the estimated telomere length (y-axis).
+        The correlation is not significant (rho = -0.008 , p = 0.983)."
+      s_tajima-1.png:
+        prefix: Supplementary Figure 8
+        title: Tajima’s D does not support evidence of selection at the <em>pot-2</em> locus
+        caption: "Tajima’s D values were calculated genome wide (window-size = 100k, step-size = 10k).
+        <strong>(A)</strong> Distribution of Tajima’s D values plotted by genomic position.
+        The red box represents the region shown in panel <strong>(B)</strong> that contains the <em>pot-2</em> locus." 
+      s_phylogeny-1.png:
+        prefix: Supplementary Figure 9
+        title: Similarity dendrograms of genome, chromosome II, and <em>pot-2</em> locus
+        caption: "Isotypes are colored by their POT-2 F68I variant status.
+        F=Red, I=Blue. Phylogenies were generated from SNVs 
+        <strong>(A)</strong> Genome-wide, <strong>(B)</strong> using SNVs located on the right arm of chromosome II (13Mb to the terminus),
+        or <strong>(C)</strong> using SNVs located within the <em>pot-2</em> region (II:14,524,173-14,525,111)."
+      Geographic_Distribution-1.png:
+        prefix: Supplementary Figure 10
+        title: "Telomere length phenotype is not correlated geographically"
+        caption: "The isolation location of the reference strain for each isotype is plotted. 
+        Location markers are colored according to the status of the F68I allele for that isotype (F = Red, I = Blue)."
+      supp_figure_filter_thresholds.png:
+        prefix: Supplementary Figure 11
+        title: Evaluation of variant-calling parameters from a simulated variant data set
+        caption: "True positive (TP; black), false positive (FP; red), and false negative (FN; purple) rates across variant parameters suggest appropriate filter thresholds.
+         The y-axis is the rate is the rate of TP compared with either FP or FN variants. The rate of TP and FP or FN is plotted on the x-axis across <strong>(A)</strong> depth of coverage,
+        <strong>(B)</strong>, mapping quality, or <strong>(C)</strong> the number of high-quality non-reference bases (DV) over depth (DP) at a given site."
+      s_pairwise_concordance-1.png:
+        prefix: Supplementary Figure 12
+        title: Pairwise SNV concordance among isotypes 
+        caption: "Pairwise SNV concordances among all strains was assessed by comparing SNV calls between pairs of strains. 
+        Concordance is plotted on the x-axis. The red line indicates the cutoff used to assign isotypes (0.9993).
+        Strains with concordances above this level were classified as isotypes and are colored in blue."
+      S_Hexamer_Distr-1.png:
+        prefix: Supplementary Figure 13
+        title: Frequency of hexamers in short reads generated from the N2 strain
+        caption: "The frequency of non-cyclical permutations of the telomeric hexamer is plotted on the y-axis against the number of hexamer repeats per read on the x-axis.
+        The line color indicates the hexamer. The dashed line represents the telomeric hexamer repeat in <em>C. elegans</em>."
+      S_Figure_TRF, fig.width-1.png:
+        prefix: Supplementary Figure 14
+        title: Terminal restriction fragment (TRF) Southern blot Analysis
+        caption: "Terminal restriction fragment analysis was performed on a subset of wild strains to evaluate the accuracy of TelSeq telomere-length estimates.
+        Genomic DNA from wild isolates was separated by pulsed-field gel electrophoresis.
+        Equivalent amounts of DNA were loaded into each lane."
+      s_mmp_telseq_linear-1.png:
+        prefix: Supplementary Figure 15
+        title: Correcting MMP TelSeq estimates for differences in read length 
+        caption: "TelSeq telomere-length estimates from 448 Million Mutation Project wild isolate strains sequenced at both 75 bp and 100 bp were compared to develop
+        a linear transformation for converting TelSeq estimates made using the default length assumption (100 bp).
+        This transformation enabled us to convert strains sequencing runs performed at 75 bp to an appropriate TelSeq estimate for a 100 bp sequencing run.
+        The correlation between 75 bp and 100 bp estimates was moderate (r<sup>2</sup> = 0.723)."
+
+  pub_stub: cook2016
+- Authors:
   - Thompson OA
   - Snoek LB
   - Nijveen H

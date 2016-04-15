@@ -24,8 +24,8 @@ menu: people
 
 {% assign people = site.data.people | sort:'last_name' %}
 {% for m in people %}
-<div class="member">
 	{% if m.former != true %}
+	<div class="member">
 		<img src="/assets/img/lab_members/{{ m.photo }}" alt="{{ m.first_name }}" class="thumbnail hidden-xs lab-member-photo" />
 		<img src="/assets/img/lab_members/{{ m.photo }}" alt="{{ m.first_name }}" class="thumbnail visible-xs lab-member-photo-small" />
 		<h4 id="{{ m.first_name }} {{ m.last_name }}">{{ m.first_name }} {{ m.last_name }} <small>{{ m.title }}</small></h4>
@@ -46,13 +46,12 @@ menu: people
 		<!-- github -->
 		{% if m.github %}
 		<img src="/assets/img/github.png" style="width:16px; "/> <a href="https://github.com/{{ m.github }}">{{ m.github }}</a><br />
+		{% endif %}
+	<br />
+	<p>{{ m.description }}</p>
 	{% endif %}
-<br />
-<p>{{ m.description }}</p>
-</div>
 </div>
 <div class="clearfix"></div>
-{% endif %}
 {% endfor %}
 
 <!-- Former -->
