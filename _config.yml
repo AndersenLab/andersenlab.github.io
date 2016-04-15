@@ -6,7 +6,6 @@ description: "The Andersen Lab @ Northwestern"
 baseurl: ""
 url: "http://www.andersenlab.org"
 permalink: /:categories/:title.html
-highlighter: pygments
 
 # RSS
 rss_path: feeds/
