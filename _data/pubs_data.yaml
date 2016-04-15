@@ -131,7 +131,7 @@
         This transformation enabled us to convert strains sequencing runs performed at 75 bp to an appropriate TelSeq estimate for a 100 bp sequencing run.
         The correlation between 75 bp and 100 bp estimates was moderate (r<sup>2</sup> = 0.723)."
 
-  pub_stub: Cook2016
+  pub_stub: Cooketal
 - Authors:
   - Thompson OA
   - Snoek LB
