@@ -18,7 +18,6 @@ pages_list:
   Feed: '/atom.xml'
 
 # Build settings
-markdown: redcarpet
 permalink: pretty
 
 #exclude
