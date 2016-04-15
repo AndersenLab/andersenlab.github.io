@@ -38,6 +38,14 @@
         "Supplementary File 11 - P-values from MMP enrichment test.tsv":
             title: Supplementary File 11
             description: p-values for enrichment test of protein coding genes
+        "WI.20160408.snpeff.vcf.gz":
+            title: Annotated variant set
+            description: SNVs annotated with SnpEff
+            url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.snpeff.vcf.gz
+        "WI.20160408.impute.vcf.gz":
+            title: Imputed variant set
+            description: SNVs imputed with Beagle
+            url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.impute.vcf.gz
     figures:
       s_doc-1.png:
         prefix: Supplementary Figure 1
@@ -123,7 +131,7 @@
         This transformation enabled us to convert strains sequencing runs performed at 75 bp to an appropriate TelSeq estimate for a 100 bp sequencing run.
         The correlation between 75 bp and 100 bp estimates was moderate (r<sup>2</sup> = 0.723)."
 
-  pub_stub: cook2016
+  pub_stub: Cook2016
 - Authors:
   - Thompson OA
   - Snoek LB

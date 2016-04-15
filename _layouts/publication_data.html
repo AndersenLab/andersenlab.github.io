@@ -25,9 +25,15 @@ layout: default
   {% if pub.pub_data.files %}
     <div class="list-group">
     {% for file in pub.pub_data.files %}
-    {{ file[1].url }}
       {% if file[1].url %}
-        <li><a href="{{ file[1].url }}">{{ file[1]["title"] }}</a></li>
+      <a href="{{ file[1].url }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
+        {% if file[1].description %}
+          <p class="list-group-item-text">
+            {{ file[1].description }}
+          </p>
+        {% endif %}
+      </a>
       {% else %}
       <a href="/files/dist/{{ page.pub_stub }}/{{ file[0] }}" class="list-group-item">
         <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
