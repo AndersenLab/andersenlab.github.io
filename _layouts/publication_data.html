@@ -2,15 +2,15 @@
 layout: default
 ---
 
-	{% if page.post_header != false %}
-  {% assign s = page.title | size %}
-	{% if s > 30 %}
-     <h4>{{ page.title }}</h4>
-    {% else %}
-	   <h1>{{ page.title }}</h1>
-    {% endif %}
+     <h3>{% for pub in site.data.pubs_data %}
+            {% if pub.pub_stub == page.pub_stub %}
+              {{ pub.Title }}
+            {% endif %}
+          {% endfor %}
+    </h3>
+    <p class="lead">{{ page.subtitle }}</p>
     <hr />
-    {% endif %}
+
 
 
   <article class="post-content">
