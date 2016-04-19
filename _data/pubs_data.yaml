@@ -90,7 +90,7 @@
         The red box represents the region shown in panel <strong>(B)</strong> that contains the <em>pot-2</em> locus." 
       s_phylogeny-1.png:
         prefix: Supplementary Figure 9
-        title: Similarity dendrograms of genome, chromosome II, and <em>pot-2</em> locus
+        title: Similarity trees of genome, chromosome II, and <em>pot-2</em> locus
         caption: "Isotypes are colored by their POT-2 F68I variant status.
         F=Red, I=Blue. Trees were generated from SNVs 
         <strong>(A)</strong> Genome-wide, <strong>(B)</strong> using SNVs located on the right arm of chromosome II (13Mb to the terminus),
