@@ -4623,6 +4623,7 @@ a.list-group-item {
 }
 a.list-group-item .list-group-item-heading {
   color: #333333;
+  font-size: 15px;
 }
 a.list-group-item:hover,
 a.list-group-item:focus {
