@@ -109,14 +109,16 @@
       s_pairwise_concordance-1.png:
         prefix: Supplementary Figure 12
         title: Pairwise SNV concordance among isotypes 
-        caption: "Pairwise SNV concordances among all strains was assessed by comparing SNV calls between pairs of strains. 
-        Concordance is plotted on the x-axis. The red line indicates the cutoff used to assign isotypes (0.9993).
+        caption: "Pairwise SNV concordances among all strains were assessed by comparing SNV
+        calls between pairs of strains. Concordance is plotted on the <p style='display:inline-block; margin: 0 0 0px'>x-axis</p>. 
+        The red line indicates the cutoff used to assign isotypes (0.9993). 
         Strains with concordances above this level were classified as isotypes and are colored in blue."
       S_Hexamer_Distr-1.png:
         prefix: Supplementary Figure 13
         title: Frequency of hexamers in short reads generated from the N2 strain
-        caption: "The frequency of non-cyclical permutations of the telomeric hexamer is plotted on the y-axis against the number of hexamer repeats per read on the x-axis.
-        The line color indicates the hexamer. The dashed line represents the telomeric hexamer repeat in <em>C. elegans</em>."
+        caption: "The frequency of non-cyclical permutations of the telomeric hexamer is plotted on the y-axis
+        against the number of hexamer repeats per read on the x-axis. The line color indicates the hexamer. 
+        The dashed line represents the telomeric hexamer repeat in <em>C. elegans</em>."
       S_Figure_TRF, fig.width-1.png:
         prefix: Supplementary Figure 14
         title: Terminal restriction fragment (TRF) Southern blot Analysis
@@ -126,10 +128,10 @@
       s_mmp_telseq_linear-1.png:
         prefix: Supplementary Figure 15
         title: Correcting MMP TelSeq estimates for differences in read length 
-        caption: "TelSeq telomere-length estimates from 448 Million Mutation Project wild isolate strains sequenced at both 75 bp and 100 bp were compared to develop
-        a linear transformation for converting TelSeq estimates made using the default length assumption (100 bp).
-        This transformation enabled us to convert strains sequencing runs performed at 75 bp to an appropriate TelSeq estimate for a 100 bp sequencing run.
-        The correlation between 75 bp and 100 bp estimates was moderate (r<sup>2</sup> = 0.723)."
+        caption: "TelSeq telomere-length estimates from 448 Million Mutation Project strains sequenced
+        at 75 bp and 100 bp were used to develop a linear model for converting TelSeq estimates.
+        This transformation enabled us to convert TelSeq estimates using sequence data from 75 bp runs.
+        The correlation between 75 bp and 100 bp estimates was r<sup>2</sup> = 0.723. "
 
   pub_stub: Cooketal
 - Authors:
