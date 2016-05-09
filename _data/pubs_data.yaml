@@ -59,19 +59,19 @@
       s_snp_distribution-1.png:
         prefix: Supplementary Figure 3
         title: Distribution of SNVs by chromosome
-        caption: "The frequency of SNVs per 100 kb bin across 152 isotypes is plotted by genomic position (x-axis).
+        caption: "The number of SNV sites identified relative to the N2 strain were calculated in 100 kb bins and plotted by genomic position (x-axis). 
         The density of SNVs is greater on chromosome arms than in centers."
       s_dendogram_wgs-1.png:
         prefix: Supplementary Figure 4
-        title: Similarity dendrogram of 152 C. elegans isotypes.
+        title: Similarity tree of 152 C. elegans isotypes.
       s_lib_prep-1.png:
         prefix: Supplementary Figure 5
         title: TelSeq differences by DNA fragmentation method
-        caption: "Differences in TelSeq length estimates based on DNA fragmentation method shown as boxplots. 
-        Dark lines within the center of each box represent the median, and the box represents the interquartile range (IQR) from the 25th – 75th percentile.
-        Whiskers extend to 1.5x the IQR above and below the box. Points represent estimates beyond 1.5x the IQR.
-        <strong>(A)</strong> Uncorrected TelSeq length estimates are plotted on the y-axis by DNA fragmentation method. \
-        <strong>(B)</strong> Residual telomere length estimates are plotted by DNA fragmentation method."
+        caption: "Differences in TelSeq length estimates based on DNA fragmentation method shown as boxplots.
+         Dark lines within the center of each box represent the median,
+          and the box represents the interquartile range (IQR) from the 25<sup>th</sup>-75<sup>th</sup> percentile. Whiskers extend to 1.5x the IQR above and below the box. Points represent estimates beyond 1.5x the IQR. 
+          <strong>(A)</strong> Uncorrected TelSeq length estimates are plotted on the y-axis by DNA fragmentation method. 
+          <strong>(B)</strong> Residual telomere length estimates are plotted by DNA fragmentation method."
       s_doc-control.png:
         prefix: Supplementary Figure 6
         title: Lack of a significant correlation between depth of coverage and TelSeq length estimate
@@ -90,16 +90,15 @@
         The red box represents the region shown in panel <strong>(B)</strong> that contains the <em>pot-2</em> locus." 
       s_phylogeny-1.png:
         prefix: Supplementary Figure 9
-        title: Similarity dendrograms of genome, chromosome II, and <em>pot-2</em> locus
+        title: Similarity trees of genome, chromosome II, and <em>pot-2</em> locus
         caption: "Isotypes are colored by their POT-2 F68I variant status.
-        F=Red, I=Blue. Phylogenies were generated from SNVs 
+        F=Red, I=Blue. Trees were generated from SNVs 
         <strong>(A)</strong> Genome-wide, <strong>(B)</strong> using SNVs located on the right arm of chromosome II (13Mb to the terminus),
         or <strong>(C)</strong> using SNVs located within the <em>pot-2</em> region (II:14,524,173-14,525,111)."
       Geographic_Distribution-1.png:
         prefix: Supplementary Figure 10
-        title: "Telomere length phenotype is not correlated geographically"
-        caption: "The isolation location of the reference strain for each isotype is plotted. 
-        Location markers are colored according to the status of the F68I allele for that isotype (F = Red, I = Blue)."
+        title: "Strains with the F68I variant are not found in similar geographic locations"
+        caption: "The isolation location of the reference strain for each isotype is plotted. Location markers are colored according to the status of the F68I allele for that isotype (F = Red, I = Blue)."
       supp_figure_filter_thresholds.png:
         prefix: Supplementary Figure 11
         title: Evaluation of variant-calling parameters from a simulated variant data set
@@ -123,8 +122,8 @@
         prefix: Supplementary Figure 14
         title: Terminal restriction fragment (TRF) Southern blot Analysis
         caption: "Terminal restriction fragment analysis was performed on a subset of wild strains to evaluate the accuracy of TelSeq telomere-length estimates.
-        Genomic DNA from wild isolates was separated by pulsed-field gel electrophoresis.
-        Equivalent amounts of DNA were loaded into each lane."
+         Genomic DNA from wild isolates was separated by pulsed-field gel electrophoresis.
+         Equivalent amounts of DNA were loaded into each lane."
       s_mmp_telseq_linear-1.png:
         prefix: Supplementary Figure 15
         title: Correcting MMP TelSeq estimates for differences in read length 
