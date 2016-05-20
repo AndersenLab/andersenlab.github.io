@@ -73,7 +73,7 @@ layout: default
             {% for m in site.data.people %}
               {% for p in m.pub_names %}
                 {% capture user_url %}
-                <a href='../People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
+                <a href='/People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
                 {% assign pub_authors=pub_authors|replace: p, user_url %}
               {% endfor %}
             {% endfor %}
