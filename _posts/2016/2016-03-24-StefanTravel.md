@@ -5,5 +5,3 @@ layout: post
 tags: news
 ---
 ## Stefan receives CGM travel grant!
-
-
