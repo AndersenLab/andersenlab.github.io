@@ -1,6 +1,6 @@
 ---
 published: true
-subtitle: This grant will support the C. elegans Natural Diversity Resource.
+subtitle: This grant will support the *C. elegans* Natural Diversity Resource.
 layout: post
 tags: news
 ---
