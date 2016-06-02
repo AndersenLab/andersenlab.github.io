@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 subtitle: null
 layout: post
 tags: news
