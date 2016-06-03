@@ -1,6 +1,6 @@
 ---
 published: true
-title: Stefan receives Center for Genetic Medicine travel grant!
+title: Stefan receives CGM travel grant!
 layout: post
 tags: news
 ---
