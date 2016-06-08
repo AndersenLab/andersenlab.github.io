@@ -5664,6 +5664,13 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
+.glyphicon-flag{
+  font-size: 10px;
+}
+.glyphicon-envelope{
+  font-size: 10px;
+}
+
 .visible-xs,
 .visible-sm,
 .visible-md,

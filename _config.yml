@@ -22,3 +22,5 @@ permalink: pretty
 #exclude
 exclude: ["scripts/", "build.sh", "README.md", ".DS_Store", 'assets/less/']
 
+
+

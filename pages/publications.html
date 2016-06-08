@@ -19,7 +19,7 @@ permalink: Publications/
 </div>
 
 {% assign prev_year = 1 %}
-	{% for pub in site.data.pubs_data %}
+	{% for pub in site.data.pubs_data -%}
 	{% if pub.status != "in_submission" %}
 		{% assign cur_year = pub.Date_Published | date: '%Y' %}
 			{% if cur_year != prev_year %}
@@ -44,25 +44,86 @@ permalink: Publications/
 						</a>
 						</div>
 
-				
-
 					{% else if %}
 
 					{% endif %}
-					
 						<strong>{{ pub.Title }}</strong>
-						{% assign pub_authors=pub.Authors|join:", " %}
-							{% for m in site.data.people %}
-								{% for p in m.pub_names %}
-									{% capture user_url %}
-									<strong><a href='{{m.website}}'>{{ p }}</a></strong>{% endcapture %}
-									{% assign pub_authors=pub_authors|replace: p, user_url %}
+							<p>
+							
+							{% for author in pub.Authors %}
+								{% assign corr_flag=0 %}
+								{% assign eq_flag=0 %}
+
+							{% if pub.Equal_Contributors contains author %}
+								{% assign eq_flag=1 %}
+							{% endif %}
+
+							{% for n in pub.Corresponding_Authors %}
+								{% for q in n %}
+									{% if author == q[0] %}
+										{% assign corr_flag=1 %}
+										{% assign corr_mail=q[1] %}
+									{% endif %}
 								{% endfor %}
 							{% endfor %}
-								<br /><small>{{ pub_authors }}</small>
+
+							{% if forloop.last == false %}
+								{% for m in site.data.people -%}
+									{% if m.pub_names contains author %}
+										{% if eq_flag == 0 and corr_flag == 0  %}
+											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>,
+										{% elsif eq_flag == 1 && corr_flag == 0 %}
+											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
+											<span class="glyphicon glyphicon-flag"></span>,
+										{% elsif eq_flag == 0 && corr_flag == 1 %}
+											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope"></span></a>,
+										{% else %}
+											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope"></span></a>
+											<span class="glyphicon glyphicon-flag"></span>,
+										{% endif %}
+									{% else %}
+										{% if eq_flag == 0 and corr_flag == 0  %}
+											<font size=2>{{author}}</font>,
+										{% elsif eq_flag == 1 && corr_flag == 0 %}
+											<font size=2>{{author}}</font>
+											<span class="glyphicon glyphicon-flag"></span>,
+										{% elsif eq_flag == 0 && corr_flag == 1 %}
+											<font size=2>{{author}}</font>
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope"></span></a>,
+										{% else %}
+											<font size=2>{{author}}</font>,
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope"></span></a>
+											<span class="glyphicon glyphicon-flag"></span>,
+										{% endif %}										
+									{% endif %}
+									{% break %}
+								{% endfor %}
+							{% else %}
+									{% for m in site.data.people -%}
+									{% if m.pub_names contains author %}
+									<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
+									{% else %}
+									<font size=2>{{author}}</font>
+									{% endif %}
+									{% if eq_flag == 1 -%}<span class="glyphicon glyphicon-flag"></span>{% endif %}
+									{% if corr_flag == 1 %}<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope"></span></a>{% endif %}
+									{% break %}
+								{% endfor %}
+							{% endif %}
+							
+					{% endfor -%}
+									
+ 
+
+						</p>
+
+
+								<small>{{ pub_authors }}</small>
 								<!-- Date -->
 								
-								<br />({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
+								({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
 								<!-- DOI -->
 								[
 									{% if pub contains 'DOI' %}
@@ -82,5 +143,10 @@ permalink: Publications/
 			<div class="clearfix"></div>
 			{% endif %}
 			{% endfor %}
-
-
+			
+			<p>
+			<span class="glyphicon glyphicon-envelope"></span> Corresponding Author(s)  
+			</p>
+			<p>
+			<span class="glyphicon glyphicon-flag"></span> Equal Contributers 
+			</p>
