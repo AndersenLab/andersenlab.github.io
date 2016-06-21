@@ -154,6 +154,8 @@
   - Hillier LW
   - Kammenga JE
   - Waterston RH
+  Corresponding_Authors:
+    - 'Waterson RH': 'waterso@u.washington.edu'
   DOI:
   - 10.1534/genetics.115.175950
   PMID: 25995208
@@ -169,6 +171,9 @@
   - Snoek LB
   - Kammenga JE
   - Andersen EC
+  Corresponding_Authors:
+    - 'Kammenga JE': 'jan.kammenga@wur.nl'
+    - 'Andersen EC': 'erik.andersen@northwestern.edu'
   DOI:
   - 10.1016/j.tig.2015.02.009
   Date_Published: 2015 Mar 21
@@ -188,6 +193,9 @@
   - Seidel HS
   - Gerke JP
   - Kruglyak L
+  Corresponding_Authors:
+    - 'Andersen EC': 'erik.andersen@northwestern.edu'
+    - 'Kruglyak L': 'lkruglyak@mednet.ucla.edu'
   DOI:
   - 10.1534/g3.115.017178
   Date_Published: 2015 Mar 13
@@ -199,13 +207,15 @@
   Title:
   - "A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant Strains."
 - Authors:
-    - Farhadifar R
-    - Baer CF
-    - Valfort AC
-    - Andersen EC
-    - Muller-Reichert T
-    - Delattre M
-    - Needleman DJ
+  - Farhadifar R
+  - Baer CF
+  - Valfort AC
+  - Andersen EC
+  - 'Muller-Reichert T'
+  - Delattre M
+  - Needleman DJ
+  Corresponding_Authors:
+  - 'Farhadifar R': 'rfarhadifar@cgr.harvard.edu'
   DOI:
   - 10.1016/j.cub.2014.12.060
   Date_Published: 2015 Feb 11
@@ -213,19 +223,21 @@
   PDF: '2015currbio'
   PDF_switch: true
   PDF_thumb_index: 0
-  PMID: '25683802'
+  PMID: 25683802
   Title:
-  - Scaling, Selection, and Evolutionary Dynamics of the Mitotic Spindle.
+  - "Scaling, Selection, and Evolutionary Dynamics of the Mitotic Spindle."
 - Authors:
   - Etienne V
   - Andersen EC
   - Ponciano JM
   - Blanton D
   - Cadavid A
-  - Joyner-Matos J
+  - "Joyner-Matos J"
   - Matsuba C
   - Tabman B
   - Baer CF
+  Corresponding_Authors:
+  - 'Baer CF': 'cbaer@ufl.edu'
   DOI:
   - 10.1111/evo.12585
   Date_Published: 2015 Feb
@@ -242,6 +254,8 @@
   - Andersen EC
   - Kruglyak L
   - Troemel ER
+  Corresponding_Authors:
+    - 'Troemel ER': 'etroemel@ucsd.edu'
   DOI:
   - 10.1371/journal.ppat.1004583
   Date_Published: 2015 Feb
@@ -256,6 +270,8 @@
 - Authors:
   - Shimko TC
   - Andersen EC
+  Corresponding_Authors:
+    - 'Andersen EC': 'erik.andersen@northwestern.edu'
   DOI:
   - 10.1371/journal.pone.0111090
   Date_Published: 2014 Oct 20
@@ -272,6 +288,9 @@
   - Bloom JS
   - Gerke JP
   - Kruglyak L
+  Corresponding_Authors:
+    - 'Andersen EC': 'erik.andersen@northwestern.edu'
+    - 'Kruglyak L': 'lkruglyak@mednet.ucla.edu'
   DOI:
   - 10.1371/journal.pgen.1004156
   Date_Published: 2014 Feb
@@ -291,6 +310,11 @@
   - Andersen EC
   - Cutter AD
   - Braendle C
+  Corresponding_Authors:
+    - 'Braendle C': 'braendle@unice.fr'
+  Equal_Contributors:
+    - Felix MA
+    - Jovelin R
   DOI:
   - 10.1186/1471-2148-13-10
   Date_Published: 2013 Jan 12
@@ -307,6 +331,8 @@
   - Shapiro JA
   - Gerke JP
   - Kruglyak L
+  Corresponding_Authors:
+    - 'Kruglyak L': 'leonid@genomics.princeton.edu'
   DOI:
   - 10.1126/science.1214318
   Date_Published: 2012 Feb 3
@@ -326,6 +352,11 @@
   - Bloom JS
   - Felix MA
   - Kruglyak L
+  Corresponding_Authors:
+    - 'Kruglyak L': 'leonid@genomics.princeton.edu'
+  Equal_Contributors:
+    - Andersen EC
+    - Gerke JP
   DOI:
   - 10.1038/ng.1050
   Date_Published: 2012 Mar
@@ -338,6 +369,8 @@
   Title: Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic diversity.
 - Authors:
   - Andersen EC
+  Corresponding_Authors:
+    - 'Andersen EC': 'erik.andersen@northwestern.edu'
   DOI:
   - 10.1007/978-1-61779-228-1_24
   Date_Published: 2011 Jul 08
@@ -351,6 +384,8 @@
   - Bessler JB
   - Andersen EC
   - Villeneuve AM
+  Corresponding_Authors:
+    - 'Villeneuve AM': 'annev@stanford.edu'
   DOI:
   - 10.1371/journal.pgen.1000830
   Date_Published: 2010 Jan
@@ -366,6 +401,11 @@
   - Rifkin SA
   - Andersen EC
   - van Oudenaarden A
+  Corresponding_Authors:
+    - 'van Oudenaarden': 'avano@mit.edu'
+  Equal_Contributors:
+   - 'Raj A'
+   - 'Rifkin SA'
   DOI:
   - 10.1038/nature08781
   Date_Published: 2010 Feb 18
@@ -381,6 +421,12 @@
   - Andersen EC
   - Kruglyak L
   - Kim DH
+  Corresponding_Authors:
+    - 'Kruglyak': 'leonid@genomics.princeton.edu'
+    - 'Kim DH': 'dhkim@mit.edu'
+  Equal_Contributors:
+    - Reddy KC
+    - Andersen EC
   DOI:
   - 10.1126/science.1166527
   Date_Published: 2009 Jan 16
@@ -395,6 +441,8 @@
   - Andersen EC
   - Saffer AM
   - Horvitz HR
+  Corresponding_Authors:
+    - 'Horvitz HR': 'horvitz@mit.edu'
   DOI:
   - 10.1534/genetics.108.092197
   Date_Published: 2008 Aug
@@ -408,6 +456,8 @@
 - Authors:
   - Andersen EC
   - Horvitz HR
+  Corresponding_Authors:
+    - 'Horvitz HR': 'horvitz@mit.edu'
   DOI:
   - 10.1242/dev.009373
   Date_Published: 2007 Aug
@@ -436,6 +486,8 @@
   - Andersen EC
   - Lu X
   - Horvitz HR
+  Corresponding_Authors:
+    - 'Horvitz HR': 'horvitz@mit.edu'
   DOI:
   - 10.1242/dev.02444
   Date_Published: 2006 Jul
@@ -451,6 +503,8 @@
   - Null B
   - White KP
   - Scott MP
+  Corresponding_Authors:
+    - 'Scott MP': 'scott@cmgm.stanford.edu'
   DOI:
   - 10.1126/science.1062660
   Title: Patterns of gene expression during <em>Drosophila</em> mesoderm development
