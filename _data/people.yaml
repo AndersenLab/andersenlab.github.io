@@ -50,13 +50,6 @@
 # Research Staff #
 #================#
 
-- first_name: Kristen
-  last_name: Laricchia
-  description:
-  github: klaricch
-  title: Computational Specialist
-  photo: Kristen_Laricchia.jpg
-  email: kristenlaricchia2014@u.northwestern.edu
 
 #===================#
 # Graduate Students #
@@ -103,12 +96,6 @@
   photo: Stevie_Hippleheuser.jpg
   email: StephenHippleheuser2017@u.northwestern.edu
 
-- first_name: Ian
-  last_name: Kuo
-  title: general lab maintenance and upkeep
-  photo: Ian.jpg
-  former: false
-
 - first_name: Selina
   last_name: Deiparine
   title: general lab maintenance and upkeep
@@ -119,6 +106,12 @@
   last_name: Bier
   title: general lab maintenance and upkeep
   photo: Sarah_undergrad.jpg
+  former: false
+
+- first_name: Mattlyn
+  last_name: Cordova
+  title: general lab maintenance and upkeep
+  photo: MattlynCordova.jpg
   former: false
 
 - first_name: Matteo
@@ -135,14 +128,6 @@
   photo: NickIrons.jpg
   former: true
   email: NicholasIrons2018@u.northwestern.edu
-
-- first_name: Hilary
-  last_name: Tsang
-  description: I am interested in a potential mate searching behavior in hermaphrodites and developing assays to further quantify natural variation in wild isolates.
-  title: Undergraduate Researcher
-  pub_names: []
-  photo: Hillary.jpg
-  email: HillaryTsang2016@u.northwestern.edu
 
 - first_name: Annika
   last_name: Zhang
@@ -171,27 +156,48 @@
   website: https://tylershimko.com/
   title: Undergraduate, summers 2013, 2014, 2015
 
-- first_name: Kreena
-  last_name: Patel
-  email: kreena.patel@northwestern.edu
-  photo: Kreena.jpg
-  tile: Undergraduate, 2013 - 2014
-
-- first_name: Austin
-  last_name: Chambers
-  email: austinchambers2018@u.northwestern.edu
-  photo: Austin_Chambers.png
-  tile: Undergraduate, 2016
 
 - first_name: Joshua
   last_name: Roberts
   email: joshuaroberts2016@u.northwestern.edu
   photo: Joshua_Roberts.png
-  tile: Undergraduate, 2015,2016
+  tile: Undergraduate, 2015-2016
 
 #========================#
 # Former Members         #
 #========================#
+- first_name: Kristen
+  last_name: Laricchia
+  description:
+  github: klaricch
+  title: Computational Specialist
+  email: kristenlaricchia2014@u.northwestern.edu
+  former: true
+
+- first_name: Kreena
+  last_name: Patel
+  email: kreena.patel@northwestern.edu
+  title: Undergraduate and Research Technician, 2013-2016
+  former: true
+
+- first_name: Ian
+  last_name: Kuo
+  title: general lab maintenance and upkeep, 2015-2016
+  former: true
+
+- first_name: Hilary
+  last_name: Tsang
+  description: I am interested in a potential mate searching behavior in hermaphrodites and developing assays to further quantify natural variation in wild isolates.
+  title: Undergraduate Researcher, 2014-2016
+  pub_names: []
+  email: HillaryTsang2016@u.northwestern.edu
+  former: true
+
+- first_name: Austin
+  last_name: Chambers
+  email: austinchambers2018@u.northwestern.edu
+  title: Undergraduate, spring 2016
+  former: true
 
 - first_name: Sam
   last_name: Rosenberg
@@ -289,3 +295,4 @@
   last_name: Nigaruru
   former: true
   title: Undergraduate, spring 2013
+
