@@ -17,7 +17,6 @@
 <ul class="nav nav-pills visible-xs">
   <li>  <a href="/Research/"  class="{% if page.title == "Research" %}btn-primary{% endif %}">Projects</a></li>
    <li><a href="/Research/Data/" class="{% if page.title == "Data" %}btn-primary{% endif %}">Data</a></li>
-  <li><a href="/Research/Software/" class="{% if page.title == "Software" %}btn-primary{% endif %}">Software</a></li>
   <li><a href="/Research/Reagents/"  class="{% if page.title == "Reagents" %}btn-primary{% endif %}">Reagents</a></li>
   <li><a href="/Research/Protocols/"  class="{% if page.title == "Protocols" %}btn-primary{% endif %}">Protocols</a></li>
   <li><a href="/Research/Funding/"  class="{% if page.title == "Funding" %}btn-primary{% endif %}">Funding</a></li>
@@ -28,14 +27,32 @@
   <a href="/Research/" type="button" class="btn btn-default btn-sm {% if page.title == "Research" %}btn-primary{% endif %}">Projects</a>
   <div class="btn-group ">
   <a href="/Research/Data/" type="button " class="btn btn-default btn-sm {% if page.title == "Data" %}btn-primary{% endif %}">Data</a>
-  <a href="/Research/Software/" type="button " class="btn btn-default btn-sm {% if page.title == "Software" %}btn-primary{% endif %}">Software</a>
   <a href="/Research/Reagents/" type="button" class="btn btn-default btn-sm {% if page.title == "Reagents" %}btn-primary{% endif %}">Reagents</a>
   <a href="/Research/Protocols/" type="button" class="btn btn-default btn-sm {% if page.title == "Protocols" %}btn-primary{% endif %}">Protocols</a>
 </div>
       <a href="/Research/Funding/" type="button" class="btn btn-default btn-sm {% if page.title == "Funding" %}btn-primary{% endif %}">Funding</a>
       <a href="/Research/Lab/" type="button" class="btn btn-default btn-sm {% if page.title == "Our Lab" %}btn-primary{% endif %}">Our Lab</a>
 </div>
+  {% elsif page.menu == "tools" %}
+  <ul class="nav nav-pills visible-xs">
+    <li>  <a href="/Tools/Software"  class="{% if page.title == "Software" %}btn-primary{% endif %}">Software</a></li>
+     <li><a href="https://elegansvariation.org/" class="external">CeNDR</a></li>
+    <li><a href="https://elegansvariation.org/data/browser/III/11746923/11750250/mh"  class= "external">Variant Browser</a></li>
+    <li><a href="/NILs/"  class="{% if page.title == "NILs" %}btn-primary{% endif %}">NILs Browser</a></li>
+    <li><a href="/fosmid"  class="{% if page.title == "Fosmid" %}btn-primary{% endif %}">Fosmid Browser</a></li>
+  </ul>
 
+  <div class="pull-right hidden-xs">
+    <a href="/Tools/Software" type="button" class="btn btn-default btn-sm {% if page.title == "Software" %}btn-primary{% endif %}">Software</a>
+    <div class="btn-group ">
+    <a href="/NILs/" type="button" class="btn btn-default btn-sm {% if page.title == "NILs Search" %}btn-primary{% endif %}">NILs Browser</a>
+    <a href="/fosmid" type="button" class="btn btn-default btn-sm {% if page.title == "Fosmid Search" %}btn-primary{% endif %}">Fosmid Browser</a>
+  </div>
+    <div class="btn-group ">
+      <a href="https://elegansvariation.org/" type="button" class="external btn btn-default btn-sm">CeNDR  <span class="glyphicon glyphicon-new-window"></span> </a>
+    <a href="https://elegansvariation.org/data/browser/III/11746923/11750250/mh" type="button" class="btn btn-default btn-sm">Variant Browser  <span class="glyphicon glyphicon-new-window"></span> </a>
+    </div>
+  </div>
   {% elsif page.menu == "people" %}
 
   <div class="pull-right">

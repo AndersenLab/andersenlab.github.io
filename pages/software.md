@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Software
-permalink: /Research/Software/
-menu: research
+permalink: /Tools/Software/
+menu: tools
 published: true
 sidebar: software_sidebar.html
 scripts: 
@@ -21,8 +21,6 @@ A set of functions to process phenotype data, perform GWAS, and perform post-map
 #### Install
 
 ```r
-source("http://bioconductor.org/biocLite.R")
-biocLite("biomaRt")
 devtools::install_github("AndersenLab/cegwas")
 ```
 
