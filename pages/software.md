@@ -16,7 +16,7 @@ scripts:
 ### [Cegwas](http://www.github.com/andersenlab/cegwas)
 ----
 
-A set of functions to process phenotype data, perform GWAS, and perform post-mapping data processing for C. elegans.
+A set of functions to process phenotype data, perform GWAS, and perform post-mapping data processing for *C. elegans*.
 
 #### Install
 
