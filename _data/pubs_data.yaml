@@ -1,8 +1,9 @@
 - Authors:
   - Cook DE
   status: in_submission
-  Title:
-    The genetic basis of natural variation in <em>C. elegans</em> telomere length
+  Title: The genetic basis of natural variation in <em>C. elegans</em> telomere length.
+  Stub_title:
+    <strong>The genetic basis of natural variation in <em>C. elegans</em> telomere length.</strong> Cook <em>et al</em>.
   pub_data:
     files:
         "Supplementary File 01 - Strain isotype grouping and collection information.tsv": 
@@ -164,8 +165,7 @@
   PDF_switch: true
   PDF_thumb_index: 0
   Date_Published: 2015 May 19
-  Title:
-  - Remarkably Divergent Regions Punctuate the Genome Assembly of the <em>Caenorhabditis elegans</em> Hawaiian Strain CB4856
+  Title: Remarkably Divergent Regions Punctuate the Genome Assembly of the <em>Caenorhabditis elegans</em> Hawaiian Strain CB4856.
 - Authors:
   - Sterken MG
   - Snoek LB
@@ -204,8 +204,28 @@
   PDF_switch: true
   PDF_thumb_index: 0
   PMID: 25770127
+  Stub_title: <strong>A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant Strains.</strong> Andersen <em>et al</em>.
   Title:
   - "A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant Strains."
+  pub_data:
+    files:
+        "Supplementary File 01": 
+            title: Supplementary File 01
+            description: Genotypes for these RIAILs (QX240-QX598)
+            url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS1.csv
+        "Supplementary File 02":
+            title: Supplementary File 02
+            description: Phenotypes from our high-throughput fitness assays.
+            url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS2.csv
+        "Supplementary File 03":
+            title: Supplementary File 03
+            description: All QTL from Andersen et al. G3 2015.
+            url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS3.csv
+        "Supplementary File 04":
+            title: Supplementary File 04
+            description: Plots of all QTL from Andersen et al. G3 2015.
+            url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx
+  pub_stub: Andersenetal
 - Authors:
   - Farhadifar R
   - Baer CF
@@ -367,6 +387,8 @@
   PMC: PMC3365839
   PMID: '22286215'
   Title: Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic diversity.
+  Stub_title: <strong>Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic diversity.</strong>  Andersen, Gerke, Shapiro <em>et al</em>.
+  pub_stub: selective_sweeps
 - Authors:
   - Andersen EC
   Corresponding_Authors:
