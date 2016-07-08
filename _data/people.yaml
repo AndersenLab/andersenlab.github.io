@@ -54,6 +54,14 @@
 # Graduate Students #
 #===================#
 
+- first_name: Kathryn
+  last_name: Evans  
+  title: Graduate Student
+  description: My research combines computational and experimental techniques to investigate the relationship between genetic variation and observed phenotypes, particularly the response to chemotherapeutic drugs.
+  photo: Kathryn_Evans.jpg
+  group: Graduate Students
+  email: kathrynevans2015@u.northwestern.edu
+
 - first_name: Daniel
   last_name: Cook
   title: Graduate Student
