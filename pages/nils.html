@@ -216,6 +216,10 @@ $(window).resize(function() {
 });
 
 $('input[name=strain]').change(function() {
+    draw_nils($("#nils-search").val());
+})
+
+$('#Full-Range').change(function() {
     full_range();
     draw_nils($("#nils-search").val());
 })
