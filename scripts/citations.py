@@ -7,7 +7,7 @@ pubs = yaml.load(stream)
 
 for pub in pubs:
 	title = pub["Title"].replace('<em>', '').replace('</em>', '')
-	proc = subprocess.Popen(['python','scripts/scholar/scholar.py', '-c', '1', '--phrase', '%s' %title],stdout=subprocess.PIPE)
+	proc = subprocess.Popen(['python','scripts/scholar.py', '-c', '1', '--phrase', '%s' %title],stdout=subprocess.PIPE)
 	while True:
 	  line = proc.stdout.readline()
 	  print line

@@ -116,44 +116,44 @@
         title: Evaluation of variant-calling parameters from a simulated variant data
           set
     files:
-      "Supplementary File 01 - Strain isotype grouping and collection information.tsv":
+      Supplementary File 01 - Strain isotype grouping and collection information.tsv:
         description: Strain isotype grouping and collection information
         title: Supplementary File 01
-      "Supplementary File 02 - TelSeq telomere length estimates among wild isolates.tsv":
+      Supplementary File 02 - TelSeq telomere length estimates among wild isolates.tsv:
         description: TelSeq telomere length estimates among wild isolates
         title: Supplementary File 02
-      "Supplementary File 03 - Telomere length measurements comparison.tsv":
+      Supplementary File 03 - Telomere length measurements comparison.tsv:
         description: Telomere length measurements comparison
         title: Supplementary File 03
-      "Supplementary File 04 - QTL Mapping Results.tsv":
+      Supplementary File 04 - QTL Mapping Results.tsv:
         description: Genome-wide association mapping results
         title: Supplementary File 04
-      "Supplementary File 05 - QTL Confidence Interval Genes.tsv":
+      Supplementary File 05 - QTL Confidence Interval Genes.tsv:
         description: Correlations of variants within QTL on chromosome II
         title: Supplementary File 05
-      "Supplementary File 06 - Sequence run information.tsv":
+      Supplementary File 06 - Sequence run information.tsv:
         description: Summary of sequencing libraries and preparation
         title: Supplementary File 06
-      "Supplementary File 07 - Rates of heterozygosity for different SNV calling methods.tsv":
+      Supplementary File 07 - Rates of heterozygosity for different SNV calling methods.tsv:
         description: Rates of heterozygosity for different SNV calling methods
         title: Supplementary File 07
-      "Supplementary File 08 - Summary of variant filters.tsv":
+      Supplementary File 08 - Summary of variant filters.tsv:
         description: Summary of variant filters
         title: Supplementary File 08
-      "Supplementary File 09 - Telomere Hexamer Locations Across WS245.tsv":
+      Supplementary File 09 - Telomere Hexamer Locations Across WS245.tsv:
         description: Telomere Hexamer Locations Across WS245
         title: Supplementary File 09
-      "Supplementary File 10 - Telseq length estimates by sequencing run.tsv":
+      Supplementary File 10 - Telseq length estimates by sequencing run.tsv:
         description: Telseq length estimates by sequencing run
         title: Supplementary File 10
-      "Supplementary File 11 - P-values from MMP enrichment test.tsv":
+      Supplementary File 11 - P-values from MMP enrichment test.tsv:
         description: p-values for enrichment test of protein coding genes
         title: Supplementary File 11
-      "WI.20160408.impute.vcf.gz":
+      WI.20160408.impute.vcf.gz:
         description: SNVs imputed with Beagle
         title: Imputed variant set
         url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.impute.vcf.gz
-      "WI.20160408.snpeff.vcf.gz":
+      WI.20160408.snpeff.vcf.gz:
         description: SNVs annotated with SnpEff
         title: Annotated variant set
         url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.snpeff.vcf.gz
@@ -240,19 +240,19 @@
     Strains.
   pub_data:
     files:
-      "Supplementary File 01":
+      Supplementary File 01:
         description: Genotypes for these RIAILs (QX240-QX598)
         title: Supplementary File 01
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS1.csv
-      "Supplementary File 02":
+      Supplementary File 02:
         description: Phenotypes from our high-throughput fitness assays.
         title: Supplementary File 02
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS2.csv
-      "Supplementary File 03":
+      Supplementary File 03:
         description: All QTL from Andersen et al. G3 2015.
         title: Supplementary File 03
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS3.csv
-      "Supplementary File 04":
+      Supplementary File 04:
         description: Plots of all QTL from Andersen et al. G3 2015.
         title: Supplementary File 04
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx
