@@ -268,7 +268,7 @@
         description: Plots of all QTL from Andersen et al. G3 2015.
         title: Supplementary File 04
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx
-  pub_stub: Andersenetal
+  # pub_stub: Andersenetal
 - Authors:
   - Farhadifar R
   - Baer CF
@@ -443,7 +443,7 @@
     genomic diversity.</strong>  Andersen, Gerke, Shapiro <em>et al</em>.
   Title: Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic
     diversity.
-  pub_stub: Selectivesweeps
+  # pub_stub: Selectivesweeps
 - Authors:
   - Andersen EC
   Citations: 9
