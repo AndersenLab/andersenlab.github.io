@@ -3,6 +3,17 @@ layout: page
 title: Publications
 permalink: Publications/
 ---
+
+<div style="margin:55px 0 800px 800px;top: 100px; background-color:#6eb2ea; width:40;height:60; padding:4px; position: fixed; border-radius:8px;">
+    <div style="z-index:1000000" data-offset-top="170" data-spy="affix">
+				<p>
+					<span class="glyphicon glyphicon-envelope"></span> Corresponding Author(s)
+					<br />
+					<span class="glyphicon glyphicon-flag"></span> Equal Contributors 
+					<br />
+				</p>
+    </div>
+</div>
 <div class="text-center">
 {% assign prev_year = 1 %}
 	{% for pub in site.data.pubs_data reversed %}
@@ -138,19 +149,11 @@ permalink: Publications/
 									{% if pub.PMC %}
 									| <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
 									{% endif %}
+									|
+									Citations : {{ pub.Citations }}
 								]
-			</div>
-			<div>
-				<p>
-					<span class="glyphicon glyphicon-envelope"></span> Corresponding Author(s)
-					<br />
-					<span class="glyphicon glyphicon-flag"></span> Equal Contributors 
-					<br />
-					Citations : {{ pub.Citations }}
-				</p>
 			</div>
 			<div class="clearfix"></div>
 
 			{% endif %}
 			{% endfor %}
-			
