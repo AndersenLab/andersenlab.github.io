@@ -157,7 +157,7 @@
         description: SNVs annotated with SnpEff
         title: Annotated variant set
         url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.snpeff.vcf.gz
-  # pub_stub: Cooketal
+  pub_stub: Cooketal
   status: in_submission
 - Authors:
   - Thompson OA
