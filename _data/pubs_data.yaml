@@ -302,6 +302,9 @@
   Citations: 1
   Corresponding_Authors:
   - Baer CF: cbaer@ufl.edu
+  Equal_Contributors:
+  - Andersen EC
+  - Etienne V
   DOI:
   - 10.1111/evo.12585
   Date_Published: 2015 Feb
@@ -433,6 +436,7 @@
   Equal_Contributors:
   - Andersen EC
   - Gerke JP
+  - Shapiro JA
   Journal: Nature Genetics
   PDF: 2012AndersenNat Genet
   PDF_switch: true
