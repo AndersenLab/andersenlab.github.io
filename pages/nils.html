@@ -4,7 +4,7 @@ title: NILs Search
 menu: tools
 permalink: /NILs/
 ---
-<div class="row">
+<div class="row" >
   <div class="col-md-12">
 
 <!-- Generate nil file
@@ -48,19 +48,25 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
 
 
 <script>
+function init() {
+  Tabletop.init( { key: '1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA',
+                   callback: showInfo,
+                   simpleSheet: true } )
+}
 
 var previous = "II:2000000-9000000";
 var chrom_max_len = {"I":"15072434", "II":"15279421", "III":"13783801", 
                       "IV":"17493829", "V":"20924180", "X":"17718942",
                       "MtDNA": "13794"}
 // Load Nils Data
-d3.tsv("https://docs.google.com/spreadsheets/d/1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA/pub?output=tsv").get(function(error, d) {
-    if (error) throw error;
-    d.forEach(function(d) {
+function showInfo(data, tabletop) {
+    output_data = Array();
+    $(data).each(function(k, d) {
       d.start = +d.start;
       d.end = +d.end;
+      output_data.push(d);
     });
-    data = d;
+    rdata = output_data;
      
       var table = d3.select("#ftable")
           .append("table")
@@ -70,14 +76,14 @@ d3.tsv("https://docs.google.com/spreadsheets/d/1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS
 
        var hrow = thead.append("tr")
             .selectAll("th")
-            .data(Object.keys(data[0]))
+            .data(Object.keys(rdata[0]))
             .enter()
             .append("th")
             .text(function(d) { return d; });
 
     // Initial Draw
     draw_nils($("#nils-search").val())
-    });
+  }
 
 
     d3.select("#nils-search").on("input", function() {
@@ -117,7 +123,7 @@ function full_range(chrom){
 
 function filter_results(chrom, start, end) {
 
-    filter_data = data.filter(function(d) {
+    filter_data = rdata.filter(function(d) {
       subset_strain = $('input[name=strain]:checked').val();
       if (d["chromosome"] == chrom && 
             (
@@ -210,6 +216,10 @@ function filter_results(chrom, start, end) {
 
 
 }
+
+$( document ).ready(function() {
+    init();
+});
 
 // Redraw canvas when the window is resized.
 $(window).resize(function() {
