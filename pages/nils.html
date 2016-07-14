@@ -18,7 +18,7 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
   <div id="search_input" class="form-group">
   <div class="controls">
     <label for="nils-search">Search</label>
-    <input type="text" class="form-control error" id="nils-search" placeholder="II:1-100000" value = "II:2000000-9000000">
+    <input type="text" class="form-control error" id="nils-search" placeholder="II:1-100000" value = "II:2000000-9000000" autocomplete="off">
 &nbsp;&nbsp;
 <input type="radio" name="strain" id="N2" value="N2"> <label for="N2">N2</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="CB4856" value="CB4856"> <label for="CB4856">CB4856</label>&nbsp;&nbsp;
@@ -109,8 +109,13 @@ function draw_nils(i) {
           $("#search_input").addClass("has-error");
           $("#helpBlock").show();
         }
-        } 
+        }
       }
+      else{
+        if (chrom_max_len[i]){
+          full_range(i);
+        } 
+    }
 }    
 
 function comma(x) {

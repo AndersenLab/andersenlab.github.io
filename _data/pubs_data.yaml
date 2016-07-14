@@ -160,6 +160,21 @@
   pub_stub: Cooketal
   status: in_submission
 - Authors:
+  - "Zamanian M"
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  DOI:
+  - 10.1111/febs.13781
+  Date_Published: 2016 June 13
+  Journal: FEBS Journal
+  Citations: 0
+  PDF: 2016ZamanianFEBS
+  PDF_switch: true
+  PDF_thumb_index: 1
+  PMID: 27300487
+  Title: "Prospects and challenges of CRISPR/Cas genome editing for the study and control of neglected vector-borne nematode diseases."
+- Authors:
   - Thompson OA
   - Snoek LB
   - Nijveen H

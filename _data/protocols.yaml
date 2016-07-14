@@ -60,7 +60,7 @@
     file: SetUp96WellAspirator.pdf
 
 - Group: DNA Methods
-  open_row: False
+  open_row: False 
   close_row: False
   files:
   - Name: Qiagen Gentra DNA preparation for C. elegans
