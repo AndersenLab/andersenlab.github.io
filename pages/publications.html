@@ -15,9 +15,9 @@ permalink: Publications/
 </div>
 <hr />
 <div class="text-center">
-		<span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="Corresponding Authors"></span> Corresponding Author(s)
+		<span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span> Corresponding Author(s)
 		&nbsp;
-		<span class="glyphicon glyphicon-flag" data-toggle="tooltip" title="Equal Contributors"></span> Equal Contributors 
+		<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span> Equal Contributors 
 		<br />
 </div>
 <br />
@@ -81,14 +81,14 @@ permalink: Publications/
 											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>,
 										{% elsif eq_flag == 1 && corr_flag == 0 %}
 											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
-											<span class="glyphicon glyphicon-flag" data-toggle="tooltip" title="Equal Contributors"></span>,
+											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>,
 										{% elsif eq_flag == 0 && corr_flag == 1 %}
 											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="Corresponding Authors" ></span></a>,
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors" ></span></a>,
 										{% else %}
 											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="Corresponding Authors"></span></a>
-											<span class="glyphicon glyphicon-flag" data-toggle="tooltip" title="Equal Contributors"></span>,
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>
+											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>,
 										{% endif %}
 									{% else %}
 										{% if eq_flag == 0 and corr_flag == 0  %}
@@ -97,11 +97,11 @@ permalink: Publications/
 											<font size=2>{{author}}</font>
 										{% elsif eq_flag == 0 && corr_flag == 1 %}
 											<font size=2>{{author}}</font>
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="Corresponding Authors"></span></a>,
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>,
 										{% else %}
 											<font size=2>{{author}} </font>,
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="Corresponding Authors"></span></a>
-											<span class="glyphicon glyphicon-flag" data-toggle="tooltip" title="Equal Contributors"></span>,
+											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>
+											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>,
 										{% endif %}										
 									{% endif %}
 									{% break %}
@@ -114,9 +114,9 @@ permalink: Publications/
 									<font size=2>{{author}}</font>
 									{% endif %}
 									{% if eq_flag == 1 -%}
-									<span class="glyphicon glyphicon-flag" data-toggle="tooltip" title="Equal Contributors">Equal Contributors</span>
+									<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors">Equal Contributors</span>
 									{% endif %}
-									{% if corr_flag == 1 %}<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="Corresponding Authors"></span></a>{% endif %}
+									{% if corr_flag == 1 %}<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>{% endif %}
 									{% break %}
 								{% endfor %}
 							{% endif %}
@@ -155,8 +155,8 @@ permalink: Publications/
 			{% endif %}
 			{% endfor %}
 <div class="text-center">
-		<span class="glyphicon glyphicon-envelope" data-toggle="tooltip" title="Corresponding Authors"></span> Corresponding Author(s)
+		<span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span> Corresponding Author(s)
 		&nbsp;
-		<span class="glyphicon glyphicon-flag" data-toggle="tooltip" title="Equal Contributors"></span> Equal Contributors 
+		<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span> Equal Contributors 
 		<br />
 </div>
