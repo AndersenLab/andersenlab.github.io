@@ -12,7 +12,7 @@ export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, 
 -->
 
 
-<div class="pull-right"><a href="/distr/fosmids.tsv">Full Fosmids Dataset</a></div>
+<div class="pull-right"><a href="/distr/fosmids.tsv">Download Full Fosmids Dataset</a></div>
 
 <form class="form-inline">
   <div id="search_input" class="form-group">
@@ -23,6 +23,14 @@ export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, 
 <input type="radio" name="strain" id="N2" value="N2" checked> <label for="N2">N2</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="CB4856" value="CB4856"> <label for="CB4856">CB4856</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="Both" value="Both"> <label for="Both">Both</label>
+&nbsp;&nbsp;
+<button type="button" class="btn btn-default btn-sm rounded" value="I"> I</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="II"> II</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="III"> III</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="IV"> IV</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="V"> V</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="X"> X</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="MtDNA"> MtDNA</button>
 
 
   <span id="helpBlock" class="help-block">Interval End must be greater than interval start.</span>
@@ -41,6 +49,11 @@ export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, 
 
 <script>
 
+
+var previous = "II:2000000-9000000";
+var chrom_max_len = {"I":"15072434", "II":"15279421", "III":"13783801", 
+                      "IV":"17493829", "V":"20924180", "X":"17718942",
+                      "MtDNA": "13794"}
 
 // Load Fosmid Data
 d3.tsv("/distr/fosmids.tsv").get(function(error, d) {
@@ -98,6 +111,10 @@ function draw_fosmids(i) {
 
 function comma(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function full_range(chrom){
+          $("#fosmid-search").val(chrom+":"+"0-"+chrom_max_len[chrom]);
 }
 
 function filter_results(chrom, start, end) {
@@ -202,6 +219,13 @@ $('input[name=strain]').change(function() {
     draw_fosmids($("#fosmid-search").val());
 })
 
+
+$('button[type="button"]').on('click', function() { 
+  $('.btn').removeClass("clicked")
+  $(this).toggleClass('clicked')
+   full_range(this.value)
+   draw_fosmids($("#fosmid-search").val());
+});
 
 
 
