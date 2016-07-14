@@ -12,7 +12,7 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
 -->
 
 
-<div class="pull-right"><a href="/distr/nils.tsv"> Download full NILs dataset</a></div>
+<div class="pull-right"><a href="https://docs.google.com/spreadsheets/u/0/d/1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA/export?format=tsv&id=1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA&gid=0"> Download full NILs dataset</a></div>
 
 <form class="form-inline">
   <div id="search_input" class="form-group">
@@ -23,7 +23,14 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
 <input type="radio" name="strain" id="N2" value="N2"> <label for="N2">N2</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="CB4856" value="CB4856"> <label for="CB4856">CB4856</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="Both" value="Both" checked> <label for="Both">Both</label>
-<input type="checkbox" name="strain" id="Full-Range"> <label for="Full-Range">Full Range</label>
+&nbsp;&nbsp;
+<button type="button" class="btn btn-default btn-sm rounded" value="I"> I</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="II"> II</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="III"> III</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="IV"> IV</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="V"> V</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="X"> X</button>
+<button type="button" class="btn btn-default btn-sm rounded" value="MtDNA"> MtDNA</button>
 
 
   <span id="helpBlock" class="help-block">Interval End must be greater than interval start.</span>
@@ -43,8 +50,11 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
 <script>
 
 var previous = "II:2000000-9000000";
+var chrom_max_len = {"I":"15072434", "II":"15279421", "III":"13783801", 
+                      "IV":"17493829", "V":"20924180", "X":"17718942",
+                      "MtDNA": "13794"}
 // Load Nils Data
-d3.tsv("/distr/nils.tsv").get(function(error, d) {
+d3.tsv("https://docs.google.com/spreadsheets/d/1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA/pub?output=tsv").get(function(error, d) {
     if (error) throw error;
     d.forEach(function(d) {
       d.start = +d.start;
@@ -101,17 +111,8 @@ function comma(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-function full_range(){
-
-      if ($("#Full-Range").is(":checked")){
-          var input = $("#nils-search")[0].value;
-          var chrom = input.split(":")[0];
-          $("#nils-search").val(chrom+":"+"0-20000000");
-          previous = input; //previous is defined at the top.
-      }
-      else{
-          $("#nils-search").val(previous);
-      } 
+function full_range(chrom){
+          $("#nils-search").val(chrom+":"+"0-"+chrom_max_len[chrom]);
 }
 
 function filter_results(chrom, start, end) {
@@ -219,12 +220,12 @@ $('input[name=strain]').change(function() {
     draw_nils($("#nils-search").val());
 })
 
-$('#Full-Range').change(function() {
-    full_range();
-    draw_nils($("#nils-search").val());
-})
-
-
+$('button[type="button"]').on('click', function() { 
+  $('.btn').removeClass("clicked")
+  $(this).toggleClass('clicked')
+   full_range(this.value)
+   draw_nils($("#nils-search").val());
+});
 
 
 </script>

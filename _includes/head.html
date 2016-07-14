@@ -16,5 +16,36 @@
     <script src="/assets/js/collapse.js"></script>
     <script src="/assets/js/d3.min.js"></script>
     <script src="/assets/js/scribl.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style type="text/css">
+        .rounded {
+            font-family: Helvetica, Tahoma, Geneva, sans-serif;
+            text-decoration:none;
+            border-radius: 30px 30px 30px 30px;
+            font-weight: bold;
+            display:inline-block;
+        }
+        .btn.clicked {
+            background: #44A9FC;
+        }
+    </style>
 
+    <script type="text/javascript">
+      window.onload = function() { init() };
+
+      var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA/pub?output=tsv';
+
+      function showInfo(data, tabletop) {
+        alert("Successfully processed!")
+        console.log(data);
+      }
+
+      function init() {
+        Tabletop.init( { key: public_spreadsheet_url,
+                         callback: showInfo,
+                         simpleSheet: true } )
+      }
+
+
+</script>
 </head>
