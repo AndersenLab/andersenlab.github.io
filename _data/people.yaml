@@ -5,7 +5,6 @@
   # Specify names here to highlight within publications
   pub_names: ["EC Andersen", "Andersen EC", "Erik C. Andersen", "Erik C Andersen"]
   photo: Erik_C_Andersen.jpg
-  website: "/People/#Erik Andersen"
   cv: https://github.com/AndersenLab/cv/blob/master/Andersen_CV.pdf?raw=true
   email: Erik.Andersen@northwestern.edu
   github: synmuv
@@ -25,20 +24,18 @@
   last_name: Gaertner
   description: I'm interested in natural variation in neurodevelopment and behavior.
   title: Postdoctoral Researcher, 2014
-  pub_names: []
   former: true
   photo: Bryn_Gaertner.jpg
   email: Bryn.Gaertner@northwestern.edu
 
 - first_name: Mostafa
-  pub_names: ["Zamanian M", "Zamanian M"]
+  pub_names: 
+    - Zamanian M
   last_name: Zamanian
-  website: www.google.com
   description: My research broadly spans "neglected disease" genomics and drug discovery. I am currently working to uncover new genetic determinants of anthelmintic resistance and to develop genome editing technology for human pathogenic helminths.
   title: Postdoctoral Researcher
   photo: Mostafa2014.jpg
   github: mzamanian
-  pub_names: []
   email: zamanian@northwestern.edu 
 
 

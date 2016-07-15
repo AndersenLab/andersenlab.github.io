@@ -54,81 +54,49 @@ permalink: Publications/
 					{% else if %}
 
 					{% endif %}
-						<strong>{{ pub.Title }}</strong>
-							<p>
+						<strong>{{ pub.Title }}</strong><br />
 							
 							{% for author in pub.Authors %}
 								{% assign corr_flag=0 %}
 								{% assign eq_flag=0 %}
+								{% assign author_website="" %}
 
-							{% if pub.Equal_Contributors contains author %}
-								{% assign eq_flag=1 %}
-							{% endif %}
-
-							{% for n in pub.Corresponding_Authors %}
-								{% for q in n %}
-									{% if author == q[0] %}
-										{% assign corr_flag=1 %}
-										{% assign corr_mail=q[1] %}
+									{% if pub.Equal_Contributors contains author %}
+										{% assign eq_flag=1 %}
 									{% endif %}
-								{% endfor %}
+
+									{% for n in pub.Corresponding_Authors %}
+										{% for q in n %}
+											{% if author == q[0] %}
+												{% assign corr_flag=1 %}
+												{% assign corr_mail=q[1] %}
+											{% endif %}
+										{% endfor %}
+									{% endfor %}
+							{% for m in site.data.people %}
+									{% if m.pub_names contains author %}
+											{% capture author_website %}/People/#{{ m.first_name }} {{ m.last_name }}{% endcapture %}
+									{% endif %}
 							{% endfor %}
 
-							{% if forloop.last == false %}
-								{% for m in site.data.people -%}
-									{% if m.pub_names contains author %}
-										{% if eq_flag == 0 and corr_flag == 0  %}
-											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>,
-										{% elsif eq_flag == 1 && corr_flag == 0 %}
-											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
-											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>,
-										{% elsif eq_flag == 0 && corr_flag == 1 %}
-											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors" ></span></a>,
-										{% else %}
-											<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>
-											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>,
-										{% endif %}
+							{% if forloop.last == false %}<span class='comma'>{% endif %}
+									{% if author_website != "" %}
+											<strong><span><a href='{{author_website}}'>{{author}}</a></span></strong>
 									{% else %}
-										{% if eq_flag == 0 and corr_flag == 0  %}
-											<font size=2>{{author}}</font>,
-										{% elsif eq_flag == 1 && corr_flag == 0 %}
-											<font size=2>{{author}}</font>
-										{% elsif eq_flag == 0 && corr_flag == 1 %}
-											<font size=2>{{author}}</font>
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>,
-										{% else %}
-											<font size=2>{{author}} </font>,
-											<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>
-											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>,
-										{% endif %}										
+											<span>{{author}}</span>
 									{% endif %}
-									{% break %}
-								{% endfor %}
-							{% else %}
-									{% for m in site.data.people -%}
-									{% if m.pub_names contains author %}
-									<font size=2><strong><a href='{{m.website}}'>{{author}}</a></strong></font>
-									{% else %}
-									<font size=2>{{author}}</font>
-									{% endif %}
-									{% if eq_flag == 1 -%}
-									<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors">Equal Contributors</span>
-									{% endif %}
-									{% if corr_flag == 1 %}<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors"></span></a>{% endif %}
-									{% break %}
-								{% endfor %}
-							{% endif %}
-							
-					{% endfor -%}
 									
- 
-
-						</p>
-
-
-								<small>{{ pub_authors }}</small>
+									{% if eq_flag == 1 %}
+											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>
+									{% endif %}
+							
+									{% if corr_flag == 1 %}
+										<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors" ></span></a>
+									{% endif %}
+								</span>
+							
+								{% endfor %}
+								<br />
 								<!-- Date -->
 								
 								({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>

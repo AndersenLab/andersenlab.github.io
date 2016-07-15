@@ -26,6 +26,7 @@ menu: people
 {% for m in people %}
 	{% if m.former != true %}
 	<div class="member">
+		<a name="{{ m.first_name }} {{ m.last_name }}"></a>
 		<img src="/assets/img/lab_members/{{ m.photo }}" alt="{{ m.first_name }}" class="thumbnail hidden-xs lab-member-photo" />
 		<img src="/assets/img/lab_members/{{ m.photo }}" alt="{{ m.first_name }}" class="thumbnail visible-xs lab-member-photo-small" />
 		<h4 id="{{ m.first_name }} {{ m.last_name }}">{{ m.first_name }} {{ m.last_name }} <small>{{ m.title }}</small></h4>

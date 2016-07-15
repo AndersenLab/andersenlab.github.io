@@ -9,6 +9,14 @@ body {
 	text-align:left;
 }
 
+.comma {
+    display: inline-block;
+}
+
+.comma span::after  { 
+    content: ", ";
+}
+
 .pub-img, .lab-member-photo {
 	width:150px;
 	float:left;
