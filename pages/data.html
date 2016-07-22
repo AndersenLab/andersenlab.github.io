@@ -7,18 +7,7 @@ menu: research
 ---
 
 <div class="row">
-    <div class="col-<em>md-12</em>">
-        <h4>Publication Data</h4>
-        <div class="list-group" style="margin-bottom:0px;">
-            {% for pub in site.data.pubs_data %}
-                {% if pub.pub_stub %}
-                    <a href="/Research/Data/{{ pub.pub_stub }}/" class="list-group-item">
-                        <h4 class="list-group-item-heading"><small class="pull-right"></small>{{ pub.Stub_title }}</h4>
-                        <!--<p class="list-group-item-text">{{ pub.subtitle }}</p>-->
-                    </a>
-                {% endif %} 
-            {% endfor %}
-        </div>
+    <div class="col-md-6">
         <h3>QX1430 x CB4856 RIAILs</h3>
         <p>Our new collection of advanced intercross recombinant inbred lines (RIAILs) is described in <a href="http://andersenlab.org/pub/2015G3.pdf">Andersen <em>et al</em></a>. QX1430 contains the natural allele of <em>npr-1</em> and a transposon insertion into <em>peel-1</em>. This strain is more compatible with strains containing N2-like <em>zeel-1</em> <em>peel-1</em> and <a href="http://andersenlab.org/pub/2014PLOSGenetics.pdf">eliminates the large physiological effects caused by <em>npr-1</em></a>. The data below include:</p>
         <ol>
@@ -38,5 +27,18 @@ menu: research
             <li><a href="https://github.com/AndersenLab/Rad-Seq/blob/master/supporting%20materials/FullMethods.pdf?raw=true">Supplementary methods</a></li>
             <li><a href="https://github.com/AndersenLab/Rad-Seq/blob/master/supporting%20materials/SupportingMaterial.pdf">Supplementary figures</a></li>
         </ul>
+    </div>
+
+    
+    <div class="col-md-6">
+        <h4>Publication Data</h4>
+        <div class="list-group" style="margin-bottom:0px;">
+            {% for pub in site.data.pubs_data %} {% if pub.pub_stub %}
+            <a href="/Research/Data/{{ pub.pub_stub }}/" class="list-group-item">
+                <h4 class="list-group-item-heading"><small class="pull-right"></small>{{ pub.Stub_title }}</h4>
+                <!--<p class="list-group-item-text">{{ pub.subtitle }}</p>-->
+            </a>
+            {% endif %} {% endfor %}
+        </div>
     </div>
 </div>
