@@ -3,7 +3,7 @@ layout: default
 ---
 
      <h3>{% for pub in site.data.pubs_data %}
-            {% if pub.pub_stub == page.pub_stub %}
+            {% if pub.PDF == page.stub %}
               {{ pub.Title }}
             {% endif %}
           {% endfor %}
@@ -16,79 +16,151 @@ layout: default
   <article class="post-content">
   <div class="row">
 <div class="col-md-6">
+
+{% for pub in site.data.pubs_data %}
+  {% if pub.PDF == page.stub %}
+  {% if pub.PMID %}
+
+    {% assign publication = (site.data.pubs_data | where: "PMID" , pub.PMID) %}
+      {% for pub in publication %}
+          
+<div class="pub">
+
+
+        {% if pub.PDF_switch == true %}
+
+          <div class="pub-img">
+          <a href="/publications/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
+          <img src="/publications/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
+          </a>
+          </div>
+ 
+          <div class="pub-img-small">
+          <a href="/publications/{{pub.PDF}}.pdf" class="thumbnail visible-xs">
+          <img src="/publications/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
+          </a>
+          </div>
+
+    
+        {% else if %}
+
+        {% endif %}
+        
+          <strong>{{ pub.Title }}</strong>
+          {% assign pub_authors=pub.Authors|join:", " %}
+            {% for m in site.data.people %}
+              {% for p in m.pub_names %}
+                {% capture user_url %}
+                <a href='/People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
+                {% assign pub_authors=pub_authors|replace: p, user_url %}
+              {% endfor %}
+            {% endfor %}
+              <br /><small>{{ pub_authors }}</small>
+              <!-- Date -->
+              
+              <br />({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
+              <!-- DOI -->
+              [
+                {% if pub contains 'DOI' %}
+                  <a title="Document Object Identifier; Takes you to the Journal Website" href="http://dx.doi.org/{{ pub.DOI }}">DOI</a>
+                {% endif %}
+
+              <!-- PMID -->
+                {% if pub contains 'PMID' %}
+                 | <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pub.PMID }}">Pubmed</a>
+                {% endif %}
+              <!-- Pubmed Central -->
+                {% if pub.PMC %}
+                | <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
+                {% endif %}
+              ]
+    </div>
+    <div class="clearfix"></div>
+
+
+      {% endfor %}
+  {% endif %}
+
+
+  {% endif %}
+{% endfor %}
+
   <p>{{ content }}</p>
 </div>
   <div class="col-md-6">
   <h3>Datasets</h3>
   {% for pub in site.data.pubs_data %}
-  {% if pub.pub_stub == page.pub_stub %}
-  {% if pub.pub_data.files %}
-    <div class="list-group">
-    {% for file in pub.pub_data.files %}
-      {% if file[1].url %}
-      <a href="{{ file[1].url }}" class="list-group-item">
-        <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
-        {% if file[1].description %}
-          <p class="list-group-item-text">
-            {{ file[1].description }}
-          </p>
+    {% if pub.PDF == page.stub %}
+    {% if pub.pub_data.files %}
+      <div class="list-group">
+      {% for file in pub.pub_data.files %}
+        {% if file[1].url %}
+        <a href="{{ file[1].url }}" class="list-group-item">
+          <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
+          {% if file[1].description %}
+            <p class="list-group-item-text">
+              {{ file[1].description }}
+            </p>
+          {% endif %}
+        </a>
+        {% else %}
+        <a href="/publications/{{ pub.PDF }}/{{ file[0] }}" class="list-group-item">
+          <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
+          {% if file[1].description %}
+            <p class="list-group-item-text">
+              {{ file[1].description }}
+            </p>
+          {% endif %}
+        </a>
         {% endif %}
-      </a>
-      {% else %}
-      <a href="/files/dist/{{ page.pub_stub }}/{{ file[0] }}" class="list-group-item">
-        <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
-        {% if file[1].description %}
-          <p class="list-group-item-text">
-            {{ file[1].description }}
-          </p>
-        {% endif %}
-      </a>
-      {% endif %}
-    {% endfor %}
-    </div>
-  {% endif %}
-  {% endif %}
-{% endfor %}
-</div>
-</div>
-<div class="row">
- <div class="col-md-12">
-  <h3>Supplementary Figures</h3>
-  {% for pub in site.data.pubs_data %}
-  {% if pub.pub_stub == page.pub_stub %}
-  {% if pub.pub_data.files %}
-  <ul>
-  {% for figure in pub.pub_data.figures %}
-    <li><a href="#{{ figure[0] }}"><strong>{{ figure[1].prefix }}</strong></a> - {{ figure[1].title }}</li>
-  {% endfor %}
-  </ul>
+      {% endfor %}
+      </div>
     {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
+
+  {% for pub in site.data.pubs_data %}
+  {% if pub.PDF == page.stub %}
+  {% for figure in pub.pub_data.figures %}
+  {% if forloop.first %}
+  <div class="row">
+   <div class="col-md-12">
+    <h3>Supplementary Figures</h3>
+      <ul>
+  {% endif %}
+    <li><a href="#{{ figure[0] }}"><strong>{{ figure[1].prefix }}</strong></a> - {{ figure[1].title }}</li>
+  {% if forloop.last %}
+  </ul>
+  {% endif %}
+  {% endfor %}
   {% endif %}
 {% endfor %}
  <hr />
   {% for pub in site.data.pubs_data %}
-  {% if pub.pub_stub == page.pub_stub %}
-  {% if pub.pub_data.files %}
-    <ul>
+  {% if pub.PDF == page.stub %}
     {% for figure in pub.pub_data.figures %}
       <div>
       <a name="{{ figure[0] }}"></a>
-      <img src="/files/dist/{{ page.pub_stub }}/{{ figure[0] }}" style="max-width:100%; max-height: 1000px;">
+      <img src="/publications/{{ pub.PDF }}/{{ figure[0] }}" style="max-width:100%; max-height: 1000px;">
       <p><strong>{{ figure[1].prefix }}</strong> - {{ figure[1].title }}</p>
       <p>{{ figure[1].caption }}</p>
       <hr />
       </div>
     {% endfor %}
-    </ul>
   {% endif %}
+
+  {% if forloop.last %}
+  </div>
+  </div>
   {% endif %}
+
+
 {% endfor %}
-</div>
 
 
 
   </article>
 
-	</div>
 
-	</div>

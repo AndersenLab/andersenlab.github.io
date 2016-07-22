@@ -40,14 +40,14 @@ permalink: Publications/
 					{% if pub.PDF_switch == true %}
 
 						<div class="pub-img">
-						<a href="/pub/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
-						<img src="/pub/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
+						<a href="/publications/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
+						<img src="/publications/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
 						</a>
 						</div>
 	 
 						<div class="pub-img-small">
-						<a href="/pub/{{pub.PDF}}.pdf" class="thumbnail visible-xs">
-						<img src="/pub/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
+						<a href="/publications/{{pub.PDF}}.pdf" class="thumbnail visible-xs">
+						<img src="/publications/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
 						</a>
 						</div>
 
@@ -114,6 +114,9 @@ permalink: Publications/
 									{% if pub.PMC %}
 									| <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
 									{% endif %}
+									{% if pub.has_data %}
+					                | <a href="/Research/data/{{ pub.PDF }}">Data</a>
+					                {% endif %}
 									|
 									Citations : {{ pub.Citations }}
 								]

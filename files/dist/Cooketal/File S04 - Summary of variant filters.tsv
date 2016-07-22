@@ -1,5 +1,0 @@
-False Negative	False Negative Rate	False Positive	False Positive Rate	True Positive	True Positive Rate	Filters
-17938.3 ± 85.83	0.183	3077.3 ± 13.46	0.031	77234.3 ± 104.81	0.786	no filters
-1087.2 ± 28.77	0.011	1414.9 ± 19.92	0.014	77234.3 ± 104.81	0.786	remove heterozygotes
-922.3 ± 35.85	0.009	345.7 ± 4.11	0.004	76539.9 ± 104.02	0.779	DP,QUAL,MQ
-7.3 ± 1.64	0	343.6 ± 4.2	0.004	76506.7 ± 105.05	0.779	DV/DP Ratio

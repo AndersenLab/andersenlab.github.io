@@ -1,14 +1,21 @@
 ---
 layout: page
 title: Data
-permalink: Research/Data/
+permalink: /Research/Data/
 published: true
 menu: research 
 ---
 
 <div class="row">
     <div class="col-md-6">
-        <h3>QX1430 x CB4856 RIAILs</h3>
+
+    <h2>Wild Isolate Data</h2>
+
+    <p>Whole genome sequence data and variant data are available at the <a href="http://www.elegansvariation.org"><em>C. elegans</em> Natural Diversity Resource (CeNDR)</a>.</p>
+
+    <h2>RIAIL Data</h2>
+
+        <h4>QX1430 x CB4856 RIAILs</h4>
         <p>Our new collection of advanced intercross recombinant inbred lines (RIAILs) is described in <a href="http://andersenlab.org/pub/2015G3.pdf">Andersen <em>et al</em></a>. QX1430 contains the natural allele of <em>npr-1</em> and a transposon insertion into <em>peel-1</em>. This strain is more compatible with strains containing N2-like <em>zeel-1</em> <em>peel-1</em> and <a href="http://andersenlab.org/pub/2014PLOSGenetics.pdf">eliminates the large physiological effects caused by <em>npr-1</em></a>. The data below include:</p>
         <ol>
             <li>Genotypes for these RIAILs (QX240-QX598) - <a href="http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS1.csv">FileS1</a></li>
@@ -16,16 +23,10 @@ menu: research
             <li>All QTL from Andersen <em>et al.</em>. G3 2015 - <a href="http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS3.csv">FileS3</a></li>
             <li>Plots of all QTL from Andersen <em>et al</em>. G3 2015 - <a href="http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx">FileS4</a></li>
         </ol>
-        <h3>RIAILs</h3>
+        <h4>N2 x CB4856 RIAILs</h4>
         <p>The following binary R data file can be used in R/qtl to map traits of interest using the Rockman <em>et al.</em> RIAILs. It contains: a N2xCB4856 (QX1-QX239) dummy cross object, a N2xCB4856 map object, and a phenotype merging function.</p>
         <ul>
             <li><a href="https://github.com/AndersenLab/N2xCB4856-RIAILS/blob/master/data/N2xCB4856_RIAILs_Rqtlfiles.RData?raw=true">N2xCB4856_RIAILs_Rqtlfiles.RData</a></li>
-        </ul>
-        <h3>Rad-Seq</h3> We sequenced roughly 10% of the genome from 202 wild <em>C. elegans</em> strains in <a href="/pub/2012AndersenNat Genet.pdf">Andersen, Gerke, Shapiro <em>et al.</em></a> Below are the SNP calls, full supplementary methods, full supplementary figures.
-        <ul>
-            <li><a href="https://github.com/AndersenLab/Rad-Seq/blob/master/data/41188SNPset.txt?raw=true">SNP calls</a></li>
-            <li><a href="https://github.com/AndersenLab/Rad-Seq/blob/master/supporting%20materials/FullMethods.pdf?raw=true">Supplementary methods</a></li>
-            <li><a href="https://github.com/AndersenLab/Rad-Seq/blob/master/supporting%20materials/SupportingMaterial.pdf">Supplementary figures</a></li>
         </ul>
     </div>
 
@@ -33,8 +34,8 @@ menu: research
     <div class="col-md-6">
         <h4>Publication Data</h4>
         <div class="list-group" style="margin-bottom:0px;">
-            {% for pub in site.data.pubs_data %} {% if pub.pub_stub %}
-            <a href="/Research/Data/{{ pub.pub_stub }}/" class="list-group-item">
+            {% for pub in site.data.pubs_data %} {% if pub.has_data %}
+            <a href="/Research/Data/{{ pub.PDF }}/" class="list-group-item">
                 <h4 class="list-group-item-heading"><small class="pull-right"></small>{{ pub.Stub_title }}</h4>
                 <!--<p class="list-group-item-text">{{ pub.subtitle }}</p>-->
             </a>

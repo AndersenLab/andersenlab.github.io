@@ -114,7 +114,8 @@
         description: SNVs annotated with SnpEff
         title: Annotated variant set
         url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.snpeff.vcf.gz
-  pub_stub: Cooketal
+  has_data: true
+  PDF: 2016CookGenetics
   status: in_submission
 - Authors:
   - Zamanian M
@@ -200,8 +201,9 @@
   - 10.1534/g3.115.017178
   Date_Published: 2015 Mar 13
   Journal: G3 (Bethesda)
-  PDF: 2015G3
+  PDF: 2015AndersenG3
   PDF_switch: true
+  has_data: true
   PDF_thumb_index: 0
   PMID: 25770127
   Stub_title: <strong>A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis
@@ -211,18 +213,6 @@
     elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant
     Strains.
   pub_data:
-    figures: 
-      supp_figure_filter_thresholds.png:
-          caption: True positive (TP; black), false positive (FP; red), and false negative
-            (FN; purple) rates across variant parameters suggest appropriate filter
-            thresholds. The y-axis is the rate is the rate of TP compared with either
-            FP or FN variants. The rate of TP and FP or FN is plotted on the x-axis
-            across <strong>(A)</strong> depth of coverage, <strong>(B)</strong>, mapping
-            quality, or <strong>(C)</strong> the number of high-quality non-reference
-            bases (DV) over depth (DP) at a given site.
-          prefix: Supplementary Figure 11
-          title: Evaluation of variant-calling parameters from a simulated variant data
-            set
     files:
       Supplementary File 01:
         description: Genotypes for these RIAILs (QX240-QX598)
@@ -409,7 +399,8 @@
   - Gerke JP
   - Shapiro JA
   Journal: Nature Genetics
-  PDF: 2012AndersenNat Genet
+  has_data: True
+  PDF: 2012AndersenNatureGenetics
   PDF_switch: true
   PDF_thumb_index: 0
   PMC: PMC3365839
@@ -418,7 +409,17 @@
     genomic diversity.</strong>  Andersen, Gerke, Shapiro <em>et al</em>.
   Title: Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic
     diversity.
-  # pub_stub: Selectivesweeps
+  pub_data:
+    files:
+      Rad-Seq SNP Calls:
+        title: Rad-Seq SNP Calls
+        url: https://github.com/AndersenLab/Rad-Seq/raw/master/data/41188.SNP.WS210.txt
+      Supplementary Methods:
+        title: Supplementary Methods
+        url: https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/FullMethods.pdf
+      Supplementary Figures:
+        title: Supplementary Figures
+        url: https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/SupportingMaterial.pdf
 - Authors:
   - Andersen EC
   Citations: 9
