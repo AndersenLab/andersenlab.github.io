@@ -84,6 +84,7 @@
 
 - first_name: Shannon
   last_name: Brady
+  pub_names: ["Brady SC"]
   title: Graduate Student
   description: I am interested in the genotypic factors that contribute to drug sensitivity, especially in regards to chemotherapeutics.
   photo: Shannon_brady.jpg

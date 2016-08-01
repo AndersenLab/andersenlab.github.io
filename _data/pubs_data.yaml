@@ -1,3 +1,15 @@
+- Authors: [Large EE, Xu W, Zhao Y, Brady SC, Long L, Butcher RA, Andersen EC, McGrath
+      PT]
+  DOI: 10.1371/journal.pgen.1006219
+  Date_Published: 2016 July 28
+  Citations: 0
+  Journal: PLoS Genet.
+  PMC: null
+  PMID: '27467070'
+  Title: Selection on a Subunit of the NURF Chromatin Remodeler Modifies Life History
+    Traits in a Domesticated Strain of Caenorhabditis elegans.
+  PDF: 2016LargePLOS
+  PDF_switch: true
 - Authors:
   - Cook DE
   Citations: 0
@@ -117,6 +129,7 @@
   has_data: true
   PDF: 2016CookGenetics
   status: in_submission
+  PMID: 27449056
 - Authors:
   - Zamanian M
   - Andersen EC
