@@ -127,7 +127,7 @@
         title: Annotated variant set
         url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.snpeff.vcf.gz
   has_data: true
-  PDF: 2016CookGenetics
+  PDF: Cooketal
   status: in_submission
   PMID: 27449056
 - Authors:
