@@ -6,4 +6,4 @@ tags: news
 ---
 Dan's telomere-length variation paper was accepted for publication at <em><a href="http://www.genetics.org">Genetics</a></em>!
 
-Data available [here](/Research/Data/2016CookGenetics/).
+Data available [here](/Research/Data/Cooketal/).
