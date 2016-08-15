@@ -48,9 +48,6 @@ layout: default
           
 <div class="pub">
 
-
-        {% if pub.PDF_switch == true %}
-
           <div class="pub-img">
           <a href="/publications/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
           <img src="/publications/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
@@ -62,11 +59,6 @@ layout: default
           <img src="/publications/{{ pub.PDF}}.thumb.png" alt="{{pub.PDF}}" />
           </a>
           </div>
-
-    
-        {% else if %}
-
-        {% endif %}
         
           <strong>{{ pub.Title }}</strong>
           {% assign pub_authors=pub.Authors|join:", " %}

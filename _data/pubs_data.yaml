@@ -7,11 +7,14 @@
   PMC: null
   PMID: '27467070'
   Title: Selection on a Subunit of the NURF Chromatin Remodeler Modifies Life History
-    Traits in a Domesticated Strain of Caenorhabditis elegans.
+    Traits in a Domesticated Strain of <em>Caenorhabditis elegans</em>.
   PDF: 2016LargePLOS
-  PDF_switch: true
-- Authors:
-  - Cook DE
+- Authors: [Cook DE, Zdraljevic S, Tanny RE, Seo B, Riccardi DD, Noble LM, Rockman
+      MV, Alkema MJ, Braendle C, Kammenga JE, Wang J, Kruglyak L, "F\xE9lix MA", Lee
+      J, Andersen EC]
+  Date_Published: 2016 September
+  Journal: Genetics
+  DOI: 10.1534/genetics.116.191148
   Citations: 0
   Stub_title: <strong>The genetic basis of natural variation in <em>C. elegans</em>
     telomere length.</strong> Cook <em>et al</em>.
@@ -128,7 +131,7 @@
         url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.snpeff.vcf.gz
   has_data: true
   PDF: Cooketal
-  status: in_submission
+  status: published
   PMID: 27449056
 - Authors:
   - Zamanian M
@@ -141,8 +144,6 @@
   Journal: FEBS Journal
   Citations: 0
   PDF: 2016ZamanianFEBS
-  PDF_switch: true
-  PDF_thumb_index: 1
   PMID: 27300487
   Title: "Prospects and challenges of CRISPR/Cas genome editing for the study and control of neglected vector-borne nematode diseases."
 - Authors:
@@ -174,8 +175,6 @@
   Date_Published: 2015 May 19
   Journal: Genetics
   PDF: 2015genetics_v2
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMID: 25995208
   Title: Remarkably Divergent Regions Punctuate the Genome Assembly of the <em>Caenorhabditis
     elegans</em> Hawaiian Strain CB4856.
@@ -193,8 +192,6 @@
   Date_Published: 2015 Mar 21
   Journal: Trends in Genetics
   PDF: 2015Trendsingenetics
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMID: 25804345
   Title: The laboratory domestication of <em>Caenorhabditis elegans</em>.
 - Authors:
@@ -215,9 +212,7 @@
   Date_Published: 2015 Mar 13
   Journal: G3 (Bethesda)
   PDF: 2015AndersenG3
-  PDF_switch: true
   has_data: true
-  PDF_thumb_index: 0
   PMID: 25770127
   Stub_title: <strong>A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis
     elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant
@@ -259,8 +254,6 @@
   Date_Published: 2015 Feb 11
   Journal: Current Biology
   PDF: 2015currbio
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMID: 25683802
   Title: Scaling, Selection, and Evolutionary Dynamics of the Mitotic Spindle.
 - Authors:
@@ -284,8 +277,6 @@
   Date_Published: 2015 Feb
   Journal: Evolution
   PDF: 2015Evolution
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC4310795
   PMID: '25495240'
   Title: 'The red death meets the abdominal bristle: Polygenic mutation for susceptibility
@@ -303,8 +294,6 @@
   Date_Published: 2015 Feb
   Journal: PLoS Pathogens
   PDF: 2015PLOSPATHOG
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC4334554
   PMID: '25680197'
   Title: A wild <em>C. elegans</em> strain has enhanced epithelial immunity to a natural
@@ -320,8 +309,6 @@
   Date_Published: 2014 Oct 20
   Journal: PLoS One
   PDF: 2014journal.pone.0111090
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC4203834
   PMID: 25329171
   Title: 'COPASutils: An R Package for Reading, Processing, and Visualizing Data from
@@ -340,8 +327,6 @@
   Date_Published: 2014 Feb
   Journal: PLoS Genetics
   PDF: 2014PLOSGenetics
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC3937155
   PMID: 24586193
   Title: A variant in the neuropeptide receptor <em>npr-1</em> is a major determinant
@@ -366,8 +351,6 @@
   - Jovelin R
   Journal: BMC Evolutionary Biology
   PDF: 2013FelixBMC-EvolBio
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC3556333
   PMID: 23311925
   Title: Species richness, distribution and genetic diversity of <em>Caenorhabditis</em>
@@ -386,8 +369,6 @@
   Date_Published: 2012 Feb 3
   Journal: Science
   PDF: 2012GhoshScience
-  PDF_switch: true
-  PDF_thumb_index: 1
   PMC: PMC3273849
   PMID: '22301316'
   Title: Natural variation in a chloride channel subunit confers avermectin resistance
@@ -414,8 +395,6 @@
   Journal: Nature Genetics
   has_data: True
   PDF: 2012AndersenNatureGenetics
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC3365839
   PMID: '22286215'
   Stub_title: <strong>Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em>
@@ -443,8 +422,6 @@
   Date_Published: 2011 Jul 08
   Journal: Methods in Molecular Biology
   PDF: 2011AndersenMethods-Mol-Biol
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMID: '22065452'
   Title: PCR-directed <em>in vivo</em> plasmid construction using homologous recombination
     in baker's yeast.
@@ -460,8 +437,6 @@
   Date_Published: 2010 Jan
   Journal: PLoS Genetics
   PDF: 2010BesslerPLoS-Genet
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC2809760
   PMID: '20107519'
   Title: Differential localization and independent acquisition of the H3K9me2 and
@@ -483,8 +458,6 @@
   - Rifkin SA
   Journal: Nature
   PDF: 2010RajNature
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC2836165
   PMID: '20164922'
   Title: Variability in gene expression underlies incomplete penetrance.
@@ -505,8 +478,6 @@
   - Andersen EC
   Journal: Science
   PDF: 2009ReddyScience
-  PDF_switch: true
-  PDF_thumb_index: 1
   PMC: PMC2748219
   PMID: '19150845'
   Title: A polymorphism in <em>npr-1</em> is a behavioral determinant of pathogen
@@ -523,8 +494,6 @@
   Date_Published: 2008 Aug
   Journal: Genetics
   PDF: 2008AndersenGenetics
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC2516075
   PMID: '18689876'
   Title: Multiple levels of redundant processes inhibit <em>Caenorhabditis elegans</em>
@@ -540,8 +509,6 @@
   Date_Published: 2007 Aug
   Journal: Development
   PDF: 2007AndersenDevelopment
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMID: '17634190'
   Title: Two <em>C. elegans</em> histone methyltransferases repress <em>lin-3</em>
     EGF transcription to inhibit vulval development.
@@ -556,8 +523,6 @@
   Date_Published: 2007 Apr
   Journal: Genetics
   PDF: 2007ReddienGenetics
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMC: PMC1855110
   PMID: '17237514'
   Title: DPL-1 DP, LIN-35 Rb and EFL-1 E2F act with the MCD-1 zinc-finger protein
@@ -574,8 +539,6 @@
   Date_Published: 2006 Jul
   Journal: Development
   PDF: 2006AndersenDevelopment
-  PDF_switch: true
-  PDF_thumb_index: 0
   PMID: '16774993'
   Title: <em>C. elegans</em> ISWI and NURF301 antagonize an Rb-like pathway in the
     determination of multiple cell fates.
@@ -593,7 +556,5 @@
   Date_Published: 2001 Aug 31
   Journal: Science
   PDF: 2001FurlongScience
-  PDF_switch: true
-  PDF_thumb_index: 1
   PMID: '11486054'
   Title: Patterns of gene expression during <em>Drosophila</em> mesoderm development

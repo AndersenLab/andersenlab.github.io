@@ -61,7 +61,11 @@ menu: people
 {% for m in people %}
 <ul>
 	{% if m.former == true %}
-		<li><h4 id="{{ m.first_name }} {{ m.last_name }}">{{ m.first_name }} {{ m.last_name }} <small>{{ m.title }}</small></h4></li>
+		<li><h4 id="{{ m.first_name }} {{ m.last_name }}">{{ m.first_name }} {{ m.last_name }} <small>{{ m.title }}</small></h4>
+		{% if m.current_status %}
+		<div style='padding-left: 40px;'><strong>Currently:</strong> {{ m.current_status }}</div><br />
+		{% endif %}
+		</li>
 	{% endif %}
 </ul>
 {% endfor %}
