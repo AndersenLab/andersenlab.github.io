@@ -2,10 +2,10 @@
   file: Microinjection.pdf
   group: General <em>C. elegans</em>
 - Name: Yeast-mediated ligation plasmid construction
-  file: Yeast-mediated ligation plasmid construction.pdf
+  file: yeast-mediated-ligation-protocol
   group: DNA Methods
 - Name: <em>Pseudomonas aeruginosa</em> Slow-killing assay</a>
-  file: SKA Large Plate Selection assay.pdf
+  file: SKALargePlateSelection.pdf
   group: DNA Methods
 - Name: Collecting Nematodes from the Wild
   file: WormCollectionProtocol.pdf
