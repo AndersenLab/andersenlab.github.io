@@ -1,131 +1,111 @@
-- Group: General <em>C. elegans</em> methods
-  open_row: True
-  close_row: False
-  files:
-  - Name: EMS mutagenesis
-    file: EMS-mutagenesis.pdf
-
-  - Name: Superbroth and HB101 growth
-    file: Superbroth-and-HB101-growth.pdf
-
-  - Name: Microinjection
-    file: Superbroth-and-HB101-growth.pdf
-  
-  - Name: RNA synthesis and annealing for RNAi injection
-    file: RNA-synthesis-and-annealing-for-RNAi-injection.pdf
-
-  - Name: Methanol/Acetone fixation for Whole-mount staining
-    file: MethanolAcetone-Fixation.pdf
-  
-  - Name: Worm Collection Protocol
-    file: 20151206_WormCollectingProtocol.pdf
-
-  - Name: Cleaning Worms
-    file: CleaningWorms.pdf
-
-  - Name: Chunking Worms
-    file: ChunkingWorms.pdf
-
-  - Name: Defecation Assay
-    file: DefecationAssay.pdf
-
-  - Name: Freezing/Thawing Worms for long term Storage
-    file: FreezingThawingWormsForLongTermStorage.pdf
-
-  - Name: Flow Chart For A Cross
-    file: IntrogressionCrossFlowChart.pdf
-
-  - Name: Isolating Wild Isolates
-    file: IsolatingWildIsolates.pdf
-
-  - Name: Semi-Quantitative Brood Assay
-    file: SemiQuantitativeBroodAssay.pdf
-
-  - Name: Shipping Strains
-    file: ShippingStrains.pdf
-
-  - Name: Single Worm Genotyping
-    file: SingleWormGenotyping.pdf
-
-  - Name: Synchronizing Worms by Bleaching
-    file: SynchronizingWormsbyBleaching.pdf
-
-  - Name: Worm Maintenance
-    file: WormMaintenance.pdf
-
-  - Name: Anderson Sorter Protocols
-    file: AndersenSorterProtocols.pdf
-
-  - Name: Set Up 96-Well Aspirator
-    file: SetUp96WellAspirator.pdf
-
-- Group: DNA Methods
-  open_row: False 
-  close_row: False
-  files:
-  - Name: Qiagen Gentra DNA preparation for C. elegans
-    file: PurificationDNAfromnematodes.pdf
-
-  - Name: DNA salting out for C. elegans
-    file: Worm-DNA-by-Salting-Out.pdf
-
-  - Name: Yeast-mediated ligation plasmid construction
-    file: yeast-mediated-ligation-protocol.pdf
-  
-  - Name: Quantification Of DNA
-    file: 96-wellDNAQuantification_Synergy4_Qubit_v2.pdf
-
-  - Name: Diluted Transposome 96-well Omega Bio-Tek DNA Prep
-    file: 96wellDNAPrep_Omega.pdf
-
-  - Name: DNAEasy Genomic Prep
-    file: DNAEasyGenomicDNAPrep.pdf
-
-  - Name: High Multiplexing Tagmentation Illumina Library Prep
-    file: HighMultiplexingTagmentationIlluminaLibraryPrep.pdf
-
-  - Name: Nextera Library Generation_Low Multiplexing Tagmentation.pdf
-    file: NexteraLibraryGeneration_LowMultiplexingTagmentation.pdf
-
-  - Name: SKA Large Plate Selection
-    file: SKALargePlateSelection.pdf
-
-
-- Group: RNA Methods
-  open_row: False
-  close_row: True
-  files:
-  - Name: <em>C. elegans</em> total RNA preperation</a>
-    file: Total-RNA-Isolation.pdf
-
-- Group: Protein Methods
-  open_row: True
-  close_row: False
-  files:
-  - Name: Quantitative Western Blotting
-    file: Quantitative-Western-Blot-Protocol.pdf
-
-- Group: <em>C. elegans</em> phenotyping methods
-  open_row: False
-  close_row: True
-  files:
-  - Name: <em>Pseudomonas aeruginosa</em> Fast-killing assay</a>
-    file: FKAprotocol.pdf
-  - Name: <em>Pseudomonas aeruginosa</em> Slow-killing assay</a>
-    file: SKA_Protocol.pdf
-  - Name: <em>Staphylococcus aureus</em> killing assay</a>
-    file: Staphaureus_Protocol.pdf
-  - Name: <em>Bacillus thuringiensis</em> toxin assay on plates</a>
-    file: Bacillus-thuringiensis-toxin-plate-assay.pdf
-  - Name: L1 arrest survival
-    file: Quantitative-L1-arrest-protocol.pdf
-  - Name: High-Throughput Brood Size Pumping Assay
-    file: High-ThroughputBroodSizePumpingAssayV2.0.pdf
-
-
-
-
-
-
-
-
+- Name: Microinjection
+  file: Microinjection.pdf
+  group: General <em>C. elegans</em>
+- Name: Yeast-mediated ligation plasmid construction
+  file: Yeast-mediated ligation plasmid construction.pdf
+  group: DNA Methods
+- Name: <em>Pseudomonas aeruginosa</em> Slow-killing assay</a>
+  file: SKA Large Plate Selection assay.pdf
+  group: DNA Methods
+- Name: Collecting Nematodes from the Wild
+  file: WormCollectionProtocol.pdf
+  group: General <em>C. elegans</em>
+- Name: Cleaning Worms
+  file: CleaningWorms.pdf
+  group: General <em>C. elegans</em>
+- Name: Freezing/Thawing Worms for Long-Term Storage
+  file: FreezingThawingWormsForLongTermStorage.pdf
+  group: General <em>C. elegans</em>
+- Name: Semi-Quantitative Brood Assay
+  file: SemiQuantitativeBroodAssay.pdf
+  group: <em>C. elegans</em> Phenotyping Methods
+- Name: Synchronizing Worms by Bleaching
+  file: SynchronizingWormsbyBleaching.pdf
+  group: General <em>C. elegans</em>
+- Name: COPAS BIOSORT StartUp/ShutDown
+  file: AndersenSorterProtocols.pdf
+  group: COPAS BIOSORT
+- Name: 96-Well DNAPrep - Omega Bio-tek
+  file: 96wellDNAPrepOmega.pdf
+  group: DNA Methods
+- Name: 96-Well High-multiplexing Tagmentation and Amplification
+  file: 96-well High-multiplexing Tagmentation and Amplification.pdf
+  group: DNA Methods
+- Name: Generating Libraries for Whole-Genome Sequencing
+  file: NexteraLibraryGenerationLowMultiplexingTagmentation.pdf
+  group: DNA Methods
+- Name: COPAS High-Throughput Assay
+  file: High-ThroughputBroodSizePumpingAssay v2.0.pdf
+  group: COPAS BIOSORT
+- Name: 96-Well Quantification Of DNA
+  file: 96-wellDNAQuantification_Synergy4_Qubit_v2.pdf
+  group: DNA Methods
+- Name: 96-Well DNAPrep - Gentra Purgene
+  file: 96-wellDNAPrepGentra.pdf
+  group: DNA Methods
+- Name: Crude Dauer Pheromone Prep
+  file: CrudeDauerPheromonePrep.pdf
+  group: General <em>C. elegans</em>
+- Name: How To Make Cholesterol
+  file: HowToMakeCholesterol.pdf
+  group: General Laboratory Methods
+- Name: Growing OP50 Cultures for Seeding Plates
+  file: GrowingOP50CulturesforSeedingPlates.pdf
+  group: General <em>C. elegans</em>
+- Name: Seeding NGMA Plates With Bacteria
+  file: SeedingNGMAPlatesWithBacteria.pdf
+  group: General <em>C. elegans</em>
+- Name: Generating Libraries for MinION (R7.3)
+  file: MinION_R7.3.pdf
+  group: DNA Methods
+- Name: Media and Solutions Recipes
+  file: MediaAndSolutionsRecipes.pdf
+  group: General Laboratory Methods
+- Name: COPAS Conversion of Bubble Trap
+  file: ConvertBubbletoNonBubble.pdf
+  group: COPAS BIOSORT
+- Name: Bacterial Food Growth Protocol for High-Throughput Assay
+  file: Bacterial Food Growth Protocol for HTA.pdf
+  group: General <em>C. elegans</em>
+- Name: Bleaching and Dispensing of C. elegans using the BioTek MicroFlo Select
+  file: 96-well bleaching and automated dispensing.pdf
+  group: General <em>C. elegans</em>
+- Name: Expanding Fosmid Libraries from 384-Well plates to 96-Well plates
+  file: Copy384WellTo96WellLibraryPlates.pdf
+  group: General Laboratory Methods
+- Name: How to Dilute DNA Ladder
+  file: HowtodiluteDNAladder.pdf
+  group: General Laboratory Methods
+- Name: Autoclave Sterilizing Liquids & Labware
+  file: AutoclaveSterilizingLiquids&Labware.pdf
+  group: General Laboratory Methods
+- Name: Filling the Liquid Nitrogen Tank
+  file: FillingLiquidNitrogen.pdf
+  group: General Laboratory Methods
+- Name: Changing the Carousel on the Plate Pourer
+  file: PlatePourerMachine-ChangingTheCarousel.pdf
+  group: General Laboratory Methods
+- Name: Washing Labware
+  file: WashingProtocols.pdf
+  group: General Laboratory Methods
+- Name: Tips for Using the COPAS BIOSORT
+  file: Sorterbestpractices.pdf
+  group: COPAS BIOSORT
+- Name: Pouring NGMA Plates Using the Automatic Plate Pourer
+  file: PlatePouring.pdf
+  group: General Laboratory Methods
+- Name: Concentrated M9 Recipe
+  file: ConcentratedM9Recipe.pdf
+  group: General Laboratory Methods
+- Name: Using BioTek Microplate Dispensor
+  file: UsingBioTekMicroplateDispensor.pdf
+  group: General Laboratory Methods
+- Name: RNA synthesis and annealing for RNAi injection
+  file: RNA-synthesis-and-annealing-for-RNAi-injection.pdf
+  group: RNA Methods
+- Name: Defecation Assay
+  file: DefecationAssay.pdf
+  group: <em>C. elegans</em> Phenotyping Methods
+- Name: Set Up 96-Well Aspirator
+  file: SetUp96WellAspirator.pdf
+  group: General Laboratory Methods

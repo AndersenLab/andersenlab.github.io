@@ -7,16 +7,16 @@ published: true
 ---
 
 
-{% assign protocol_groups = site.data.protocols %}
+{% assign protocol_groups = site.data.protocols| group_by:"group" | sort: 'group' %}
+
 {% for group in protocol_groups %}
-	{% if group.open_row %} <div class="row"> {% endif %}
-	<div class="col-sm-6">
-	<h3> {{ group.Group }}</h3>
+	<div class="col-sm-12">
+	<h3>{{ group.name }}</h3>
 	<ul>
-		{% for protocol in group.files  %}
+		{% assign items = group.items | sort: 'Name' %}
+		{% for protocol in items  %}
 		<li><a href="/Protocols/{{ protocol.file }}">{{ protocol.Name }}</a></li>
 		{% endfor %}
 	</ul>
 	</div>
-	{% if group.close_row %} </div> {% endif %}
 {% endfor %}
