@@ -5,14 +5,14 @@ menu: tools
 permalink: /fosmid/
 ---
 <div class="row">
-	<div class="col-md-12">
+  <div class="col-md-12">
 
 <!-- Generate fosmid file
-export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, strain = "CB")) %>% ungroup() %>% dplyr::rename(chromosome = chr) %>% dplyr::arrange(strain, chromosome, start) %>% select(-newpos), "~/coding/git/andersenlab.github.io/_data/fosmids.tsv", quote = F)
+export(rbind(mutate(Search_N2fosmids2, strain = "N2"),mutate(Search_CBfosmids2, strain = "CB")) %>% ungroup() %>% dplyr::rename(chromosome = chr) %>% dplyr::arrange(strain, chromosome, start) %>% select(-newpos), "~/coding/git/andersenlab.github.io/files/fosmids.tsv", quote = F)
 -->
 
 
-<div class="pull-right"><a href="/distr/fosmids.tsv">Download Full Fosmids Dataset</a></div>
+<div class="pull-right"><a href="/files/fosmids.tsv">Download Full Fosmids Dataset</a></div>
 
 <form class="form-inline">
   <div id="search_input" class="form-group">
@@ -56,7 +56,7 @@ var chrom_max_len = {"I":"15072434", "II":"15279421", "III":"13783801",
                       "MtDNA": "13794"}
 
 // Load Fosmid Data
-d3.tsv("/distr/fosmids.tsv").get(function(error, d) {
+d3.tsv("/files/fosmids.tsv").get(function(error, d) {
     if (error) throw error;
     d.forEach(function(d) {
       d.start = +d.start;
