@@ -1,7 +1,18 @@
+- Authors: [Cook DE, Zdraljevic S, Roberts JP, Andersen EC]
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  DOI:
+  - 10.1093/nar/gkw893
+  Date_Published: 2016 Oct 3
+  Journal: Oxford University Press
+  Citations: 0
+  PDF: 2016CookOxford
+  PMID: 27701074
+  Title: "CeNDR, the Caenorhabditis elegans natural diversity resource"
 - Authors: [Cook DE, Zdraljevic S, Tanny RE, Seo B, Riccardi DD, Noble LM, Rockman
       MV, Alkema MJ, Braendle C, Kammenga JE, Wang J, Kruglyak L, "F\xE9lix MA", Lee
       J, Andersen EC]
-  Date_Published: 2016 September
+  Date_Published: 2016 Sep 1
   Journal: Genetics
   DOI: 10.1534/genetics.116.191148
   Citations: 0
@@ -122,19 +133,16 @@
   PDF: Cooketal
   status: published
   PMID: 27449056
-- Authors:
-  - Zamanian M
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI:
-  - 10.1111/febs.13781
-  Date_Published: 2016 June 13
-  Journal: FEBS Journal
+- Authors: [Farhadifar R, Ponciano JM, Andersen EC, Needleman DJ, Baer CF]
+  DOI: 10.1534/genetics.115.185736
+  Date_Published: 2016 Aug 1
+  Journal: Genetics
   Citations: 0
-  PDF: 2016ZamanianFEBS
-  PMID: 27300487
-  Title: "Prospects and challenges of CRISPR/Cas genome editing for the study and control of neglected vector-borne nematode diseases."
+  PMC: '4981282'
+  PMID: '27334268'
+  Title: Mutation Is a Sufficient and Robust Predictor of Genetic Variation for Mitotic
+    Spindle Traits in Caenorhabditis elegans.
+  PDF: 2016FarhadifarGenetics
 - Authors: [Large EE, Xu W, Zhao Y, Brady SC, Long L, Butcher RA, Andersen EC, McGrath
       PT]
   DOI: 10.1371/journal.pgen.1006219
@@ -146,6 +154,19 @@
   Title: Selection on a Subunit of the NURF Chromatin Remodeler Modifies Life History
     Traits in a Domesticated Strain of <em>Caenorhabditis elegans</em>.
   PDF: 2016LargePLOS
+- Authors:
+  - Zamanian M
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  DOI:
+  - 10.1111/febs.13781
+  Date_Published: 2016 July 11
+  Journal: FEBS Journal
+  Citations: 0
+  PDF: 2016ZamanianFEBS
+  PMID: 27300487
+  Title: "Prospects and challenges of CRISPR/Cas genome editing for the study and control of neglected vector-borne nematode diseases."
 - Authors:
   - Thompson OA
   - Snoek LB

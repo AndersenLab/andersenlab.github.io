@@ -1,6 +1,8 @@
 # Put PMIDs or doi's here and run scripts/fetch_pubs.py
+27701074
 27467070
 27449056
+27334268
 25804345
 25770127
 25683802
