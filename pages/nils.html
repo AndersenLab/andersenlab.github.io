@@ -19,21 +19,24 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
   <div class="controls">
     <label for="nils-search">Search</label>
     <input type="text" class="form-control error" id="nils-search" placeholder="II:1-100000" value = "II:2000000-9000000" autocomplete="off">
+    <button onclick ="zoom_in()" type="button" class="btn btn-default btn-sm rounded" value="+"> + </button>
+    <button onclick ="zoom_out()" type="button" class="btn btn-default btn-sm rounded" value="-"> - </button>
 &nbsp;&nbsp;
 <input type="radio" name="strain" id="N2" value="N2"> <label for="N2">N2</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="CB4856" value="CB4856"> <label for="CB4856">CB4856</label>&nbsp;&nbsp;
 <input type="radio" name="strain" id="Both" value="Both" checked> <label for="Both">Both</label>
 &nbsp;&nbsp;
-<button type="button" class="btn btn-default btn-sm rounded" value="I"> I</button>
-<button type="button" class="btn btn-default btn-sm rounded" value="II"> II</button>
-<button type="button" class="btn btn-default btn-sm rounded" value="III"> III</button>
-<button type="button" class="btn btn-default btn-sm rounded" value="IV"> IV</button>
-<button type="button" class="btn btn-default btn-sm rounded" value="V"> V</button>
-<button type="button" class="btn btn-default btn-sm rounded" value="X"> X</button>
-<button type="button" class="btn btn-default btn-sm rounded" value="MtDNA"> MtDNA</button>
+<button type="button" class="chrom btn btn-default btn-sm rounded" value="I"> I</button>
+<button type="button" class="chrom btn btn-default btn-sm rounded" value="II"> II</button>
+<button type="button" class="chrom btn btn-default btn-sm rounded" value="III"> III</button>
+<button type="button" class="chrom btn btn-default btn-sm rounded" value="IV"> IV</button>
+<button type="button" class="chrom btn btn-default btn-sm rounded" value="V"> V</button>
+<button type="button" class="chrom btn btn-default btn-sm rounded" value="X"> X</button>
+<button type="button" class="chrom btn btn-default btn-sm rounded" value="MtDNA"> MtDNA</button>
 
 
   <span id="helpBlock" class="help-block">Interval End must be greater than interval start.</span>
+  <span id="ZoomOutLimit" class="help-block"> Cannot zoom out further.</span>
 
     </div>
 
@@ -48,12 +51,14 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
 
 
 <script>
+
 function init() {
   Tabletop.init( { key: '1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA',
                    callback: showInfo,
                    simpleSheet: true } )
+   $("#helpBlock").hide();
+   $("#ZoomOutLimit").hide();
 }
-
 var previous = "II:2000000-9000000";
 var chrom_max_len = {"I":"15072434", "II":"15279421", "III":"13783801", 
                       "IV":"17493829", "V":"20924180", "X":"17718942",
@@ -73,23 +78,18 @@ function showInfo(data, tabletop) {
           .classed("table table-condensed table-striped", true), 
           thead = table.append("thead"),
           tbody = table.append("tbody");
-
        var hrow = thead.append("tr")
             .selectAll("th")
             .data(Object.keys(rdata[0]))
             .enter()
             .append("th")
             .text(function(d) { return d; });
-
     // Initial Draw
     draw_nils($("#nils-search").val())
   }
-
-
     d3.select("#nils-search").on("input", function() {
       draw_nils(this.value);
     });
-
 function draw_nils(i) {
   // Remove existing
       d3.selectAll("#ftable tbody tr").remove();
@@ -104,6 +104,7 @@ function draw_nils(i) {
           if (end > start) {
             $("#search_input").removeClass("has-error");
             $("#helpBlock").hide();
+            $("#ZoomOutLimit").hide();
             filter_results(chrom, start, end);
           } else {
           $("#search_input").addClass("has-error");
@@ -117,17 +118,14 @@ function draw_nils(i) {
         } 
     }
 }    
-
 function comma(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-
 function full_range(chrom){
-          $("#nils-search").val(chrom+":"+"0-"+chrom_max_len[chrom]);
+          $("#nils-search").val(chrom+":"+"0-"+chrom_max_len[chrom]); 
 }
-
 function filter_results(chrom, start, end) {
-
+  var length = chrom_max_len[chrom];
     filter_data = rdata.filter(function(d) {
       subset_strain = $('input[name=strain]:checked').val();
       if (d["chromosome"] == chrom && 
@@ -145,12 +143,10 @@ function filter_results(chrom, start, end) {
         return d
       }
     })
-
     var rows = d3.select("tbody").selectAll("tr")
       .data(filter_data)
     .enter()
       .append("tr");
-
     var cells = rows.selectAll("td")
       .data(function(row) {
           return d3.range(Object.keys(row).length).map(function(column, i) {
@@ -164,26 +160,22 @@ function filter_results(chrom, start, end) {
     .enter()
       .append("td")
       .text(function(d) { return d; });
-
    // Draw Gene Glyph
    // Get Canvas and Create Chart
-
    var canvas = $("#gene_glyph"); 
    var canv_width = canvas.parent().width()
-
    $("canvas").attr("width", canv_width);
    // Create Chart
    glyph = new Scribl(canvas[0], canv_width);
    glyph.redraw();
-
    glyph.laneBuffer = 2;
    glyph.trackBuffer = 5;
    glyph.scale.min = start - (end-start)*0.1;
    glyph.scale.max = end + (end-start)*0.1;
-
    filter_data.forEach(function(d) {
+      var l= chrom_max_len[chrom];
       track = glyph.addTrack().addLane();  
-      strain = track.addFeature( new Rect('gene', 1, 20000000, "+"));
+      strain = track.addFeature( new Rect('gene', 1, parseInt(l), "+")); // length was previously set to 20000000
       nil = track.addFeature( new Rect('gene', d["start"], d["end"] - d["start"], "+"));
       nil.name = d["clone"];
       if (d["nil_genotype"] == "N2") {
@@ -198,12 +190,9 @@ function filter_results(chrom, start, end) {
       nil.text.size = 18;
       nil.text.font = 'monospace';
    })
-
    glyph.laneSizes = (20 + (glyph.getFeatures().length/12)) / (glyph.getFeatures().length/12)
-
    $("canvas").attr("height", 480);
    glyph.draw();
-
    var boundary = document.getElementById("gene_glyph").getContext("2d");
     // Start
     boundary.beginPath();
@@ -217,25 +206,63 @@ function filter_results(chrom, start, end) {
     boundary.lineTo(glyph.pixelsToNts(end) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 1000);
     boundary.strokeStyle = "#FF0000";
     boundary.stroke();
-
-
-
 }
+
+function zoom_in() {
+  $("#ZoomOutLimit").hide();
+  var i = $("#nils-search").val();
+  i = i.split(":");
+  var chrom = i[0];
+  var range = i[1];
+  range = range.split("-")
+  var start = parseInt(range[0].replace(/,/g,""));
+  var end = parseInt(range[1].replace(/,/g,""));
+  var difference = end-start;
+  const ZOOM_CONSTANT = .2;
+  start = Math.round(start+(ZOOM_CONSTANT*difference));
+  end = Math.round(end-(ZOOM_CONSTANT*difference));
+  var loc = chrom+":"+start.toString()+"-"+end.toString();
+  $("#nils-search").val(loc);
+  draw_nils(loc);
+}
+
+function zoom_out() {
+  var i = $("#nils-search").val();
+  i = i.split(":");
+  var chrom = i[0];
+  var range = i[1];
+  range = range.split("-")
+  var start = parseInt(range[0].replace(/,/g,""));
+  var end = parseInt(range[1].replace(/,/g,""));
+  var difference = end-start;
+  const ZOOM_CONSTANT = .2;
+  if (start-(ZOOM_CONSTANT*difference) >0) {
+    $("#search_input").removeClass("has-error");
+    $("#ZoomOutLimit").hide();
+    start = Math.round(start-(ZOOM_CONSTANT*difference));
+    end = Math.round(end+(ZOOM_CONSTANT*difference));
+    var loc = chrom+":"+start.toString()+"-"+end.toString();
+    $("#nils-search").val(loc);
+    draw_nils(loc); 
+  }
+  else {
+     $("#search_input").addClass("has-error");
+     $("#ZoomOutLimit").show();
+      }
+  }
+
 
 $( document ).ready(function() {
     init();
 });
-
 // Redraw canvas when the window is resized.
 $(window).resize(function() {
     draw_nils($("#nils-search").val());
 });
-
 $('input[name=strain]').change(function() {
     draw_nils($("#nils-search").val());
 })
-
-$('button[type="button"]').on('click', function() { 
+$('.chrom').on('click', function() { 
   $('.btn').removeClass("clicked")
   $(this).toggleClass('clicked')
    full_range(this.value)
