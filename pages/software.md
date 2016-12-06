@@ -19,7 +19,7 @@ scripts:
 
 <a href='http://www.github.com/andersenlab/VCF-kit'><img src='/assets/img/vcfkit.png' style='float:left; width: 150px; margin-right: 20px;' /></a>
 
-VCF-kit is a command-line based collection of utilities for performing analysis on Variant Call Format (VCF) files. A summary of the commands is provided below.
+VCF-kit is a command-line based collection of utilities for performing analysis on Variant Call Format (VCF) files. A summary of the commands is provided below. See documentation for details on installation and usage.
 
 <div style='clear:both;'></div>
 <br />
