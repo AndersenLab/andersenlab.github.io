@@ -1,0 +1,7 @@
+Number of Mismatches	Number Unique piRNAs Aligned to One TE	Number Unique piRNAs Aligned to Multiple TEs
+0	9	1
+1	17	1
+2	127	6
+3	206	13
+4	229	23
+5	572	65

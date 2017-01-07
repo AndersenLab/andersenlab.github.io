@@ -89,20 +89,20 @@ layout: default
       <div class="list-group">
       {% for file in pub.pub_data.files %}
         {% if file[1].url %}
-        <a href="{{ file[1].url }}" class="list-group-item">
+        <a href="{{ file[1].url }}" class="list-group-item"  target="_blank">
           <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
-          {% if file[1].description %}
+          {% if file[1].caption %}
             <p class="list-group-item-text">
-              {{ file[1].description }}
+              {{ file[1].caption }}
             </p>
           {% endif %}
         </a>
         {% else %}
-        <a href="/publications/{{ pub.PDF }}/{{ file[0] }}" class="list-group-item">
+        <a href="/publications/{{ pub.PDF }}/{{ file[0] }}" class="list-group-item"  target="_blank">
           <h4 class="list-group-item-heading">{{ file[1]["title"] }}</h4>
-          {% if file[1].description %}
+          {% if file[1].caption %}
             <p class="list-group-item-text">
-              {{ file[1].description }}
+              {{ file[1].caption }}
             </p>
           {% endif %}
         </a>

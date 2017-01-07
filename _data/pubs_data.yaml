@@ -1,3 +1,70 @@
+- Authors: [Laricchia KM, Zdraljevic S, Cook DE, and Andersen EC]
+  has_data: true
+  PDF: 2017Laricchia
+  status: in_submission
+  Date_Published: In submission
+  Journal: ""
+  Title: "The causes and consequences of natural variation in the distribution and abundance of transposable elements across the <em>Caenorhabditis elegans</em> species"
+  pub_data:
+    files:
+      Supplemental_Table_S1.txt:
+        caption: Presence/absence data for all positions at which a transposon was detected in at least one strain
+        title: Supplemental Table S1
+      Supplemental_Table_S2.txt: 
+        caption: Presence/absence data for all non-monomorphic positions at which a transposon was detected in at least one strain
+        title: Supplemental Table S2 
+      Supplemental_Table_S3.txt: 
+        caption: Most prevalent transposons
+        title: Supplemental Table S3 
+      Supplemental_Table_S4.txt: 
+        caption: Tajima’s D and transposon number of 10 kb regions with at least thre  transposons
+        title: Supplemental Table S4 
+      Supplemental_Table_S5.txt: 
+        caption: Chi-square test results comparing distributions of transposons on cho mosome arms and centers
+        title: Supplemental Table S5 
+      Supplemental_Table_S6.txt: 
+        caption: Genomic regions of transposon insertion sites
+        title: Supplemental Table S6 
+      Supplemental_Table_S7.txt: 
+        caption: Transposon insertions in genes with lethal RNAi or easily visible phenotypes
+        title: Supplemental Table S7 
+      Supplemental_Table_S8.txt: 
+        caption: Transposon traits used for GWAS analysis
+        title: Supplemental Table S8 
+      Supplemental_Table_S9.txt.gz: 
+        caption: GWAS results for all traits mapped
+        title: Supplemental Table S9 
+      Supplemental_Table_S10.txt: 
+        caption: Peak information for mapped QTL
+        title: Supplemental Table S10 
+      Supplemental_Table_S11.txt: 
+        caption: Correlated variants within QTL
+        title: Supplemental Table S11 
+      Supplemental_Table_S12.txt: 
+        caption: Counts of unique piRNAs and transposons from BLAST alignments 
+        title: Supplemental Table S12 
+      Supplemental_Table_S13.txt: 
+        caption: Combinations of piRNAs and transposons from BLAST alignments 
+        title: Supplemental Table S13 
+      Supplemental_Table_S14.txt: 
+        caption: Strains with extreme transposon copy numbers
+        title: Supplemental Table S14 
+      Supplemental_Table_S15.txt: 
+        caption: Variation found in piRNAs
+        title: Supplemental Table S15 
+      Supplemental_Table_S16.txt: 
+        caption: Variation found in protein-coding genes and Grantham scores 
+        title: Supplemental Table S16 
+      Supplemental_Table_S17.txt: 
+        caption: Positions of transposable elements in the reference genome 
+        title: Supplemental Table S17 
+      Supplemental_Table_S18.txt: 
+        caption: Sequences of transposable elements and family groupings
+        title: Supplemental Table S18
+      Supplemental_Figures.zip:
+        caption: Supplemental Figures
+        title: Supplemental Figures
+        url: https://storage.googleapis.com/andersenlab.org/publications/2017Laricchia/Supplemental_Figures.zip
 - Authors: [Mashock MJ, Zanon T, Kappell AD, Petrella LN, Andersen EC, Hristova KR]
   DOI: 10.1371/journal.pone.0167613
   Date_Published: 2016 Dec 2
@@ -107,46 +174,46 @@
         title: Strains with the F68I variant are not found in similar geographic locations
     files:
       File S01 - Strain isotype grouping and collection information.csv:
-        description: Strain isotype grouping and collection information
+        caption: Strain isotype grouping and collection information
         title: File S01
       File S02 - Sequence run information.tsv:
-        description: Sequence run information
+        caption: Sequence run information
         title: File S02
       File S03 - Rates of heterozygosity for different SNV calling methods.tsv:
-        description: Rates of heterozygosity for different SNV calling methods
+        caption: Rates of heterozygosity for different SNV calling methods
         title: File S03
       File S04 - Summary of variant filters.tsv:
-        description: Summary of variant filters.tsv
+        caption: Summary of variant filters.tsv
         title: File S04
       File S05 - Telomere Hexamer Locations Across WS245.tsv:
-        description: Telomere Hexamer Locations Across WS245
+        caption: Telomere Hexamer Locations Across WS245
         title: File S05
       File S06 - Telseq length estimates by sequencing run.tsv:
-        description: Telseq length estimates by sequencing run
+        caption: Telseq length estimates by sequencing run
         title: File S06
       File S07 - P-values from MMP enrichment test.tsv:
-        description: P-values from MMP enrichment test
+        caption: P-values from MMP enrichment test
         title: File S07
       File S08 - TelSeq telomere length estimates among wild isolates.tsv:
-        description: TelSeq telomere length estimates among wild isolates
+        caption: TelSeq telomere length estimates among wild isolates
         title: File S08
       File S09 - Telomere length measurements comparison.tsv:
-        description: Telomere length measurements comparison
+        caption: Telomere length measurements comparison
         title: File S09
       File S10 - QTL Mapping Results.tsv:
-        description: QTL Mapping Results
+        caption: QTL Mapping Results
         title: File S10
       File S11 - QTL Confidence Interval Genes.tsv:
-        description: QTL Confidence Interval Genes
+        caption: QTL Confidence Interval Genes
         title: File S11
       WI.20160408.impute.vcf.gz:
-        description: SNVs imputed with Beagle
+        caption: SNVs imputed with Beagle
         title: Imputed variant set
-        url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.impute.vcf.gz
+        url: https://storage.googleapis.com/andersenlab.org/publications/2016Cooketal/WI.20160408.impute.vcf.gz
       WI.20160408.snpeff.vcf.gz:
-        description: SNVs annotated with SnpEff
+        caption: SNVs annotated with SnpEff
         title: Annotated variant set
-        url: https://storage.googleapis.com/andersen_dist/vcf/all/20160408/WI.20160408.snpeff.vcf.gz
+        url: https://storage.googleapis.com/andersenlab.org/publications/20160408/WI.20160408.snpeff.vcf.gz
   has_data: true
   PDF: Cooketal
   status: published
@@ -262,19 +329,19 @@
   pub_data:
     files:
       Supplementary File 01:
-        description: Genotypes for these RIAILs (QX240-QX598)
+        caption: Genotypes for these RIAILs (QX240-QX598)
         title: Supplementary File 01
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS1.csv
       Supplementary File 02:
-        description: Phenotypes from our high-throughput fitness assays.
+        caption: Phenotypes from our high-throughput fitness assays.
         title: Supplementary File 02
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS2.csv
       Supplementary File 03:
-        description: All QTL from Andersen et al. G3 2015.
+        caption: All QTL from Andersen et al. G3 2015.
         title: Supplementary File 03
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS3.csv
       Supplementary File 04:
-        description: Plots of all QTL from Andersen et al. G3 2015.
+        caption: Plots of all QTL from Andersen et al. G3 2015.
         title: Supplementary File 04
         url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx
 - Authors:

@@ -14,7 +14,7 @@ menu: research
             {% for pub in site.data.pubs_data %} {% if pub.has_data %}
 
             <a href="/Research/Data/{{ pub.PDF }}/" class="list-group-item">
-                <h4 class="list-group-item-heading"><small class="pull-right"></small>{{ pub.Stub_title }}</h4>
+                <h4 class="list-group-item-heading"><small class="pull-right"></small>{% if pub.Stub_title %}{{ pub.Stub_title }}{% else %} {{ pub.Title }}{% endif %}</h4>
                     <div class='list-group-item-text'>
                     {% assign pub_authors=pub.Authors|join:", " %}
                     <small>{{ pub_authors }}</small>
