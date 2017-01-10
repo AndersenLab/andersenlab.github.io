@@ -1,6 +1,7 @@
 ---
 published: true
 title: CeNDR paper accepted at <em>NAR!</em>
+subtitle: CeNDR, the <em>Caenorhabditis elegans</em> natural diversity resource 
 layout: post
 tags: news
 PMID: 27701074

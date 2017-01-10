@@ -1,5 +1,6 @@
 ---
 title: "Katie's paper accepted at <em>G3</em>!"
+subtitle: "Correlations of geneotype with climate parameters suggest <em>Caenorhabditis elegans</em> niche adaptations"
 layout: post
 tags: news
 published: true

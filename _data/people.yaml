@@ -37,8 +37,10 @@
   description: My research broadly spans "neglected disease" genomics and drug discovery. I am currently working to uncover new genetic determinants of anthelmintic resistance and to develop genome editing technology for human pathogenic helminths.
   title: Postdoctoral Researcher
   photo: Mostafa2014.jpg
+  former: true
   github: mzamanian
   email: zamanian@northwestern.edu 
+  current_status: Assistant Proffessor at UW Madison
 
 
 #========================#

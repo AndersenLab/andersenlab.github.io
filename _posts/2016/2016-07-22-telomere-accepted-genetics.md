@@ -1,6 +1,7 @@
 ---
 published: true
 title: Telomere paper accepted at <em>Genetics!</em>
+subtitle: The genetic basis of natural variation in <em>C. elegans</em> telomere length
 layout: post
 tags: news
 PMID: 27449056
