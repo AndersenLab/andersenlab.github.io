@@ -125,7 +125,7 @@
   last_name: Cordova
   title: Undergraduate researcher
   photo: MattlynCordova.jpg
-  former: false
+  former: true
 
 - first_name: Matteo
   last_name: Di Bernardo
