@@ -20,7 +20,7 @@ pages_list:
 permalink: pretty
 
 #exclude
-exclude: ["scripts/", "build.sh", "README.md", ".DS_Store", 'assets/less/']
+exclude: ["scripts/", "build.sh", "README.md", ".DS_Store", 'assets/less/', 'andersenlabsite.sublime-project', 'andersenlabsite.sublime-workspace']
 
 
 

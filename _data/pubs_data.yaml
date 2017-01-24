@@ -1,5 +1,4 @@
 - Authors: [Laricchia KM, Zdraljevic S, Cook DE, and Andersen EC]
-  has_data: true
   PDF: 2017Laricchia
   status: in_submission
   Date_Published: In submission
@@ -81,8 +80,24 @@
   Journal: G3
   Citations: 0
   PMID: 27866149
-  Title: "Correlations of geneotype with climate parameters suggest <em> Caenorhabditis elegans </em> niche adaptations"
+  Title: "Correlations of geneotype with climate parameters suggest <em>Caenorhabditis elegans</em> niche adaptations"
   PDF: 2016EvansG3
+  pub_data:
+    files:
+      Supp_Figures.zip:
+        title: Supplementary Figures
+        url: https://storage.googleapis.com/andersenlab.org/publications/2016EvansG3/Supp_Figures.zip
+      supplementFiles_text.docx:
+        title: Supplementary File Descriptions
+      fileS1.csv:
+        title: Supplementary File 1
+      fileS2.csv:
+        title: Supplementary File 2
+        url: https://storage.googleapis.com/andersenlab.org/publications/2016EvansG3/fileS2.csv
+      fileS3.csv:
+        title: Supplementary File 3
+      fileS4.csv:
+        title: Supplementary File 4
 - Authors: [Cook DE, Zdraljevic S, Roberts JP, Andersen EC]
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
@@ -90,7 +105,7 @@
   - 10.1093/nar/gkw893
   Date_Published: 2016 Oct 3
   Journal: Nucleic Acids Research
-  Citations: 0
+  Citations: 2
   PDF: 2016CookOxford
   PMID: 27701074
   Title: "CeNDR, the <em> Caenorhabditis elegans</em> natural diversity resource"
@@ -214,7 +229,6 @@
         caption: SNVs annotated with SnpEff
         title: Annotated variant set
         url: https://storage.googleapis.com/andersenlab.org/publications/20160408/WI.20160408.snpeff.vcf.gz
-  has_data: true
   PDF: Cooketal
   status: published
   PMID: 27449056
@@ -318,7 +332,6 @@
   Date_Published: 2015 Mar 13
   Journal: G3 (Bethesda)
   PDF: 2015AndersenG3
-  has_data: true
   PMID: 25770127
   Stub_title: <strong>A Powerful New Quantitative Genetics Platform, Combining <em>Caenorhabditis
     elegans</em> High-Throughput Fitness Assays with a Large Collection of Recombinant
@@ -499,7 +512,6 @@
   - Gerke JP
   - Shapiro JA
   Journal: Nature Genetics
-  has_data: True
   PDF: 2012AndersenNatureGenetics
   PMC: PMC3365839
   PMID: '22286215'
