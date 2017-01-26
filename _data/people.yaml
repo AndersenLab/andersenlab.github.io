@@ -39,7 +39,8 @@
   photo: Mostafa2014.jpg
   former: true
   github: mzamanian
-  email: zamanian@northwestern.edu 
+  email: zamanian@northwestern.edu
+  departure: 2017-01-01
   current_status: Assistant Professor at UW Madison
 
 
@@ -132,6 +133,7 @@
   title: High School Student, summer 2015
   photo: Matteo_2.jpg
   former: true
+  departure: 2015-01-01
   current_status: Undergraduate at Columbia University
 
 - first_name: Nick
@@ -141,11 +143,13 @@
   pub_names: []
   photo: NickIrons.jpg
   former: true
+  departure: 2015-01-01
   email: NicholasIrons2018@u.northwestern.edu
 
 - first_name: Annika
   last_name: Zhang
   title: Undergraduate Lab Assistant, 2015
+  departure: 2015-01-01
   email: AnnikaZhang2018@u.northwestern.edu 
   photo: Annika2014.JPG
   former: true
@@ -153,6 +157,7 @@
 - first_name: Michelle
   last_name: Lee
   title: Undergraduate, fall 2014
+  departure: 2014-09-01
   email: MichelleLee2018@u.northwestern.edu
   photo: Michelle2014.JPG
   former: true
@@ -164,8 +169,7 @@
   email: Tyler.Shimko@utah.edu
   photo: Tyler_Shimko.png
   pub_names: ["Shimko TC"]
-  date_start: 2013
-  date_end: 2015
+  departure: 2015-09-01
   former: true
   website: https://tylershimko.com/
   title: Undergraduate, summers 2013, 2014, 2015
@@ -186,9 +190,11 @@
   title: Undergraduate Developer
   former: false
   github: rohitrastogi
+
 #========================#
 # Former Members         #
 #========================#
+
 - first_name: Kristen
   last_name: Laricchia
   description:
@@ -196,6 +202,7 @@
   title: Computational Specialist, 2014-2016
   email: kristenlaricchia2014@u.northwestern.edu
   former: true
+  departure: 2016-08-01
   current_status: Associate computational biologist in the <a href="https://macarthurlab.org/">MacArthur Lab</a>, Broad Institute
 
 - first_name: Kreena
@@ -203,12 +210,14 @@
   email: kreena.patel@northwestern.edu
   title: Undergraduate and Research Technician, 2013-2016 
   former: true
+  departure: 2016-08-01
   current_status: Medical student, Feinberg School of Medicine 
 
 - first_name: Ian
   last_name: Kuo
   title: general lab maintenance and upkeep, 2015-2016
   former: true
+  departure: 2016-01-01
 
 - first_name: Hilary
   last_name: Tsang
@@ -217,6 +226,7 @@
   pub_names: []
   email: HillaryTsang2016@u.northwestern.edu
   former: true
+  departure: 2016-08-01
 
 - first_name: Austin
   last_name: Chambers
@@ -231,6 +241,7 @@
   photo: Sam_Rosenberg.jpg
   former: true
   email: Samuel.Rosenberg@northwestern.edu
+  departure: 2015-01-01
 
 
 - first_name: Sarah
@@ -240,13 +251,13 @@
   photo: Sarah_Giuliani.jpg
   email: Sarah.Giuliani@northwestern.edu
   former: true
+  departure: 2015-01-01
 
 - first_name: Jacob
   last_name: Cruger
   description: I'm interested in isolating new and diverse Caenorhabditis strains for use in genome-wide association mapping. 
   former: true
-  date_start: 2013
-  date_end: 2014
+  departure: 2014-01-01
   photo: Jacob_Cruger.png
   email: jacob.o.cruger.18@dartmouth.edu
   title: High School Student, summers 2013, 2014
@@ -255,6 +266,7 @@
 - first_name: Lautaro
   last_name: Cilenti
   title: Undergraduate Researcher, 2014-2015
+  departure: 2015-01-01
   pub_names: []
   former: true
   photo: Lautaro_Cilenti.jpg
@@ -268,11 +280,13 @@
   pub_names: []
   photo: Mazeed_AroLambo.jpg
   email: MazeedAroLambo2017@u.northwestern.edu
+  departure: 2015-01-01
 
 - first_name: Michelle
   last_name: Wang
   former: true
   title: Undergraduate, 2013-2014
+  departure: 2014-01-01
   pub_names: []
   photo: Michelle_Wang.jpg
   email: J7U3L8@u.northwestern.edu
@@ -280,8 +294,7 @@
 - first_name: Lucie
   last_name: Bastin-Heline
   former: true
-  date_start: 02/01/2014
-  date_end: 06/01/2014
+  departure: 2014-06-01
   title: ENS exchange masters student, winter and spring 2014
   pub_names: []
   photo: Lucie_Bastin_Heline.jpg
@@ -330,3 +343,4 @@
   title: Undergraduate Developer, 2015-2016, 
   current_status: Motivate International
   former: true
+  departure: 2016-07-01
