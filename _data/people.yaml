@@ -74,7 +74,7 @@
   pub_names: ["Cook DE"]
   photo: Daniel_E_Cook.jpg
   website: http://www.danielecook.com
-  description: "I am interested in using bioinformatics to elucidate how gene by gene, gene by environment, and conserved polygenic mechanisms give rise to complex traits."
+  description: "I am interested in characterizing genetic variation in the <em>C. elegans</em> species and building tools to facilitate studies connecting genetic differences with phenotypes."
   email: Dec@u.northwestern.edu
   github: danielecook
 
