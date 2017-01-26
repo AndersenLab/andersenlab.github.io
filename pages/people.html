@@ -118,12 +118,12 @@ menu: people
 
 {% assign people = site.data.people | sort: 'last_name' %}
 {% for m in people %}
-<tr>
 	{% if m.former == true and m.current_status == False%}
+  <tr>
     <td>{{ m.first_name }} {{ m.last_name }}</td>
     <td><small style='color: color: #31708f'>{{ m.title }}</small></td>
     <td>{{ m.current_status }}</td>
+  </tr>
 	{% endif %}
-</tr>
 {% endfor %}
 </table>
