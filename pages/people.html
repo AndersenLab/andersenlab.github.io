@@ -96,16 +96,34 @@ menu: people
 {% endfor %}
 
 <!-- Former -->
-<h3>Former Members</h3>
+
+{% assign people = site.data.people | sort: 'departure' | reverse %}
+
+<table class='table table-striped'>
+<tr>
+    <th>Former member</th>
+    <th></th>
+    <th>Current Status</th>
+</tr>
+{% for m in people %}
+{% if m.current_status %}
+<tr>
+    <td>{{ m.first_name }} {{ m.last_name }}</td>
+    <td><small style='color: color: #31708f'>{{ m.title }}</small></td>
+    <td>{{ m.current_status }}</td>
+</tr>
+{% endif %}
+{% endfor %}
+
+
 {% assign people = site.data.people | sort: 'last_name' %}
 {% for m in people %}
-<ul>
-	{% if m.former == true %}
-		<li><h4 id="{{ m.first_name }} {{ m.last_name }}">{{ m.first_name }} {{ m.last_name }} <small>{{ m.title }}</small></h4>
-		{% if m.current_status %}
-		<div style='padding-left: 40px;'><strong>Currently:</strong> {{ m.current_status }}</div><br />
-		{% endif %}
-		</li>
+	{% if m.former == true and m.current_status == False%}
+  <tr>
+    <td>{{ m.first_name }} {{ m.last_name }}</td>
+    <td><small style='color: color: #31708f'>{{ m.title }}</small></td>
+    <td>{{ m.current_status }}</td>
+  </tr>
 	{% endif %}
-</ul>
 {% endfor %}
+</table>

@@ -109,7 +109,7 @@ permalink: Publications/
 									{% if pub.PMC %}
 									| <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
 									{% endif %}
-									{% if pub.has_data %}
+									{% if pub.pub_data != null %}
 					                | <a href="/Research/Data/{{ pub.PDF }}">Data</a>
 					                {% endif %}
 									|
