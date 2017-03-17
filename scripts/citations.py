@@ -1,13 +1,11 @@
 import os, sys, yaml, subprocess
 
-
-filename = sys.argv[1]
-stream = open(filename, "r")
+stream = open("../_data/pubs_data.yaml", "r")
 pubs = yaml.load(stream)
 
 for pub in pubs:
 	title = pub["Title"].replace('<em>', '').replace('</em>', '')
-	proc = subprocess.Popen(['python','scripts/scholar.py', '-c', '1', '--phrase', '%s' %title],stdout=subprocess.PIPE)
+	proc = subprocess.Popen(['python','scholar.py', '-c', '1', '--phrase', '%s' %title],stdout=subprocess.PIPE)
 	while True:
 	  line = proc.stdout.readline()
 	  print line
@@ -18,5 +16,5 @@ for pub in pubs:
 	  elif line == "":
 	  	break
 
-with open(filename, 'w') as f:
+with open("../_data/pubs_data.yaml", 'w') as f:
 	f.write(yaml.dump(pubs, default_flow_style=False))
