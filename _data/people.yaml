@@ -102,65 +102,10 @@
 # Undergraduates         #
 #========================#
 
-- first_name: Stevie
-  last_name: Hippleheuser
-  title: Undergraduate Researcher
-  description: I am interested in studying the natural variation in heat shock response to identify genes involved in stress response and longevity.
-  pub_names: []
-  photo: Stevie_Hippleheuser.jpg
-  email: StephenHippleheuser2017@u.northwestern.edu
 
-- first_name: Selina
-  last_name: Deiparine
-  title: Undergraduate researcher
-  photo: Selina.jpg
-  former: false
-
-- first_name: Sarah
-  last_name: Bier
-  title: Undergraduate researcher
-  photo: Sarah_undergrad.jpg
-  former: false
-
-- first_name: Mattlyn
-  last_name: Cordova
-  title: Undergraduate researcher
-  photo: MattlynCordova.jpg
-  former: true
-
-- first_name: Matteo
-  last_name: Di Bernardo
-  title: High School Student, summer 2015
-  photo: Matteo_2.jpg
-  former: true
-  departure: 2015-01-01
-  current_status: Undergraduate at Columbia University
-
-- first_name: Nick
-  last_name: Irons
-  title: Undergraduate Researcher, 2014-2015
-  description: 
-  pub_names: []
-  photo: NickIrons.jpg
-  former: true
-  departure: 2015-01-01
-  email: NicholasIrons2018@u.northwestern.edu
-
-- first_name: Annika
-  last_name: Zhang
-  title: Undergraduate Lab Assistant, 2015
-  departure: 2015-01-01
-  email: AnnikaZhang2018@u.northwestern.edu 
-  photo: Annika2014.JPG
-  former: true
-
-- first_name: Michelle
-  last_name: Lee
-  title: Undergraduate, fall 2014
-  departure: 2014-09-01
-  email: MichelleLee2018@u.northwestern.edu
-  photo: Michelle2014.JPG
-  former: true
+#========================#
+# Former Members         #
+#========================#
 
 - first_name: Tyler
   last_name: Shimko
@@ -175,25 +120,6 @@
   title: Undergraduate, summers 2013, 2014, 2015
   current_status: Graduate student at Stanford University
 
-- first_name: Michael
-  last_name: Jiang
-  email: michaeljiang2019@u.northwestern.edu
-  photo: MichaelJiang.jpg
-  title: Undergraduate Developer
-  former: true
-  github: themikester13
-
-- first_name: Rohit
-  last_name: Rastogi
-  email: rohitrastogi2019@u.northwestern.edu
-  photo: rohitrastogi.jpg
-  title: Undergraduate Developer
-  former: false
-  github: rohitrastogi
-
-#========================#
-# Former Members         #
-#========================#
 
 - first_name: Kristen
   last_name: Laricchia
@@ -213,26 +139,6 @@
   departure: 2016-08-01
   current_status: Medical student, Feinberg School of Medicine 
 
-- first_name: Ian
-  last_name: Kuo
-  title: general lab maintenance and upkeep, 2015-2016
-  former: true
-  departure: 2016-01-01
-
-- first_name: Hilary
-  last_name: Tsang
-  description: I am interested in a potential mate searching behavior in hermaphrodites and developing assays to further quantify natural variation in wild isolates.
-  title: Undergraduate Researcher, 2014-2016
-  pub_names: []
-  email: HillaryTsang2016@u.northwestern.edu
-  former: true
-  departure: 2016-08-01
-
-- first_name: Austin
-  last_name: Chambers
-  email: austinchambers2018@u.northwestern.edu
-  title: Undergraduate, spring 2016
-  former: true
 
 - first_name: Sam
   last_name: Rosenberg
@@ -252,89 +158,6 @@
   email: Sarah.Giuliani@northwestern.edu
   former: true
   departure: 2015-01-01
-
-- first_name: Jacob
-  last_name: Cruger
-  description: I'm interested in isolating new and diverse Caenorhabditis strains for use in genome-wide association mapping. 
-  former: true
-  departure: 2014-01-01
-  photo: Jacob_Cruger.png
-  email: jacob.o.cruger.18@dartmouth.edu
-  title: High School Student, summers 2013, 2014
-  current_status: Undergraduate at Darmouth College
-
-- first_name: Lautaro
-  last_name: Cilenti
-  title: Undergraduate Researcher, 2014-2015
-  departure: 2015-01-01
-  pub_names: []
-  former: true
-  photo: Lautaro_Cilenti.jpg
-  email: LautaroCilenti2017@u.northwestern.edu
-
-- first_name: Mazeed
-  last_name: Aro-Lambo
-  former: true
-  description: I am interested in the natural variation in longevity.
-  title: Undergraduate Researcher, 2014-2015
-  pub_names: []
-  photo: Mazeed_AroLambo.jpg
-  email: MazeedAroLambo2017@u.northwestern.edu
-  departure: 2015-01-01
-
-- first_name: Michelle
-  last_name: Wang
-  former: true
-  title: Undergraduate, 2013-2014
-  departure: 2014-01-01
-  pub_names: []
-  photo: Michelle_Wang.jpg
-  email: J7U3L8@u.northwestern.edu
-
-- first_name: Lucie
-  last_name: Bastin-Heline
-  former: true
-  departure: 2014-06-01
-  title: ENS exchange masters student, winter and spring 2014
-  pub_names: []
-  photo: Lucie_Bastin_Heline.jpg
-  email: Lucie.Bastin@ens.fr
-
-- first_name: Gina
-  last_name: Liu
-  former: true
-  title: High School Student, fall 2013 - spring 2014
-  current_status: Undergraduate at University of Pennsylvania
-
-- first_name: Camille
-  last_name: Calvin
-  former: true
-  title: Undergraduate, summer 2013
-
-- first_name: Stephen
-  last_name: Chan
-  former: true
-  title: Undergraduate, 2013-2014
-
-- first_name: Sunhong
-  last_name: Jin
-  former: true
-  title: Undergraduate, spring 2013
-
-- first_name: Melissa
-  last_name: Kim
-  former: true
-  title: Undergraduate, fall 2013
-
-- first_name: Esther
-  last_name: Li
-  former: true
-  title: Undergraduate, spring 2013
-
-- first_name: Kevin
-  last_name: Nigaruru
-  former: true
-  title: Undergraduate, spring 2013
 
 - first_name: Joshua
   last_name: Roberts
