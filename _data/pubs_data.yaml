@@ -22,9 +22,9 @@
   pub_data:
     files:
       Supplemental_Figures.pdf:
-        caption: Supplemental Figures
+        title: Supplemental Figures
       Supplemental_Files.zip:
-        caption: Supplemental Files
+        title: Supplemental Files
       Supplemental_Tables.zip:
         title: Supplemental Tables
   status: in_submission
