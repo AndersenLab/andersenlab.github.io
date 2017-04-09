@@ -21,69 +21,12 @@
     species
   pub_data:
     files:
-      Supplemental_Figures.zip:
+      Supplemental_Figures.pdf:
         caption: Supplemental Figures
-        title: Supplemental Figures
-        url: https://storage.googleapis.com/andersenlab.org/publications/2017Laricchia/Supplemental_Figures.zip
-      Supplemental_Table_S1.txt:
-        caption: Presence/absence data for all positions at which a transposon was
-          detected in at least one strain
-        title: Supplemental Table S1
-      Supplemental_Table_S10.txt:
-        caption: Peak information for mapped QTL
-        title: Supplemental Table S10
-      Supplemental_Table_S11.txt:
-        caption: Correlated variants within QTL
-        title: Supplemental Table S11
-      Supplemental_Table_S12.txt:
-        caption: Counts of unique piRNAs and transposons from BLAST alignments
-        title: Supplemental Table S12
-      Supplemental_Table_S13.txt:
-        caption: Combinations of piRNAs and transposons from BLAST alignments
-        title: Supplemental Table S13
-      Supplemental_Table_S14.txt:
-        caption: Strains with extreme transposon copy numbers
-        title: Supplemental Table S14
-      Supplemental_Table_S15.txt:
-        caption: Variation found in piRNAs
-        title: Supplemental Table S15
-      Supplemental_Table_S16.txt:
-        caption: Variation found in protein-coding genes and Grantham scores
-        title: Supplemental Table S16
-      Supplemental_Table_S17.txt:
-        caption: Positions of transposable elements in the reference genome
-        title: Supplemental Table S17
-      Supplemental_Table_S18.txt:
-        caption: Sequences of transposable elements and family groupings
-        title: Supplemental Table S18
-      Supplemental_Table_S2.txt:
-        caption: Presence/absence data for all non-monomorphic positions at which
-          a transposon was detected in at least one strain
-        title: Supplemental Table S2
-      Supplemental_Table_S3.txt:
-        caption: Most prevalent transposons
-        title: Supplemental Table S3
-      Supplemental_Table_S4.txt:
-        caption: "Tajima\u2019s D and transposon number of 10 kb regions with at least\
-          \ thre  transposons"
-        title: Supplemental Table S4
-      Supplemental_Table_S5.txt:
-        caption: Chi-square test results comparing distributions of transposons on
-          cho mosome arms and centers
-        title: Supplemental Table S5
-      Supplemental_Table_S6.txt:
-        caption: Genomic regions of transposon insertion sites
-        title: Supplemental Table S6
-      Supplemental_Table_S7.txt:
-        caption: Transposon insertions in genes with lethal RNAi or easily visible
-          phenotypes
-        title: Supplemental Table S7
-      Supplemental_Table_S8.txt:
-        caption: Transposon traits used for GWAS analysis
-        title: Supplemental Table S8
-      Supplemental_Table_S9.txt.gz:
-        caption: GWAS results for all traits mapped
-        title: Supplemental Table S9
+      Supplemental_Files.zip:
+        caption: Supplemental Files
+      Supplemental_Tables.zip:
+        title: Supplemental Tables
   status: in_submission
 - Authors:
   - Mashock MJ
