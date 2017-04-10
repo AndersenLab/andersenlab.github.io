@@ -4,21 +4,22 @@
   - Seidel HS
   - Cook DE
   - Doench JG
-  - Andersen EC 
+  - Andersen EC
+  Citations: 0
   DOI: http://dx.doi.org/10.1101/125567
-  Citations: 0 
   Date_Published: 2017 Apr 07
   Journal: BioRxiv
   PDF: 2017Zdraljevic
-  Title: Natural variation in a single amino acid underlies cellular responses to topoisomerase II poisons
+  Title: Natural variation in a single amino acid underlies cellular responses to
+    topoisomerase II poisons
 - Authors:
   - Zamanian M
   - Cook DE
   - Lee D
   - Lee J
   - Andersen EC
+  Citations: 0
   DOI: http://dx.doi.org/10.1101/116970
-  Citations: 0 
   Date_Published: 2017 Mar 05
   Journal: BioRxiv
   PDF: 2017Zamanian
@@ -321,7 +322,7 @@
   - Butcher RA
   - Andersen EC
   - McGrath PT
-  Citations: 1
+  Citations: 2
   DOI: 10.1371/journal.pgen.1006219
   Date_Published: 2016 July 28
   Journal: PLoS Genet.
@@ -365,7 +366,7 @@
   - Hillier LW
   - Kammenga JE
   - Waterston RH
-  Citations: 21
+  Citations: 25
   Corresponding_Authors:
   - Waterson RH: waterso@u.washington.edu
   DOI:
@@ -381,7 +382,7 @@
   - Snoek LB
   - Kammenga JE
   - Andersen EC
-  Citations: 20
+  Citations: 24
   Corresponding_Authors:
   - Kammenga JE: jan.kammenga@wur.nl
   - Andersen EC: erik.andersen@northwestern.edu
@@ -401,7 +402,7 @@
   - Seidel HS
   - Gerke JP
   - Kruglyak L
-  Citations: 11
+  Citations: 13
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
   - Kruglyak L: lkruglyak@mednet.ucla.edu
@@ -483,7 +484,7 @@
   - Andersen EC
   - Kruglyak L
   - Troemel ER
-  Citations: 9
+  Citations: 10
   Corresponding_Authors:
   - Troemel ER: etroemel@ucsd.edu
   DOI:
@@ -498,7 +499,7 @@
 - Authors:
   - Shimko TC
   - Andersen EC
-  Citations: 4
+  Citations: 6
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
   DOI:
@@ -515,7 +516,7 @@
   - Bloom JS
   - Gerke JP
   - Kruglyak L
-  Citations: 36
+  Citations: 39
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
   - Kruglyak L: lkruglyak@mednet.ucla.edu
@@ -537,7 +538,7 @@
   - Andersen EC
   - Cutter AD
   - Braendle C
-  Citations: 31
+  Citations: 32
   Corresponding_Authors:
   - Braendle C: braendle@unice.fr
   DOI:
@@ -558,7 +559,7 @@
   - Shapiro JA
   - Gerke JP
   - Kruglyak L
-  Citations: 58
+  Citations: 59
   Corresponding_Authors:
   - Kruglyak L: leonid@genomics.princeton.edu
   DOI:
@@ -579,7 +580,7 @@
   - Bloom JS
   - Felix MA
   - Kruglyak L
-  Citations: 173
+  Citations: 175
   Corresponding_Authors:
   - Kruglyak L: leonid@genomics.princeton.edu
   DOI:
@@ -625,7 +626,7 @@
   - Bessler JB
   - Andersen EC
   - Villeneuve AM
-  Citations: 51
+  Citations: 52
   Corresponding_Authors:
   - Villeneuve AM: annev@stanford.edu
   DOI:
@@ -643,7 +644,7 @@
   - Rifkin SA
   - Andersen EC
   - van Oudenaarden A
-  Citations: 404
+  Citations: 410
   Corresponding_Authors:
   - van Oudenaarden: avano@mit.edu
   DOI:
@@ -662,7 +663,7 @@
   - Andersen EC
   - Kruglyak L
   - Kim DH
-  Citations: 110
+  Citations: 115
   Corresponding_Authors:
   - Kruglyak: leonid@genomics.princeton.edu
   - Kim DH: dhkim@mit.edu
@@ -697,7 +698,7 @@
 - Authors:
   - Andersen EC
   - Horvitz HR
-  Citations: 79
+  Citations: 80
   Corresponding_Authors:
   - Horvitz HR: horvitz@mit.edu
   DOI:
