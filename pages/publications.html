@@ -7,10 +7,12 @@ permalink: Publications/
 {% assign prev_year = 1 %}
 	{% for pub in site.data.pubs_data reversed %}
 	{% assign cur_year = pub.Date_Published | date: '%Y' %}
+	{% if pub.status != "in_submission" %}
 	{% if cur_year != prev_year %}
 		<a href="#{{  cur_year }}" class="btn btn-link">{{ cur_year }}</a>
 	{% endif %}
 	{% assign prev_year = pub.Date_Published | date: '%Y' %}
+	{% endif %}
 	{% endfor %}
 </div>
 <hr />
