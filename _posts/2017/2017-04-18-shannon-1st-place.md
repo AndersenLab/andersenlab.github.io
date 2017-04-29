@@ -1,5 +1,5 @@
 ---
-title: "Shannon wins computational research day poster competition!"
+title: "Shannon awarded 1st place at computational research day poster competition!"
 layout: post
 tags: news
 published: true
