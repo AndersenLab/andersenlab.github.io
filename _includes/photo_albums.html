@@ -3,16 +3,26 @@
 {% else %}
 {% assign album_limit = 10000 %}
 {% endif %}
+
+{% assign prev = "" %}
+{% assign count = 0 %}
+
 <div class="pull-right" style="line-height:35px;">{{ page.date | date: "%b %-d, %Y" }}</div>
-	<h4>Photo Albums</h4>
-	<div class="list-group" >
-		{% assign albums = site.categories.album %}
-	{% for album in albums limit:album_limit %}
-	{% for p in site.data.photo_albums[album.album] limit:1 %}
-<a href="{{ album.url }}"  class="list-group-item {% if album.title == page.title %}active{% endif%}" style="padding:0px; overflow: hidden;"><img style="width:40px; height:40px; margin-right: 20px;" src="/photos/{{album.album}}/thumb_{{p}}"/>{{album.album}}</a>
-
-	{% endfor %}
-	{% endfor %}
-		{{ page.time }}
-
-	</div>
+    <h4>Photo Albums</h4>
+    <div class="list-group" >
+{% for f in site.static_files reversed sort:path  %}
+{% if f.path contains '/people/albums' %}
+  {% assign album = f.path | split: "/" %}
+  {% assign album_split = album[3] | split: "-" %}
+  {% assign album = album_split[3] %}
+  {% assign album_date = album_split | slice: 0, 3 | join: "/" %}
+  {% if album != prev %}
+    {% assign count = count | plus: 1 %}
+        {% if count <= album_limit %}
+      <a href="/album/{{ album_date }}/{{ album | slugify }}"  class="list-group-item {% if album.title == page.title %}active{% endif%}" style="padding:0px; overflow: hidden;"><img style="width:40px; height:40px; margin-right: 20px;" src="{{ f.path }}"/>{{ album }}</a>
+  {% endif %}
+  {% endif %}
+  {% assign prev = album %}
+{% endif %}
+{% endfor %}
+</div>
