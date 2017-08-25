@@ -6,7 +6,7 @@ IFS=$(echo -en "\n\b")
 for i in `ls -1 -d people/albums/*/`; do
     echo ${i};
     name="`basename ${i}`"
-    fname="${name}.md"
+    fname="`echo $name | awk '{print tolower($0) ".md"}'`"
     echo """---
 album: ${name:11}
 layout: gallery
