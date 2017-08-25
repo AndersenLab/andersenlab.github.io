@@ -3,10 +3,11 @@ set -e # halt script on error
 
 # Generate album pages
 IFS=$(echo -en "\n\b")
+echo "Generating albums"
 for i in `ls -1 -d people/albums/*/`; do
     echo ${i};
     name="`basename ${i}`"
-    fname="`echo $name | awk '{print tolower($0) ".md"}'`"
+    fname=`echo $name | awk '{print tolower($0) ".md"}'`
     echo """---
 album: ${name:11}
 layout: gallery
@@ -21,15 +22,16 @@ for img in `ls people/albums/*/* | grep -v 'thumb' | grep -v '.DS' `; do
     directory="`dirname ${img}`"
     # Generate thumbnail
     if [ ! -f ${directory}/thumb_${output_name} ]; then
-        convert -thumbnail 200 ${img} ${directory}/thumb_${output_name}
+        echo "Generating Thumbnail [${img}]"
+        convert -auto-orient -thumbnail 200 ${img} ${directory}/thumb_${output_name}
     fi
     # Resize if the image is really big
     image_width=`exiftool -s3 -ImageWidth ${img}`
-
+    echo "${image_width} --> OK [${img}]"
     if [ ${image_width} -gt 1200 ]; then
         # Downsizing image
         echo "${image_width} --> 1200 [${img}]"
-        convert -resize 1200 "${img}" "${img}_tmp"
+        convert -auto-orient -resize 1200 "${img}" "${img}_tmp"
         mv "${img}_tmp" "${img}"
     fi
 done;
