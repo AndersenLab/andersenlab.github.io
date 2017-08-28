@@ -1,6 +1,37 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+if brew ls --versions exiftool > /dev/null; then
+  echo "Exiftool Installed"
+else
+  echo "Installing Exiftool"
+  brew install exiftool
+fi
+
+if brew ls --versions imagemagick > /dev/null; then
+  echo "Image Magick Installed"
+else
+  echo "Installing Image Magick"
+  brew install imagemagick
+fi
+
+
+#=================================#
+# Generate Publication Thumbnails #
+#=================================#
+
+for pdf in `ls publications/*.pdf`; do
+    if [ ! -f ${pdf}/thumb_${output_name} ]; then
+        p=`basename ${pdf}`
+        "Generating thumbnail for ${p}"
+        convert -density 300 -resize 150 ${pdf}[0] publications/thumb_${p/pdf/png}
+    fi;
+done;
+
+#========#
+# Albums #
+#========#
+
 # Generate album pages
 IFS=$(echo -en "\n\b")
 echo "Generating albums"
