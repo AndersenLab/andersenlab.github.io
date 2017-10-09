@@ -6,7 +6,6 @@ menu: research
 published: true
 ---
 
-
 {% assign protocol_groups = site.data.protocols| group_by:"group" | sort: 'group' %}
 
 {% for group in protocol_groups %}
@@ -15,7 +14,7 @@ published: true
 	<ul>
 		{% assign items = group.items | sort: 'Name' %}
 		{% for protocol in items  %}
-		<li><a href="/Protocols/{{ protocol.file }}">{{ protocol.Name }}</a></li>
+		<li><a href="/Protocols/{{ protocol.file }}">{{ protocol.name }}</a></li>
 		{% endfor %}
 	</ul>
 	</div>
