@@ -1,9 +1,5 @@
 ---
-layout: page
 title: Species-wide and genome-wide variant discovery, genome assembly, and annotation
-permalink: Research/Projects/Variation/
-menu: research
-category: research
 image: variant-calling.png
 order: 2
 ---

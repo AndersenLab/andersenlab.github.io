@@ -1,10 +1,8 @@
 ---
-layout: page
 title: Genetic causes of resistance to anthelmintic compounds
-menu: research
-category: research
 image: anthelmintics.jpg
 order: 3
+hidden: true
 ---
 
 Using high-throughput assays that measure organismal fitness

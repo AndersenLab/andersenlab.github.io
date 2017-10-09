@@ -1,9 +1,5 @@
 ---
-layout: page
 title: Sequence-based traits and genome evolution
-permalink: Research/Projects/Variation/
-menu: research
-category: research
 image: rrn-4.1.png
 order: 4
 ---

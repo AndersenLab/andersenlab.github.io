@@ -1,9 +1,5 @@
 ---
-layout: page
 title: Dauer dispersal and phoretic interactions with terrestrial isopods
-permalink: Research/Projects/Variation/
-menu: research
-category: research
 image: isopod_8chamber.jpg
 order: 7
 ---

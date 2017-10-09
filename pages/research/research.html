@@ -12,7 +12,7 @@ menu: research
 
 <ul>
 {% for page in pages %}
-	{% if page.category == "research" %}
+	{% if page.path contains 'research' and page.path contains '.md' %}
 	<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
 	{% endif %}
 {% endfor %}
@@ -20,7 +20,7 @@ menu: research
 
 
 {% for page in pages %}
-	{% if page.category == "research" %}
+	{% if page.path contains 'research' and page.path contains '.md' %}
 	<div class="row">
 			<div class="col-md-4">
 			{% if page.image %}

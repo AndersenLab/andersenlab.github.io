@@ -43,7 +43,7 @@ layout: default
 
   {% if page.PMID %}
 
-    {% assign publication = (site.data.pubs_data | where: "PMID" , page.PMID) %}
+    {% assign publication = site.data.pubs_data | where: "PMID" , page.PMID %}
       {% for pub in publication %}
           
 <div class="pub">
