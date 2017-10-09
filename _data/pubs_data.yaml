@@ -2,7 +2,7 @@
   DOI: 10.1093/molbev/msx155
   Date_Published: 2017 May 09
   Journal: Mol. Biol. Evol.
-  PMID: '28486636'
+  PMID: 28486636
   Title: Natural variation in the distribution and abundance of transposable elements
     across the Caenorhabditis elegans species.
   Citations: 0
@@ -15,12 +15,17 @@
   - Doench JG
   - Andersen EC
   Citations: 0
+  PMID: 28700616
   DOI: http://dx.doi.org/10.1101/125567
   Date_Published: 2017 Apr 07
   Journal: BioRxiv
   PDF: 2017Zdraljevic
   Title: Natural variation in a single amino acid underlies cellular responses to
     topoisomerase II poisons
+  pub_data:
+    files:
+      SuppMaterial.zip:
+        title: Supplemental Material
 - Authors:
   - Zamanian M
   - Cook DE

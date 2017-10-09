@@ -1,6 +1,6 @@
 ---
 published: true
-title: Kristen Laricchia's Transposon paper is published published!
+title: Kristen Laricchia's Transposon paper is published!
 layout: post
 tags: news
 PMID: 28486636
