@@ -10,7 +10,7 @@ menu: people
 {{ content }}
 <div class="row" data-no-instant>
 {% capture album_name %}/people/albums/{{ page.date | date: "%Y-%m-%d" }}-{{ page.album }}/{% endcapture %}
-{% for f in site.static_files reversed sort:path  %}
+{% for f in site.static_files reversed %}
 {% if f.path contains album_name %}
 {% if f.path contains 'thumb_' %}
 <div class="col-sm-4">

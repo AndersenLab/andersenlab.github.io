@@ -1,9 +1,5 @@
 ---
-layout: page
 title: Gene-by-environment (GxE) interactions
-permalink: Research/Projects/GxE/
-menu: research
-category: research
 image: GxE.jpg
 order: 5
 ---
