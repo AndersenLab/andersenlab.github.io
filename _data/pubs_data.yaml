@@ -1,46 +1,23 @@
-- Authors: [Laricchia KM, Zdraljevic S, Cook DE, Andersen EC]
-  DOI: 10.1093/molbev/msx155
-  Date_Published: 2017 May 09
-  Journal: Mol. Biol. Evol.
-  PMID: 28486636
-  Title: Natural variation in the distribution and abundance of transposable elements
-    across the Caenorhabditis elegans species.
+- Authors: [Zdraljevic S, Strand C, Seidel HS, Cook DE, Doench JG, Andersen EC]
   Citations: 0
-  PDF: 2017Laricchia
-- Authors:
-  - Zdraljevic S
-  - Strand C
-  - Seidel HS
-  - Cook DE
-  - Doench JG
-  - Andersen EC
-  Citations: 0
-  PMID: 28700616
   DOI: http://dx.doi.org/10.1101/125567
   Date_Published: 2017 Apr 07
   Journal: BioRxiv
   PDF: 2017Zdraljevic
+  PMID: 28700616
   Title: Natural variation in a single amino acid underlies cellular responses to
     topoisomerase II poisons
   pub_data:
     files:
-      SuppMaterial.zip:
-        title: Supplemental Material
-- Authors:
-  - Zamanian M
-  - Cook DE
-  - Lee D
-  - Lee J
-  - Andersen EC
+      SuppMaterial.zip: {title: Supplemental Material}
+- Authors: [Zamanian M, Cook DE, Lee D, Lee J, Andersen EC]
   Citations: 0
   DOI: http://dx.doi.org/10.1101/116970
   Date_Published: 2017 Mar 05
   Journal: BioRxiv
   PDF: 2017Zamanian
   Title: Heritable small RNAs regulate nematode benzimidazole resistance
-- Authors:
-  - Cook DE
-  - Andersen EC
+- Authors: [Cook DE, Andersen EC]
   Citations: 0
   DOI: 10.1093/bioinformatics/btx011
   Date_Published: 2017 Jan 16
@@ -48,33 +25,22 @@
   PDF: 2017Cook_vcfkit
   PMID: '28093408'
   Title: 'VCF-kit: Assorted utilities for the variant call format.'
-- Authors:
-  - Laricchia KM
-  - Zdraljevic S
-  - Cook DE
-  - and Andersen EC
-  Date_Published: 2017
-  Journal: ''
+- Authors: [Laricchia KM, Zdraljevic S, Cook DE, Andersen EC]
+  Date_Published: 2017 May 09
+  Journal: Molecular Biology and Evolution
   PDF: 2017Laricchia
-  Title: The causes and consequences of natural variation in the distribution and
-    abundance of transposable elements across the <em>Caenorhabditis elegans</em>
-    species
+  PMID: 28486636
+  DOI: 10.1093/molbev/msx155
+  Title: Natural variation in the distribution and abundance of transposable elements
+    across the <em>Caenorhabditis elegans</em> species
   pub_data:
     files:
-      Supplemental_Figures.pdf:
-        title: Supplemental Figures
-      Supplemental_Files.zip:
-        title: Supplemental Files
-      Supplemental_Tables.zip:
-        title: Supplemental Tables
-  status: in_submission
-- Authors:
-  - Mashock MJ
-  - Zanon T
-  - Kappell AD
-  - Petrella LN
-  - Andersen EC
-  - Hristova KR
+      Supplemental_Figures.pdf: {title: Supplemental Figures}
+      Supplemental_Files.zip: {title: Supplemental Files}
+      Supplemental_Tables.zip: {title: Supplemental Tables}
+  status: published
+  Citations: 0
+- Authors: [Mashock MJ, Zanon T, Kappell AD, Petrella LN, Andersen EC, Hristova KR]
   Citations: 1
   DOI: 10.1371/journal.pone.0167613
   Date_Published: 2016 Dec 2
@@ -84,13 +50,7 @@
   PMID: '27911941'
   Title: Copper Oxide Nanoparticles Impact Several Toxicological Endpoints and Cause
     Neurodegeneration in Caenorhabditis elegans
-- Authors:
-  - Evans KS
-  - Zhao Y
-  - Brady SC
-  - Long L
-  - McGrath PT
-  - Andersen EC
+- Authors: [Evans KS, Zhao Y, Brady SC, Long L, McGrath PT, Andersen EC]
   Citations: 0
   DOI: 10.1534/g3.116.035162
   Date_Published: 2016 Nov 18
@@ -101,51 +61,25 @@
     elegans</em> niche adaptations
   pub_data:
     files:
-      Supp_Figures.zip:
-        title: Supplementary Figures
-        url: https://storage.googleapis.com/andersenlab.org/publications/2016EvansG3/Supp_Figures.zip
-      fileS1.csv:
-        title: Supplementary File 1
-      fileS2.csv:
-        title: Supplementary File 2
-        url: https://storage.googleapis.com/andersenlab.org/publications/2016EvansG3/fileS2.csv
-      fileS3.csv:
-        title: Supplementary File 3
-      fileS4.csv:
-        title: Supplementary File 4
-      supplementFiles_text.docx:
-        title: Supplementary File Descriptions
-- Authors:
-  - Cook DE
-  - Zdraljevic S
-  - Roberts JP
-  - Andersen EC
+      Supp_Figures.zip: {title: Supplementary Figures, url: 'https://storage.googleapis.com/andersenlab.org/publications/2016EvansG3/Supp_Figures.zip'}
+      fileS1.csv: {title: Supplementary File 1}
+      fileS2.csv: {title: Supplementary File 2, url: 'https://storage.googleapis.com/andersenlab.org/publications/2016EvansG3/fileS2.csv'}
+      fileS3.csv: {title: Supplementary File 3}
+      fileS4.csv: {title: Supplementary File 4}
+      supplementFiles_text.docx: {title: Supplementary File Descriptions}
+- Authors: [Cook DE, Zdraljevic S, Roberts JP, Andersen EC]
   Citations: 3
   Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI:
-  - 10.1093/nar/gkw893
+  - {Andersen EC: erik.andersen@northwestern.edu}
+  DOI: [10.1093/nar/gkw893]
   Date_Published: 2016 Oct 3
   Journal: Nucleic Acids Research
   PDF: 2016CookOxford
   PMID: 27701074
   Title: CeNDR, the <em> Caenorhabditis elegans</em> natural diversity resource
-- Authors:
-  - Cook DE
-  - Zdraljevic S
-  - Tanny RE
-  - Seo B
-  - Riccardi DD
-  - Noble LM
-  - Rockman MV
-  - Alkema MJ
-  - Braendle C
-  - Kammenga JE
-  - Wang J
-  - Kruglyak L
-  - "F\xE9lix MA"
-  - Lee J
-  - Andersen EC
+- Authors: [Cook DE, Zdraljevic S, Tanny RE, Seo B, Riccardi DD, Noble LM, Rockman
+      MV, Alkema MJ, Braendle C, Kammenga JE, Wang J, Kruglyak L, "F\xE9lix MA", Lee
+      J, Andersen EC]
   Citations: 0
   DOI: 10.1534/genetics.116.191148
   Date_Published: 2016 Sep 1
@@ -157,167 +91,126 @@
   Title: The genetic basis of natural variation in <em>C. elegans</em> telomere length
   pub_data:
     figures:
-      Figure S01 - Evaluation of variant-calling parameters from a simulated variant data set.png:
-        caption: True positive (TP; black), false positive (FP; red), and false negative
+      Figure S01 - Evaluation of variant-calling parameters from a simulated variant data set.png: {
+        caption: 'True positive (TP; black), false positive (FP; red), and false negative
           (FN; purple) rates across variant parameters suggest appropriate filter
           thresholds. The y-axis is the rate is the rate of TP compared with either
           FP or FN variants. The rate of TP and FP or FN is plotted on the x-axis
           across <strong>(A)</strong> depth of coverage, <strong>(B)</strong>, mapping
           quality, or <strong>(C)</strong> the number of high-quality non-reference
           bases (DV) over depth (DP) at a given site. allele for that isotype (F =
-          Red, I = Blue).
-        prefix: Figure S01
-        title: Evaluation of variant-calling parameters from a simulated variant data
-          set
-      Figure S02 - Pairwise SNV concordance.png:
-        caption: Pairwise SNV concordances among all strains were assessed by comparing
-          SNV calls between pairs of strains. Concordance is plotted on the x-axis.
-          The red line indicates the cutoff used to assign isotypes (0.9993). Strains
-          with concordances above this level were classified as isotypes and are colored
-          in blue.
-        prefix: Figure S02
-        title: Pairwise SNV concordance among isotypes
-      Figure S03 - Frequency of hexamers.png:
-        caption: The frequency of non-cyclical permutations of the telomeric hexamer
-          is plotted on the y-axis against the number of hexamer repeats per read
-          on the x-axis. The line color indicates the hexamer. The dashed line represents
-          the telomeric hexamer repeat in <em>C. elegans</em>.
-        prefix: Figure S03
-        title: Frequency of hexamers in short reads generated from the N2 strain
-      Figure S04 - Terminal restriction fragment (TRF) Southern blot Analysis.png:
+          Red, I = Blue).', prefix: Figure S01, title: Evaluation of variant-calling
+          parameters from a simulated variant data set}
+      Figure S02 - Pairwise SNV concordance.png: {caption: Pairwise SNV concordances
+          among all strains were assessed by comparing SNV calls between pairs of
+          strains. Concordance is plotted on the x-axis. The red line indicates the
+          cutoff used to assign isotypes (0.9993). Strains with concordances above
+          this level were classified as isotypes and are colored in blue., prefix: Figure
+          S02, title: Pairwise SNV concordance among isotypes}
+      Figure S03 - Frequency of hexamers.png: {caption: The frequency of non-cyclical
+          permutations of the telomeric hexamer is plotted on the y-axis against the
+          number of hexamer repeats per read on the x-axis. The line color indicates
+          the hexamer. The dashed line represents the telomeric hexamer repeat in
+          <em>C. elegans</em>., prefix: Figure S03, title: Frequency of hexamers in
+          short reads generated from the N2 strain}
+      Figure S04 - Terminal restriction fragment (TRF) Southern blot Analysis.png: {
         caption: Terminal restriction fragment analysis was performed on a subset
           of wild strains to evaluate the accuracy of TelSeq telomere-length estimates.
           Genomic DNA from wild isolates was separated by pulsed-field gel electrophoresis.
-          Equivalent amounts of DNA were loaded into each lane.
-        prefix: Figure S04
-        title: Terminal restriction fragment (TRF) Southern blot Analysis
-      Figure S05 - Correcting MMP TelSeq estimates for differences in read length.png:
+          Equivalent amounts of DNA were loaded into each lane., prefix: Figure S04,
+        title: Terminal restriction fragment (TRF) Southern blot Analysis}
+      Figure S05 - Correcting MMP TelSeq estimates for differences in read length.png: {
         caption: TelSeq telomere-length estimates from 448 Million Mutation Project
           strains sequenced at 75 bp and 100 bp were used to develop a linear model
           for converting TelSeq estimates. This transformation enabled us to convert
           TelSeq estimates using sequence data from 75 bp runs. The correlation between
-          75 bp and 100 bp estimates was <em>r<sup>2</sup></em> = 0.723.
-        prefix: Figure S05
-        title: Correcting MMP TelSeq estimates for differences in read length
-      Figure S06 - Distributionof the dept.png:
-        caption: 'The distribution of depth of coverage for 152 isotypes is shown.
-          The red line indicates median depth of coverage: 70x.'
-        prefix: Figure S06
-        title: Distribution of the depth of coverage among 152 isotypes
-      Figure S07 - Distribution of number.png:
-        caption: Number of single nucleotide variants (SNVs) is plotted on the x-axis
-          for each isotype (y-axis).
-        prefix: Figure S07
-        title: Distribution of number of variant sites as compared to the WS245 reference
-          genome
-      Figure S08 - Distribution_of_SNVs_by_genomeposition.png:
-        caption: "The number of SNV sites identified from the 152 isotypes relative\
-          \ to the N2 strain were calculated in 100 kb bins\_and plotted by genomic\
-          \ position (x-axis). The density of SNVs is greater on chromosome arms than\
-          \ in centers."
-        prefix: Figure S08
-        title: Distribution of SNVs by chromosome
-      Figure S09 - Similarity tree of 152 C elegans isotypes.png:
-        prefix: Figure S09
-        title: Similarity tree of 152 <em>C. elegans</em> isotypes
-      Figure S10 - TelSeq differences by DNA fragmentation method.png:
-        caption: Differences in TelSeq length estimates based on DNA fragmentation
-          method shown as boxplots. Dark lines within the center of each box represent
-          the median, and the box represents the interquartile range (IQR) from the
-          25th-75th percentile. Whiskers extend to 1.5x the IQR above and below the
-          box. Points represent estimates beyond 1.5x the IQR. <strong>(A)</strong>
-          Uncorrected TelSeq length estimates are plotted on the y-axis by DNA fragmentation
-          method. <strong>(B)</strong> Residual telomere length estimates are plotted
-          by DNA fragmentation method.
-        prefix: Figure S10
-        title: TelSeq differences by DNA fragmentation method
-      Figure S11 - Lack of a significant correlation between depth of coverage and TelSeq length estimate.png:
-        caption: Scatterplots of the depths of coverage for isotypes on the x-axis
+          75 bp and 100 bp estimates was <em>r<sup>2</sup></em> = 0.723., prefix: Figure
+          S05, title: Correcting MMP TelSeq estimates for differences in read length}
+      Figure S06 - Distributionof the dept.png: {caption: 'The distribution of depth
+          of coverage for 152 isotypes is shown. The red line indicates median depth
+          of coverage: 70x.', prefix: Figure S06, title: Distribution of the depth
+          of coverage among 152 isotypes}
+      Figure S07 - Distribution of number.png: {caption: Number of single nucleotide
+          variants (SNVs) is plotted on the x-axis for each isotype (y-axis)., prefix: Figure
+          S07, title: Distribution of number of variant sites as compared to the WS245
+          reference genome}
+      Figure S08 - Distribution_of_SNVs_by_genomeposition.png: {caption: "The number\
+          \ of SNV sites identified from the 152 isotypes relative to the N2 strain\
+          \ were calculated in 100 kb bins\_and plotted by genomic position (x-axis).\
+          \ The density of SNVs is greater on chromosome arms than in centers.", prefix: Figure
+          S08, title: Distribution of SNVs by chromosome}
+      Figure S09 - Similarity tree of 152 C elegans isotypes.png: {prefix: Figure
+          S09, title: Similarity tree of 152 <em>C. elegans</em> isotypes}
+      Figure S10 - TelSeq differences by DNA fragmentation method.png: {caption: 'Differences
+          in TelSeq length estimates based on DNA fragmentation method shown as boxplots.
+          Dark lines within the center of each box represent the median, and the box
+          represents the interquartile range (IQR) from the 25th-75th percentile.
+          Whiskers extend to 1.5x the IQR above and below the box. Points represent
+          estimates beyond 1.5x the IQR. <strong>(A)</strong> Uncorrected TelSeq length
+          estimates are plotted on the y-axis by DNA fragmentation method. <strong>(B)</strong>
+          Residual telomere length estimates are plotted by DNA fragmentation method.',
+        prefix: Figure S10, title: TelSeq differences by DNA fragmentation method}
+      Figure S11 - Lack of a significant correlation between depth of coverage and TelSeq length estimate.png: {
+        caption: 'Scatterplots of the depths of coverage for isotypes on the x-axis
           plotted against <strong>(A)</strong> the TelSeq telomere-length estimates
           (<em>rho</em> = 0.045, <em>p</em> = 0.576). <strong>(B)</strong> Depths
           of coverage are plotted against the residuals of the TelSeq length estimates
           after adjusting for sequencing center (run) and sequencing library (<em>rho</em>
-          = -0.134, <em>p</em> =  0.097).
-        prefix: Figure S11
-        title: Lack of a significant correlation between depth of coverage and TelSeq
-          length estimate
-      Figure S12 -_Longevity_is_not_associa.png:
-        caption: Median day of survival (x-axis) is plotted against the estimated
-          telomere length (y-axis). The correlation is not significant (<em>rho</em>
-          = 0.05 , <em>p</em> = 0.91).
-        prefix: Figure S12
-        title: Longevity is not associated with telomere length
-      Figure S13 - Tajimas_D_does_not_suppo.png:
-        caption: "Tajima\u2019s D values were calculated genome wide (window-size\
-          \ = 100,000, step-size = 10,000). <strong>(A)</strong> Distribution of Tajima\u2019\
-          s D values plotted by genomic position. The red box represents the region\
-          \ shown in panel <strong>(B)</strong> that contains the <em>pot-2</em> locus."
-        prefix: Figure S13
-        title: "Tajima\u2019s D does not support evidence of selection at the <em>pot-2</em>\
-          \ locus"
-      Figure S14 - Similarity trees of genome chromosome II and the pot-2 locus.png:
-        caption: Isotypes are colored by their POT-2 F68I variant status. F=Blue,
+          = -0.134, <em>p</em> =  0.097).', prefix: Figure S11, title: Lack of a significant
+          correlation between depth of coverage and TelSeq length estimate}
+      Figure S12 -_Longevity_is_not_associa.png: {caption: 'Median day of survival
+          (x-axis) is plotted against the estimated telomere length (y-axis). The
+          correlation is not significant (<em>rho</em> = 0.05 , <em>p</em> = 0.91).',
+        prefix: Figure S12, title: Longevity is not associated with telomere length}
+      Figure S13 - Tajimas_D_does_not_suppo.png: {caption: "Tajima\u2019s D values\
+          \ were calculated genome wide (window-size = 100,000, step-size = 10,000).\
+          \ <strong>(A)</strong> Distribution of Tajima\u2019s D values plotted by\
+          \ genomic position. The red box represents the region shown in panel <strong>(B)</strong>\
+          \ that contains the <em>pot-2</em> locus.", prefix: Figure S13, title: "Tajima\u2019\
+          s D does not support evidence of selection at the <em>pot-2</em> locus"}
+      Figure S14 - Similarity trees of genome chromosome II and the pot-2 locus.png: {
+        caption: 'Isotypes are colored by their POT-2 F68I variant status. F=Blue,
           I=Red. Trees were generated from SNVs <strong>(A)</strong> genome-wide,
           <strong>(B)</strong> using SNVs located on the right arm of chromosome II
           (13Mb to the terminus), or <strong>(C)</strong> using SNVs located within
-          the <em>pot-2</em> region (II:14,524,173-14,525,111).
-        prefix: Figure S14
-        title: Similarity trees of genome, chromosome II, and the <em>pot-2</em> locus
-      Figure S15 - Strains with the F68I variant are not found in similar geographic locations.png:
-        caption: The isolation location of the reference strain for each isotype is
-          plotted. Location markers are colored according to the status of the F68I
-          allele for that isotype (F = Blue, I = Red).
-        prefix: Figure S15
-        title: Strains with the F68I variant are not found in similar geographic locations
+          the <em>pot-2</em> region (II:14,524,173-14,525,111).', prefix: Figure S14,
+        title: 'Similarity trees of genome, chromosome II, and the <em>pot-2</em>
+          locus'}
+      Figure S15 - Strains with the F68I variant are not found in similar geographic locations.png: {
+        caption: 'The isolation location of the reference strain for each isotype
+          is plotted. Location markers are colored according to the status of the
+          F68I allele for that isotype (F = Blue, I = Red).', prefix: Figure S15,
+        title: Strains with the F68I variant are not found in similar geographic locations}
     files:
-      File S01 - Strain isotype grouping and collection information.csv:
-        caption: Strain isotype grouping and collection information
-        title: File S01
-      File S02 - Sequence run information.tsv:
-        caption: Sequence run information
-        title: File S02
-      File S03 - Rates of heterozygosity for different SNV calling methods.tsv:
-        caption: Rates of heterozygosity for different SNV calling methods
-        title: File S03
-      File S04 - Summary of variant filters.tsv:
-        caption: Summary of variant filters.tsv
-        title: File S04
-      File S05 - Telomere Hexamer Locations Across WS245.tsv:
-        caption: Telomere Hexamer Locations Across WS245
-        title: File S05
-      File S06 - Telseq length estimates by sequencing run.tsv:
-        caption: Telseq length estimates by sequencing run
-        title: File S06
-      File S07 - P-values from MMP enrichment test.tsv:
-        caption: P-values from MMP enrichment test
-        title: File S07
-      File S08 - TelSeq telomere length estimates among wild isolates.tsv:
-        caption: TelSeq telomere length estimates among wild isolates
-        title: File S08
-      File S09 - Telomere length measurements comparison.tsv:
-        caption: Telomere length measurements comparison
-        title: File S09
-      File S10 - QTL Mapping Results.tsv:
-        caption: QTL Mapping Results
-        title: File S10
-      File S11 - QTL Confidence Interval Genes.tsv:
-        caption: QTL Confidence Interval Genes
-        title: File S11
-      WI.20160408.impute.vcf.gz:
-        caption: SNVs imputed with Beagle
-        title: Imputed variant set
-        url: https://storage.googleapis.com/andersenlab.org/publications/2016Cooketal/WI.20160408.impute.vcf.gz
-      WI.20160408.snpeff.vcf.gz:
-        caption: SNVs annotated with SnpEff
-        title: Annotated variant set
-        url: https://storage.googleapis.com/andersenlab.org/publications/20160408/WI.20160408.snpeff.vcf.gz
+      File S01 - Strain isotype grouping and collection information.csv: {caption: Strain
+          isotype grouping and collection information, title: File S01}
+      File S02 - Sequence run information.tsv: {caption: Sequence run information,
+        title: File S02}
+      File S03 - Rates of heterozygosity for different SNV calling methods.tsv: {
+        caption: Rates of heterozygosity for different SNV calling methods, title: File
+          S03}
+      File S04 - Summary of variant filters.tsv: {caption: Summary of variant filters.tsv,
+        title: File S04}
+      File S05 - Telomere Hexamer Locations Across WS245.tsv: {caption: Telomere Hexamer
+          Locations Across WS245, title: File S05}
+      File S06 - Telseq length estimates by sequencing run.tsv: {caption: Telseq length
+          estimates by sequencing run, title: File S06}
+      File S07 - P-values from MMP enrichment test.tsv: {caption: P-values from MMP
+          enrichment test, title: File S07}
+      File S08 - TelSeq telomere length estimates among wild isolates.tsv: {caption: TelSeq
+          telomere length estimates among wild isolates, title: File S08}
+      File S09 - Telomere length measurements comparison.tsv: {caption: Telomere length
+          measurements comparison, title: File S09}
+      File S10 - QTL Mapping Results.tsv: {caption: QTL Mapping Results, title: File
+          S10}
+      File S11 - QTL Confidence Interval Genes.tsv: {caption: QTL Confidence Interval
+          Genes, title: File S11}
+      WI.20160408.impute.vcf.gz: {caption: SNVs imputed with Beagle, title: Imputed
+          variant set, url: 'https://storage.googleapis.com/andersenlab.org/publications/2016Cooketal/WI.20160408.impute.vcf.gz'}
+      WI.20160408.snpeff.vcf.gz: {caption: SNVs annotated with SnpEff, title: Annotated
+          variant set, url: 'https://storage.googleapis.com/andersenlab.org/publications/20160408/WI.20160408.snpeff.vcf.gz'}
   status: published
-- Authors:
-  - Farhadifar R
-  - Ponciano JM
-  - Andersen EC
-  - Needleman DJ
-  - Baer CF
+- Authors: [Farhadifar R, Ponciano JM, Andersen EC, Needleman DJ, Baer CF]
   Citations: 2
   DOI: 10.1534/genetics.115.185736
   Date_Published: 2016 Aug 1
@@ -327,15 +220,8 @@
   PMID: '27334268'
   Title: Mutation Is a Sufficient and Robust Predictor of Genetic Variation for Mitotic
     Spindle Traits in <em> Caenorhabditis elegans </em>
-- Authors:
-  - Large EE
-  - Xu W
-  - Zhao Y
-  - Brady SC
-  - Long L
-  - Butcher RA
-  - Andersen EC
-  - McGrath PT
+- Authors: [Large EE, Xu W, Zhao Y, Brady SC, Long L, Butcher RA, Andersen EC, McGrath
+      PT]
   Citations: 2
   DOI: 10.1371/journal.pgen.1006219
   Date_Published: 2016 July 28
@@ -345,83 +231,49 @@
   PMID: '27467070'
   Title: Selection on a Subunit of the NURF Chromatin Remodeler Modifies Life History
     Traits in a Domesticated Strain of <em>Caenorhabditis elegans</em>
-- Authors:
-  - Zamanian M
-  - Andersen EC
+- Authors: [Zamanian M, Andersen EC]
   Citations: 2
   Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI:
-  - 10.1111/febs.13781
+  - {Andersen EC: erik.andersen@northwestern.edu}
+  DOI: [10.1111/febs.13781]
   Date_Published: 2016 July 11
   Journal: FEBS Journal
   PDF: 2016ZamanianFEBS
   PMID: 27300487
   Title: Prospects and challenges of CRISPR/Cas genome editing for the study and control
     of neglected vector-borne nematode diseases
-- Authors:
-  - Thompson OA
-  - Snoek LB
-  - Nijveen H
-  - Sterken MG
-  - Volkers RJM
-  - Brenchley R
-  - van 't Hof A
-  - Bevers RPJ
-  - Cossins AR
-  - Yanai I
-  - Hajnal A
-  - Schmid T
-  - Perkins JD
-  - Spencer D
-  - Kruglyak L
-  - Andersen EC
-  - Moerman DG
-  - Hillier LW
-  - Kammenga JE
-  - Waterston RH
+- Authors: [Thompson OA, Snoek LB, Nijveen H, Sterken MG, Volkers RJM, Brenchley R,
+    van 't Hof A, Bevers RPJ, Cossins AR, Yanai I, Hajnal A, Schmid T, Perkins JD,
+    Spencer D, Kruglyak L, Andersen EC, Moerman DG, Hillier LW, Kammenga JE, Waterston
+      RH]
   Citations: 25
   Corresponding_Authors:
-  - Waterson RH: waterso@u.washington.edu
-  DOI:
-  - 10.1534/genetics.115.175950
+  - {Waterson RH: waterso@u.washington.edu}
+  DOI: [10.1534/genetics.115.175950]
   Date_Published: 2015 May 19
   Journal: Genetics
   PDF: 2015genetics_v2
   PMID: 25995208
   Title: Remarkably Divergent Regions Punctuate the Genome Assembly of the <em>Caenorhabditis
     elegans</em> Hawaiian Strain CB4856
-- Authors:
-  - Sterken MG
-  - Snoek LB
-  - Kammenga JE
-  - Andersen EC
+- Authors: [Sterken MG, Snoek LB, Kammenga JE, Andersen EC]
   Citations: 24
   Corresponding_Authors:
-  - Kammenga JE: jan.kammenga@wur.nl
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI:
-  - 10.1016/j.tig.2015.02.009
+  - {Kammenga JE: jan.kammenga@wur.nl}
+  - {Andersen EC: erik.andersen@northwestern.edu}
+  DOI: [10.1016/j.tig.2015.02.009]
   Date_Published: 2015 Mar 21
   Journal: Trends in Genetics
   PDF: 2015Trendsingenetics
   PMID: 25804345
   Title: The laboratory domestication of <em>Caenorhabditis elegans</em>
-- Authors:
-  - Andersen EC
-  - Shimko TC
-  - Crissman JR
-  - Ghosh R
-  - Bloom JS
-  - Seidel HS
-  - Gerke JP
-  - Kruglyak L
+- Authors: [Andersen EC, Shimko TC, Crissman JR, Ghosh R, Bloom JS, Seidel HS, Gerke
+      JP, Kruglyak L]
   Citations: 13
   Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  - Kruglyak L: lkruglyak@mednet.ucla.edu
-  DOI:
-  - 10.1534/g3.115.017178
+  - {Andersen EC: erik.andersen@northwestern.edu}
+  - {Kruglyak L: lkruglyak@mednet.ucla.edu}
+  DOI: [10.1534/g3.115.017178]
   Date_Published: 2015 Mar 13
   Journal: G3 (Bethesda)
   PDF: 2015AndersenG3
@@ -434,75 +286,44 @@
     Strains
   pub_data:
     files:
-      Supplementary File 01:
-        caption: Genotypes for these RIAILs (QX240-QX598)
-        title: Supplementary File 01
-        url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS1.csv
-      Supplementary File 02:
-        caption: Phenotypes from our high-throughput fitness assays.
-        title: Supplementary File 02
-        url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS2.csv
-      Supplementary File 03:
-        caption: All QTL from Andersen et al. G3 2015.
-        title: Supplementary File 03
-        url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS3.csv
-      Supplementary File 04:
-        caption: Plots of all QTL from Andersen et al. G3 2015.
-        title: Supplementary File 04
-        url: http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx
-- Authors:
-  - Farhadifar R
-  - Baer CF
-  - Valfort AC
-  - Andersen EC
-  - Muller-Reichert T
-  - Delattre M
-  - Needleman DJ
+      Supplementary File 01: {caption: Genotypes for these RIAILs (QX240-QX598), title: Supplementary
+          File 01, url: 'http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS1.csv'}
+      Supplementary File 02: {caption: Phenotypes from our high-throughput fitness
+          assays., title: Supplementary File 02, url: 'http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS2.csv'}
+      Supplementary File 03: {caption: All QTL from Andersen et al. G3 2015., title: Supplementary
+          File 03, url: 'http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS3.csv'}
+      Supplementary File 04: {caption: Plots of all QTL from Andersen et al. G3 2015.,
+        title: Supplementary File 04, url: 'http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx'}
+- Authors: [Farhadifar R, Baer CF, Valfort AC, Andersen EC, Muller-Reichert T, Delattre
+      M, Needleman DJ]
   Citations: 20
   Corresponding_Authors:
-  - Farhadifar R: rfarhadifar@cgr.harvard.edu
-  DOI:
-  - 10.1016/j.cub.2014.12.060
+  - {Farhadifar R: rfarhadifar@cgr.harvard.edu}
+  DOI: [10.1016/j.cub.2014.12.060]
   Date_Published: 2015 Feb 11
   Journal: Current Biology
   PDF: 2015currbio
   PMID: 25683802
   Title: Scaling, Selection, and Evolutionary Dynamics of the Mitotic Spindle
-- Authors:
-  - Etienne V
-  - Andersen EC
-  - Ponciano JM
-  - Blanton D
-  - Cadavid A
-  - Joyner-Matos J
-  - Matsuba C
-  - Tabman B
-  - Baer CF
+- Authors: [Etienne V, Andersen EC, Ponciano JM, Blanton D, Cadavid A, Joyner-Matos
+      J, Matsuba C, Tabman B, Baer CF]
   Citations: 2
   Corresponding_Authors:
-  - Baer CF: cbaer@ufl.edu
-  DOI:
-  - 10.1111/evo.12585
+  - {Baer CF: cbaer@ufl.edu}
+  DOI: [10.1111/evo.12585]
   Date_Published: 2015 Feb
-  Equal_Contributors:
-  - Andersen EC
-  - Etienne V
+  Equal_Contributors: [Andersen EC, Etienne V]
   Journal: Evolution
   PDF: 2015Evolution
   PMC: PMC4310795
   PMID: '25495240'
   Title: 'The red death meets the abdominal bristle: Polygenic mutation for susceptibility
     to a bacterial pathogen in <em>Caenorhabditis elegans</em>.'
-- Authors:
-  - Balla KM
-  - Andersen EC
-  - Kruglyak L
-  - Troemel ER
+- Authors: [Balla KM, Andersen EC, Kruglyak L, Troemel ER]
   Citations: 10
   Corresponding_Authors:
-  - Troemel ER: etroemel@ucsd.edu
-  DOI:
-  - 10.1371/journal.ppat.1004583
+  - {Troemel ER: etroemel@ucsd.edu}
+  DOI: [10.1371/journal.ppat.1004583]
   Date_Published: 2015 Feb
   Journal: PLoS Pathogens
   PDF: 2015PLOSPATHOG
@@ -510,14 +331,11 @@
   PMID: '25680197'
   Title: A wild <em>C. elegans</em> strain has enhanced epithelial immunity to a natural
     microsporidian parasite.
-- Authors:
-  - Shimko TC
-  - Andersen EC
+- Authors: [Shimko TC, Andersen EC]
   Citations: 6
   Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI:
-  - 10.1371/journal.pone.0111090
+  - {Andersen EC: erik.andersen@northwestern.edu}
+  DOI: [10.1371/journal.pone.0111090]
   Date_Published: 2014 Oct 20
   Journal: PLoS One
   PDF: 2014journal.pone.0111090
@@ -525,17 +343,12 @@
   PMID: 25329171
   Title: 'COPASutils: An R Package for Reading, Processing, and Visualizing Data from
     COPAS Large-Particle Flow Cytometers.'
-- Authors:
-  - Andersen EC
-  - Bloom JS
-  - Gerke JP
-  - Kruglyak L
+- Authors: [Andersen EC, Bloom JS, Gerke JP, Kruglyak L]
   Citations: 39
   Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  - Kruglyak L: lkruglyak@mednet.ucla.edu
-  DOI:
-  - 10.1371/journal.pgen.1004156
+  - {Andersen EC: erik.andersen@northwestern.edu}
+  - {Kruglyak L: lkruglyak@mednet.ucla.edu}
+  DOI: [10.1371/journal.pgen.1004156]
   Date_Published: 2014 Feb
   Journal: PLoS Genetics
   PDF: 2014PLOSGenetics
@@ -543,41 +356,25 @@
   PMID: 24586193
   Title: A variant in the neuropeptide receptor <em>npr-1</em> is a major determinant
     of <em>Caenorhabditis elegans</em> growth and physiology.
-- Authors:
-  - Felix MA
-  - Jovelin R
-  - Ferrari C
-  - Han S
-  - Cho YR
-  - Andersen EC
-  - Cutter AD
-  - Braendle C
+- Authors: [Felix MA, Jovelin R, Ferrari C, Han S, Cho YR, Andersen EC, Cutter AD,
+    Braendle C]
   Citations: 32
   Corresponding_Authors:
-  - Braendle C: braendle@unice.fr
-  DOI:
-  - 10.1186/1471-2148-13-10
+  - {Braendle C: braendle@unice.fr}
+  DOI: [10.1186/1471-2148-13-10]
   Date_Published: 2013 Jan 12
-  Equal_Contributors:
-  - Felix MA
-  - Jovelin R
+  Equal_Contributors: [Felix MA, Jovelin R]
   Journal: BMC Evolutionary Biology
   PDF: 2013FelixBMC-EvolBio
   PMC: PMC3556333
   PMID: 23311925
   Title: Species richness, distribution and genetic diversity of <em>Caenorhabditis</em>
     nematodes in a remote tropical rainforest.
-- Authors:
-  - Ghosh R
-  - Andersen EC
-  - Shapiro JA
-  - Gerke JP
-  - Kruglyak L
+- Authors: [Ghosh R, Andersen EC, Shapiro JA, Gerke JP, Kruglyak L]
   Citations: 59
   Corresponding_Authors:
-  - Kruglyak L: leonid@genomics.princeton.edu
-  DOI:
-  - 10.1126/science.1214318
+  - {Kruglyak L: leonid@genomics.princeton.edu}
+  DOI: [10.1126/science.1214318]
   Date_Published: 2012 Feb 3
   Journal: Science
   PDF: 2012GhoshScience
@@ -585,25 +382,14 @@
   PMID: '22301316'
   Title: Natural variation in a chloride channel subunit confers avermectin resistance
     in <em>C. elegans</em>.
-- Authors:
-  - Andersen EC
-  - Gerke JP
-  - Shapiro JA
-  - Crissman JR
-  - Ghosh R
-  - Bloom JS
-  - Felix MA
-  - Kruglyak L
+- Authors: [Andersen EC, Gerke JP, Shapiro JA, Crissman JR, Ghosh R, Bloom JS, Felix
+      MA, Kruglyak L]
   Citations: 175
   Corresponding_Authors:
-  - Kruglyak L: leonid@genomics.princeton.edu
-  DOI:
-  - 10.1038/ng.1050
+  - {Kruglyak L: leonid@genomics.princeton.edu}
+  DOI: [10.1038/ng.1050]
   Date_Published: 2012 Mar
-  Equal_Contributors:
-  - Andersen EC
-  - Gerke JP
-  - Shapiro JA
+  Equal_Contributors: [Andersen EC, Gerke JP, Shapiro JA]
   Journal: Nature Genetics
   PDF: 2012AndersenNatureGenetics
   PMC: PMC3365839
@@ -614,37 +400,25 @@
     diversity.
   pub_data:
     files:
-      Rad-Seq SNP Calls:
-        title: Rad-Seq SNP Calls
-        url: https://github.com/AndersenLab/Rad-Seq/raw/master/data/41188.SNP.WS210.txt
-      Supplementary Figures:
-        title: Supplementary Figures
-        url: https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/SupportingMaterial.pdf
-      Supplementary Methods:
-        title: Supplementary Methods
-        url: https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/FullMethods.pdf
-- Authors:
-  - Andersen EC
+      Rad-Seq SNP Calls: {title: Rad-Seq SNP Calls, url: 'https://github.com/AndersenLab/Rad-Seq/raw/master/data/41188.SNP.WS210.txt'}
+      Supplementary Figures: {title: Supplementary Figures, url: 'https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/SupportingMaterial.pdf'}
+      Supplementary Methods: {title: Supplementary Methods, url: 'https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/FullMethods.pdf'}
+- Authors: [Andersen EC]
   Citations: 11
   Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI:
-  - 10.1007/978-1-61779-228-1_24
+  - {Andersen EC: erik.andersen@northwestern.edu}
+  DOI: [10.1007/978-1-61779-228-1_24]
   Date_Published: 2011 Jul 08
   Journal: Methods in Molecular Biology
   PDF: 2011AndersenMethods-Mol-Biol
   PMID: '22065452'
   Title: PCR-directed <em>in vivo</em> plasmid construction using homologous recombination
     in baker's yeast.
-- Authors:
-  - Bessler JB
-  - Andersen EC
-  - Villeneuve AM
+- Authors: [Bessler JB, Andersen EC, Villeneuve AM]
   Citations: 52
   Corresponding_Authors:
-  - Villeneuve AM: annev@stanford.edu
-  DOI:
-  - 10.1371/journal.pgen.1000830
+  - {Villeneuve AM: annev@stanford.edu}
+  DOI: [10.1371/journal.pgen.1000830]
   Date_Published: 2010 Jan
   Journal: PLoS Genetics
   PDF: 2010BesslerPLoS-Genet
@@ -653,55 +427,37 @@
   Title: Differential localization and independent acquisition of the H3K9me2 and
     H3K9me3 chromatin modifications in the <em>Caenorhabditis elegans</em> adult germ
     line.
-- Authors:
-  - Raj A
-  - Rifkin SA
-  - Andersen EC
-  - van Oudenaarden A
+- Authors: [Raj A, Rifkin SA, Andersen EC, van Oudenaarden A]
   Citations: 410
   Corresponding_Authors:
-  - van Oudenaarden: avano@mit.edu
-  DOI:
-  - 10.1038/nature08781
+  - {van Oudenaarden: avano@mit.edu}
+  DOI: [10.1038/nature08781]
   Date_Published: 2010 Feb 18
-  Equal_Contributors:
-  - Raj A
-  - Rifkin SA
+  Equal_Contributors: [Raj A, Rifkin SA]
   Journal: Nature
   PDF: 2010RajNature
   PMC: PMC2836165
   PMID: '20164922'
   Title: Variability in gene expression underlies incomplete penetrance
-- Authors:
-  - Reddy KC
-  - Andersen EC
-  - Kruglyak L
-  - Kim DH
+- Authors: [Reddy KC, Andersen EC, Kruglyak L, Kim DH]
   Citations: 115
   Corresponding_Authors:
-  - Kruglyak: leonid@genomics.princeton.edu
-  - Kim DH: dhkim@mit.edu
-  DOI:
-  - 10.1126/science.1166527
+  - {Kruglyak: leonid@genomics.princeton.edu}
+  - {Kim DH: dhkim@mit.edu}
+  DOI: [10.1126/science.1166527]
   Date_Published: 2009 Jan 16
-  Equal_Contributors:
-  - Reddy KC
-  - Andersen EC
+  Equal_Contributors: [Reddy KC, Andersen EC]
   Journal: Science
   PDF: 2009ReddyScience
   PMC: PMC2748219
   PMID: '19150845'
   Title: A polymorphism in <em>npr-1</em> is a behavioral determinant of pathogen
     susceptibility in <em>C. elegans</em>
-- Authors:
-  - Andersen EC
-  - Saffer AM
-  - Horvitz HR
+- Authors: [Andersen EC, Saffer AM, Horvitz HR]
   Citations: 17
   Corresponding_Authors:
-  - Horvitz HR: horvitz@mit.edu
-  DOI:
-  - 10.1534/genetics.108.092197
+  - {Horvitz HR: horvitz@mit.edu}
+  DOI: [10.1534/genetics.108.092197]
   Date_Published: 2008 Aug
   Journal: Genetics
   PDF: 2008AndersenGenetics
@@ -709,28 +465,20 @@
   PMID: '18689876'
   Title: Multiple levels of redundant processes inhibit <em>Caenorhabditis elegans</em>
     vulval cell fates.
-- Authors:
-  - Andersen EC
-  - Horvitz HR
+- Authors: [Andersen EC, Horvitz HR]
   Citations: 80
   Corresponding_Authors:
-  - Horvitz HR: horvitz@mit.edu
-  DOI:
-  - 10.1242/dev.009373
+  - {Horvitz HR: horvitz@mit.edu}
+  DOI: [10.1242/dev.009373]
   Date_Published: 2007 Aug
   Journal: Development
   PDF: 2007AndersenDevelopment
   PMID: '17634190'
   Title: Two <em>C. elegans</em> histone methyltransferases repress <em>lin-3</em>
     EGF transcription to inhibit vulval development.
-- Authors:
-  - Reddien PW
-  - Andersen EC
-  - Huang MC
-  - Horvitz HR
+- Authors: [Reddien PW, Andersen EC, Huang MC, Horvitz HR]
   Citations: 33
-  DOI:
-  - 10.1534/genetics.106.068148
+  DOI: [10.1534/genetics.106.068148]
   Date_Published: 2007 Apr
   Journal: Genetics
   PDF: 2007ReddienGenetics
@@ -738,32 +486,22 @@
   PMID: '17237514'
   Title: DPL-1 DP, LIN-35 Rb and EFL-1 E2F act with the MCD-1 zinc-finger protein
     to promote programmed cell death in <em>Caenorhabditis elegans</em>.
-- Authors:
-  - Andersen EC
-  - Lu X
-  - Horvitz HR
+- Authors: [Andersen EC, Lu X, Horvitz HR]
   Citations: 54
   Corresponding_Authors:
-  - Horvitz HR: horvitz@mit.edu
-  DOI:
-  - 10.1242/dev.02444
+  - {Horvitz HR: horvitz@mit.edu}
+  DOI: [10.1242/dev.02444]
   Date_Published: 2006 Jul
   Journal: Development
   PDF: 2006AndersenDevelopment
   PMID: '16774993'
   Title: <em>C. elegans</em> ISWI and NURF301 antagonize an Rb-like pathway in the
     determination of multiple cell fates.
-- Authors:
-  - Furlong EE
-  - Andersen EC
-  - Null B
-  - White KP
-  - Scott MP
+- Authors: [Furlong EE, Andersen EC, Null B, White KP, Scott MP]
   Citations: 267
   Corresponding_Authors:
-  - Scott MP: scott@cmgm.stanford.edu
-  DOI:
-  - 10.1126/science.1062660
+  - {Scott MP: scott@cmgm.stanford.edu}
+  DOI: [10.1126/science.1062660]
   Date_Published: 2001 Aug 31
   Journal: Science
   PDF: 2001FurlongScience

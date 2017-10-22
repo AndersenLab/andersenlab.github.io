@@ -8,17 +8,18 @@
   email: Erik.Andersen@northwestern.edu
   github: synmuv
 
-- first_name: Robyn
-  last_name: Tanny
-  pub_names: ["RE Tanny", "Tanny RE", "Robyn E. Tanny", "Robyn E Tanny"]
-  description: "I manage the lab's strain collection, generate sequencing libraries, monitor undergraduate research and aid in the high-throughput assay pipeline. I also handle incoming collection samples to identify new strains of <em>C. elegans</em>."
-  title: Research Associate
-  photo: Robyn.jpg
-  email: Robyn.Tanny@northwestern.edu
-
 #========================#
 # Post-Doc               #
 #========================#
+
+- first_name: Tim
+  pub_names: ["Crombie T"]
+  last_name: Crombie
+  description: I'm interested in natural variation in stress responses and GxE interactions.
+  title: Postdoctoral Researcher
+  former: false
+  photo: TimothyCrombie.jpg
+  email: tcrombie@northwestern.edu
 
 - first_name: Bryn
   last_name: Gaertner
@@ -29,16 +30,26 @@
   email: Bryn.Gaertner@northwestern.edu
   current_status: Prescott Medical Communications Group
 
-- first_name: Daehan
-  last_name: Lee
-  description: 
+- first_name: Steffen
+  pub_names: ["Hahnel S"]
+  last_name: Hahnel
+  description: I'm interested in natural variation in anthelmintic drug responses.
   title: Postdoctoral Researcher
   former: false
-  photo: daehan.jpg
+  photo: SteffenHahnel.jpg
+  email: steffen.hahnel@northwestern.edu
+
+- first_name: Daehan
+  pub_names: ["Lee D"]
+  last_name: Lee
+  description: I'm interested in natural variation in dauer development and metabolite signaling.
+  title: Postdoctoral Researcher
+  former: false
+  photo: DaehanLee.jpg
   email: daehan.lee@northwestern.edu
 
 - first_name: Mostafa
-  pub_names: 
+  pub_names:
     - Zamanian M
   last_name: Zamanian
   description: My research broadly spans "neglected disease" genomics and drug discovery. I am currently working to uncover new genetic determinants of anthelmintic resistance and to develop genome editing technology for human pathogenic helminths.
@@ -60,13 +71,27 @@
 # Research Staff #
 #================#
 
+- first_name: Robyn
+  last_name: Tanny
+  pub_names: ["RE Tanny", "Tanny RE", "Robyn E. Tanny", "Robyn E Tanny"]
+  description: I manage the lab's strain collection, generate sequencing libraries, and manage CeNDR. I also handle incoming collection samples to identify new strains of <em>C. elegans</em>.
+  title: Research Associate
+  photo: Robyn.jpg
+  email: Robyn.Tanny@northwestern.edu
+
+- first_name: Briana
+  last_name: Rodriguez
+  description: I manage the work-study students and perform high-throughput fitness assays.
+  title: Research Associate
+  photo: BrianaRodriguez.jpg
+  email: briana.rodriguez@northwestern.edu
 
 #===================#
 # Graduate Students #
 #===================#
 
 - first_name: Kathryn
-  last_name: Evans  
+  last_name: Evans
   title: Graduate Student
   description: My research combines computational and experimental techniques to investigate the relationship between genetic variation and observed phenotypes, particularly the response to chemotherapeutic drugs.
   pub_names: ["Evans KS"]
@@ -137,10 +162,10 @@
 - first_name: Kreena
   last_name: Patel
   email: kreena.patel@northwestern.edu
-  title: Undergraduate and Research Technician, 2013-2016 
+  title: Undergraduate and Research Technician, 2013-2016
   former: true
   departure: 2016-08-01
-  current_status: Medical student, Feinberg School of Medicine 
+  current_status: Medical student, Feinberg School of Medicine
 
 
 - first_name: Sam
@@ -166,7 +191,7 @@
   last_name: Roberts
   email: joshuaroberts2016@u.northwestern.edu
   photo: Joshua_Roberts.png
-  title: Undergraduate Developer, 2015-2016, 
+  title: Undergraduate Developer, 2015-2016,
   current_status: Motivate International
   former: true
   departure: 2016-07-01
