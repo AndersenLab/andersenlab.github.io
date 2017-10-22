@@ -1,7 +1,6 @@
 - first_name: Erik
   last_name: Andersen
   title: Principal Investigator
-  group: Principal Investigator
   # Specify names here to highlight within publications
   pub_names: ["EC Andersen", "Andersen EC", "Erik C. Andersen", "Erik C Andersen"]
   photo: Erik_C_Andersen.jpg
@@ -72,13 +71,11 @@
   description: My research combines computational and experimental techniques to investigate the relationship between genetic variation and observed phenotypes, particularly the response to chemotherapeutic drugs.
   pub_names: ["Evans KS"]
   photo: Kathryn_Evans.jpg
-  group: Graduate Students
   email: kathrynevans2015@u.northwestern.edu
 
 - first_name: Daniel
   last_name: Cook
   title: Graduate Student
-  group: Graduate Students
   pub_names: ["Cook DE"]
   photo: Daniel_E_Cook.jpg
   website: http://www.danielecook.com
@@ -91,7 +88,6 @@
   pub_names: ["Zdraljevic S"]
   title: Graduate Student
   description: I am interested in how organisms perceive and respond to their environment. Specifically, how natural genetic and non-genetic factors contribute to variability in response to environmental cues.
-  group: Graduate Students
   photo: Stefan_Zdraljevic.jpg
   github: Thatguy027
   email: StefanZdraljevic2018@u.northwestern.edu
@@ -102,7 +98,6 @@
   title: Graduate Student
   description: I am interested in the genotypic factors that contribute to drug sensitivity, especially in regards to chemotherapeutics.
   photo: Shannon_brady.jpg
-  group: Graduate Students
   email: shannonbrady2014@u.northwestern.edu
 
 
