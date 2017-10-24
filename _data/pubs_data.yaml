@@ -1,8 +1,24 @@
+- Authors: [Zdraljevic S, Andersen EC]
+  DOI: 10.1016/j.gde.2017.08.002
+  Date_Published: '2017'
+  Journal: Curr. Opin. Genet. Dev.
+  PMC: null
+  PMID: '28892780'
+  Title: Natural diversity facilitates the discovery of conserved chemotherapeutic
+    response mechanisms
+- Authors: [Lee D, Yang H, Kim J, Brady S, Zdraljevic S, Zamanian M, Kim H, Paik YK,
+    Kruglyak L, Andersen EC, Lee J]
+  DOI: 10.1038/s41467-017-00386-x
+  Date_Published: '2017'
+  Journal: Nat Commun
+  PMC: '5561207'
+  PMID: '28819099'
+  Title: The genetic basis of natural variation in a phoretic behavior
 - Authors: [Zdraljevic S, Strand C, Seidel HS, Cook DE, Doench JG, Andersen EC]
   Citations: 0
   DOI: http://dx.doi.org/10.1101/125567
   Date_Published: 2017 Apr 07
-  Journal: BioRxiv
+  Journal: PLOS Genetics
   PDF: 2017Zdraljevic
   PMID: 28700616
   Title: Natural variation in a single amino acid underlies cellular responses to
@@ -26,11 +42,12 @@
   PMID: '28093408'
   Title: 'VCF-kit: Assorted utilities for the variant call format.'
 - Authors: [Laricchia KM, Zdraljevic S, Cook DE, Andersen EC]
+  Citations: 0
+  DOI: 10.1093/molbev/msx155
   Date_Published: 2017 May 09
   Journal: Molecular Biology and Evolution
   PDF: 2017Laricchia
   PMID: 28486636
-  DOI: 10.1093/molbev/msx155
   Title: Natural variation in the distribution and abundance of transposable elements
     across the <em>Caenorhabditis elegans</em> species
   pub_data:
@@ -39,7 +56,6 @@
       Supplemental_Files.zip: {title: Supplemental Files}
       Supplemental_Tables.zip: {title: Supplemental Tables}
   status: published
-  Citations: 0
 - Authors: [Mashock MJ, Zanon T, Kappell AD, Petrella LN, Andersen EC, Hristova KR]
   Citations: 1
   DOI: 10.1371/journal.pone.0167613
