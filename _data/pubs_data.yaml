@@ -1,25 +1,22 @@
 - Authors: [Zdraljevic S, Andersen EC]
   DOI: 10.1016/j.gde.2017.08.002
-  Date_Published: '2017'
-  Journal: Curr. Opin. Genet. Dev.
-  PMC: null
   Date_Published: 2017 Sept 09
+  Journal: Curr. Opin. Genet. Dev.
   PDF: 2017ZdraljevicReview
+  PMC: null
   PMID: '28892780'
   Title: Natural diversity facilitates the discovery of conserved chemotherapeutic
     response mechanisms
 - Authors: [Lee D, Yang H, Kim J, Brady S, Zdraljevic S, Zamanian M, Kim H, Paik YK,
     Kruglyak L, Andersen EC, Lee J]
   DOI: 10.1038/s41467-017-00386-x
-  Date_Published: '2017'
+  Date_Published: 2017 Aug 17
   Journal: Nat Commun
+  PDF: 2017LeeNict
   PMC: '5561207'
   PMID: '28819099'
-  Date_Published: 2017 Aug 17
-  PDF: 2017LeeNict
   Title: The genetic basis of natural variation in a phoretic behavior
 - Authors: [Zdraljevic S, Strand C, Seidel HS, Cook DE, Doench JG, Andersen EC]
-  Citations: 0
   DOI: http://dx.doi.org/10.1101/125567
   Date_Published: 2017 Apr 07
   Journal: PLOS Genetics
@@ -30,15 +27,7 @@
   pub_data:
     files:
       SuppMaterial.zip: {title: Supplemental Material}
-- Authors: [Zamanian M, Cook DE, Lee D, Lee J, Andersen EC]
-  Citations: 0
-  DOI: http://dx.doi.org/10.1101/116970
-  Date_Published: 2017 Mar 05
-  Journal: BioRxiv
-  PDF: 2017Zamanian
-  Title: Heritable small RNAs regulate nematode benzimidazole resistance
 - Authors: [Cook DE, Andersen EC]
-  Citations: 0
   DOI: 10.1093/bioinformatics/btx011
   Date_Published: 2017 Jan 16
   Journal: Bioinformatics
@@ -46,7 +35,6 @@
   PMID: '28093408'
   Title: 'VCF-kit: Assorted utilities for the variant call format.'
 - Authors: [Laricchia KM, Zdraljevic S, Cook DE, Andersen EC]
-  Citations: 0
   DOI: 10.1093/molbev/msx155
   Date_Published: 2017 May 09
   Journal: Molecular Biology and Evolution
@@ -61,7 +49,6 @@
       Supplemental_Tables.zip: {title: Supplemental Tables}
   status: published
 - Authors: [Mashock MJ, Zanon T, Kappell AD, Petrella LN, Andersen EC, Hristova KR]
-  Citations: 1
   DOI: 10.1371/journal.pone.0167613
   Date_Published: 2016 Dec 2
   Journal: PLoS ONE
@@ -71,7 +58,6 @@
   Title: Copper Oxide Nanoparticles Impact Several Toxicological Endpoints and Cause
     Neurodegeneration in Caenorhabditis elegans
 - Authors: [Evans KS, Zhao Y, Brady SC, Long L, McGrath PT, Andersen EC]
-  Citations: 0
   DOI: 10.1534/g3.116.035162
   Date_Published: 2016 Nov 18
   Journal: G3
@@ -88,7 +74,6 @@
       fileS4.csv: {title: Supplementary File 4}
       supplementFiles_text.docx: {title: Supplementary File Descriptions}
 - Authors: [Cook DE, Zdraljevic S, Roberts JP, Andersen EC]
-  Citations: 3
   Corresponding_Authors:
   - {Andersen EC: erik.andersen@northwestern.edu}
   DOI: [10.1093/nar/gkw893]
@@ -100,7 +85,6 @@
 - Authors: [Cook DE, Zdraljevic S, Tanny RE, Seo B, Riccardi DD, Noble LM, Rockman
       MV, Alkema MJ, Braendle C, Kammenga JE, Wang J, Kruglyak L, "F\xE9lix MA", Lee
       J, Andersen EC]
-  Citations: 0
   DOI: 10.1534/genetics.116.191148
   Date_Published: 2016 Sep 1
   Journal: Genetics
@@ -231,7 +215,6 @@
           variant set, url: 'https://storage.googleapis.com/andersenlab.org/publications/20160408/WI.20160408.snpeff.vcf.gz'}
   status: published
 - Authors: [Farhadifar R, Ponciano JM, Andersen EC, Needleman DJ, Baer CF]
-  Citations: 2
   DOI: 10.1534/genetics.115.185736
   Date_Published: 2016 Aug 1
   Journal: Genetics
@@ -242,7 +225,6 @@
     Spindle Traits in <em> Caenorhabditis elegans </em>
 - Authors: [Large EE, Xu W, Zhao Y, Brady SC, Long L, Butcher RA, Andersen EC, McGrath
       PT]
-  Citations: 2
   DOI: 10.1371/journal.pgen.1006219
   Date_Published: 2016 July 28
   Journal: PLoS Genet.
@@ -252,7 +234,6 @@
   Title: Selection on a Subunit of the NURF Chromatin Remodeler Modifies Life History
     Traits in a Domesticated Strain of <em>Caenorhabditis elegans</em>
 - Authors: [Zamanian M, Andersen EC]
-  Citations: 2
   Corresponding_Authors:
   - {Andersen EC: erik.andersen@northwestern.edu}
   DOI: [10.1111/febs.13781]
@@ -266,7 +247,6 @@
     van 't Hof A, Bevers RPJ, Cossins AR, Yanai I, Hajnal A, Schmid T, Perkins JD,
     Spencer D, Kruglyak L, Andersen EC, Moerman DG, Hillier LW, Kammenga JE, Waterston
       RH]
-  Citations: 25
   Corresponding_Authors:
   - {Waterson RH: waterso@u.washington.edu}
   DOI: [10.1534/genetics.115.175950]
@@ -277,7 +257,6 @@
   Title: Remarkably Divergent Regions Punctuate the Genome Assembly of the <em>Caenorhabditis
     elegans</em> Hawaiian Strain CB4856
 - Authors: [Sterken MG, Snoek LB, Kammenga JE, Andersen EC]
-  Citations: 24
   Corresponding_Authors:
   - {Kammenga JE: jan.kammenga@wur.nl}
   - {Andersen EC: erik.andersen@northwestern.edu}
@@ -289,7 +268,6 @@
   Title: The laboratory domestication of <em>Caenorhabditis elegans</em>
 - Authors: [Andersen EC, Shimko TC, Crissman JR, Ghosh R, Bloom JS, Seidel HS, Gerke
       JP, Kruglyak L]
-  Citations: 13
   Corresponding_Authors:
   - {Andersen EC: erik.andersen@northwestern.edu}
   - {Kruglyak L: lkruglyak@mednet.ucla.edu}
@@ -316,7 +294,6 @@
         title: Supplementary File 04, url: 'http://www.g3journal.org/content/suppl/2015/03/13/g3.115.017178.DC1/FileS4.docx'}
 - Authors: [Farhadifar R, Baer CF, Valfort AC, Andersen EC, Muller-Reichert T, Delattre
       M, Needleman DJ]
-  Citations: 20
   Corresponding_Authors:
   - {Farhadifar R: rfarhadifar@cgr.harvard.edu}
   DOI: [10.1016/j.cub.2014.12.060]
@@ -327,7 +304,6 @@
   Title: Scaling, Selection, and Evolutionary Dynamics of the Mitotic Spindle
 - Authors: [Etienne V, Andersen EC, Ponciano JM, Blanton D, Cadavid A, Joyner-Matos
       J, Matsuba C, Tabman B, Baer CF]
-  Citations: 2
   Corresponding_Authors:
   - {Baer CF: cbaer@ufl.edu}
   DOI: [10.1111/evo.12585]
@@ -340,7 +316,6 @@
   Title: 'The red death meets the abdominal bristle: Polygenic mutation for susceptibility
     to a bacterial pathogen in <em>Caenorhabditis elegans</em>.'
 - Authors: [Balla KM, Andersen EC, Kruglyak L, Troemel ER]
-  Citations: 10
   Corresponding_Authors:
   - {Troemel ER: etroemel@ucsd.edu}
   DOI: [10.1371/journal.ppat.1004583]
@@ -352,7 +327,6 @@
   Title: A wild <em>C. elegans</em> strain has enhanced epithelial immunity to a natural
     microsporidian parasite.
 - Authors: [Shimko TC, Andersen EC]
-  Citations: 6
   Corresponding_Authors:
   - {Andersen EC: erik.andersen@northwestern.edu}
   DOI: [10.1371/journal.pone.0111090]
@@ -364,7 +338,6 @@
   Title: 'COPASutils: An R Package for Reading, Processing, and Visualizing Data from
     COPAS Large-Particle Flow Cytometers.'
 - Authors: [Andersen EC, Bloom JS, Gerke JP, Kruglyak L]
-  Citations: 39
   Corresponding_Authors:
   - {Andersen EC: erik.andersen@northwestern.edu}
   - {Kruglyak L: lkruglyak@mednet.ucla.edu}
@@ -378,7 +351,6 @@
     of <em>Caenorhabditis elegans</em> growth and physiology.
 - Authors: [Felix MA, Jovelin R, Ferrari C, Han S, Cho YR, Andersen EC, Cutter AD,
     Braendle C]
-  Citations: 32
   Corresponding_Authors:
   - {Braendle C: braendle@unice.fr}
   DOI: [10.1186/1471-2148-13-10]
@@ -391,7 +363,6 @@
   Title: Species richness, distribution and genetic diversity of <em>Caenorhabditis</em>
     nematodes in a remote tropical rainforest.
 - Authors: [Ghosh R, Andersen EC, Shapiro JA, Gerke JP, Kruglyak L]
-  Citations: 59
   Corresponding_Authors:
   - {Kruglyak L: leonid@genomics.princeton.edu}
   DOI: [10.1126/science.1214318]
@@ -404,7 +375,6 @@
     in <em>C. elegans</em>.
 - Authors: [Andersen EC, Gerke JP, Shapiro JA, Crissman JR, Ghosh R, Bloom JS, Felix
       MA, Kruglyak L]
-  Citations: 175
   Corresponding_Authors:
   - {Kruglyak L: leonid@genomics.princeton.edu}
   DOI: [10.1038/ng.1050]
@@ -424,7 +394,6 @@
       Supplementary Figures: {title: Supplementary Figures, url: 'https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/SupportingMaterial.pdf'}
       Supplementary Methods: {title: Supplementary Methods, url: 'https://github.com/AndersenLab/Rad-Seq/raw/master/supporting%20materials/FullMethods.pdf'}
 - Authors: [Andersen EC]
-  Citations: 11
   Corresponding_Authors:
   - {Andersen EC: erik.andersen@northwestern.edu}
   DOI: [10.1007/978-1-61779-228-1_24]
@@ -435,7 +404,6 @@
   Title: PCR-directed <em>in vivo</em> plasmid construction using homologous recombination
     in baker's yeast.
 - Authors: [Bessler JB, Andersen EC, Villeneuve AM]
-  Citations: 52
   Corresponding_Authors:
   - {Villeneuve AM: annev@stanford.edu}
   DOI: [10.1371/journal.pgen.1000830]
@@ -448,7 +416,6 @@
     H3K9me3 chromatin modifications in the <em>Caenorhabditis elegans</em> adult germ
     line.
 - Authors: [Raj A, Rifkin SA, Andersen EC, van Oudenaarden A]
-  Citations: 410
   Corresponding_Authors:
   - {van Oudenaarden: avano@mit.edu}
   DOI: [10.1038/nature08781]
@@ -460,7 +427,6 @@
   PMID: '20164922'
   Title: Variability in gene expression underlies incomplete penetrance
 - Authors: [Reddy KC, Andersen EC, Kruglyak L, Kim DH]
-  Citations: 115
   Corresponding_Authors:
   - {Kruglyak: leonid@genomics.princeton.edu}
   - {Kim DH: dhkim@mit.edu}
@@ -474,7 +440,6 @@
   Title: A polymorphism in <em>npr-1</em> is a behavioral determinant of pathogen
     susceptibility in <em>C. elegans</em>
 - Authors: [Andersen EC, Saffer AM, Horvitz HR]
-  Citations: 17
   Corresponding_Authors:
   - {Horvitz HR: horvitz@mit.edu}
   DOI: [10.1534/genetics.108.092197]
@@ -486,7 +451,6 @@
   Title: Multiple levels of redundant processes inhibit <em>Caenorhabditis elegans</em>
     vulval cell fates.
 - Authors: [Andersen EC, Horvitz HR]
-  Citations: 80
   Corresponding_Authors:
   - {Horvitz HR: horvitz@mit.edu}
   DOI: [10.1242/dev.009373]
@@ -497,7 +461,6 @@
   Title: Two <em>C. elegans</em> histone methyltransferases repress <em>lin-3</em>
     EGF transcription to inhibit vulval development.
 - Authors: [Reddien PW, Andersen EC, Huang MC, Horvitz HR]
-  Citations: 33
   DOI: [10.1534/genetics.106.068148]
   Date_Published: 2007 Apr
   Journal: Genetics
@@ -507,7 +470,6 @@
   Title: DPL-1 DP, LIN-35 Rb and EFL-1 E2F act with the MCD-1 zinc-finger protein
     to promote programmed cell death in <em>Caenorhabditis elegans</em>.
 - Authors: [Andersen EC, Lu X, Horvitz HR]
-  Citations: 54
   Corresponding_Authors:
   - {Horvitz HR: horvitz@mit.edu}
   DOI: [10.1242/dev.02444]
@@ -518,7 +480,6 @@
   Title: <em>C. elegans</em> ISWI and NURF301 antagonize an Rb-like pathway in the
     determination of multiple cell fates.
 - Authors: [Furlong EE, Andersen EC, Null B, White KP, Scott MP]
-  Citations: 267
   Corresponding_Authors:
   - {Scott MP: scott@cmgm.stanford.edu}
   DOI: [10.1126/science.1062660]
