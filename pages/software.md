@@ -16,10 +16,9 @@ scripts:
 
 Our lab has developed fulcrum forms/applications for gathering data when collecting <em>C. elegans</em> wild isolates.
 
-<ul>
-	<li><a href='http://www.fulcrumapp.com/apps/nematode-field-sampling/'>Nematode Field Sampling</a></li>
-	<li><a href='http://www.fulcrumapp.com/apps/nematode-isolation/'>Nematode Isolation App</a></li>
-</ul>
+* [Nematode Field Sampling](http://www.fulcrumapp.com/apps/nematode-field-sampling)
+* [Nematode Isolation App](http://www.fulcrumapp.com/apps/nematode-isolation/)
+
 
 ### [VCF-kit](http://www.github.com/andersenlab/VCF-kit) - [Documentation](https://github.com/AndersenLab/VCF-kit)
 
