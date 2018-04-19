@@ -1,3 +1,10 @@
+- Authors: [Zamanian M, Cook DE, Zdraljevic S, Brady SC, Lee D, Lee J, Andersen EC]
+  DOI: 10.1371/journal.pntd.0006368
+  Date_Published: '2018'
+  Journal: PLoS Negl Trop Dis
+  PMC: null
+  PMID: '29601575'
+  Title: Discovery of genomic intervals that underlie nematode responses to benzimidazoles
 - Authors: [Zdraljevic S, Andersen EC]
   DOI: 10.1016/j.gde.2017.08.002
   Date_Published: 2017 Sept 09
@@ -212,7 +219,6 @@
           variant set, url: 'https://storage.googleapis.com/andersenlab.org/publications/2016Cooketal/WI.20160408.impute.vcf.gz'}
       WI.20160408.snpeff.vcf.gz: {caption: SNVs annotated with SnpEff, title: Annotated
           variant set, url: 'https://storage.googleapis.com/andersenlab.org/publications/20160408/WI.20160408.snpeff.vcf.gz'}
-
 - Authors: [Farhadifar R, Ponciano JM, Andersen EC, Needleman DJ, Baer CF]
   DOI: 10.1534/genetics.115.185736
   Date_Published: 2016 Aug 1
