@@ -48,6 +48,15 @@
   photo: DaehanLee.jpg
   email: daehan.lee@northwestern.edu
 
+- first_name: Gaotian
+  pub_names: ["Zhang G"]
+  last_name: Zhang
+  description: I'm interested in natural variation in metabolism and bulk-segregant approaches.
+  title: Postdoctoral Researcher
+  former: false
+  photo: ZhangGaotian.jpg
+  email: gaotian.zhang@northwestern.edu
+
 - first_name: Mostafa
   pub_names:
     - Zamanian M
@@ -85,6 +94,13 @@
   title: Research Associate
   photo: BrianaRodriguez.jpg
   email: briana.rodriguez@northwestern.edu
+  
+- first_name: Nicole
+  last_name: Roberto
+  description: I work on high-throughput culturing of wild strains for metabolite and RNA extractions.
+  title: Research Associate
+  photo: RobertoNicole.jpg
+  email: NicoleRoberto2018@u.northwestern.edu
 
 #===================#
 # Graduate Students #
@@ -123,8 +139,18 @@
   title: Graduate Student
   description: I am interested in the genotypic factors that contribute to drug sensitivity, especially in regards to chemotherapeutics.
   photo: Shannon_brady.jpg
+  github: shannonbrady
   email: shannonbrady2014@u.northwestern.edu
-
+  
+- first_name: Ye
+  last_name: Wang
+  pub_names: ["Wang Y"]
+  title: Graduate Student
+  description: I am interested in using short- and long-read sequence data to understand genome evolution
+  photo: WangYe.jpg
+  github: faithman
+  email: ye.wang@northwestern.edu 
+  
 
 #========================#
 # Undergraduates         #
