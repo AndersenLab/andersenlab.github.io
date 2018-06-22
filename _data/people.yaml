@@ -94,7 +94,7 @@
   title: Research Associate
   photo: BrianaRodriguez.jpg
   email: briana.rodriguez@northwestern.edu
-  
+
 - first_name: Nicole
   last_name: Roberto
   description: I work on high-throughput culturing of wild strains for metabolite and RNA extractions.
@@ -114,15 +114,14 @@
   photo: Kathryn_Evans.jpg
   email: kathrynevans2015@u.northwestern.edu
 
-- first_name: Daniel
-  last_name: Cook
+- first_name: Clay
+  last_name: Dilks
   title: Graduate Student
-  pub_names: ["Cook DE"]
-  photo: Daniel_E_Cook.jpg
-  website: http://www.danielecook.com
-  description: "I am interested in characterizing genetic variation in the <em>C. elegans</em> species and building tools to facilitate studies connecting genetic differences with phenotypes."
-  email: Dec@u.northwestern.edu
-  github: danielecook
+  pub_names: ["Dilks C"]
+  photo: ClayDilks.jpg
+  description: I am interested in investigating the mechanisms of anthelmintic drug resistance in <em>C. elegans</em> and using comparative genetics to apply these findings to high-impact helminth species."
+  email: ClaytonDilks2023@u.northwestern.edu
+  github: cdilks2294
 
 - first_name: Stefan
   last_name: Zdraljevic
@@ -141,7 +140,7 @@
   photo: Shannon_brady.jpg
   github: shannonbrady
   email: shannonbrady2014@u.northwestern.edu
-  
+
 - first_name: Ye
   last_name: Wang
   pub_names: ["Wang Y"]
@@ -149,8 +148,8 @@
   description: I am interested in using short- and long-read sequence data to understand genome evolution
   photo: WangYe.jpg
   github: faithman
-  email: ye.wang@northwestern.edu 
-  
+  email: ye.wang@northwestern.edu
+
 
 #========================#
 # Undergraduates         #
@@ -174,6 +173,18 @@
   title: Undergraduate, summers 2013, 2014, 2015
   current_status: Graduate student at Stanford University
 
+- first_name: Daniel
+  last_name: Cook
+  title: Graduate Student
+  pub_names: ["Cook DE"]
+  departure: 2018-05-31
+  former: true
+  photo: Daniel_E_Cook.jpg
+  website: http://www.danielecook.com
+  description: "I am interested in characterizing genetic variation in the <em>C. elegans</em> species and building tools to facilitate studies connecting genetic differences with phenotypes."
+  email: Dec@u.northwestern.edu
+  github: danielecook
+  current_status: Programmer at VectorBase
 
 - first_name: Kristen
   last_name: Laricchia
