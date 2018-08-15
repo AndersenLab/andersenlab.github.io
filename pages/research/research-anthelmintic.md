@@ -1,7 +1,7 @@
 ---
 title: Genetic causes of resistance to anthelmintic compounds
 image: anthelmintics.jpg
-order: 3
+order: 2
 hidden: true
 ---
 
@@ -17,6 +17,5 @@ mediate avermectin and benzimidazole resistance across natural
 populations. For avermectin, we have identified at least five other
 loci that control resistance in natural populations beyond variation
 in the glutamate-gated chloride channel gene, <em>glc-1</em>. For
-benzimidazoles, we found a novel role for small regulatory RNAs in
-resistance. We are collaborating with parasite research groups to
+benzimidazoles, we found a new genomic locus involved in resistance and also high levels of natural heterogeneity in the benzimidazole target <em>ben-1</em>. We are collaborating with parasite research groups to
 validate our <em>Caenorhabditis</em> findings in tractable parasitic helminths.
