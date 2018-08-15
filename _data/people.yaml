@@ -21,24 +21,6 @@
   photo: TimothyCrombie.jpg
   email: tcrombie@northwestern.edu
 
-- first_name: Bryn
-  last_name: Gaertner
-  description: I'm interested in natural variation in neurodevelopment and behavior.
-  title: Postdoctoral Researcher, 2014
-  former: true
-  photo: Bryn_Gaertner.jpg
-  email: Bryn.Gaertner@northwestern.edu
-  current_status: Prescott Medical Communications Group
-
-- first_name: Steffen
-  pub_names: ["Hahnel S"]
-  last_name: Hahnel
-  description: I'm interested in natural variation in anthelmintic drug responses.
-  title: Postdoctoral Researcher
-  former: false
-  photo: SteffenHahnel.jpg
-  email: steffen.hahnel@northwestern.edu
-
 - first_name: Daehan
   pub_names: ["Lee D"]
   last_name: Lee
@@ -57,20 +39,6 @@
   photo: ZhangGaotian.jpg
   email: gaotian.zhang@northwestern.edu
 
-- first_name: Mostafa
-  pub_names:
-    - Zamanian M
-  last_name: Zamanian
-  description: My research broadly spans "neglected disease" genomics and drug discovery. I am currently working to uncover new genetic determinants of anthelmintic resistance and to develop genome editing technology for human pathogenic helminths.
-  title: Postdoctoral Researcher, 2015-2017
-  photo: Mostafa2014.jpg
-  former: true
-  github: mzamanian
-  email: zamanian@northwestern.edu
-  departure: 2017-01-01
-  current_status: Assistant Professor at UW Madison -- <a href='http://www.zamanianlab.org/'>Zamanian Lab Website</a>
-
-
 #========================#
 # Graduate Researcher    #
 #========================#
@@ -87,13 +55,6 @@
   title: Research Associate
   photo: Robyn.jpg
   email: Robyn.Tanny@northwestern.edu
-
-- first_name: Briana
-  last_name: Rodriguez
-  description: I manage the work-study students and perform high-throughput fitness assays.
-  title: Research Associate
-  photo: BrianaRodriguez.jpg
-  email: briana.rodriguez@northwestern.edu
 
 - first_name: Nicole
   last_name: Roberto
@@ -185,6 +146,19 @@
   email: Dec@u.northwestern.edu
   github: danielecook
   current_status: Programmer at VectorBase
+  
+- first_name: Mostafa
+  pub_names:
+    - Zamanian M
+  last_name: Zamanian
+  description: My research broadly spans "neglected disease" genomics and drug discovery. I am currently working to uncover new genetic determinants of anthelmintic resistance and to develop genome editing technology for human pathogenic helminths.
+  title: Postdoctoral Researcher, 2015-2017
+  photo: Mostafa2014.jpg
+  former: true
+  github: mzamanian
+  email: zamanian@northwestern.edu
+  departure: 2017-01-01
+  current_status: Assistant Professor at UW Madison -- <a href='http://www.zamanianlab.org/'>Zamanian Lab Website</a>
 
 - first_name: Kristen
   last_name: Laricchia
@@ -204,6 +178,36 @@
   departure: 2016-08-01
   current_status: Medical student, Feinberg School of Medicine
 
+- first_name: Briana
+  last_name: Rodriguez
+  description: I manage the work-study students and perform high-throughput fitness assays.
+  title: Research Associate
+  photo: BrianaRodriguez.jpg
+  email: briana.rodriguez@northwestern.edu
+  former: true
+  departure: 2018-08-20
+  current_status: Research technician, clinical psychology
+  
+- first_name: Bryn
+  last_name: Gaertner
+  description: I'm interested in natural variation in neurodevelopment and behavior.
+  title: Postdoctoral Researcher, 2014
+  former: true
+  photo: Bryn_Gaertner.jpg
+  email: Bryn.Gaertner@northwestern.edu
+  current_status: Prescott Medical Communications Group
+
+- first_name: Steffen
+  pub_names: ["Hahnel S"]
+  last_name: Hahnel
+  description: I'm interested in natural variation in anthelmintic drug responses.
+  title: Postdoctoral Researcher
+  former: false
+  photo: SteffenHahnel.jpg
+  email: steffen.hahnel@northwestern.edu
+  former: true
+  departure: 2018-08-21
+  current_status: Bayer Animal Health
 
 - first_name: Sam
   last_name: Rosenberg
