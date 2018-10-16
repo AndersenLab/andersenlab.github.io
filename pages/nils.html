@@ -4,8 +4,9 @@ title: NILs Search
 menu: tools
 permalink: /NILs/
 ---
-<div class="row" >
-  <div class="col-md-12">
+<!-- ===================================== from Nils page ====================================================== -->
+ <div class="row" >
+	<div class="col-md-12">
 
 <!-- Generate nil file
 export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain = "CB")) %>% ungroup() %>% dplyr::rename(chromosome = chr) %>% dplyr::arrange(strain, chromosome, start) %>% select(-newpos), "~/coding/git/andersenlab.github.io/_data/nils.tsv", quote = F)
@@ -15,266 +16,505 @@ export(rbind(mutate(Search_N2nils2, strain = "N2"),mutate(Search_CBnils2, strain
 <div class="pull-right"><a href="https://docs.google.com/spreadsheets/u/0/d/1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA/export?format=tsv&id=1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA&gid=0"> Download full NILs dataset</a></div>
 
 <form class="form-inline">
-  <div id="search_input" class="form-group">
-  <div class="controls">
-    <label for="nils-search">Search</label>
-    <input type="text" class="form-control error" id="nils-search" placeholder="II:1-100000" value = "II:2000000-9000000" autocomplete="off">
-    <button onclick ="zoom_in()" type="button" class="btn btn-default btn-sm rounded" value="+"> + </button>
-    <button onclick ="zoom_out()" type="button" class="btn btn-default btn-sm rounded" value="-"> - </button>
-&nbsp;&nbsp;
-<input type="radio" name="strain" id="N2" value="N2"> <label for="N2">N2</label>&nbsp;&nbsp;
-<input type="radio" name="strain" id="CB4856" value="CB4856"> <label for="CB4856">CB4856</label>&nbsp;&nbsp;
-<input type="radio" name="strain" id="Both" value="Both" checked> <label for="Both">Both</label>
-&nbsp;&nbsp;
-<button type="button" class="chrom btn btn-default btn-sm rounded" value="I"> I</button>
-<button type="button" class="chrom btn btn-default btn-sm rounded" value="II"> II</button>
-<button type="button" class="chrom btn btn-default btn-sm rounded" value="III"> III</button>
-<button type="button" class="chrom btn btn-default btn-sm rounded" value="IV"> IV</button>
-<button type="button" class="chrom btn btn-default btn-sm rounded" value="V"> V</button>
-<button type="button" class="chrom btn btn-default btn-sm rounded" value="X"> X</button>
-<button type="button" class="chrom btn btn-default btn-sm rounded" value="MtDNA"> MtDNA</button>
+	<div id="search_input" class="form-group">
+		<div class="controls">
+			<label for="nils-search">Search</label>
+			<input type="text" class="form-control error" id="nils-search" placeholder="II:1-100000" value = "II:2000000-9000000" autocomplete="off"">
+			<button onclick ="zoom_in()" type="button" class="btn btn-default btn-sm rounded" value="+"> + </button>
+			<button onclick ="zoom_out()" type="button" class="btn btn-default btn-sm rounded" value="-"> - </button>
+			&nbsp;&nbsp;
+			<form id="strainForm" name="strainForm">
+			<input type="radio" name="strain" id="N2" value="N2"> <label for="N2">N2</label>&nbsp;&nbsp;
+			<input type="radio" name="strain" id="CB4856" value="CB4856"> <label for="CB4856">CB4856</label>&nbsp;&nbsp;
+			<input type="radio" name="strain" id="Both" value="Both" checked> <label for="Both">Both</label>
+			</form>
+			&nbsp;&nbsp;
+			<button type="button" class="chrom btn btn-default btn-sm rounded" value="I"> I</button>
+			<button type="button" class="chrom btn btn-default btn-sm rounded" value="II"> II</button>
+			<button type="button" class="chrom btn btn-default btn-sm rounded" value="III"> III</button>
+			<button type="button" class="chrom btn btn-default btn-sm rounded" value="IV"> IV</button>
+			<button type="button" class="chrom btn btn-default btn-sm rounded" value="V"> V</button>
+			<button type="button" class="chrom btn btn-default btn-sm rounded" value="X"> X</button>
+			<button type="button" class="chrom btn btn-default btn-sm rounded" value="MtDNA"> MtDNA</button>
 
 
-  <span id="helpBlock" class="help-block">Interval End must be greater than interval start.</span>
-  <span id="ZoomOutLimit" class="help-block"> Cannot zoom out further.</span>
+			<span id="helpBlock" class="help-block">Interval End must be greater than interval start.</span>
+			<span id="ZoomOutLimit" class="help-block"> Cannot zoom out further.</span>
 
-    </div>
+		</div>
 
-  </div>
+	</div>
 </form>
 <br />
 <br />
-<div class="scroll" style = "border: 1px solid black;">
-<canvas id="gene_glyph" height="480"></canvas>
+<div id="containerA" style = "border: 1px solid black; background-color: white"></div>
+<div id="container" class="scroll" style = "border: 1px solid black;  cursor: pointer;">
+	<!-- <canvas id="gene_glyph" height="480"></canvas> -->
 </div>
 <br /><br />
-
+<button id = "revertButton">Revert</button>
 
 <script>
-
-function init() {
-  Tabletop.init( { key: '1_qdw7FU-2HURpiB3LCevteGkZWZc3jVS4UOgNWWw2XA',
-                   callback: showInfo,
-                   simpleSheet: true } )
-   $("#helpBlock").hide();
-   $("#ZoomOutLimit").hide();
-}
+    
+var chromosome = "II";
+var rdata = [], gdata= {}, context=undefined, svg=undefined, focus=undefined, svgChart=undefined;
+var tabDat = [];
 var previous = "II:2000000-9000000";
 var chrom_max_len = {"I":"15072434", "II":"15279421", "III":"13783801", 
-                      "IV":"17493829", "V":"20924180", "X":"17718942",
-                      "MtDNA": "13794"}
-// Load Nils Data
-function showInfo(data, tabletop) {
-    output_data = Array();
-    $(data).each(function(k, d) {
-      d.start = +d.start;
-      d.end = +d.end;
-      output_data.push(d);
-    });
-    rdata = output_data;
-     
-      var table = d3.select("#ftable")
-          .append("table")
-          .classed("table table-condensed table-striped", true), 
-          thead = table.append("thead"),
-          tbody = table.append("tbody");
-       var hrow = thead.append("tr")
-            .selectAll("th")
-            .data(Object.keys(rdata[0]))
-            .enter()
-            .append("th")
-            .text(function(d) { return d; });
-    // Initial Draw
-    draw_nils($("#nils-search").val())
-  }
-    d3.select("#nils-search").on("input", function() {
-      draw_nils(this.value);
-    });
-function draw_nils(i) {
-  // Remove existing
-      d3.selectAll("#ftable tbody tr").remove();
-      if (i.search(":") > 0) {
-        i = i.split(":")
-        chrom = i[0];
-        range = i[1];
-        if (range.search("-") > 0) {
-          range = range.split("-")
-          start = parseInt(range[0].replace(/,/g,""));
-          end = parseInt(range[1].replace(/,/g,""));
-          if (end > start) {
-            $("#search_input").removeClass("has-error");
-            $("#helpBlock").hide();
-            $("#ZoomOutLimit").hide();
-            filter_results(chrom, start, end);
-          } else {
-          $("#search_input").addClass("has-error");
-          $("#helpBlock").show();
-        }
-        }
-      }
-      else{
-        if (chrom_max_len[i]){
-          full_range(i);
-        } 
-    }
-}    
-function comma(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-function full_range(chrom){
-          $("#nils-search").val(chrom+":"+"0-"+chrom_max_len[chrom]); 
-}
-function filter_results(chrom, start, end) {
-  var length = chrom_max_len[chrom];
-    filter_data = rdata.filter(function(d) {
-      subset_strain = $('input[name=strain]:checked').val();
-      if (d["chromosome"] == chrom && 
-            (
-              (d["start"] >= start && d["end"] <= end)
-               || 
-               (d["start"] <= start && start <= d["end"])
-               || 
-               (d["end"] >= end && end >= d["start"])
-            ) 
-            &&
-            ( d["nil_genotype"] == subset_strain || subset_strain == "Both" )
-         )
-         {
-        return d
-      }
-    })
-    var rows = d3.select("tbody").selectAll("tr")
-      .data(filter_data)
-    .enter()
-      .append("tr");
-    var cells = rows.selectAll("td")
-      .data(function(row) {
-          return d3.range(Object.keys(row).length).map(function(column, i) {
-              if(["start", "end"].indexOf(Object.keys(row)[i]) >= 0) {
-              return comma(row[Object.keys(row)[i]]);
-              } else {
-              return row[Object.keys(row)[i]];
-            }
-          }); 
-      })
-    .enter()
-      .append("td")
-      .text(function(d) { return d; });
-   // Draw Gene Glyph
-   // Get Canvas and Create Chart
-   var canvas = $("#gene_glyph"); 
-   var canv_width = canvas.parent().width()
-   $("canvas").attr("width", canv_width);
-   // Create Chart
-   glyph = new Scribl(canvas[0], canv_width);
-   glyph.redraw();
-   glyph.laneBuffer = 2;
-   glyph.trackBuffer = 5;
-   glyph.scale.min = start - (end-start)*0.1;
-   glyph.scale.max = end + (end-start)*0.1;
-   filter_data.forEach(function(d) {
-      var l= chrom_max_len[chrom];
-      track = glyph.addTrack().addLane();  
-      strain = track.addFeature( new Rect('gene', 1, parseInt(l), "+")); // length was previously set to 20000000
-      nil = track.addFeature( new Rect('gene', d["start"], d["end"] - d["start"], "+"));
-      nil.name = d["clone"];
-      if (d["nil_genotype"] == "N2") {
-        nil.color = '#F79409';
-        strain.color = '#0080FF';
-      }
-      else {
-        nil.color = "#0080FF";
-        strain.color = '#F79409';
-      }
-      nil.text.color = 'white';
-      nil.text.size = 18;
-      nil.text.font = 'monospace';
-   })
-   glyph.laneSizes = (20 + (glyph.getFeatures().length/12)) / (glyph.getFeatures().length/12)
-   $("canvas").attr("height", 480);
-   glyph.draw();
-   var boundary = document.getElementById("gene_glyph").getContext("2d");
-    // Start
-    boundary.beginPath();
-    boundary.moveTo(glyph.pixelsToNts(start) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 15);
-    boundary.lineTo(glyph.pixelsToNts(start) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 1000);
-    boundary.strokeStyle = "#FF0000";
-    boundary.stroke();
-    // End
-    boundary.beginPath();
-    boundary.moveTo(glyph.pixelsToNts(end) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 15);
-    boundary.lineTo(glyph.pixelsToNts(end) + glyph.offset - glyph.pixelsToNts(glyph.scale.min), 1000);
-    boundary.strokeStyle = "#FF0000";
-    boundary.stroke();
+					"IV":"17493829", "V":"20924180", "X":"17718942",
+					"MtDNA": "13794"}
+var genoColor = {"N2": '#F79409', "CB4856": '#0080FF'};
+var gt = {"Both": ["N2", "CB4856"], "N2": ["N2",], "CB4856": ["CB4856",]};
+var gtSel = "Both", hdr;
+
+var margin = {top: 10, right: 20, bottom: 0, left: 0},
+	margin2 = {top: 5, right: 20, bottom: 20, left: 0},
+	width = 970 - margin.left - margin.right,
+	height = 680 - margin2.top - margin2.bottom,
+	height2 = 30 - margin.top - margin.bottom,
+	maxLen = {}
+	zoomDim = "II:2000000-9000000";
+var hdrMap = {"strain":"Strain", "nil_genotype":"NIL_genotype", "chromosome":"Chr", "start":"Start", "end":"End", "constructed_by":"Constructed_by", "source":"Source", "supporting_sites":"Supporting_Sites", "sites":"Sites", "DP":"Depth", "switches":"Switches"};
+/*
+  Note :
+  Presently two files are being used separately. 
+  Needs to be updated as per requirement.
+  
+  rdata - contains all data in row format.
+  gdata - data object for graph usage.
+*/
+d3.tsv("../pages/NILs - Sheet.tsv", function(dat) {Array.prototype.push.apply(rdata, dat);});
+d3.tsv("../pages/gt_hmm.tsv", function(da) {
+	Array.prototype.push.apply(rdata, da);
+  
+  
+	
+	rdata.forEach(function(d, k) {
+		d.start = +d.start;
+		d.end = +d.end;
+		if (!isNaN(d.start) && !isNaN(d.end) && d.strain!=d.nil_genotype) {
+			if (!(d.chromosome in gdata)) {gdata[d.chromosome] = Object();};
+			if (!(d.strain in gdata[d.chromosome])) {gdata[d.chromosome][d.strain] = Array();};
+			gdata[d.chromosome][d.strain].push(d);
+		};
+		
+	});
+	
+	height = 0;
+	Object.keys(gdata).forEach(function(d){maxLen[d]=Object.keys(gdata[d]).length; if (maxLen[d]>height){height = maxLen[d]};});
+	height = height * 15;
+	var element = d3.select('.scroll').node();
+	width = element.getBoundingClientRect().width - margin.left - margin.right
+	
+	$("#helpBlock").hide();
+	$("#ZoomOutLimit").hide();
+	
+	// selected table headers for display.
+	hdr = Object.keys(rdata[0]).concat(Object.keys(rdata[rdata.length - 1]));
+	hdr = Array.from(new Set(hdr));
+	var removeHdr = ["rle", "gt", ""];
+	removeHdr.forEach(function(d){
+		var index = hdr.indexOf(d);
+		if (index !== -1) hdr.splice(index, 1);
+	});
+	
+	// creating table and adding header row.
+	var table = d3.select("#ftable")
+		.append("table")
+		.classed("table table-condensed table-striped", true), 
+		thead = table.append("thead"),
+		tbody = table.append("tbody");
+	var hrow = thead.append("tr")
+		.selectAll("th")
+		.data(hdr)
+		.enter()
+		.append("th")
+		.text(function(d) { return hdrMap[d]; });
+	chart();
+	searched(previous);
+});
+
+/* Stopped for user input completion and "Enter" key press!
+d3.select("#nils-search").on("input", function(e) {
+	draw_nils(this.value);
+});
+*/
+document.getElementById("nils-search").addEventListener("keydown", function(event) {
+	if (event.key === "Enter") {
+		event.preventDefault();
+		searched($("#nils-search").val());
+	}
+});
+	
+var x = d3.scale.linear().range([0, width]),
+x2 = d3.scale.linear().range([0, width]);
+
+var xAxis = d3.svg.axis().scale(x).orient("bottom"),
+	xAxis2 = d3.svg.axis().scale(x2).orient("top");
+
+var brush = d3.svg.brush().x(x2).on("brush", brushed), brushg;
+	
+var ctx = d3.select("#container");
+var ctxA = d3.select("#containerA");
+var zoom = d3.behavior.zoom().scaleExtent([1,1000]).on("zoom", zoomed);
+
+// Container for tooltip is defined here.
+var gbTootip = d3.select("body")
+	.append("div")
+	.attr("class", "gtip")
+	.style("background", "#FFFFE0")
+	.style("color", "black")
+	.style("padding", "3px")
+	.style("border-radius", "3px")
+	.style("position", "absolute")
+	.style("display", "none")
+	.style("font-size", "11px")
+	.on("mouseover", function() {gbTootip.transition().duration(0);})
+	.on("mouseout", function() {gbTootip.style("display", "none");});
+  
+
+// Creates the basic chart elements that remain fixed.
+function chart() {
+	if (ctx!=undefined && focus!=undefined && ctxA!=undefined){
+		ctx.selectAll("*").remove();
+		ctxA.selectAll("*").remove();
+		focus.selectAll("*").remove();
+	}
+	svg = ctx.append("svg");
+	svg.attr("width", width);
+	svg.attr("height", (maxLen[chromosome] * 15) + margin.top + margin.bottom);
+	context = ctxA.append("svg").attr("width", width).attr("height", 50).append("g")
+		.attr("class", "contextA")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	focus = svg.append("g")
+		.attr("class", "focus")
+		.attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
+	x.domain([d3.min(Object.keys(gdata[chromosome]), 
+							function(d) { return d3.min(gdata[chromosome][d], function(c) { return c.start;});}), 
+						d3.max(Object.keys(gdata[chromosome]), 
+							function(d) { return d3.max(gdata[chromosome][d], function(c) { return c.end;});})]);
+	x2.domain(x.domain());
+	zoom.x(x);
+	
+	brushg = context.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + height2 + ")")
+		.call(xAxis2)
+		.append("g")
+		.attr("class", "x brush")
+		.call(brush)
+		.selectAll("rect")
+		.attr("y", -6)
+		.style("fill", "grey")
+		.style("fill-opacity", 0.6)
+		.attr("height", height2 + 7);
+	
+	brushg.selectAll(".resize rect")
+    	.attr("height", 3)
+		.style("visibility", "visible");
+    
+	brushg.selectAll(".resize.w").append("text").text("").style("text-anchor", "end").attr("dx", "-0.7em").attr("dy", "-0.45em");
+    brushg.selectAll(".resize.e").append("text").text("").style("text-anchor", "end").attr("dx", "-0.7em").attr("dy", "0.8em");	
+	d3.select(".resize.e  rect").style("visibility", "visible").style("fill", "black").style("fill-opacity",1);
+	d3.select(".resize.w  rect").style("visibility", "visible").style("fill", "black").style("fill-opacity",1);
+	
+	focus.append("g")
+		.attr("class", "x axis")
+		.style("visibility", "hidden")
+		.call(xAxis);
 }
 
+/** 
+// Creates the dynamic elements from data.
+// The tooltip identifies the difference in two data sets by the "source" field. 
+// Data lines constructed by EKS are for background genotype presentation and do not have tooltip function.
+// Also these data points do not appear in the dable view.
+**/
+function draw(){
+	if (!(svgChart === undefined )){svgChart.remove()};
+	daF= {};
+	daFc=0;
+	var choice = gt[gtSel];
+	Object.keys(gdata[chromosome]).forEach(function(z, y){
+		da = [];
+		daFL = 0;
+		zz = zoomDim.split(":")[1].split("-");
+		gdata[chromosome][z].forEach(function(n){
+										if ((
+												(+n.start >= +zz[0] && +n.end <= +zz[1]) // completely within range
+												|| 
+												(+n.start <= +zz[0] && +zz[0] <= +n.end) // overhang on left
+												|| 
+												(+n.end >= +zz[1] && +zz[1] >= +n.start) // overhang on right
+												||
+												(+n.end >= +zz[1] && +n.start <= +zz[0]) // have overhang on both sides
+											)
+											&&
+											(choice.indexOf(n.nil_genotype)>-1)
+										){da.push(n); if (n.constructed_by!="EKS") {daFL=1};}
+									});
+		if (daFL == 1){daF[z] = da;}
+	});
+	svg.attr("height", (Object.keys(daF).length * 15) + margin.top + margin.bottom);
+	svgChart = focus.append("g").attr("id", "track");
+	svgChart.append("rect")
+		.attr("x", x(0))
+		.attr("y", -80)
+		.attr("width", x(chrom_max_len[chromosome])-x(0))
+		.attr("height", height)
+		.attr("fill", "lightgrey")
+		.attr("shape-rendering", "crispEdges")
+		.attr("opacity", 0.5);
+	
+	Object.keys(daF).forEach(function(z, y){
+		da = daF[z];
+		svgChart.selectAll("g."+z) 
+		.data(da)
+		.enter()
+		.append("rect")
+		.attr("x", function(d) {if (!isNaN(d.start)){return x(d.start);}else{return 0;};})
+		.attr("y", function() { return (y-1)*15;})
+		.attr("width",  function(d) {return (x(d.end) - x(d.start));})
+		.attr("height", function() {return 10;})
+		.attr("fill", function(d) {return genoColor[d.nil_genotype];})
+		.attr("shape-rendering", "crispEdges")
+    .attr("opacity", 1)
+    .on("mouseover", function(d){
+      if (d.constructed_by != "EKS"){
+				gbTootip.transition().duration(500);
+				gbTootip.style("top", d3.event.pageY-15 + "px");
+				gbTootip.style("left", d3.event.pageX+10 + "px");
+				gbTootip.html(function() {return "Strain: " + d.strain + "<br>" + "Nil genotype:" + d.nil_genotype + ", Location:" +d.chromosome +":"+ d.start + "-" + d.end + "<br> Source: "+d.source+" Data<br>";});
+        gbTootip.style("display", "block");
+				
+    }})
+		.on("click", function(d) {
+		if (d.constructed_by != "EKS"){
+		// 		gbTootip.style("top", d3.event.pageY-15 + "px");
+		// 		gbTootip.style("left", d3.event.pageX+10 + "px");
+		// 		gbTootip.html(function() {return "Strain: " + d.strain + "<br>" + "Nil genotype:" + d.nil_genotype + ", Location:" +d.chromosome +":"+ d.start + "-" + d.end + "<br> Source: "+d.source+" Data<br>";});
+    gbTootip.style("display", "block");
+    tabClickUpdate([d,]);
+      }})
+      
+		// .on("mouseout", function() {
+		// 	gbTootip.transition()
+		// 		.delay(250)
+		// 		.style("display", "none");
+		// 	tabClickUpdate(tabDat);
+		// });
+	});
+	focus.call(zoom);
+}
+
+//Executes zoom in on button click
 function zoom_in() {
-  $("#ZoomOutLimit").hide();
-  var i = $("#nils-search").val();
-  i = i.split(":");
-  var chrom = i[0];
-  var range = i[1];
-  range = range.split("-")
-  var start = parseInt(range[0].replace(/,/g,""));
-  var end = parseInt(range[1].replace(/,/g,""));
-  var difference = end-start;
-  const ZOOM_CONSTANT = .2;
-  start = Math.round(start+(ZOOM_CONSTANT*difference));
-  end = Math.round(end-(ZOOM_CONSTANT*difference));
-  var loc = chrom+":"+start.toString()+"-"+end.toString();
-  $("#nils-search").val(loc);
-  draw_nils(loc);
+	$("#ZoomOutLimit").hide();
+	var i = $("#nils-search").val();
+	i = i.split(":");
+	var chrom = i[0];
+	var range = i[1];
+	range = range.split("-")
+	var start = parseInt(range[0].replace(/,/g,""));
+	var end = parseInt(range[1].replace(/,/g,""));
+	var difference = end-start;
+	const ZOOM_CONSTANT = .2;
+	start = Math.round(start+(ZOOM_CONSTANT*difference));
+	end = Math.round(end-(ZOOM_CONSTANT*difference));
+	var loc = chrom+":"+start.toString()+"-"+end.toString();
+	$("#nils-search").val(loc);
+	searched(loc);
 }
 
+//Executes zoom out on button click
 function zoom_out() {
-  var i = $("#nils-search").val();
-  i = i.split(":");
-  var chrom = i[0];
-  var range = i[1];
-  range = range.split("-")
-  var start = parseInt(range[0].replace(/,/g,""));
-  var end = parseInt(range[1].replace(/,/g,""));
-  var difference = end-start;
-  const ZOOM_CONSTANT = .2;
-  if (start-(ZOOM_CONSTANT*difference) >0) {
-    $("#search_input").removeClass("has-error");
-    $("#ZoomOutLimit").hide();
-    start = Math.round(start-(ZOOM_CONSTANT*difference));
-    end = Math.round(end+(ZOOM_CONSTANT*difference));
-    var loc = chrom+":"+start.toString()+"-"+end.toString();
-    $("#nils-search").val(loc);
-    draw_nils(loc); 
-  }
-  else {
-     $("#search_input").addClass("has-error");
-     $("#ZoomOutLimit").show();
-      }
-  }
+	var i = $("#nils-search").val();
+	i = i.split(":");
+	var chrom = i[0];
+	var range = i[1];
+	range = range.split("-")
+	var start = parseInt(range[0].replace(/,/g,""));
+	var end = parseInt(range[1].replace(/,/g,""));
+	var difference = end-start;
+	const ZOOM_CONSTANT = .2;
+	if (start-(ZOOM_CONSTANT*difference) >0) {
+		$("#search_input").removeClass("has-error");
+		$("#ZoomOutLimit").hide();
+		start = Math.round(start-(ZOOM_CONSTANT*difference));
+		end = Math.round(end+(ZOOM_CONSTANT*difference));
+		var loc = chrom+":"+start.toString()+"-"+end.toString();
+		$("#nils-search").val(loc);
+		searched(loc); 
+	}
+	else {
+		$("#search_input").addClass("has-error");
+		$("#ZoomOutLimit").show();
+	}
+}
 
+//Populates data table.
+function tabClickUpdate(data){
+	d3.selectAll("#ftable tbody tr").remove();
+	var rows = d3.select("tbody").selectAll("tr")
+		.data(data)
+		.enter()
+		.append("tr");
+	var cells = rows.selectAll("td")
+		.data(function(row) {
+			return d3.range(hdr.length).map(function(column, i) {
+				if(["start", "end"].indexOf(hdr[i]) >= 0) { return comma(row[hdr[i]]);
+				} else if(hdr[i] == "DP"){ return ((row[hdr[i]] === undefined || ""==""+row[hdr[i]]) ? "" : ""+(+row[hdr[i]]).toFixed(2));
+				} else { return row[hdr[i]]; }
+			}); 
+		})
+		.enter()
+		.append("td")
+		.text(function(d) { return d; });
+}
+
+// Data are filtered for data table.  
+function writeTable(zz){
+	d3.selectAll("#ftable tbody tr").remove();
+	zz = zz.split(":");
+	zz = zz[1].split("-")
+	zz[0] = +zz[0];
+	zz[1] = +zz[1];
+	filter_data = rdata.filter(function(d) {
+		subset_strain = $('input[name=strain]:checked').val();
+		if (d["chromosome"] == chromosome && 
+		(
+			(d["start"] >= zz[0] && d["end"] <= zz[1])
+			|| 
+			(d["start"] <= zz[0] && zz[0] <= d["end"])
+			|| 
+			(d["end"] >= zz[1] && zz[1] >= d["start"])
+			||
+			(d["end"] >= zz[1] && d["start"] <= zz[0])
+		) 
+		&&
+			( d["nil_genotype"] == subset_strain || subset_strain == "Both" )
+		&&
+			(d["constructed_by"] != "EKS")
+		){return d;}
+	});
+	tabDat = filter_data;
+	tabClickUpdate(tabDat)
+}
+
+// Filters data for visualization
+function searched(zz) {
+	$("#helpBlock").hide();
+	$("#ZoomOutLimit").hide();
+	zoomDim = zz;
+	zz = zz.split(":");
+	var change = chromosome == zz[0]? false:true;
+	chromosome = zz[0];
+	if (change){chart();};
+	var brushExtent = zz[1].split("-")
+	context.select(".brush").call(brush.extent(brushExtent));
+	context.select(".brush").select(".resize.e text").text('');
+	context.select(".brush").select(".resize.w text").text('');
+	x.domain(brush.empty() ? x2.domain() : brush.extent());
+	draw()
+	focus.select(".x.axis").call(xAxis);
+	var s = x.domain();
+	var s_orig = x2.domain();
+	var newS = (s_orig[1]-s_orig[0])/(s[1]-s[0]);
+	var t = (s[0]-s_orig[0])/(s_orig[1]-s_orig[0]); 
+	var trans = width*newS*t;
+	zoom.scale(newS);
+	zoom.translate([-trans,0]);
+	writeTable(chromosome+":"+zz[1]);
+}
+
+/**
+// The brush function is present on the x-axis and displays the present selection.
+// Brush can be adjusted by moving the boundaries of the rectangle.
+// This function translates the axis bounds into the filtered data.
+**/
+function brushed() {
+	$("#helpBlock").hide();
+	$("#ZoomOutLimit").hide();
+	x.domain(brush.empty() ? x2.domain() : brush.extent());
+	context.select(".brush").select(".resize.e text").text('');
+	context.select(".brush").select(".resize.w text").text('');
+	zoomDim = chromosome+":"+parseInt(brush.extent()[0])+"-"+parseInt(brush.extent()[1]);
+	draw()
+	focus.select(".x.axis").call(xAxis);
+	var s = x.domain();
+	var s_orig = x2.domain();
+	var newS = (s_orig[1]-s_orig[0])/(s[1]-s[0]);
+	var t = (s[0]-s_orig[0])/(s_orig[1]-s_orig[0]); 
+	var trans = width*newS*t;
+	zoom.scale(newS);
+	zoom.translate([-trans,0]);
+	writeTable(chromosome+":"+brush.extent()[0]+"-"+brush.extent()[1]);
+}
+
+/**
+// Mouse wheel helps to zoom in or out of the present visible area.
+// Pressing the mouse left click and moving to left or right helps to move the visible area correspondingly.
+// This can also be done by moving the brush rectangle to left / right.
+// On zoom action the brush and data table are updated as well.
+**/
+function zoomed() {
+	$("#helpBlock").hide();
+	$("#ZoomOutLimit").hide();
+	var t = 	d3.event.translate;
+	var s = 	d3.event.scale;
+	var size = width*s;
+	t[0] = Math.min(t[0], 0);
+	t[0] = Math.max(t[0], width-size);
+	zoom.translate(t);
+	focus.select(".x.axis").call(xAxis);
+	var brushExtent = [x.invert(0), x.invert(width)];
+	zoomDim = chromosome+":"+parseInt(brushExtent[0])+"-"+parseInt(brushExtent[1]);
+	draw();
+	context.select(".brush").call(brush.extent(brushExtent));
+	context.select(".brush").select(".resize.e text").text('');
+	context.select(".brush").select(".resize.w text").text('');
+	writeTable(chromosome+":"+brushExtent[0]+"-"+brushExtent[1]);
+}
+
+
+/** Helper functions **/
+function comma(x) {
+	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function full_range(chrom){
+	$("#nils-search").val(chrom+":"+"0-"+chrom_max_len[chrom]); 
+}
+
+$('.chrom').on('click', function() { 
+	$('.btn').removeClass("clicked");
+	$(this).toggleClass('clicked');
+	searched(this.value+":"+"0-"+chrom_max_len[this.value]);
+	full_range(this.value);
+});
 
 $( document ).ready(function() {
-    init();
+	d3.selectAll(("input[name='strain']")).on("change", function(){
+		gtSel = this.value;
+		zoomDim = chromosome+":"+parseInt(brush.extent()[0])+"-"+parseInt(brush.extent()[1]);
+		draw();
+		writeTable(chromosome+":"+brush.extent()[0]+"-"+brush.extent()[1]);
+  });
+
 });
-// Redraw canvas when the window is resized.
-$(window).resize(function() {
-    draw_nils($("#nils-search").val());
-});
-$('input[name=strain]').change(function() {
-    draw_nils($("#nils-search").val());
-})
-$('.chrom').on('click', function() { 
-  $('.btn').removeClass("clicked")
-  $(this).toggleClass('clicked')
-   full_range(this.value)
-   draw_nils($("#nils-search").val());
+$("#revertButton").click(function(){
+  gbTootip.transition()
+			.delay(250)
+		  .style("display", "none");
+		  tabClickUpdate(tabDat);
 });
 
 
 </script>
 
 
-
-<div id="ftable" style = "font-family: 'Courier New'; font-size:16px; text-transform:capitalize;">
+<div id="ftable" style = "font-family: 'Courier New';  font-size:16px; text-transform:capitalize;">
 </div>
 <br/>
 <div class="pull-right"> <a href="http://goo.gl/forms/i564axIB1J">Submit your own Strain!</a>
@@ -283,11 +523,14 @@ $('.chrom').on('click', function() {
 <br/>
 <div class="pull-left"><a href="mailto:Erik.Andersen@northwestern.edu"> Erik.Andersen@northwestern.edu</a>
 </div>
-
-  
+<br>
+<div class="pull-left"> NILs Browser updated by: </div>
+<div class="pull-left"><a href="http://www.excelra.com"> Excelra Knowledge Solutions Pvt. Ltd.</a></div>
+	
 
 <br />
 <br />
 <br />
 </div>
 </div>
+<!-- ============================= from Nils page END ============================================================== -->
