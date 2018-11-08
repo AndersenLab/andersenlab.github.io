@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Katie and Shannon's paper on toxin QTL hotspots is published in *Genetics*!"
+title: "Katie and Shannon's paper on toxin QTL hotspots is published in Genetics!"
 subtitle: "Shared genomic regions underlie natural variation in diverse toxin responses"
 layout: post
 tags: news
