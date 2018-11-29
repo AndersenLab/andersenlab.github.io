@@ -91,6 +91,12 @@
 - name: Freezing/Thawing Worms for Long-Term Storage
   file: FreezingThawingWormsForLongTermStorage.pdf
   group: General <em>C. elegans</em>
+- name: Soft Agar Freezing and Thawing
+  file: SoftAgarFreezing&Thawing.pdf
+  group: General <em>C. elegans</em>
+- name: How to Build a NIL
+  file: HowToBuildaNIL.pdf
+  group: General <em>C. elegans</em>
 - name: Synchronizing Worms by Bleaching
   file: SynchronizingWormsbyBleaching.pdf
   group: General <em>C. elegans</em>
