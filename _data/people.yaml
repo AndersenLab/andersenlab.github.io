@@ -106,7 +106,7 @@
   last_name: Wang
   pub_names: ["Wang Y"]
   title: Graduate Student
-  description: I am interested in using short- and long-read sequence data to understand genome evolution
+  description: I am interested in using short- and long-read sequence data to understand genome evolution.
   photo: WangYe.jpg
   github: faithman
   email: ye.wang@northwestern.edu
@@ -114,14 +114,14 @@
 - first_name: Heechul (Ryan)
   last_name: Chung
   title: Graduate Student
-  description: I'm interested in the molecular mechanisms underlying natural variation in <em>C. elegans</em> mitochondrial DNA copy numbers
+  description: I'm interested in the molecular mechanisms underlying natural variation in <em>C. elegans</em> mitochondrial DNA copy number.
   photo: HeechulChung.jpg
   email: heechulchung2019@u.northwestern.edu
 
 - first_name: Anita
   last_name: Huang
   title: Graduate Student
-  description: I'm interested in understanding the function of the beta-tubulin gene, ben-1, in benzimidazole drug resistance.
+  description: I'm interested in understanding the function of the beta-tubulin gene, <em>ben-1</em>, in benzimidazole drug resistance.
   photo: huang_anita.jpg
   github: anitata0314
   email: r3h8m8@u.northwestern.edu
