@@ -1,0 +1,6 @@
+---
+title: High-throughput approaches to understand trait evolution
+order: 1
+---
+
+To map differences in quantitative traits, we use high-throughput assays to rapidly phenotype large collections of natural <em>C. elegans</em>, <em>C. briggsae</em>, and <em>C. tropicalis</em> isolates. These assays measure fecundity, growth rates, behaviors, and pharyngeal pumping rates. Each trait allows us to determine different effects on the physiology of the animals. These high-throughput assays give us the ability to identify natural variants or induced mutations at unprecedented speeds and with high statistical power. Currently, we are measuring responses to diverse toxins and chemotherapeutics along with differences in freely moving nematodes.

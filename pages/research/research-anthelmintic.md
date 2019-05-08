@@ -1,14 +1,13 @@
 ---
 title: Genetic causes of resistance to anthelmintic compounds
 image: anthelmintics.jpg
-order: 2
-hidden: true
+order: 3
 ---
 
 Using high-throughput assays that measure organismal fitness
 (offspring production, growth rate) and behaviors (feeding rate and
 paralysis), we are investigating how three clade V nematode species,
-<em>Caenorhabditis briggsae</em>, <em>Caenorhabditis elegans</em>, and <em>Caenorhabditis
+<em>C. briggsae</em>, <em>C. elegans</em>, and <em>C.
 tropicalis</em> vary in responses to anthelmintic (anti-nematode)
 compounds. Our goal is to identify resistance mechanisms conserved
 with parasitic roundworms to better treat infected people in
