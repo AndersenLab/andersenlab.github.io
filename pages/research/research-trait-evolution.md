@@ -1,5 +1,6 @@
 ---
 title: High-throughput approaches to understand trait evolution
+image: worm_variation.jpg
 order: 1
 ---
 

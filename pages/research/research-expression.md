@@ -1,5 +1,6 @@
 ---
 title: Natural variation in intermediate traits&#58; Gene expression, metabolites, and protein expression
+image: holistic.png
 order: 5
 ---
 
