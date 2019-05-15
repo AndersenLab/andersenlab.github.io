@@ -1,6 +1,6 @@
 ---
 title: Microevolution of developmental plasticity
-image: ce_lifecycle_dauer_assay.png
+image: ce_lifecycle_dauer_assay2.png
 order: 4
 ---
 
