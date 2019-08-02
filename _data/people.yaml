@@ -62,10 +62,38 @@
   title: Research Technician
   photo: RobertoNicole.jpg
   email: NicoleRoberto2018@u.northwestern.edu
+  
+- first_name: Logan
+  last_name: Eckhoff
+  description: I work on cryopreservation and DNA isolation C. briggsae and C. tropicalis wild isolates.
+  title: Research Technician
+  photo: Logan.png
+  email: logan.eckhoff@northwestern.edu 
+  
+- first_name: Claire
+  last_name: Buchanan
+  description: I work on collecting and isolating wild Caenorhabditis strains.
+  title: Research Technician
+  photo: Claire.jpg
+  email: claire.buchanan@northwestern.edu 
 
 #===================#
 # Graduate Students #
 #===================#
+
+- first_name: Loraina
+  last_name: Stinson
+  title: Graduate Student
+  description: I am interested in understanding the mechanisms of behavioral variation across Caenorhabditis species.
+  photo: Stinson,Loraina-1247.jpg
+  email: LorainaStinson2024@u.northwestern.edu 
+  
+- first_name: Joy
+  last_name: Nyaanga
+  title: Graduate Student
+  description: I  am interested in quantitative methods to understand growth and metabolic networks.
+  photo: Nyaanga,Joy.jpg
+  email: JoyNyaanga2024@u.northwestern.edu 
 
 - first_name: Kathryn
   last_name: Evans
@@ -84,24 +112,6 @@
   email: ClaytonDilks2023@u.northwestern.edu
   github: cdilks2294
 
-- first_name: Stefan
-  last_name: Zdraljevic
-  pub_names: ["Zdraljevic S"]
-  title: Graduate Student
-  description: I am interested in how organisms perceive and respond to their environment. Specifically, how natural genetic and non-genetic factors contribute to variability in response to environmental cues.
-  photo: Stefan_Zdraljevic.jpg
-  github: Thatguy027
-  email: StefanZdraljevic2018@u.northwestern.edu
-
-- first_name: Shannon
-  last_name: Brady
-  pub_names: ["Brady SC"]
-  title: Graduate Student
-  description: I am interested in the genotypic factors that contribute to drug sensitivity, especially in regards to chemotherapeutics.
-  photo: Shannon_brady.jpg
-  github: shannonbrady
-  email: shannonbrady2014@u.northwestern.edu
-
 - first_name: Ye
   last_name: Wang
   pub_names: ["Wang Y"]
@@ -110,13 +120,6 @@
   photo: WangYe.jpg
   github: faithman
   email: ye.wang@northwestern.edu
-
-- first_name: Heechul (Ryan)
-  last_name: Chung
-  title: Graduate Student
-  description: I'm interested in the molecular mechanisms underlying natural variation in <em>C. elegans</em> mitochondrial DNA copy number.
-  photo: HeechulChung.jpg
-  email: heechulchung2019@u.northwestern.edu
 
 - first_name: Anita
   last_name: Huang
@@ -135,6 +138,37 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Heechul (Ryan)
+  last_name: Chung
+  title: Graduate Student
+  description: I'm interested in the molecular mechanisms underlying natural variation in <em>C. elegans</em> mitochondrial DNA copy number.
+  photo: HeechulChung.jpg
+  former: true
+  email: heechulchung2019@u.northwestern.edu
+
+- first_name: Stefan
+  last_name: Zdraljevic
+  pub_names: ["Zdraljevic S"]
+  title: Graduate Student
+  description: I am interested in how organisms perceive and respond to their environment. Specifically, how natural genetic and non-genetic factors contribute to variability in response to environmental cues.
+  photo: Stefan_Zdraljevic.jpg
+  former: true
+  github: Thatguy027
+  email: StefanZdraljevic2018@u.northwestern.edu
+  current_status: Post-doctoral researcher in Leonid Kruglyak's lab at UCLA.
+
+- first_name: Shannon
+  last_name: Brady
+  pub_names: ["Brady SC"]
+  title: Graduate Student
+  description: I am interested in the genotypic factors that contribute to drug sensitivity, especially in regards to chemotherapeutics.
+  photo: Shannon_brady.jpg
+  former: true
+  github: shannonbrady
+  email: shannonbrady2014@u.northwestern.edu
+  current_status: Consultant at Boston Consulting Group
+
 
 - first_name: Tyler
   last_name: Shimko
@@ -160,7 +194,7 @@
   description: "I am interested in characterizing genetic variation in the <em>C. elegans</em> species and building tools to facilitate studies connecting genetic differences with phenotypes."
   email: Dec@u.northwestern.edu
   github: danielecook
-  current_status: Programmer at VectorBase
+  current_status: Programmer at The Crick Institute
   
 - first_name: Mostafa
   pub_names:
