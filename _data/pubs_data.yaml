@@ -1,4 +1,11 @@
 - Authors:
+  - Brady SC
+  - Andersen EC
+  Date_Published: 2019 December 6
+  Journal: Journal of Biological Education
+  PDF: 2019BradyJBE
+  Title: An escape-room inspired game for genetics review
+- Authors:
   - Crombie TA
   - Zdraljevic S
   - Cook DE
@@ -13,11 +20,27 @@
   - van der Zwaag J
   - Kiontke KC
   - Andersen EC
-  DOI: 10.1101/716928
-  Date_Published: 2019 July 28
-  Journal: bioRxiv
-  PDF: 2019CrombieBioRxiv
+  Date_Published: 2019 November 6
+  Journal: eLife
+  PDF: 2019Crombieelife
   Title: Deep sampling of Hawaiian <em>Caenorhabditis elegans</em> reveals high genetic diversity and admixture with global populations
+- Authors:
+  - Webster AK
+  - Hung A
+  - Moore BT
+  - Guzman R
+  - Jordan JM
+  - Kaplan REW
+  - Hibshman JD
+  - Tanny RE
+  - Cook DE
+  - Andersen EC
+  - Baugh LR
+  DOI:
+  Date_Published: 2019 September 6
+  Journal: G3
+  PDF: 2019BaughG3
+  Title: Population selection and sequencing of <em>Caenorhabditis elegans</em> wild isolates identifies a region on chromosome III affecting starvation resistance
 - Authors:
   - Kim C
   - Kim J
@@ -67,9 +90,8 @@
   DOI: 10.1101/580803
   Date_Published: 2019 Mar 26
   Journal: bioRxiv
-  PDF: 2019LeeZdraljevicBioRxiv
-  Title: Selection and gene flow shape niche-associated copy-number variation of pheromone
-    receptor genes
+  PDF: 2019LeeNatureEE
+  Title: Selection and gene flow shape niche-associated variation of pheromone response
 - Authors:
   - Brady SC
   - Zdraljevic S
@@ -95,8 +117,8 @@
   - Braendle C
   DOI: 10.1101/501486
   Date_Published: 2018 Dec 19
-  Journal: bioRxiv
-  PDF: 2018GimondBioRxiv
+  Journal: Genetics
+  PDF: 2019GimondGenetics
   Title: 'Evolution of sperm competition: Natural variation and genetic determinants
     of <em>Caenorhabditis elegans</em> sperm size'
 - Authors:
@@ -108,9 +130,9 @@
   - Rockman MV: mrockman@nyu.edu
   DOI: 10.1101/428466
   Date_Published: 2018 Sep 27
-  Journal: bioRxiv
-  PDF: 2018BernsteinBioRxiv
-  Title: Tightly-linked antagonistic-effect loci underlie polygenic demographic variation
+  Journal: Evolution Letters
+  PDF: 2019BernsteinEvolution_Letters
+  Title: Tightly linked antagonistic-effect loci underlie polygenic demographic variation
     in <em>C. elegans</em>
 - Authors:
   - Hahnel SR
