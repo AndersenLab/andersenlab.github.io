@@ -39,6 +39,41 @@
   photo: ZhangGaotian.jpg
   email: gaotian.zhang@northwestern.edu
 
+- first_name: Ye
+  last_name: Wang
+  pub_names: ["Wang Y"]
+  title: Postdoctoral Researcher
+  description: I am interested in using short- and long-read sequence data to understand genome evolution.
+  photo: WangYe.jpg
+  github: faithman
+  email: ye.wang@northwestern.edu
+
+- first_name: Sam
+  last_name: Widmayer
+  pub_names: ["Widmayer S"]
+  title: Postdoctoral Researcher
+  description: I am interested in toxin-response variation and optimizing new mapping methods.
+  photo: SamWidmayer.jpg
+  github: sam-widmayer
+  email: sam.widmayer@northwestern.edu
+
+- first_name: Janneke
+  last_name: Wit
+  pub_names: ["Wit J"]
+  title: Postdoctoral Researcher
+  description: I am interested in natural anthelmintic resistance.
+  photo: Janneke_cropped.jpg
+  github: JannekeW
+  email: janneke.wit@northwestern.edu
+
+- first_name: Lewis
+  last_name: Stevens
+  pub_names: ["Stevens L"]
+  title: Postdoctoral Researcher
+  description: I am interested in comparative genomes within and among species.
+  photo: Lewis_cropped.jpg
+  email: lewis.stevens@northwestern.edu
+
 #========================#
 # Graduate Researcher    #
 #========================#
@@ -52,7 +87,7 @@
   last_name: Tanny
   pub_names: ["RE Tanny", "Tanny RE", "Robyn E. Tanny", "Robyn E Tanny"]
   description: I manage the lab's strain collection, generate sequencing libraries, and manage CeNDR. I also handle incoming collection samples to identify new strains of <em>C. elegans</em>.
-  title: Research Associate
+  title: Research Assistant Professor
   photo: Robyn.jpg
   email: Robyn.Tanny@northwestern.edu
 
@@ -62,20 +97,27 @@
   title: Research Technician
   photo: RobertoNicole.jpg
   email: NicoleRoberto2018@u.northwestern.edu
-  
+
 - first_name: Logan
   last_name: Eckhoff
   description: I work on cryopreservation and DNA isolation C. briggsae and C. tropicalis wild isolates.
   title: Research Technician
   photo: Logan.png
-  email: logan.eckhoff@northwestern.edu 
-  
+  email: logan.eckhoff@northwestern.edu
+
 - first_name: Claire
   last_name: Buchanan
   description: I work on collecting and isolating wild Caenorhabditis strains.
   title: Research Technician
   photo: Claire.jpg
-  email: claire.buchanan@northwestern.edu 
+  email: claire.buchanan@northwestern.edu
+
+- first_name: Dan
+  last_name: Lu
+  description: I
+  title: Staff Bioinformaticist
+  photo: DanLu.jpg
+  email: dan.lu@northwestern.edu
 
 #===================#
 # Graduate Students #
@@ -86,14 +128,14 @@
   title: Graduate Student
   description: I am interested in understanding the mechanisms of behavioral variation across Caenorhabditis species.
   photo: Stinson,Loraina-1247.jpg
-  email: LorainaStinson2024@u.northwestern.edu 
-  
+  email: LorainaStinson2024@u.northwestern.edu
+
 - first_name: Joy
   last_name: Nyaanga
   title: Graduate Student
   description: I  am interested in quantitative methods to understand growth and metabolic networks.
   photo: Nyaanga,Joy.jpg
-  email: JoyNyaanga2024@u.northwestern.edu 
+  email: JoyNyaanga2024@u.northwestern.edu
 
 - first_name: Kathryn
   last_name: Evans
@@ -111,15 +153,6 @@
   description: I am interested in investigating the mechanisms of anthelmintic drug resistance in <em>C. elegans</em> and using comparative genetics to apply these findings to high-impact helminth species.
   email: ClaytonDilks2023@u.northwestern.edu
   github: cdilks2294
-
-- first_name: Ye
-  last_name: Wang
-  pub_names: ["Wang Y"]
-  title: Graduate Student
-  description: I am interested in using short- and long-read sequence data to understand genome evolution.
-  photo: WangYe.jpg
-  github: faithman
-  email: ye.wang@northwestern.edu
 
 - first_name: Anita
   last_name: Huang
@@ -195,7 +228,7 @@
   email: Dec@u.northwestern.edu
   github: danielecook
   current_status: Programmer at The Crick Institute
-  
+
 - first_name: Mostafa
   pub_names:
     - Zamanian M
@@ -236,7 +269,7 @@
   former: true
   departure: 2018-08-20
   current_status: Research technician, clinical psychology
-  
+
 - first_name: Bryn
   last_name: Gaertner
   description: I'm interested in natural variation in neurodevelopment and behavior.
