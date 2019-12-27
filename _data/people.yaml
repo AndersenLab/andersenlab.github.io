@@ -2,7 +2,7 @@
   last_name: Andersen
   title: Principal Investigator
   # Specify names here to highlight within publications
-  pub_names: ["EC Andersen", "Andersen EC", "Erik C. Andersen", "Erik C Andersen"]
+  pub_names: ["EC Andersen", "Andersen EC", "Erik C. Andersen", "Erik C Andersen", "E Andersen"]
   photo: Erik_C_Andersen.jpg
   cv: https://github.com/AndersenLab/cv/blob/master/Andersen_CV.pdf?raw=true
   email: Erik.Andersen@northwestern.edu
@@ -17,6 +17,7 @@
   last_name: Crombie
   description: I'm interested in natural variation in stress responses and GxE interactions.
   title: Postdoctoral Researcher
+  pub_names: ["TA Crombie", "Crombie TA"]
   former: false
   photo: TimothyCrombie.jpg
   email: tcrombie@northwestern.edu
