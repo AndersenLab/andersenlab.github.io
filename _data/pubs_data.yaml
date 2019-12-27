@@ -1,89 +1,4 @@
 - Authors:
-  - Bernstein MR
-  - Zdraljevic S
-  - Andersen EC
-  - Rockman MV
-  DOI: 10.1002/evl3.139
-  Date_Published: '2019'
-  Journal: Evol Lett
-  PMC: '6791183'
-  PMID: '31636939'
-  Title: 'Tightly linked antagonistic-effect loci underlie polygenic phenotypic variation
-    in '
-- Authors:
-  - Webster AK
-  - Hung A
-  - Moore BT
-  - Guzman R
-  - Jordan JM
-  - Kaplan REW
-  - Hibshman JD
-  - Tanny RE
-  - Cook DE
-  - Andersen E
-  - Baugh LR
-  DOI: 10.1534/g3.119.400617
-  Date_Published: '2019'
-  Journal: G3 (Bethesda)
-  PMC: '6778785'
-  PMID: '31444297'
-  Title: 'Population Selection and Sequencing of '
-- Authors:
-  - Crombie TA
-  - Zdraljevic S
-  - Cook DE
-  - Tanny RE
-  - Brady SC
-  - Wang Y
-  - Evans KS
-  - Hahnel S
-  - Lee D
-  - Rodriguez BC
-  - Zhang G
-  - van der Zwagg J
-  - Kiontke K
-  - Andersen EC
-  DOI: 10.7554/eLife.50465
-  Date_Published: '2019'
-  Journal: Elife
-  PMC: null
-  PMID: '31793880'
-  Title: 'Deep sampling of Hawaiian '
-- Authors:
-  - Lee D
-  - Zdraljevic S
-  - Cook DE
-  - "Fr\xE9zal L"
-  - Hsu JC
-  - Sterken MG
-  - Riksen JAG
-  - Wang J
-  - Kammenga JE
-  - Braendle C
-  - "F\xE9lix MA"
-  - Schroeder FC
-  - Andersen EC
-  DOI: 10.1038/s41559-019-0982-3
-  Date_Published: '2019'
-  Journal: Nat Ecol Evol
-  PMC: '6764921'
-  PMID: '31548647'
-  Title: Selection and gene flow shape niche-associated variation in pheromone response
-- Authors:
-  - Gimond C
-  - Vielle A
-  - Silva-Soares N
-  - Zdraljevic S
-  - McGrath PT
-  - Andersen EC
-  - Braendle C
-  DOI: 10.1534/genetics.119.302462
-  Date_Published: '2019'
-  Journal: Genetics
-  PMC: '6781899'
-  PMID: '31395653'
-  Title: 'Natural Variation and Genetic Determinants of '
-- Authors:
   - Lee D
   - Zdraljevic S
   - Frezal L
@@ -97,8 +12,11 @@
   - Schroeder FC
   - Andersen EC
   Date_Published: 2019 Mar 26
+  DOI: 10.1038/s41559-019-0982-3
   Journal: Nature Ecology and Evolution
   PDF: 2019LeeNatureEE
+  PMC: '6764921'
+  PMID: '31548647'
   Title: Selection and gene flow shape niche-associated variation of pheromone response
 - Authors:
   - Brady SC
@@ -122,9 +40,12 @@
   - van der Zwaag J
   - Kiontke KC
   - Andersen EC
+  DOI: 10.7554/eLife.50465
   Date_Published: 2019 November 6
   Journal: eLife
   PDF: 2019Crombieelife
+  PMC: null
+  PMID: '31793880'
   Title: Deep sampling of Hawaiian <em>Caenorhabditis elegans</em> reveals high genetic
     diversity and admixture with global populations
 - Authors:
@@ -139,9 +60,11 @@
   - Cook DE
   - Andersen EC
   - Baugh LR
-  DOI: null
+  DOI: 10.1534/g3.119.400617
   Date_Published: 2019 September 6
   Journal: G3
+  PMC: '6778785'
+  PMID: '31444297'
   PDF: 2019BaughG3
   Title: Population selection and sequencing of <em>Caenorhabditis elegans</em> wild
     isolates identifies a region on chromosome III affecting starvation resistance
@@ -201,9 +124,11 @@
   - McGrath P
   - Andersen EC
   - Braendle C
-  DOI: 10.1101/501486
+  DOI: 10.1534/genetics.119.302462
   Date_Published: 2018 Dec 19
   Journal: Genetics
+  PMC: '6781899'
+  PMID: '31395653'
   PDF: 2019GimondGenetics
   Title: 'Evolution of sperm competition: Natural variation and genetic determinants
     of <em>Caenorhabditis elegans</em> sperm size'
@@ -214,12 +139,14 @@
   - Rockman MV
   Corresponding_Authors:
   - Rockman MV: mrockman@nyu.edu
-  DOI: 10.1101/428466
+  DOI: 10.1002/evl3.139
   Date_Published: 2018 Sep 27
   Journal: Evolution Letters
   PDF: 2019BernsteinEvolution_Letters
+  PMC: '6791183'
+  PMID: '31636939'
   Title: Tightly linked antagonistic-effect loci underlie polygenic demographic variation
-    in <em>C. elegans</em>
+      in <em>C. elegans</em>
 - Authors:
   - Hahnel SR
   - Zdraljevic S
