@@ -11,8 +11,8 @@
   - Felix A
   - Schroeder FC
   - Andersen EC
-  Date_Published: 2019 Mar 26
   DOI: 10.1038/s41559-019-0982-3
+  Date_Published: 2019 Mar 26
   Journal: Nature Ecology and Evolution
   PDF: 2019LeeNatureEE
   PMC: '6764921'
@@ -63,9 +63,9 @@
   DOI: 10.1534/g3.119.400617
   Date_Published: 2019 September 6
   Journal: G3
+  PDF: 2019BaughG3
   PMC: '6778785'
   PMID: '31444297'
-  PDF: 2019BaughG3
   Title: Population selection and sequencing of <em>Caenorhabditis elegans</em> wild
     isolates identifies a region on chromosome III affecting starvation resistance
 - Authors:
@@ -127,9 +127,9 @@
   DOI: 10.1534/genetics.119.302462
   Date_Published: 2018 Dec 19
   Journal: Genetics
+  PDF: 2019GimondGenetics
   PMC: '6781899'
   PMID: '31395653'
-  PDF: 2019GimondGenetics
   Title: 'Evolution of sperm competition: Natural variation and genetic determinants
     of <em>Caenorhabditis elegans</em> sperm size'
 - Authors:
@@ -146,7 +146,7 @@
   PMC: '6791183'
   PMID: '31636939'
   Title: Tightly linked antagonistic-effect loci underlie polygenic demographic variation
-      in <em>C. elegans</em>
+    in <em>C. elegans</em>
 - Authors:
   - Hahnel SR
   - Zdraljevic S
