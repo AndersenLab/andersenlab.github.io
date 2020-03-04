@@ -22,15 +22,6 @@
   photo: TimothyCrombie.jpg
   email: tcrombie@northwestern.edu
 
-- first_name: Daehan
-  pub_names: ["Lee D"]
-  last_name: Lee
-  description: I'm interested in natural variation in dauer development and metabolite signaling.
-  title: Postdoctoral Researcher
-  former: false
-  photo: DaehanLee.jpg
-  email: daehan.lee@northwestern.edu
-
 - first_name: Gaotian
   pub_names: ["Zhang G"]
   last_name: Zhang
@@ -174,6 +165,16 @@
 # Former Members         #
 #========================#
 
+- first_name: Daehan
+  pub_names: ["Lee D"]
+  last_name: Lee
+  description: I'm interested in natural variation in dauer development and metabolite signaling.
+  title: Postdoctoral Researcher
+  former: true
+  photo: DaehanLee.jpg
+  email: daehan.lee@northwestern.edu
+  current_status: Post-doctoral researcher in Richard Benton's lab at University of Lausanne
+
 - first_name: Heechul (Ryan)
   last_name: Chung
   title: Graduate Student
@@ -203,7 +204,6 @@
   github: shannonbrady
   email: shannonbrady2014@u.northwestern.edu
   current_status: Consultant at Boston Consulting Group
-
 
 - first_name: Tyler
   last_name: Shimko
@@ -301,7 +301,6 @@
   former: true
   email: Samuel.Rosenberg@northwestern.edu
   departure: 2015-01-01
-
 
 - first_name: Sarah
   last_name: Giuliani
