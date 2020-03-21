@@ -91,13 +91,6 @@
   photo: RobertoNicole.jpg
   email: NicoleRoberto2018@u.northwestern.edu
 
-- first_name: Logan
-  last_name: Eckhoff
-  description: I work on cryopreservation and DNA isolation C. briggsae and C. tropicalis wild isolates.
-  title: Research Technician
-  photo: Logan.png
-  email: logan.eckhoff@northwestern.edu
-
 - first_name: Claire
   last_name: Buchanan
   description: I work on collecting and isolating wild Caenorhabditis strains.
@@ -164,6 +157,14 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Logan
+  last_name: Eckhoff
+  description: I work on cryopreservation and DNA isolation C. briggsae and C. tropicalis wild isolates.
+  title: Research Technician
+  former: true
+  photo: Logan.png
+  email: logan.eckhoff@northwestern.edu
 
 - first_name: Daehan
   pub_names: ["Lee D"]
