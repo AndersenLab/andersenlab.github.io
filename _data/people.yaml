@@ -161,7 +161,7 @@
 - first_name: Logan
   last_name: Eckhoff
   description: I work on cryopreservation and DNA isolation C. briggsae and C. tropicalis wild isolates.
-  title: Research Technician
+  title: Research Technician, 2019
   former: true
   photo: Logan.png
   email: logan.eckhoff@northwestern.edu
@@ -170,7 +170,7 @@
   pub_names: ["Lee D"]
   last_name: Lee
   description: I'm interested in natural variation in dauer development and metabolite signaling.
-  title: Postdoctoral Researcher
+  title: Post-doctoral Researcher, 2018-2020
   former: true
   photo: DaehanLee.jpg
   email: daehan.lee@northwestern.edu
@@ -178,7 +178,7 @@
 
 - first_name: Heechul (Ryan)
   last_name: Chung
-  title: Graduate Student
+  title: Graduate Student, 2019
   description: I'm interested in the molecular mechanisms underlying natural variation in <em>C. elegans</em> mitochondrial DNA copy number.
   photo: HeechulChung.jpg
   former: true
@@ -187,7 +187,7 @@
 - first_name: Stefan
   last_name: Zdraljevic
   pub_names: ["Zdraljevic S"]
-  title: Graduate Student
+  title: Graduate Student, 2014-2019
   description: I am interested in how organisms perceive and respond to their environment. Specifically, how natural genetic and non-genetic factors contribute to variability in response to environmental cues.
   photo: Stefan_Zdraljevic.jpg
   former: true
@@ -198,7 +198,7 @@
 - first_name: Shannon
   last_name: Brady
   pub_names: ["Brady SC"]
-  title: Graduate Student
+  title: Graduate Student, 2015-2019
   description: I am interested in the genotypic factors that contribute to drug sensitivity, especially in regards to chemotherapeutics.
   photo: Shannon_brady.jpg
   former: true
@@ -221,7 +221,7 @@
 
 - first_name: Daniel
   last_name: Cook
-  title: Graduate Student
+  title: Graduate Student, 2014-2018
   pub_names: ["Cook DE"]
   departure: 2018-05-31
   former: true
@@ -237,7 +237,7 @@
     - Zamanian M
   last_name: Zamanian
   description: My research broadly spans "neglected disease" genomics and drug discovery. I am currently working to uncover new genetic determinants of anthelmintic resistance and to develop genome editing technology for human pathogenic helminths.
-  title: Postdoctoral Researcher, 2015-2017
+  title: Post-doctoral Researcher, 2015-2017
   photo: Mostafa2014.jpg
   former: true
   github: mzamanian
@@ -266,7 +266,7 @@
 - first_name: Briana
   last_name: Rodriguez
   description: I manage the work-study students and perform high-throughput fitness assays.
-  title: Research Associate
+  title: Research Associate, 2016-2018
   photo: BrianaRodriguez.jpg
   email: briana.rodriguez@northwestern.edu
   former: true
@@ -286,7 +286,7 @@
   pub_names: ["Hahnel S"]
   last_name: Hahnel
   description: I'm interested in natural variation in anthelmintic drug responses.
-  title: Postdoctoral Researcher
+  title: Post-doctoral Researcher, 2017-2018
   former: false
   photo: SteffenHahnel.jpg
   email: steffen.hahnel@northwestern.edu
@@ -316,7 +316,7 @@
   last_name: Roberts
   email: joshuaroberts2016@u.northwestern.edu
   photo: Joshua_Roberts.png
-  title: Undergraduate Developer, 2015-2016,
+  title: Undergraduate Developer, 2015-2016
   current_status: Motivate International
   former: true
   departure: 2016-07-01
