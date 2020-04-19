@@ -152,7 +152,7 @@
 - first_name: Ye
   last_name: Wang
   pub_names: ["Wang Y"]
-  title: Postdoctoral Researcher
+  title: Graduate Student, 2017-2019
   former: true
   description: I am interested in using short- and long-read sequence data to understand genome evolution.
   photo: WangYe.jpg
@@ -181,7 +181,7 @@
 
 - first_name: Heechul (Ryan)
   last_name: Chung
-  title: Graduate Student, 2019
+  title: QSB Masters Student, 2019
   description: I'm interested in the molecular mechanisms underlying natural variation in <em>C. elegans</em> mitochondrial DNA copy number.
   photo: HeechulChung.jpg
   former: true
