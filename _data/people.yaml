@@ -31,15 +31,6 @@
   photo: ZhangGaotian.jpg
   email: gaotian.zhang@northwestern.edu
 
-- first_name: Ye
-  last_name: Wang
-  pub_names: ["Wang Y"]
-  title: Postdoctoral Researcher
-  description: I am interested in using short- and long-read sequence data to understand genome evolution.
-  photo: WangYe.jpg
-  github: faithman
-  email: ye.wang@northwestern.edu
-
 - first_name: Sam
   last_name: Widmayer
   pub_names: ["Widmayer S"]
@@ -157,6 +148,18 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Ye
+  last_name: Wang
+  pub_names: ["Wang Y"]
+  title: Postdoctoral Researcher
+  former: true
+  description: I am interested in using short- and long-read sequence data to understand genome evolution.
+  photo: WangYe.jpg
+  github: faithman
+  email: ye.wang@northwestern.edu
+  current_status: Lab head, Division of Bioinformatics, Panda Institute Sichuan, China
+
 
 - first_name: Logan
   last_name: Eckhoff
