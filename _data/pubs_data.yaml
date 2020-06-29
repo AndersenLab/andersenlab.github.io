@@ -1,34 +1,49 @@
 - Authors:
-  - Archer H
-  - Deiparine S
-  - Andersen EC
-  DOI: 10.1101/2020.03.13.991406
-  Date_Published: 2020 Mar 13
-  Journal: bioRxiv
-  PDF: 2020ArcherbioRxiv
-  Title: Caenorhabditis elegans nematodes are not attracted to the terrestrial isopod
-    Porcellio scaber
-- Authors:
-  - Evans KS
-  - Andersen EC
-  DOI: 10.1101/2020.03.09.984393
-  Date_Published: 2020 Mar 9
-  Journal: bioRxiv
-  PDF: 2020EvansbioRxiv
-  Title: A single locus underlies variation Caenorhabditis elegans chemotherapeutic
-    responses
-- Authors:
   - Na H
   - Zdraljevic S
   - Tanny RE
   - Walhout AJM
   - Andersen EC
-  DOI: 10.1101/2020.03.02.973206
-  Date_Published: 2020 Mar 3
-  Journal: bioRxiv
-  PDF: 2020HuiminBioRxiv
-  Title: Natural variation in a glucuronosyltransferase modulates propionate sensitivity
-    in a C. elegans propionic acidemia model
+DOI: 10.1101/2020.03.02.973206
+Date_Published: 2020 March 3
+Journal: bioRxiv
+PDF: 2020HuiminBioRxiv
+Title: Natural variation in a glucuronosyltransferase modulates propionate sensitivity in a <em>C. elegans</em> propionic acidemia model
+- Authors:
+  - Evans KS
+  - Andersen EC
+DOI: 10.1534/g3.120.401310
+Date_Published: 2020 May 8
+Journal: G3
+PDF: 2020EvansG3
+Title: The gene <em>scb-1</em> underlies variation <em>Caenorhabditis elegans</em> chemotherapeutic
+  responses
+- Authors:
+  - Archer H
+  - Deiparine S
+  - Andersen EC
+  DOI: 10.1371/journal.pone.0235000
+  Date_Published: 2020 June 26
+  Journal: PLoS ONE
+  PDF: 2020ArcherPLoSONE
+  Title: The nematode <em>Caenorhabditis elegans</em> nematodes and the terrestrial isopod <em>Porcellio scaber</em> likely interact opportunistically
+- Authors:
+  - Zhao Y
+  - Long L
+  - Wan J
+  - Biliya S
+  - Brady SC
+  - Lee D
+  - Ojemakinde A
+  - Andersen EC
+  - Vannberg FO
+  - Lu H
+  - McGrath PT
+DOI: 10.371/journal.pgen.1008606
+Date_Published: 2020 February 24
+Journal: PLoS Genetics
+PDF: 2020ZhaoPLoSGenetics
+Title: A spontaneous complex structural variant in <em>rcan-1</em> increases exploratory behavior and laboratory fitness of <em>Caenorhabditis elegans</em>
 - Authors:
   - Bayat M
   - Tanny RE
@@ -39,12 +54,12 @@
   - Liebau E
   - Waschk DEJ
   DOI: 10.1016/j.gene.2020.144367
-  Date_Published: 2020 Jan 16
+  Date_Published: 2020 January 16
   Journal: Gene
   PDF: 2020telomereGene
   PMID: '31954861'
-  Title: Effects of telomerase overexpression in the model organism Caenorhabditis
-    elegans
+  Title: Effects of telomerase overexpression in the model organism <em>Caenorhabditis
+    elegans</em>
 - Authors:
   - Lee D
   - Zdraljevic S
@@ -59,7 +74,7 @@
   - Schroeder FC
   - Andersen EC
   DOI: 10.1038/s41559-019-0982-3
-  Date_Published: 2019 Mar 26
+  Date_Published: 2019 March 26
   Journal: Nature Ecology and Evolution
   PDF: 2019LeeNatureEE
   PMC: '6764921'
