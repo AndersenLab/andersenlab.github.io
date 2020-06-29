@@ -4,20 +4,22 @@
   - Tanny RE
   - Walhout AJM
   - Andersen EC
-DOI: 10.1101/2020.03.02.973206
-Date_Published: 2020 March 3
-Journal: bioRxiv
-PDF: 2020HuiminBioRxiv
-Title: Natural variation in a glucuronosyltransferase modulates propionate sensitivity in a <em>C. elegans</em> propionic acidemia model
+  DOI: 10.1101/2020.03.02.973206
+  Date_Published: 2020 March 3
+  Journal: bioRxiv
+  PDF: 2020HuiminBioRxiv
+  Title: Natural variation in a glucuronosyltransferase modulates propionate sensitivity
+    in a <em>C. elegans</em> propionic acidemia model
 - Authors:
   - Evans KS
   - Andersen EC
-DOI: 10.1534/g3.120.401310
-Date_Published: 2020 May 8
-Journal: G3
-PDF: 2020EvansG3
-Title: The gene <em>scb-1</em> underlies variation <em>Caenorhabditis elegans</em> chemotherapeutic
-  responses
+  DOI: 10.1534/g3.120.401310
+  Date_Published: 2020 May 8
+  Journal: G3
+  PDF: 2020EvansG3
+  PMID: 32385045
+  Title: The gene <em>scb-1</em> underlies variation <em>Caenorhabditis elegans</em>
+    chemotherapeutic responses
 - Authors:
   - Archer H
   - Deiparine S
@@ -26,7 +28,9 @@ Title: The gene <em>scb-1</em> underlies variation <em>Caenorhabditis elegans</e
   Date_Published: 2020 June 26
   Journal: PLoS ONE
   PDF: 2020ArcherPLoSONE
-  Title: The nematode <em>Caenorhabditis elegans</em> nematodes and the terrestrial isopod <em>Porcellio scaber</em> likely interact opportunistically
+  PMID: 32589676
+  Title: The nematode <em>Caenorhabditis elegans</em> nematodes and the terrestrial
+    isopod <em>Porcellio scaber</em> likely interact opportunistically
 - Authors:
   - Zhao Y
   - Long L
@@ -39,11 +43,13 @@ Title: The gene <em>scb-1</em> underlies variation <em>Caenorhabditis elegans</e
   - Vannberg FO
   - Lu H
   - McGrath PT
-DOI: 10.371/journal.pgen.1008606
-Date_Published: 2020 February 24
-Journal: PLoS Genetics
-PDF: 2020ZhaoPLoSGenetics
-Title: A spontaneous complex structural variant in <em>rcan-1</em> increases exploratory behavior and laboratory fitness of <em>Caenorhabditis elegans</em>
+  DOI: 10.371/journal.pgen.1008606
+  Date_Published: 2020 February 24
+  Journal: PLoS Genetics
+  PDF: 2020ZhaoPLoSGenetics
+  PMID: 32092052
+  Title: A spontaneous complex structural variant in <em>rcan-1</em> increases exploratory
+    behavior and laboratory fitness of <em>Caenorhabditis elegans</em>
 - Authors:
   - Bayat M
   - Tanny RE
@@ -106,7 +112,7 @@ Title: A spontaneous complex structural variant in <em>rcan-1</em> increases exp
   Date_Published: 2019 November 6
   Journal: eLife
   PDF: 2019Crombieelife
-  PMC: null
+  PMC: 6927746
   PMID: '31793880'
   Title: Deep sampling of Hawaiian <em>Caenorhabditis elegans</em> reveals high genetic
     diversity and admixture with global populations
@@ -142,6 +148,7 @@ Title: A spontaneous complex structural variant in <em>rcan-1</em> increases exp
   Date_Published: 2019 May 23
   Journal: Genome Research
   PDF: 2019Kim
+  PMID: 31123081
   Title: Long-read sequencing reveals intra-species tolerance of substantial structural
     variations and new subtelomere formation in <em>C. elegans</em>
 - Authors:
@@ -176,7 +183,8 @@ Title: A spontaneous complex structural variant in <em>rcan-1</em> increases exp
   Date_Published: 2019 May 30
   Journal: Genetics
   PDF: 2019BradyGenetics
-  Title: A nematode-specific gene underlies bleomycin-response variation in <em>Caenorhabditis
+  PMID: 31171655
+  Title: A novel gene underlies bleomycin-response variation in <em>Caenorhabditis
     elegans</em>
 - Authors:
   - Gimond C
