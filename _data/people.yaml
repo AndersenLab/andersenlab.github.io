@@ -145,15 +145,6 @@
   email: ClaytonDilks2023@u.northwestern.edu
   github: cdilks2294
 
-- first_name: Anita
-  last_name: Huang
-  title: Graduate Student
-  description: I'm interested in understanding the function of the beta-tubulin gene, <em>ben-1</em>, in benzimidazole drug resistance.
-  photo: huang_anita.jpg
-  github: anitata0314
-  email: r3h8m8@u.northwestern.edu
-
-
 #========================#
 # Undergraduates         #
 #========================#
@@ -162,6 +153,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Anita
+  last_name: Huang
+  title: Graduate Student
+  former: true
+  description: I'm interested in understanding the function of the beta-tubulin gene, <em>ben-1</em>, in benzimidazole drug resistance.
+  photo: huang_anita.jpg
+  github: anitata0314
+  email: r3h8m8@u.northwestern.edu
 
 - first_name: Ye
   last_name: Wang
@@ -173,7 +173,6 @@
   github: faithman
   email: ye.wang@northwestern.edu
   current_status: Lab head, Division of Bioinformatics, Panda Institute Sichuan, China
-
 
 - first_name: Logan
   last_name: Eckhoff
