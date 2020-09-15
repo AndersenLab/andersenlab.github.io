@@ -132,7 +132,7 @@
   Date_Published: 2020 January 16
   Journal: Gene
   PDF: 2020telomereGene
-  PMID: '31954861'
+  PMID: 31954861
   Title: Effects of telomerase overexpression in the model organism <em>Caenorhabditis elegans</em>
 - Authors:
   - Lee D
@@ -151,8 +151,8 @@
   Date_Published: 2019 March 26
   Journal: Nature Ecology and Evolution
   PDF: 2019LeeNatureEE
-  PMC: '6764921'
-  PMID: '31548647'
+  PMC: 6764921
+  PMID: 31548647
   Title: Selection and gene flow shape niche-associated variation of pheromone response
 - Authors:
   - Brady SC
@@ -181,7 +181,7 @@
   Journal: eLife
   PDF: 2019Crombieelife
   PMC: 6927746
-  PMID: '31793880'
+  PMID: 31793880
   Title: Deep sampling of Hawaiian <em>Caenorhabditis elegans</em> reveals high genetic diversity and admixture with global populations
 - Authors:
   - Webster AK
@@ -199,8 +199,8 @@
   Date_Published: 2019 September 6
   Journal: G3
   PDF: 2019BaughG3
-  PMC: '6778785'
-  PMID: '31444297'
+  PMC: 6778785
+  PMID: 31444297
   Title: Population selection and sequencing of <em>Caenorhabditis elegans</em> wild isolates identifies a region on chromosome III affecting starvation resistance
 - Authors:
   - Kim C
@@ -263,7 +263,7 @@
   PDF: 2019GimondGenetics
   PMC: 6781899
   PMID: 31395653
-  Title: Evolution of sperm competition: Natural variation and genetic determinants of <em>Caenorhabditis elegans</em> sperm size
+  Title: Evolution of sperm competition: Natural variation and genetic determinants of <em>Caenorhabditis  elegans</em> sperm size
 - Authors:
   - Bernstein MR
   - Zdraljevic S
@@ -321,8 +321,7 @@
   Date_Published: 2018 Mar 5
   Journal: PLoS Negl Trop Dis
   PDF: 2018ZamanianPLoSNTD
-  PMC: null
-  PMID: '29601575'
+  PMID: 29601575
   Title: Discovery of genomic intervals that underlie nematode responses to benzimidazoles
 - Authors:
   - Zdraljevic S
@@ -331,8 +330,7 @@
   Date_Published: 2017 Sept 09
   Journal: Curr. Opin. Genet. Dev.
   PDF: 2017ZdraljevicReview
-  PMC: null
-  PMID: '28892780'
+  PMID: 28892780
   Title: Natural diversity facilitates the discovery of conserved chemotherapeutic response mechanisms
 - Authors:
   - Lee D
@@ -350,8 +348,8 @@
   Date_Published: 2017 Aug 17
   Journal: Nat Commun
   PDF: 2017LeeNict
-  PMC: '5561207'
-  PMID: '28819099'
+  PMC: 5561207
+  PMID: 28819099
   Title: The genetic basis of natural variation in a phoretic behavior
 - Authors:
   - Zdraljevic S
@@ -377,8 +375,8 @@
   Date_Published: 2017 Jan 16
   Journal: Bioinformatics
   PDF: 2017Cook_vcfkit
-  PMID: '28093408'
-  Title: 'VCF-kit: Assorted utilities for the variant call format.'
+  PMID: 28093408
+  Title: VCF-kit: Assorted utilities for the variant call format
 - Authors:
   - Laricchia KM
   - Zdraljevic S
@@ -410,8 +408,8 @@
   Journal: PLoS ONE
   PDF: 2016MashockPLOSONE
   PMC: null
-  PMID: '27911941'
-  Title: Copper Oxide Nanoparticles Impact Several Toxicological Endpoints and Cause Neurodegeneration in Caenorhabditis elegans
+  PMID: 27911941
+  Title: Copper Oxide Nanoparticles Impact Several Toxicological Endpoints and Cause Neurodegeneration in <em>Caenorhabditis elegans</em>
 - Authors:
   - Evans KS
   - Zhao Y
@@ -829,7 +827,7 @@
   PDF: 2014journal.pone.0111090
   PMC: PMC4203834
   PMID: 25329171
-  Title: COPASutils: An R Package for Reading, Processing, and Visualizing Data from COPAS Large-Particle Flow Cytometers.'
+  Title: COPASutils: An R Package for Reading, Processing, and Visualizing Data from COPAS Large-Particle Flow Cytometers
 - Authors:
   - Andersen EC
   - Bloom JS
