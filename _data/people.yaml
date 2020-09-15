@@ -97,15 +97,9 @@
 
 - first_name: Sophie
   last_name: Gibson
-<<<<<<< HEAD
-  description: I perform molecular biology projects.
-  title: Research Technician
-  photo: XXX.jpg
-=======
   description: I work molecular biology, injections, and wild Caenorhabditis strains.
   title: Research technician
   photo: SophieGibson.jpg
->>>>>>> 8122bcec07d4489fe32ddd7e28696652fb8764ed
   email: sophia.gibson@northwestern.edu
 
 #===================#
@@ -136,7 +130,7 @@
 - first_name: Clay
   last_name: Dilks
   title: Graduate Student
-  pub_names: ["Dilks C"]
+  pub_names: ["Dilks C", "Dilks CM"]
   photo: ClayDilks.jpg
   description: I am interested in investigating the mechanisms of anthelmintic drug resistance in <em>C. elegans</em> and using comparative genetics to apply these findings to high-impact helminth species.
   email: ClaytonDilks2023@u.northwestern.edu
