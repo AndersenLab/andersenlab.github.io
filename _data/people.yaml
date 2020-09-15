@@ -97,9 +97,15 @@
 
 - first_name: Sophie
   last_name: Gibson
+<<<<<<< HEAD
   description: I perform molecular biology projects.
   title: Research Technician
   photo: XXX.jpg
+=======
+  description: I work molecular biology, injections, and wild Caenorhabditis strains.
+  title: Research technician
+  photo: SophieGibson.jpg
+>>>>>>> 8122bcec07d4489fe32ddd7e28696652fb8764ed
   email: sophia.gibson@northwestern.edu
 
 #===================#
@@ -136,7 +142,6 @@
   email: ClaytonDilks2023@u.northwestern.edu
   github: cdilks2294
 
-
 #========================#
 # Undergraduates         #
 #========================#
@@ -149,7 +154,7 @@
 - first_name: Lewis
   last_name: Stevens
   pub_names: ["Stevens L"]
-  title: Postdoctoral Researcher
+  title: Postdoctoral Researcher, 2019-2020
   former: true
   description: I am interested in comparative genomes within and among species.
   photo: Lewis_cropped.jpg
@@ -159,7 +164,7 @@
 
 - first_name: Anita
   last_name: Huang
-  title: Graduate Student
+  title: Biotechnology Masters Student, 2019-2020
   former: true
   description: I'm interested in understanding the function of the beta-tubulin gene, <em>ben-1</em>, in benzimidazole drug resistance.
   photo: huang_anita.jpg
@@ -176,7 +181,6 @@
   github: faithman
   email: ye.wang@northwestern.edu
   current_status: Lab head, Division of Bioinformatics, Panda Institute Sichuan, China
-
 
 - first_name: Logan
   last_name: Eckhoff
