@@ -1,6 +1,8 @@
 - Authors:
   - Evans KS
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.17912/micropub.biology.000305
   Date_Published: 2020 September 5
   Journal: microPublication
@@ -10,6 +12,11 @@
   - Wit J
   - Dilks C
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  Equal_Contributors:
+  - Wit J
+  - Dilks C
   DOI: 10.20944/preprints202008.0313.v1
   Date_Published: 2020 August 14
   Journal: Preprints
@@ -31,6 +38,12 @@
   - Felix MA
   - Rockman MV
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  Equal_Contributors:
+  - Lee D
+  - Zdraljevic S
+  - Stevens L
   DOI: 10.1101/2020.07.23.218420
   Date_Published: 2020 July 23
   Journal: bioRxiv
@@ -43,6 +56,8 @@
   - Long L
   - McGrath PT
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1101/2020.07.07.191866
   Date_Published: 2020 August 5
   Journal: International Journal for Parasitology Drugs and Drug Resistance
@@ -55,6 +70,8 @@
   - Collins K
   - Tanny RE
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1101/2020.07.10.196857
   Date_Published: 2020 July 6
   Journal: bioRxiv
@@ -77,6 +94,12 @@
   - Tanny RE
   - Walhout AJM
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  - Walhout AJM: Marian.Walhout@umassmed.edu
+  Equal_Contributors:
+  - Na H
+  - Zdraljevic S
   DOI: 10.1101/2020.03.02.973206
   Date_Published: 2020 July 3
   Journal: PLoS Genetics
@@ -85,6 +108,8 @@
 - Authors:
   - Evans KS
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1534/g3.120.401310
   Date_Published: 2020 May 8
   Journal: G3
@@ -95,6 +120,8 @@
   - Archer H
   - Deiparine S
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1371/journal.pone.0235000
   Date_Published: 2020 June 26
   Journal: PLoS ONE
@@ -147,6 +174,8 @@
   - Felix A
   - Schroeder FC
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1038/s41559-019-0982-3
   Date_Published: 2019 March 26
   Journal: Nature Ecology and Evolution
@@ -157,6 +186,9 @@
 - Authors:
   - Brady SC
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  - Brady SC: sbrady0228@gmail.com
   Date_Published: 2019 December 6
   Journal: Journal of Biological Education
   PDF: 2019BradyJBE
@@ -176,6 +208,8 @@
   - van der Zwaag J
   - Kiontke KC
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.7554/eLife.50465
   Date_Published: 2019 November 6
   Journal: eLife
@@ -227,6 +261,8 @@
   - Doench JG
   - Schroeder FC
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.7554/eLife.40260
   Date_Published: 2019 Apr 08
   Journal: eLife
@@ -243,6 +279,8 @@
   - Lee D
   - Wang Y
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1534/genetics.119.302286
   Date_Published: 2019 May 30
   Journal: Genetics
@@ -263,7 +301,7 @@
   PDF: 2019GimondGenetics
   PMC: 6781899
   PMID: 31395653
-  Title: Evolution of sperm competition - Natural variation and genetic determinants of <em>Caenorhabditis  elegans</em> sperm size
+  Title: Evolution of sperm competition - Natural variation and genetic determinants of <em>Caenorhabditis elegans</em> sperm size
 - Authors:
   - Bernstein MR
   - Zdraljevic S
@@ -285,6 +323,11 @@
   - Zhao Y
   - McGrath PT
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  Equal_Contributors:
+  - Hahnel SR
+  - Zdraljevic S
   DOI: 10.1371/journal.ppat.1007226
   Date_Published: 2018 Oct 29
   Journal: PLOS Pathogens
@@ -302,6 +345,11 @@
   - Hippleheuser SW
   - Zamanian M
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  Equal_Contributors:
+  - Evans KS
+  - Brady SC
   DOI: 10.1534/genetics.118.301311
   Date_Published: 2018 Oct 19
   Journal: Genetics
@@ -317,6 +365,8 @@
   - Lee D
   - Lee J
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1371/journal.pntd.0006368
   Date_Published: 2018 Mar 5
   Journal: PLoS Negl Trop Dis
@@ -326,6 +376,8 @@
 - Authors:
   - Zdraljevic S
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1016/j.gde.2017.08.002
   Date_Published: 2017 Sept 09
   Journal: Curr. Opin. Genet. Dev.
@@ -358,6 +410,8 @@
   - Cook DE
   - Doench JG
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: http://dx.doi.org/10.1101/125567
   Date_Published: 2017 Apr 07
   Journal: PLOS Genetics
@@ -371,6 +425,8 @@
 - Authors:
   - Cook DE
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1093/bioinformatics/btx011
   Date_Published: 2017 Jan 16
   Journal: Bioinformatics
@@ -382,6 +438,8 @@
   - Zdraljevic S
   - Cook DE
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1093/molbev/msx155
   Date_Published: 2017 May 09
   Journal: Molecular Biology and Evolution
@@ -416,6 +474,8 @@
   - Long L
   - McGrath PT
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1534/g3.116.035162
   Date_Published: 2016 Nov 18
   Journal: G3
@@ -468,6 +528,8 @@
   - "F\xE9lix MA"
   - Lee J
   - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
   DOI: 10.1534/genetics.116.191148
   Date_Published: 2016 Sep 1
   Journal: Genetics
@@ -638,6 +700,8 @@
   - Andersen EC
   - Needleman DJ
   - Baer CF
+  Corresponding_Authors:
+  - Baer CF: cbaer@ufl.edu
   DOI: 10.1534/genetics.115.185736
   Date_Published: 2016 Aug 1
   Journal: Genetics
@@ -654,6 +718,8 @@
   - Butcher RA
   - Andersen EC
   - McGrath PT
+  Corresponding_Authors:
+  - McGrath PT: patrick.mcgrath@biology.gatech.edu
   DOI: 10.1371/journal.pgen.1006219
   Date_Published: 2016 July 28
   Journal: PLoS Genet.
