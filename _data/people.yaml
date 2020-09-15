@@ -48,15 +48,14 @@
   photo: Janneke_cropped.jpg
   github: JannekeW
   email: janneke.wit@northwestern.edu
-
-- first_name: Lewis
-  last_name: Stevens
-  pub_names: ["Stevens L"]
+ 
+- first_name: Kathryn
+  last_name: Evans
   title: Postdoctoral Researcher
-  description: I am interested in comparative genomes within and among species.
-  photo: Lewis_cropped.jpg
-  github: lstevens17
-  email: lewis.stevens@northwestern.edu
+  description: My research combines computational and experimental techniques to investigate the relationship between genetic variation and observed phenotypes, particularly the response to toxins and heavy metals.
+  pub_names: ["Evans KS"]
+  photo: Kathryn_Evans.jpg
+  email: kathrynevans2015@u.northwestern.edu
 
 #========================#
 # Graduate Researcher    #
@@ -96,6 +95,13 @@
   photo: DanLu.jpg
   email: dan.lu@northwestern.edu
 
+- first_name: Sophie
+  last_name: Gibson
+  description: I perform molecular biology projects.
+  title: Research Technician
+  photo: XXX.jpg
+  email: sophia.gibson@northwestern.edu
+
 #===================#
 # Graduate Students #
 #===================#
@@ -121,14 +127,6 @@
   photo: Nyaanga,Joy.jpg
   email: JoyNyaanga2024@u.northwestern.edu
 
-- first_name: Kathryn
-  last_name: Evans
-  title: Graduate Student
-  description: My research combines computational and experimental techniques to investigate the relationship between genetic variation and observed phenotypes, particularly the response to chemotherapeutic drugs.
-  pub_names: ["Evans KS"]
-  photo: Kathryn_Evans.jpg
-  email: kathrynevans2015@u.northwestern.edu
-
 - first_name: Clay
   last_name: Dilks
   title: Graduate Student
@@ -137,14 +135,6 @@
   description: I am interested in investigating the mechanisms of anthelmintic drug resistance in <em>C. elegans</em> and using comparative genetics to apply these findings to high-impact helminth species.
   email: ClaytonDilks2023@u.northwestern.edu
   github: cdilks2294
-
-- first_name: Anita
-  last_name: Huang
-  title: Graduate Student
-  description: I'm interested in understanding the function of the beta-tubulin gene, <em>ben-1</em>, in benzimidazole drug resistance.
-  photo: huang_anita.jpg
-  github: anitata0314
-  email: r3h8m8@u.northwestern.edu
 
 
 #========================#
@@ -155,6 +145,26 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Lewis
+  last_name: Stevens
+  pub_names: ["Stevens L"]
+  title: Postdoctoral Researcher
+  former: true
+  description: I am interested in comparative genomes within and among species.
+  photo: Lewis_cropped.jpg
+  github: lstevens17
+  email: lewis.stevens@northwestern.edu
+  current_status: Senior Bioinformaticist, Sanger Institute
+
+- first_name: Anita
+  last_name: Huang
+  title: Graduate Student
+  former: true
+  description: I'm interested in understanding the function of the beta-tubulin gene, <em>ben-1</em>, in benzimidazole drug resistance.
+  photo: huang_anita.jpg
+  github: anitata0314
+  email: r3h8m8@u.northwestern.edu
 
 - first_name: Ye
   last_name: Wang

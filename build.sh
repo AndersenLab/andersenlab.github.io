@@ -32,8 +32,8 @@ done;
 # Fetch Publication Information #
 #===============================#
 
-echo "Fetching publication information"
-python scripts/fetch_pubs.py
+#echo "Fetching publication information"
+#python scripts/fetch_pubs.py
 
 #========#
 # Albums #
