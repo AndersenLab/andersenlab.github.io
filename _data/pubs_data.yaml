@@ -826,7 +826,7 @@
   PDF: 2014journal.pone.0111090
   PMC: PMC4203834
   PMID: 25329171
-  Title: COPASutils: An R Package for Reading, Processing, and Visualizing Data from COPAS Large-Particle Flow Cytometers
+  Title: COPASutils - An R Package for Reading, Processing, and Visualizing Data from COPAS Large-Particle Flow Cytometers
 - Authors:
   - Andersen EC
   - Bloom JS
@@ -842,7 +842,7 @@
   PDF: 2014PLOSGenetics
   PMC: PMC3937155
   PMID: 24586193
-  Title: A variant in the neuropeptide receptor <em>npr-1</em> is a major determinant of <em>Caenorhabditis elegans</em> growth and physiology.
+  Title: A variant in the neuropeptide receptor <em>npr-1</em> is a major determinant of <em>Caenorhabditis elegans</em> growth and physiology
 - Authors:
   - Felix MA
   - Jovelin R
@@ -880,7 +880,7 @@
   PDF: 2012GhoshScience
   PMC: PMC3273849
   PMID: 22301316
-  Title: Natural variation in a chloride channel subunit confers avermectin resistance in <em>C. elegans</em>.
+  Title: Natural variation in a chloride channel subunit confers avermectin resistance in <em>C. elegans</em>
 - Authors:
   - Andersen EC
   - Gerke JP
@@ -905,7 +905,7 @@
   PMID: 22286215
   Stub_title: <strong>Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em>
     genomic diversity.</strong>  Andersen, Gerke, Shapiro <em>et al</em>.
-  Title: Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic diversity.
+  Title: Chromosome-scale selective sweeps shape <em>Caenorhabditis elegans</em> genomic diversity
   pub_data:
     files:
       Rad-Seq SNP Calls:
@@ -927,7 +927,7 @@
   Journal: Methods in Molecular Biology
   PDF: 2011AndersenMethods-Mol-Biol
   PMID: 22065452
-  Title: PCR-directed <em>in vivo</em> plasmid construction using homologous recombination in baker's yeast.
+  Title: PCR-directed <em>in vivo</em> plasmid construction using homologous recombination in bakers yeast
 - Authors:
   - Bessler JB
   - Andersen EC
@@ -1018,7 +1018,7 @@
   PDF: 2007ReddienGenetics
   PMC: PMC1855110
   PMID: 17237514
-  Title: DPL-1 DP, LIN-35 Rb and EFL-1 E2F act with the MCD-1 zinc-finger protein to promote programmed cell death in <em>Caenorhabditis elegans</em>.
+  Title: DPL-1 DP, LIN-35 Rb and EFL-1 E2F act with the MCD-1 zinc-finger protein to promote programmed cell death in <em>Caenorhabditis elegans</em>
 - Authors:
   - Andersen EC
   - Lu X
@@ -1031,7 +1031,7 @@
   Journal: Development
   PDF: 2006AndersenDevelopment
   PMID: 16774993
-  Title: <em>C. elegans</em> ISWI and NURF301 antagonize an Rb-like pathway in the determination of multiple cell fates.
+  Title: <em>C. elegans</em> ISWI and NURF301 antagonize an Rb-like pathway in the determination of multiple cell fates
 - Authors:
   - Furlong EE
   - Andersen EC
