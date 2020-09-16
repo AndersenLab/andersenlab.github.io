@@ -235,7 +235,7 @@
   former: true
   website: https://tylershimko.com/
   title: Undergraduate, summers 2013, 2014, 2015
-  current_status: Graduate student at Stanford University
+  current_status: Start-up entrepreneur
 
 - first_name: Daniel
   last_name: Cook
@@ -248,7 +248,7 @@
   description: "I am interested in characterizing genetic variation in the <em>C. elegans</em> species and building tools to facilitate studies connecting genetic differences with phenotypes."
   email: Dec@u.northwestern.edu
   github: danielecook
-  current_status: Programmer at The Crick Institute
+  current_status: Programmer at Google
 
 - first_name: Mostafa
   pub_names:
@@ -271,7 +271,7 @@
   email: kristenlaricchia2014@u.northwestern.edu
   former: true
   departure: 2016-08-01
-  current_status: Associate computational biologist in the <a href="https://macarthurlab.org/">MacArthur Lab</a>, Broad Institute
+  current_status: Associate computational biologist in the <a href="https://macarthurlab.org/">MacArthur Lab</a>
 
 - first_name: Kreena
   last_name: Patel
@@ -279,7 +279,7 @@
   title: Undergraduate and Research Technician, 2013-2016
   former: true
   departure: 2016-08-01
-  current_status: Medical student, Feinberg School of Medicine
+  current_status: Medical resident, Arizona
 
 - first_name: Briana
   last_name: Rodriguez
@@ -320,6 +320,7 @@
   former: true
   email: Samuel.Rosenberg@northwestern.edu
   departure: 2015-01-01
+  current_status: AP Biology teacher, Valor College Prep
 
 - first_name: Sarah
   last_name: Giuliani
