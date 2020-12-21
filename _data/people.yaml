@@ -88,13 +88,6 @@
   photo: Claire.jpg
   email: claire.buchanan@northwestern.edu
 
-- first_name: Dan
-  last_name: Lu
-  description: I work on computational pipelines and CeNDR.
-  title: Staff Bioinformaticist
-  photo: DanLu.jpg
-  email: dan.lu@northwestern.edu
-
 - first_name: Sophie
   last_name: Gibson
   description: I work molecular biology, injections, and wild Caenorhabditis strains.
@@ -144,6 +137,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Dan
+  last_name: Lu
+  description: I work on computational pipelines and CeNDR.
+  title: Staff Bioinformaticist
+  former: true
+  photo: DanLu.jpg
+  email: dan.lu@northwestern.edu
+  current_status: COVID Testing Lab Tech
 
 - first_name: Lewis
   last_name: Stevens
