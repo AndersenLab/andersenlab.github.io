@@ -140,9 +140,9 @@
 
 - first_name: Dan
   last_name: Lu
-  description: I work on computational pipelines and CeNDR.
   title: Staff Bioinformaticist
   former: true
+  description: I work on computational pipelines and CeNDR.
   photo: DanLu.jpg
   email: dan.lu@northwestern.edu
   current_status: COVID Testing Lab Tech
