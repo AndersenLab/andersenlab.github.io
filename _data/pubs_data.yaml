@@ -1,4 +1,46 @@
 - Authors:
+  - Wit J
+  - Dilks C
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  Equal_Contributors:
+  - Wit J
+  - Dilks C
+  DOI: 10.1016/j.pt.2020.11.008
+  Date_Published: 2020 December 13
+  Journal: Trends in Parasitology
+  PDF: 2020WitTiPs
+  Title: Complementary Approaches to Understand Anthelmintic Resistance Using Free-Living and Parasitic Nematodes
+- Authors:
+  - Evans KS
+  - Zdraljevic S
+  - Stevens L
+  - Collins K
+  - Tanny RE
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  DOI: 10.1371/journal.pgen.1008986
+  Date_Published: 2020 November 11
+  Journal: PLoS Genetics
+  PDF: 2020EvansPLoSGenetics
+  Title: Natural variation in the sequestosome-related gene, <em>sqst-5</em>, underlies zinc homeostasis in <em>Caenorhabditis elegans</em>
+- Authors:
+  - Gilbert KJ
+  - Zdraljevic S
+  - Cook DE
+  - Cutter AD
+  - Andersen EC
+  - Baer CF
+  Corresponding_Authors:
+  - Gilbert KJ: kimberly.gilbert@iee.unibe.ch
+  DOI: 10.1101/2020.10.26.355446
+  Date_Published: 2020 October 26
+  Journal: bioRxiv
+  PDF: 2020GilbertbioRxiv
+  Title: The distribution of mutational effects on fitness in <em>Caenorhabditis elegans</em> inferred from standing genetic variation
+- Authors:
   - Hahnel SR
   - Dilks CM
   - Heisler I
@@ -16,20 +58,6 @@
   PDF: 2020HahnelIJPDDR
   Title: <em>Caenorhabditis elegans</em> in anthelmintic research - Old model, new perspectives
 - Authors:
-  - Gilbert KJ
-  - Zdraljevic S
-  - Cook DE
-  - Cutter AD
-  - Andersen EC
-  - Baer CF
-  Corresponding_Authors:
-  - Gilbert KJ: kimberly.gilbert@iee.unibe.ch
-  DOI: 10.1101/2020.10.26.355446
-  Date_Published: 2020 October 26
-  Journal: bioRxiv
-  PDF: 2020GilbertbioRxiv
-  Title: The distribution of mutational effects on fitness in <em>Caenorhabditis elegans</em> inferred from standing genetic variation
-- Authors:
   - Evans KS
   - Andersen EC
   Corresponding_Authors:
@@ -40,19 +68,30 @@
   PDF: 2020EvansMicropub
   Title: The cadmium-responsive gene, <em>cdr-6</em>, does not influence <em>Caenorhabditis elegans</em> responses to exogenous zinc
 - Authors:
-  - Wit J
-  - Dilks C
+  - Shaver AO
+  - Gouveia GJ
+  - Kirby PS
+  - Andersen EC
+  - Edison AS
+  DOI: 10.3791/61453
+  Date_Published: 2020 August 26
+  Journal: Journal of Visualized Experiments
+  PDF: 2020ShaverJoVE
+  Title: Culture and assay of large-scale mixed-stage <em>Caenorhabditis elegans</em> populations
+- Authors:
+  - Dilks CM
+  - Hahnel SR
+  - Sheng Q
+  - Long L
+  - McGrath PT
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
-  Equal_Contributors:
-  - Wit J
-  - Dilks C
-  DOI: 10.1016/j.pt.2020.11.008
-  Date_Published: 2020 December 13
-  Journal: Trends in Parasitology
-  PDF: 2020WitTiPs
-  Title: Complementary Approaches to Understand Anthelmintic Resistance Using Free-Living and Parasitic Nematodes
+  DOI: 10.1101/2020.07.07.191866
+  Date_Published: 2020 August 5
+  Journal: International Journal for Parasitology Drugs and Drug Resistance
+  PDF: 2020DilksIJPDDR
+  Title: Quantitative benzimidazole resistance and fitness effects of parasitic nematode beta-tubulin alleles
 - Authors:
   - Lee D
   - Zdraljevic S
@@ -80,45 +119,6 @@
   Journal: bioRxiv
   PDF: 2020LeebioRxiv
   Title: Balancing selection maintains ancient genetic diversity in C. elegans
-- Authors:
-  - Dilks CM
-  - Hahnel SR
-  - Sheng Q
-  - Long L
-  - McGrath PT
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI: 10.1101/2020.07.07.191866
-  Date_Published: 2020 August 5
-  Journal: International Journal for Parasitology Drugs and Drug Resistance
-  PDF: 2020DilksIJPDDR
-  Title: Quantitative benzimidazole resistance and fitness effects of parasitic nematode beta-tubulin alleles
-- Authors:
-  - Evans KS
-  - Zdraljevic S
-  - Stevens L
-  - Collins K
-  - Tanny RE
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  DOI: 10.1371/journal.pgen.1008986
-  Date_Published: 2020 November 11
-  Journal: PLoS Genetics
-  PDF: 2020EvansPLoSGenetics
-  Title: Natural variation in the sequestosome-related gene, <em>sqst-5</em>, underlies zinc homeostasis in <em>Caenorhabditis elegans</em>
-- Authors:
-  - Shaver AO
-  - Gouveia GJ
-  - Kirby PS
-  - Andersen EC
-  - Edison AS
-  DOI: 10.3791/61453
-  Date_Published: 2020 August 26
-  Journal: Journal of Visualized Experiments
-  PDF: 2020ShaverJoVE
-  Title: Culture and assay of large-scale mixed-stage <em>Caenorhabditis elegans</em> populations
 - Authors:
   - Na H
   - Zdraljevic S
