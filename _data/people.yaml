@@ -48,14 +48,6 @@
   photo: Janneke_cropped.jpg
   github: JannekeW
   email: janneke.wit@northwestern.edu
- 
-- first_name: Kathryn
-  last_name: Evans
-  title: Postdoctoral Researcher
-  description: My research combines computational and experimental techniques to investigate the relationship between genetic variation and observed phenotypes, particularly the response to toxins and heavy metals.
-  pub_names: ["Evans KS"]
-  photo: Kathryn_Evans.jpg
-  email: kathrynevans2015@u.northwestern.edu
 
 #========================#
 # Graduate Researcher    #
@@ -94,6 +86,14 @@
   title: Research technician
   photo: SophieGibson.jpg
   email: sophia.gibson@northwestern.edu
+
+- first_name: Kathryn
+  last_name: Evans
+  title: Bioinformaticist
+  description: I manage all computational pipelines, data structures, and general lab genomics analyses, including updates and management of CaeNDR.
+  pub_names: ["Evans KS"]
+  photo: Kathryn_Evans.jpg
+  email: kathrynevans2015@u.northwestern.edu
 
 #===================#
 # Graduate Students #
