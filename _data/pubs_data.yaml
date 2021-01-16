@@ -1,4 +1,97 @@
 - Authors:
+  - Evans KS
+  - Wit J
+  - Stevens L
+  - Hahnel SR
+  - Rodriguez B
+  - Park G
+  - Zamanian M
+  - Brady SC
+  - Chao E
+  - Introcaso K
+  - Tanny RE
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  DOI: 10.1101/2021.01.14.426644
+  Date_Published: 2021 January 12
+  Journal: bioRxiv
+  PDF: 2021EvansbioRxiv
+  Title: Two novel loci underlie differences in <em>Caenorhabditis elegans</em> macrocyclic lactone responses
+- Authors:
+  - Wit J
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  DOI: 10.1101/2021.01.05.425329
+  Date_Published: 2021 January 6
+  Journal: bioRxiv
+  PDF: 2021WitbioRxiv
+  Title: Natural variation in <em>Caenorhabditis elegans</em> responses to the anthelmintic emodepside
+- Authors:
+  - Noble LM
+  - Yuen J
+  - Stevens L
+  - Moya N
+  - Persaud R
+  - Moscatelli M
+  - Jackson J
+  - Zhang G
+  - Chitrakar R
+  - Baugh LR
+  - Braendle C
+  - Andersen EC
+  - Seidel HS
+  - Rockman MV
+  Corresponding_Authors:
+  - Rockman MV: mrockman@nyu.edu
+  DOI: 10.1101/2020.08.07.242032
+  Date_Published: 2021 January 11
+  Journal: eLife
+  PDF: 2021Nobleelife
+  Title: Selfing is the safest sex for <em>Caenorhabditis tropicalis</em>
+- Authors:
+  - Lee D
+  - Zdraljevic S
+  - Stevens L
+  - Wang Y
+  - Tanny RE
+  - Crombie TA
+  - Cook DE
+  - Webster AK
+  - Chirakar R
+  - Baugh LR
+  - Sterken MG
+  - Braendle C
+  - Felix MA
+  - Rockman MV
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu
+  Equal_Contributors:
+  - Lee D
+  - Zdraljevic S
+  - Stevens L
+  DOI: 10.1101/2020.07.23.218420
+  Date_Published: 2020 July 23
+  Journal: bioRxiv
+  PDF: 2020LeebioRxiv
+  Title: Balancing selection maintains ancient genetic diversity in C. elegans
+- Authors:
+  - Gilbert KJ
+  - Zdraljevic S
+  - Cook DE
+  - Cutter AD
+  - Andersen EC
+  - Baer CF
+  Corresponding_Authors:
+  - Gilbert KJ: kimberly.gilbert@iee.unibe.ch
+  DOI: 10.1101/2020.10.26.355446
+  Date_Published: 2020 October 26
+  Journal: bioRxiv
+  PDF: 2020GilbertbioRxiv
+  Title: The distribution of mutational effects on fitness in <em>Caenorhabditis elegans</em> inferred from standing genetic variation
+- Authors:
   - Wit J
   - Dilks C
   - Andersen EC
@@ -26,42 +119,6 @@
   Journal: PLoS Genetics
   PDF: 2020EvansPLoSGenetics
   Title: Natural variation in the sequestosome-related gene, <em>sqst-5</em>, underlies zinc homeostasis in <em>Caenorhabditis elegans</em>
-- Authors:
-  - Gilbert KJ
-  - Zdraljevic S
-  - Cook DE
-  - Cutter AD
-  - Andersen EC
-  - Baer CF
-  Corresponding_Authors:
-  - Gilbert KJ: kimberly.gilbert@iee.unibe.ch
-  DOI: 10.1101/2020.10.26.355446
-  Date_Published: 2020 October 26
-  Journal: bioRxiv
-  PDF: 2020GilbertbioRxiv
-  Title: The distribution of mutational effects on fitness in <em>Caenorhabditis elegans</em> inferred from standing genetic variation
-- Authors:
-  - Noble LM
-  - Yuen J
-  - Stevens L
-  - Moya N
-  - Persaud R
-  - Moscatelli M
-  - Jackson J
-  - Zhang G
-  - Chitrakar R
-  - Baugh LR
-  - Braendle C
-  - Andersen EC
-  - Seidel HS
-  - Rockman MV
-  Corresponding_Authors:
-  - Rockman MV: mrockman@nyu.edu
-  DOI: 10.1101/2020.08.07.242032
-  Date_Published: 2020 October 15
-  Journal: bioRxiv
-  PDF: 2020NoblebioRxiv
-  Title: Selfing is the safest sex for <em>Caenorhabditis tropicalis</em>
 - Authors:
   - Hahnel SR
   - Dilks CM
@@ -114,33 +171,6 @@
   Journal: International Journal for Parasitology Drugs and Drug Resistance
   PDF: 2020DilksIJPDDR
   Title: Quantitative benzimidazole resistance and fitness effects of parasitic nematode beta-tubulin alleles
-- Authors:
-  - Lee D
-  - Zdraljevic S
-  - Stevens L
-  - Wang Y
-  - Tanny RE
-  - Crombie TA
-  - Cook DE
-  - Webster AK
-  - Chirakar R
-  - Baugh LR
-  - Sterken MG
-  - Braendle C
-  - Felix MA
-  - Rockman MV
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu
-  Equal_Contributors:
-  - Lee D
-  - Zdraljevic S
-  - Stevens L
-  DOI: 10.1101/2020.07.23.218420
-  Date_Published: 2020 July 23
-  Journal: bioRxiv
-  PDF: 2020LeebioRxiv
-  Title: Balancing selection maintains ancient genetic diversity in C. elegans
 - Authors:
   - Na H
   - Zdraljevic S
