@@ -13,11 +13,10 @@
 #========================#
 
 - first_name: Tim
-  pub_names: ["Crombie T"]
   last_name: Crombie
   description: I'm interested in natural variation in stress responses and GxE interactions.
   title: Postdoctoral Researcher
-  pub_names: ["TA Crombie", "Crombie TA"]
+  pub_names: ["TA Crombie", "Crombie TA", "Crombie T"]
   former: false
   photo: TimothyCrombie.jpg
   email: tcrombie@northwestern.edu
@@ -33,8 +32,8 @@
 
 - first_name: Sam
   last_name: Widmayer
-  pub_names: ["Widmayer S"]
   title: Postdoctoral Researcher
+  pub_names: ["Widmayer SJ", "SJ Widmayer", "Widmayer S"]
   description: I am interested in toxin-response variation and optimizing new mapping methods.
   photo: SamWidmayer.jpg
   github: sam-widmayer
@@ -42,8 +41,8 @@
 
 - first_name: Janneke
   last_name: Wit
-  pub_names: ["Wit J"]
   title: Postdoctoral Researcher
+  pub_names: ["J Wit", "Wit J"]
   description: I am interested in natural anthelmintic resistance.
   photo: Janneke_cropped.jpg
   github: JannekeW
@@ -65,6 +64,13 @@
   title: Research Assistant Professor
   photo: Robyn.jpg
   email: Robyn.Tanny@northwestern.edu
+
+- first_name: Emily
+  last_name: Koury
+  description: I manage the lab personnel, reagents, ordering, etc. I also make genome-edited and transgenic strains.
+  title: Lab manager
+  photo: Emily.jpg
+  email: Emily.Koury@northwestern.edu
 
 - first_name: Nicole
   last_name: Roberto
@@ -102,6 +108,7 @@
 - first_name: Nicolas
   last_name: Moya
   title: Graduate Student
+  pub_names: ["N Moya", "Moya N"]
   description: I am interested in genome assembly and de novo gene models.
   photo: NicMoya.jpg
   email: nicolasmoya2024@u.northwestern.edu
@@ -123,7 +130,7 @@
 - first_name: Clay
   last_name: Dilks
   title: Graduate Student
-  pub_names: ["Dilks C", "Dilks CM"]
+  pub_names: ["Dilks C", "Dilks CM", "CM Dilks"]
   photo: ClayDilks.jpg
   description: I am interested in investigating the mechanisms of anthelmintic drug resistance in <em>C. elegans</em> and using comparative genetics to apply these findings to high-impact helminth species.
   email: ClaytonDilks2023@u.northwestern.edu
@@ -303,7 +310,7 @@
   current_status: Prescott Medical Communications Group
 
 - first_name: Steffen
-  pub_names: ["Hahnel S"]
+  pub_names: ["Hahnel S", "S Hahnel"]
   last_name: Hahnel
   description: I'm interested in natural variation in anthelmintic drug responses.
   title: Post-doctoral Researcher, 2017-2018
