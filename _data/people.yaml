@@ -72,13 +72,6 @@
   photo: Emily.jpg
   email: Emily.Koury@northwestern.edu
 
-- first_name: Nicole
-  last_name: Roberto
-  description: I work on high-throughput culturing of wild <em>Caenorhabditis</em> strains for metabolite and RNA extractions.
-  title: Research Technician
-  photo: RobertoNicole.jpg
-  email: NicoleRoberto2018@u.northwestern.edu
-
 - first_name: Claire
   last_name: Buchanan
   description: I work on collecting and isolating wild <em>Caenorhabditis</em> strains.
@@ -151,6 +144,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Nicole
+  last_name: Roberto
+  description: I work on high-throughput culturing of wild <em>Caenorhabditis</em> strains for metabolite and RNA extractions.
+  title: Research Technician
+  former: true
+  photo: RobertoNicole.jpg
+  email: NicoleRoberto2018@u.northwestern.edu
+  current_status: TBD
 
 - first_name: Dan
   last_name: Lu
