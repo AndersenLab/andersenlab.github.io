@@ -1,5 +1,17 @@
 - Authors:
   - Nyaanga J
+  - Crombie TA
+  - Widmayer SJ
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu	
+  DOI: 10.1101/2021.05.11.443552
+  Date_Published: 2021 May 11
+  Journal: bioRxiv
+  PDF: 2021NyaangabioRxiv2
+  Title: easyXpress: An R package to analyze and visualize high-throughput <em>C. elegans</em> microscopy data generated using CellProfiler
+- Authors:
+  - Nyaanga J
   - Goss C
   - Zhang G
   - Ahmed HN
@@ -14,7 +26,7 @@
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
   - Mangan NM: niallmm@gmail.com
-  - hirman S: shirman.sasha@gmail.com		
+  - Shirman S: shirman.sasha@gmail.com		
   DOI: 10.1101/2021.04.01.438121
   Date_Published: 2021 April 3
   Journal: bioRxiv
