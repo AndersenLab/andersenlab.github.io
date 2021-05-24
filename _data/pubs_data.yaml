@@ -9,7 +9,7 @@
   Date_Published: 2021 May 11
   Journal: bioRxiv
   PDF: 2021NyaangabioRxiv2
-  Title: easyXpress: An R package to analyze and visualize high-throughput <em>C. elegans</em> microscopy data generated using CellProfiler
+  Title: easyXpress, An R package to analyze and visualize high-throughput <em>C. elegans</em> microscopy data generated using CellProfiler
 - Authors:
   - Nyaanga J
   - Goss C
