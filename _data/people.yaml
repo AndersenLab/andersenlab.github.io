@@ -67,13 +67,6 @@
   photo: Emily.jpg
   email: Emily.Koury@northwestern.edu
 
-- first_name: Claire
-  last_name: Buchanan
-  description: I work on collecting and isolating wild <em>Caenorhabditis</em> strains.
-  title: Research Technician
-  photo: Claire.jpg
-  email: claire.buchanan@northwestern.edu
-
 - first_name: Sophie
   last_name: Gibson
   description: I work molecular biology, injections, and wild <em>Caenorhabditis</em> strains.
@@ -139,6 +132,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Claire
+  last_name: Buchanan
+  description: I work on collecting and isolating wild <em>Caenorhabditis</em> strains.
+  title: Research Technician
+  former: true
+  photo: Claire.jpg
+  email: claire.buchanan@northwestern.edu
+  current_status: Technician at Loyola Univ.
 
 - first_name: Nicole
   last_name: Roberto
