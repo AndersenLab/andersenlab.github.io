@@ -1,4 +1,16 @@
 - Authors:
+  - Di Bernardo M
+  - Crombie TA
+  - Cook DE
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu	
+  DOI: 10.1101/2021.06.20.449173
+  Date_Published: 2021 June 20
+  Journal: bioRxiv
+  PDF: 2021CrombiebioRxiv
+  Title: easyFulcrum: An R package to process and analyze ecological sampling data generated using the Fulcrum mobile application
+- Authors:
   - Nyaanga J
   - Crombie TA
   - Widmayer SJ
@@ -45,8 +57,8 @@
   Corresponding_Authors:
   - Baer CF: cbaer@ufl.edu		
   DOI: 10.1101/2021.02.09.430480
-  Date_Published: 2021 February 10
-  Journal: bioRxiv
+  Date_Published: 2021 June 23
+  Journal: Genome Research
   PDF: 2021BaerbioRxiv
   Title: Mutability of mononucleotide repeats, not oxidative stress, explains the discrepancy between laboratory-accumulated mutations and the natural allele-frequency spectrum in <em>C. elegans</em>
 - Authors:
@@ -83,9 +95,9 @@
   - Edison AS: aedison@uga.edu
   - McIntyre LM: mcintyre@ufl.edu
   DOI: 10.1101/2021.03.24.436834
-  Date_Published: 2021 March 24
-  Journal: bioRxiv
-  PDF: 2021GoncalobioRxiv
+  Date_Published: 2021 June 2
+  Journal: ACS Analytical Chemistry
+  PDF: 2021AnalChemGoncalo
   Title: Long-term metabolomics reference material
 - Authors:
   - Lee D
