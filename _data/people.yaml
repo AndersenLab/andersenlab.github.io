@@ -48,6 +48,14 @@
   github: JannekeW
   email: janneke.wit@northwestern.edu
 
+- first_name: JB
+  last_name: Collins
+  title: Postdoctoral Researcher
+  pub_names: ["Collins JB"]
+  description: I am interested in ascarid anthelmintic resistance.
+  photo: JB.jpg
+  email: james.collins@northwestern.edu
+
 #================#
 # Research Staff #
 #================#
@@ -69,6 +77,7 @@
 
 - first_name: Sophie
   last_name: Gibson
+  pub_names:["Gibson SB"]
   description: I work molecular biology, injections, and wild <em>Caenorhabditis</em> strains.
   title: Research technician
   photo: SophieGibson.jpg
