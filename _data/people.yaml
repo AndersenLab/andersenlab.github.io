@@ -77,7 +77,7 @@
 
 - first_name: Sophie
   last_name: Gibson
-  pub_names:["Gibson SB"]
+  pub_names: ["Gibson SB"]
   description: I work molecular biology, injections, and wild <em>Caenorhabditis</em> strains.
   title: Research technician
   photo: SophieGibson.jpg
@@ -120,6 +120,7 @@
 - first_name: Joy
   last_name: Nyaanga
   title: Graduate Student
+  pub_names: ["Nyaanga J"]
   description: I  am interested in quantitative methods to understand growth and metabolic networks.
   photo: Nyaanga,Joy.jpg
   email: JoyNyaanga2024@u.northwestern.edu
