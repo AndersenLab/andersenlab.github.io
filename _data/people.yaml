@@ -125,15 +125,6 @@
   photo: Nyaanga,Joy.jpg
   email: JoyNyaanga2024@u.northwestern.edu
 
-- first_name: Clay
-  last_name: Dilks
-  title: Graduate Student
-  pub_names: ["Dilks C", "Dilks CM", "CM Dilks"]
-  photo: ClayDilks.jpg
-  description: I am interested in investigating the mechanisms of anthelmintic drug resistance in <em>C. elegans</em> and using comparative genetics to apply these findings to high-impact helminth species.
-  email: ClaytonDilks2023@u.northwestern.edu
-  github: cdilks2294
-
 #========================#
 # Undergraduates         #
 #========================#
@@ -142,6 +133,17 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Clay
+  last_name: Dilks
+  title: Graduate Student
+  former: true
+  pub_names: ["Dilks C", "Dilks CM", "CM Dilks"]
+  photo: ClayDilks.jpg
+  description: I am interested in investigating the mechanisms of anthelmintic drug resistance in <em>C. elegans</em> and using comparative genetics to apply these findings to high-impact helminth species.
+  email: ClaytonDilks2023@u.northwestern.edu
+  github: cdilks2294
+  current_status: Scientist I at Evozyne
 
 - first_name: Claire
   last_name: Buchanan
