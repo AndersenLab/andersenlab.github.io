@@ -1,4 +1,16 @@
 - Authors:
+  - Di Bernardo M
+  - Crombie TA
+  - Cook DE
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@northwestern.edu	
+  DOI: 10.1101/2021.06.20.449173
+  Date_Published: 2021 September 22
+  Journal: PLoS ONE
+  PDF: 2021CrombiebioRxiv
+  Title: easyFulcrum, An R package to process and analyze ecological sampling data generated using the Fulcrum mobile application
+- Authors:
   - Widmayer SJ
   - Evans KS
   - Zdraljevic S
@@ -77,18 +89,6 @@
   Journal: Genome Research
   PDF: 2021RajaeiGenomeResearch
   Title: Mutability of mononucleotide repeats, not oxidative stress, explains the discrepancy between laboratory-accumulated mutations and the natural allele-frequency spectrum in <em>C. elegans</em>
-- Authors:
-  - Di Bernardo M
-  - Crombie TA
-  - Cook DE
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@northwestern.edu	
-  DOI: 10.1101/2021.06.20.449173
-  Date_Published: 2021 June 20
-  Journal: bioRxiv
-  PDF: 2021CrombiebioRxiv
-  Title: easyFulcrum, An R package to process and analyze ecological sampling data generated using the Fulcrum mobile application
 - Authors:
   - Barlow I
   - Feriani L
