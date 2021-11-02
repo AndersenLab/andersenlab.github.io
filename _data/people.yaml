@@ -91,13 +91,6 @@
   photo: Kathryn_Evans.jpg
   email: kathrynevans2015@u.northwestern.edu
 
-- first_name: Ryan
-  last_name: McKeown
-  description: I work on pipelines for variant effect prediction.
-  title: Research technician
-  photo: Ryan.jpg
-  email: ryanmckeown2021@u.northwestern.edu 
-
 #===================#
 # Graduate Students #
 #===================#
@@ -124,6 +117,22 @@
   description: I  am interested in quantitative methods to understand growth and metabolic networks.
   photo: Nyaanga,Joy.jpg
   email: JoyNyaanga2024@u.northwestern.edu
+  
+- first_name: Caroline
+  last_name: Bond
+  title: QSB Masters Student
+  pub_names: ["Bond C"]
+  description: I  am interested in mitochondrial DNA copy number variation and heteroplasmy across the C. elegans population.
+  photo: CarolineBond.jpg
+  email: carolinebond2022@u.northwestern.edu
+  
+- first_name: Shriram
+  last_name: Bhat
+  title: Visting Masters Student
+  pub_names: ["Bhat S"]
+  description: I  am interested in telomere length variation across all three selfing Caenorhabditis species.
+  photo: ShriramBhat.jpg
+  email: bhat.shriram@northwestern.edu 
 
 #========================#
 # Undergraduates         #
@@ -133,6 +142,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Ryan
+  last_name: McKeown
+  description: I work on pipelines for variant effect prediction.
+  title: Research technician
+  former: true
+  photo: Ryan.jpg
+  email: ryanmckeown2021@u.northwestern.edu 
+  current_status: IBiS Graduate Student
 
 - first_name: Clay
   last_name: Dilks
