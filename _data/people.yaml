@@ -39,15 +39,6 @@
   github: sam-widmayer
   email: sam.widmayer@northwestern.edu
 
-- first_name: Janneke
-  last_name: Wit
-  title: Postdoctoral Researcher
-  pub_names: ["J Wit", "Wit J"]
-  description: I am interested in natural anthelmintic resistance.
-  photo: Janneke_cropped.jpg
-  github: JannekeW
-  email: janneke.wit@northwestern.edu
-
 - first_name: JB
   last_name: Collins
   title: Postdoctoral Researcher
@@ -103,13 +94,6 @@
   photo: NicMoya.jpg
   email: nicolasmoya2024@u.northwestern.edu
 
-- first_name: Loraina
-  last_name: Stinson
-  title: Graduate Student
-  description: I am interested in understanding the mechanisms of behavioral variation across Caenorhabditis species.
-  photo: Stinson,Loraina-1247.jpg
-  email: LorainaStinson2024@u.northwestern.edu
-
 - first_name: Joy
   last_name: Nyaanga
   title: Graduate Student
@@ -142,6 +126,24 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Loraina
+  last_name: Stinson
+  title: Graduate Student
+  former: true
+  description: I am interested in understanding the mechanisms of behavioral variation across Caenorhabditis species.
+  photo: Stinson,Loraina-1247.jpg
+  email: LorainaStinson2024@u.northwestern.edu
+  
+- first_name: Janneke
+  last_name: Wit
+  title: Postdoctoral Researcher
+  former: true
+  pub_names: ["J Wit", "Wit J"]
+  description: I am interested in natural anthelmintic resistance.
+  photo: Janneke_cropped.jpg
+  github: JannekeW
+  email: janneke.wit@northwestern.edu
 
 - first_name: Ryan
   last_name: McKeown
