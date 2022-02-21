@@ -34,7 +34,7 @@
   last_name: Widmayer
   title: Postdoctoral Researcher
   pub_names: ["Widmayer SJ", "SJ Widmayer", "Widmayer S"]
-  description: I am interested in toxin-response variation and optimizing new mapping methods.
+  description: I am interested in toxicant-response variation and optimizing new mapping methods.
   photo: SamWidmayer.jpg
   github: sam-widmayer
   email: sam.widmayer@northwestern.edu
@@ -239,7 +239,7 @@
   former: true
   photo: DaehanLee.jpg
   email: daehan.lee@northwestern.edu
-  current_status: Post-doctoral researcher in Richard Benton's lab at University of Lausanne
+  current_status: Assistant Professor at Kyung Hee University
 
 - first_name: Heechul (Ryan)
   last_name: Chung
@@ -248,6 +248,7 @@
   photo: HeechulChung.jpg
   former: true
   email: heechulchung2019@u.northwestern.edu
+  current_status: Computational biologist at Asan Medical Center
 
 - first_name: Stefan
   last_name: Zdraljevic
@@ -357,7 +358,7 @@
   email: steffen.hahnel@northwestern.edu
   former: true
   departure: 2018-08-21
-  current_status: Bayer Animal Health
+  current_status: Senior Principal Expert (Parasitology) at Boehringer Ingelheim
 
 - first_name: Sam
   last_name: Rosenberg
@@ -377,6 +378,7 @@
   email: Sarah.Giuliani@northwestern.edu
   former: true
   departure: 2015-01-01
+  current_status: Assistant Lab Manager, Clean Stock Center at Ball Horticultural Company
 
 - first_name: Joshua
   last_name: Roberts
