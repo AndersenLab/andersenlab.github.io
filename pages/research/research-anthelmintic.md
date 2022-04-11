@@ -1,7 +1,7 @@
 ---
 title: Genetic causes of resistance to anthelmintic compounds
 image: anthelmintics.jpg
-order: 3
+order: 5
 ---
 
 Using high-throughput assays that measure organismal fitness
