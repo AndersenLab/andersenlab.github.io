@@ -4,11 +4,6 @@ title: Software
 permalink: /Tools/Software/
 menu: tools
 published: true
-sidebar: software_sidebar.html
-scripts: 
-  - het_polarization: 
-      - url: "https://gist.github.com/danielecook/20bd05e461d1e6301a20"
-      - description: null
 ---
 
 
