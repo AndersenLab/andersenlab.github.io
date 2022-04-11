@@ -6,10 +6,28 @@ menu: tools
 published: true
 ---
 
+### NemaScan
+
+To enable genome-wide assiciation mappings and simulations using <em>Caenorhabditis</em> data, we build a wrapper for the Genome-wide Complex Trait Analysis package [GCTA](https://yanglab.westlake.edu.cn/software/gcta/#Overview) called NemaScan. Please follow the vignettes for use cases. Also, the <em>Caenorhabditis</em> Natural Diversity Resource [CaeNDR](www.elegansvariation.org) uses this mapping package for GWAS.
+
+* [NemaScan](https://github.com/AndersenLab/NemaScan)
+
+
+### EasyXpress
+
+Our lab has developed an R package to manage, process, and plot high-throughput imaging data obtained using the Molecular Devices ImageXpress platform. 
+
+* [easyXpress](https://github.com/AndersenLab/easyXpress)
+
+### EasyFulcrum
+
+For labs interested in field sampling wild strains, we built an R package to read-in, process, analyze, and plot sampling data collected using Fulcrum (apps are below). A procotol for nematode sampling is [here](https://www.jove.com/t/63486/a-highly-scalable-approach-to-perform-ecological-surveys-selfing).
+
+* [easyFulcrum](https://github.com/AndersenLab/easyfulcrum)
 
 ### Fulcrum Apps
 
-Our lab has developed fulcrum forms/applications for gathering data when collecting <em>C. elegans</em> wild isolates.
+Our lab has developed Fulcrum forms/applications for gathering data when collecting wild <em>Caenorhabditis</em> species.
 
 * [Nematode Field Sampling](http://www.fulcrumapp.com/apps/nematode-field-sampling)
 * [Nematode Isolation App](http://www.fulcrumapp.com/apps/nematode-isolation/)
