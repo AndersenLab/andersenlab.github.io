@@ -1,5 +1,5 @@
 ---
-title: Comparative genomics across wild isolate populations of selfing <em>Caenorhabditis</em> species
+title: Comparative genomics across wild populations of selfing <em>Caenorhabditis</em> species
 image: variant-calling.png
 order: 2
 ---
