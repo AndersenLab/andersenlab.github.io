@@ -2,3 +2,5 @@ _site/*
 .DS_Store
 git-credential-osxkeychain
 _site
+.jekyll/*
+.jekyll-cache/*
