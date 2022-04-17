@@ -46,6 +46,14 @@
   description: I am interested in ascarid anthelmintic resistance.
   photo: JB.jpg
   email: james.collins@northwestern.edu
+  
+- first_name: Jose Luis
+  last_name: Tellez
+  title: Postdoctoral Researcher
+  pub_names: ["Tellez JL"]
+  description: I am interested in creating new transgenic tools in wild nematode strains.
+  photo: JL.jpg
+  email: sirjlister@gmail.com
 
 #================#
 # Research Staff #
@@ -74,14 +82,6 @@
   photo: SophieGibson.jpg
   email: sophia.gibson@northwestern.edu
 
-- first_name: Kathryn
-  last_name: Evans
-  title: Bioinformaticist
-  description: I manage all computational pipelines, data structures, and general lab genomics analyses, including updates and management of CaeNDR.
-  pub_names: ["Evans KS"]
-  photo: Kathryn_Evans.jpg
-  email: kathrynevans2015@u.northwestern.edu
-
 #===================#
 # Graduate Students #
 #===================#
@@ -89,7 +89,7 @@
 - first_name: Nicolas
   last_name: Moya
   title: Graduate Student
-  pub_names: ["N Moya", "Moya N"]
+  pub_names: ["ND Moya", "Moya ND"]
   description: I am interested in genome assembly and de novo gene models.
   photo: NicMoya.jpg
   email: nicolasmoya2024@u.northwestern.edu
@@ -126,6 +126,16 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Kathryn
+  last_name: Evans
+  title: Bioinformaticist
+  former: true
+  description: I manage all computational pipelines, data structures, and general lab genomics analyses, including updates and management of CaeNDR.
+  pub_names: ["Evans KS"]
+  photo: Kathryn_Evans.jpg
+  email: kathrynevans2015@u.northwestern.edu
+  current_status: Bioinformaticist, Precision Biosciences, Inc.
 
 - first_name: Loraina
   last_name: Stinson
@@ -201,7 +211,7 @@
   photo: Lewis_cropped.jpg
   github: lstevens17
   email: lewis.stevens@northwestern.edu
-  current_status: Senior Bioinformaticist, Sanger Institute
+  current_status: Senior Bioinformatician, <a href='https://www.sanger.ac.uk/group/blaxter-group/'>Blaxer lab</a> at the Sanger Institute
 
 - first_name: Anita
   last_name: Huang
@@ -221,7 +231,7 @@
   photo: WangYe.jpg
   github: faithman
   email: ye.wang@northwestern.edu
-  current_status: Lab head, Division of Bioinformatics, Panda Institute Sichuan, China
+  current_status: Assistant Research Fellow, Chengdu Research Base of Giant Panda Breeding, China
 
 - first_name: Logan
   last_name: Eckhoff
@@ -259,7 +269,7 @@
   former: true
   github: Thatguy027
   email: StefanZdraljevic2018@u.northwestern.edu
-  current_status: Post-doctoral researcher in Leonid Kruglyak's lab at UCLA
+  current_status: Post-doctoral researcher, <a href='https://kruglyak.genetics.ucla.edu/'>Kruglyak lab</a> at UCLA
 
 - first_name: Shannon
   last_name: Brady
@@ -283,7 +293,7 @@
   former: true
   website: https://tylershimko.com/
   title: Undergraduate, summers 2013, 2014, 2015
-  current_status: Start-up entrepreneur
+  current_status: CEO, Trident Bioscience
 
 - first_name: Daniel
   last_name: Cook
@@ -309,7 +319,7 @@
   github: mzamanian
   email: zamanian@northwestern.edu
   departure: 2017-01-01
-  current_status: Assistant Professor at UW Madison -- <a href='http://www.zamanianlab.org/'>Zamanian Lab Website</a>
+  current_status: Assistant Professor at UW Madison <a href='http://www.zamanianlab.org/'>Zamanian Lab Website</a>
 
 - first_name: Kristen
   last_name: Laricchia
