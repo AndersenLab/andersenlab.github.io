@@ -117,6 +117,13 @@
   description: I  am interested in telomere length variation across all three selfing Caenorhabditis species.
   photo: ShriramBhat.jpg
   email: bhat.shriram@northwestern.edu 
+  
+- first_name: Ryan
+  last_name: McKeown
+  description: I work on population genomics of selfing Caenorhabditis species.
+  title: Research technician
+  photo: Ryan.jpg
+  email: ryanmckeown2021@u.northwestern.edu
 
 #========================#
 # Undergraduates         #
@@ -154,15 +161,6 @@
   photo: Janneke_cropped.jpg
   github: JannekeW
   email: janneke.wit@northwestern.edu
-
-- first_name: Ryan
-  last_name: McKeown
-  description: I work on pipelines for variant effect prediction.
-  title: Research technician
-  former: true
-  photo: Ryan.jpg
-  email: ryanmckeown2021@u.northwestern.edu 
-  current_status: IBiS Graduate Student
 
 - first_name: Clay
   last_name: Dilks
