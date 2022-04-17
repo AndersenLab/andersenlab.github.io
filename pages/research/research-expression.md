@@ -1,5 +1,5 @@
 ---
-title: Natural variation in intermediate traits&#58; Gene expression, metabolites, and protein expression
+title: Evolution of cellular networks
 image: holistic3.png
 order: 6
 ---
