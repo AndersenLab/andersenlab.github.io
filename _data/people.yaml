@@ -129,9 +129,16 @@
 - first_name: Ryan
   last_name: McKeown
   description: I work on population genomics of selfing Caenorhabditis species.
-  title: Research technician
+  title: Graduate Student
   photo: Ryan.jpg
   email: ryanmckeown2021@u.northwestern.edu
+  
+- first_name: Corinne
+  last_name: Croslyn
+  description: I work on natural variation in dauer formation and exit.
+  title: Graduate Student
+  photo: Croslyn.jpg
+  email: corinne.croslyn@u.northwestern.edu 
 
 #========================#
 # Undergraduates         #
