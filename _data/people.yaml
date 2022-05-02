@@ -14,12 +14,14 @@
 
 - first_name: Tim
   last_name: Crombie
-  description: I'm interested in natural variation in stress responses and GxE interactions.
+  description: I'm interested in population genetics, molecular ecology, and developing high-throughput assays to quantify natural variation in fitness traits.
   title: Postdoctoral Researcher
   pub_names: ["TA Crombie", "Crombie TA", "Crombie T"]
   former: false
   photo: TimothyCrombie.jpg
   email: tcrombie@northwestern.edu
+  github: tcrombie
+  website: https://tcrombie.github.io/
 
 - first_name: Gaotian
   pub_names: ["Zhang G"]
