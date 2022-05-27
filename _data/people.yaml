@@ -87,10 +87,18 @@
 - first_name: Sophia
   last_name: Gibson
   pub_names: ["Gibson SB"]
-  description: I work molecular biology, injections, and wild <em>Caenorhabditis</em> strains.
+  description: I work on molecular biology, injections, and wild <em>Caenorhabditis</em> strains.
   title: Research technician
   photo: SophieGibson.jpg
   email: sophia.gibson@northwestern.edu
+
+- first_name: Joy
+  last_name: Nyaanga
+  title: Bioinformaticist
+  pub_names: ["Nyaanga J"]
+  description: I am working to deploy CaeNDR for all three selfing Caenorhabditis species
+  photo: Nyaanga,Joy.jpg
+  email: JoyNyaanga2024@u.northwestern.edu
 
 #===================#
 # Graduate Students #
@@ -104,14 +112,6 @@
   photo: NicMoya.jpg
   email: nicolasmoya2024@u.northwestern.edu
 
-- first_name: Joy
-  last_name: Nyaanga
-  title: Graduate Student
-  pub_names: ["Nyaanga J"]
-  description: I  am interested in quantitative methods to understand growth and metabolic networks.
-  photo: Nyaanga,Joy.jpg
-  email: JoyNyaanga2024@u.northwestern.edu
-  
 - first_name: Caroline
   last_name: Bond
   title: QSB Masters Student
@@ -120,14 +120,6 @@
   photo: CarolineBond.jpg
   email: carolinebond2022@u.northwestern.edu
   
-- first_name: Shriram
-  last_name: Bhat
-  title: Visting Masters Student
-  pub_names: ["Bhat S"]
-  description: I  am interested in telomere length variation across all three selfing Caenorhabditis species.
-  photo: ShriramBhat.jpg
-  email: bhat.shriram@northwestern.edu 
-  
 - first_name: Ryan
   last_name: McKeown
   description: I work on population genomics of selfing Caenorhabditis species.
@@ -135,13 +127,6 @@
   photo: Ryan.jpg
   email: ryanmckeown2021@u.northwestern.edu
   
-- first_name: Corinne
-  last_name: Croslyn
-  description: I work on natural variation in dauer formation and exit.
-  title: Graduate Student
-  photo: Croslyn.jpg
-  email: corinne.croslyn@u.northwestern.edu 
-
 #========================#
 # Undergraduates         #
 #========================#
@@ -150,6 +135,16 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Shriram
+  last_name: Bhat
+  title: Visting Masters Student
+  former: true
+  pub_names: ["Bhat S"]
+  description: I  am interested in telomere length variation across all three selfing Caenorhabditis species.
+  photo: ShriramBhat.jpg
+  email: bhat.shriram@northwestern.edu
+  current_status: Graduate Student at UIUC
 
 - first_name: Kathryn
   last_name: Evans
