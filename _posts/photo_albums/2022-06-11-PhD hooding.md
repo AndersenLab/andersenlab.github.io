@@ -1,5 +1,5 @@
 ---
-album: Joy and Clay PhD hooding
+album: PhD hooding
 layout: gallery
 category: album
 menu: people
