@@ -17,7 +17,6 @@
   description: I'm interested in population genetics, molecular ecology, and developing high-throughput assays to quantify natural variation in fitness traits.
   title: Postdoctoral Researcher
   pub_names: ["TA Crombie", "Crombie TA", "Crombie T"]
-  former: false
   photo: TimothyCrombie.jpg
   email: tcrombie@northwestern.edu
   github: tcrombie
@@ -28,18 +27,8 @@
   last_name: Zhang
   description: I'm interested in natural variation in metabolism and expression traits.
   title: Postdoctoral Researcher
-  former: false
   photo: ZhangGaotian.jpg
   email: gaotian.zhang@northwestern.edu
-
-- first_name: Sam
-  last_name: Widmayer
-  title: Postdoctoral Researcher
-  pub_names: ["Widmayer SJ", "SJ Widmayer", "Widmayer S"]
-  description: I am interested in toxicant-response variation and optimizing new mapping methods.
-  photo: SamWidmayer.jpg
-  github: sam-widmayer
-  email: sam.widmayer@northwestern.edu
 
 - first_name: JB
   last_name: Collins
@@ -84,14 +73,6 @@
   photo: Emily.jpg
   email: Emily.Koury@northwestern.edu
 
-- first_name: Sophia
-  last_name: Gibson
-  pub_names: ["Gibson SB"]
-  description: I work on molecular biology, injections, and wild <em>Caenorhabditis</em> strains.
-  title: Research technician
-  photo: SophieGibson.jpg
-  email: sophia.gibson@northwestern.edu
-
 - first_name: Joy
   last_name: Nyaanga
   title: Bioinformaticist
@@ -112,14 +93,6 @@
   photo: NicMoya.jpg
   email: nicolasmoya2024@u.northwestern.edu
 
-- first_name: Caroline
-  last_name: Bond
-  title: QSB Masters Student
-  pub_names: ["Bond C"]
-  description: I  am interested in mitochondrial DNA copy number variation and heteroplasmy across the C. elegans population.
-  photo: CarolineBond.jpg
-  email: carolinebond2022@u.northwestern.edu
-  
 - first_name: Ryan
   last_name: McKeown
   description: I work on population genomics of selfing Caenorhabditis species.
@@ -135,6 +108,37 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Sophia
+  last_name: Gibson
+  pub_names: ["Gibson SB"]
+  description: I work on molecular biology, injections, and wild <em>Caenorhabditis</em> strains.
+  title: Research technician
+  former: true
+  photo: SophieGibson.jpg
+  email: sophia.gibson@northwestern.edu
+  current_status: Graduate student in Genome Sciences at the Univ. of Washington
+
+- first_name: Caroline
+  last_name: Bond
+  title: QSB Masters Student
+  former: true
+  pub_names: ["Bond C"]
+  description: I  am interested in mitochondrial DNA copy number variation and heteroplasmy across the C. elegans population.
+  photo: CarolineBond.jpg
+  email: carolinebond2022@u.northwestern.edu
+  current_status: IBiS graduate student
+
+- first_name: Sam
+  last_name: Widmayer
+  title: Postdoctoral Researcher
+  former: true
+  pub_names: ["Widmayer SJ", "SJ Widmayer", "Widmayer S"]
+  description: I am interested in toxicant-response variation and optimizing new mapping methods.
+  photo: SamWidmayer.jpg
+  github: sam-widmayer
+  email: sam.widmayer@northwestern.edu
+  current_status: Bioinformaticist at Jackson Labs
 
 - first_name: Shriram
   last_name: Bhat
