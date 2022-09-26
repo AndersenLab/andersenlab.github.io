@@ -1,4 +1,15 @@
 - Authors:
+  - Zhang G
+  - Wang Y
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@gmail.com
+  DOI: 10.1101/2022.06.25.497600
+  Date_Published: 2022 September 20
+  Journal: Genome Research
+  PDF: 2022ZhangbioRxiv2
+  Title: Natural variation in <em>C. elegans</em> short tandem repeats
+- Authors:
   - Widmayer SJ
   - Crombie TA
   - Nyaanga JN
@@ -27,7 +38,7 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1101/2202.07.21.500991
+  DOI: 10.1101/2022.07.21.500991
   Date_Published: 2022 July 23
   Journal: bioRxiv
   PDF: 2022GibsonbioRxiv
@@ -59,17 +70,6 @@
   Journal: Nature
   PDF: 2022FoxNature
   Title: <em>C. elegans</em> as a model for inter-individual variation in metabolism
-- Authors:
-  - Zhang G
-  - Wang Y
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1101/2022.06.25.497600
-  Date_Published: 2022 June 26
-  Journal: bioRxiv
-  PDF: 2022ZhangbioRxiv2
-  Title: Natural variation in <em>C. elegans</em> short tandem repeats
 - Authors:
   - Webster AK
   - Chitrakar R
@@ -114,7 +114,7 @@
   - Mains PE
   Corresponding_Authors:
   - Mains PE: mains@ucalgary.ca
-  DOI: 10.1101/2022.02.27.482202
+  DOI: 10.1093/genetics/iyac093
   Date_Published: 2022 June 8
   Journal: Genetics
   PDF: 2022PallottoGenetics
@@ -126,7 +126,7 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1093/genetics/iyac093
+  DOI: 10.17912/micropub.biology.000567
   Date_Published: 2022 May 24
   Journal: microPublication
   PDF: 2022CrombiemicroPub
@@ -138,7 +138,7 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu	
-  DOI: 10.1101/2021.09.09.459688
+  DOI: 10.1093/g3journal/jkac114
   Date_Published: 2022 May 4
   Journal: G3
   PDF: 2022WidmayerG3
@@ -235,7 +235,7 @@
   Date_Published: 2022 March 11
   Journal: bioRxiv
   PDF: 2022LesackbioRxiv
-  Title: Accurate detection of structural variation is hard
+  Title: Different structural variant prediction tools yield considerably different results in <em>Caenorhabditis elegans</em>
 - Authors:
   - Crombie TA
   - Tanny RE
@@ -336,7 +336,7 @@
   - Baer CF
   Corresponding_Authors:
   - Gilbert KJ: kimberly.gilbert@iee.unibe.ch
-  DOI: 10.1101/2020.10.26.355446
+  DOI: 10.1093/genetics/iyab166
   Date_Published: 2021 September 26
   Journal: Genetics
   PDF: 2021GilbertGenetics
@@ -360,7 +360,7 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu	
-  DOI: 10.1101/2021.07.26.453836
+  DOI: 10.1016/j.ijpddr.2021.09.006
   Date_Published: 2021 September 7
   Journal: International Journal for Parasitology Drugs and Drug Resistance
   PDF: 2021DilksIJPDDR
@@ -415,7 +415,7 @@
   - Baer CF
   Corresponding_Authors:
   - Baer CF: cbaer@ufl.edu		
-  DOI: 10.1101/2021.02.09.430480
+  DOI: 10.1101/gr.275372.121
   Date_Published: 2021 June 23
   Journal: Genome Research
   PDF: 2021RajaeiGenomeResearch
@@ -435,11 +435,11 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
-  DOI: 10.1101/2021.01.14.426644
+  DOI: 10.1371/journal.ppat.1009297
   Date_Published: 2021 March 2
   Journal: PLoS Pathogens
   PDF: 2021EvansPLoSPathogens
-  Title: Two novel loci underlie differences in <em>Caenorhabditis elegans</em> macrocyclic lactone responses
+  Title: Two novel loci underlie differences in <em>Caenorhabditis elegans</em> abamectin responses
 - Authors:
   - Gouveia GJ
   - Shaver AO
@@ -453,7 +453,7 @@
   Corresponding_Authors:
   - Edison AS: aedison@uga.edu
   - McIntyre LM: mcintyre@ufl.edu
-  DOI: 10.1101/2021.03.24.436834
+  DOI: 10.1021/acs.analchem.1c01294
   Date_Published: 2021 June 2
   Journal: ACS Analytical Chemistry
   PDF: 2021AnalChemGoncalo
@@ -491,7 +491,7 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
-  DOI: 10.1101/2021.02.18.431866
+  DOI: 10.1093/g3journal/jkab168
   Date_Published: 2021 May 1
   Journal: G3
   PDF: 2021ZhangG3
@@ -520,7 +520,7 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
-  DOI: 10.1101/2021.01.05.425329
+  DOI: 10.1016/j.ijpddr.2021.04.001
   Date_Published: 2021 April 6
   Journal: International Journal for Parasitology Drugs and Drug Resistance
   PDF: 2021WitIJPDDR
@@ -622,7 +622,7 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
-  DOI: 10.1101/2020.07.07.191866
+  DOI: 10.1016/j.ijpddr.2020.08.003
   Date_Published: 2020 August 5
   Journal: International Journal for Parasitology Drugs and Drug Resistance
   PDF: 2020DilksIJPDDR
@@ -639,7 +639,7 @@
   Equal_Contributors:
   - Na H
   - Zdraljevic S
-  DOI: 10.1101/2020.03.02.973206
+  DOI: 10.1371/journal.pgen.1008984
   Date_Published: 2020 July 3
   Journal: PLoS Genetics
   PDF: 2020HuiminPLoSG
@@ -679,7 +679,7 @@
   - Vannberg FO
   - Lu H
   - McGrath PT
-  DOI: 10.371/journal.pgen.1008606
+  DOI: 10.1371/journal.pgen.1008606
   Date_Published: 2020 February 24
   Journal: PLoS Genetics
   PDF: 2020ZhaoPLoSGenetics
@@ -738,6 +738,7 @@
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
   - Brady SC: sbrady0228@gmail.com
+  DOI: 10.1080/00219266.2019.1703784
   Date_Published: 2019 December 6
   Journal: Journal of Biological Education
   PDF: 2019BradyJBE
@@ -961,12 +962,12 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@northwestern.edu
-  DOI: http://dx.doi.org/10.1101/125567
+  DOI: 10.1371/journal.pgen.1006891
   Date_Published: 2017 Apr 07
   Journal: PLOS Genetics
   PDF: 2017Zdraljevic
   PMID: 28700616
-  Title: Natural variation in a single amino acid underlies cellular responses to topoisomerase II poisons
+  Title: Natural variation in a single amino acid underlies physiological responses to topoisomerase II poisons
   pub_data:
     files:
       SuppMaterial.zip:
