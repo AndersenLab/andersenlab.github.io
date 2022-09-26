@@ -73,14 +73,6 @@
   photo: Emily.jpg
   email: Emily.Koury@northwestern.edu
 
-- first_name: Joy
-  last_name: Nyaanga
-  title: Bioinformaticist
-  pub_names: ["Nyaanga J"]
-  description: I am working to deploy CaeNDR for all three selfing Caenorhabditis species
-  photo: Nyaanga,Joy.jpg
-  email: JoyNyaanga2024@u.northwestern.edu
-
 #===================#
 # Graduate Students #
 #===================#
@@ -108,6 +100,16 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Joy
+  last_name: Nyaanga
+  title: Bioinformaticist
+  former: true
+  pub_names: ["Nyaanga J"]
+  description: I am working to deploy CaeNDR for all three selfing Caenorhabditis species
+  photo: Nyaanga,Joy.jpg
+  email: JoyNyaanga2024@u.northwestern.edu
+  current_status: Bioinformaticists at Lurie Childrens Hospital
 
 - first_name: Sophia
   last_name: Gibson
@@ -138,7 +140,7 @@
   photo: SamWidmayer.jpg
   github: sam-widmayer
   email: sam.widmayer@northwestern.edu
-  current_status: Bioinformaticist at Jackson Labs
+  current_status: Associate Computational Scientist at The Jackson Laboratory
 
 - first_name: Shriram
   last_name: Bhat
