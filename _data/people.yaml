@@ -38,14 +38,6 @@
   photo: JB.jpg
   email: james.collins@northwestern.edu
   
-- first_name: Jose Luis
-  last_name: Tellez
-  title: Postdoctoral Researcher
-  pub_names: ["Tellez JL"]
-  description: I am interested in creating new transgenic tools in wild nematode strains.
-  photo: JL.jpg
-  email: sirjlister@gmail.com
-  
 - first_name: Amanda
   last_name: Shaver
   title: Postdoctoral Researcher
@@ -72,6 +64,27 @@
   title: Lab manager
   photo: Emily.jpg
   email: Emily.Koury@northwestern.edu
+  
+- first_name: Etta
+  last_name: Schaye
+  description: I work on large preparations of nematode strains for biochemistry and anthelmintic resistance.
+  title: Research Technician
+  photo: EttaSchaye.jpg
+  email: Etta.Schaye@northwestern.edu
+  
+- first_name: Lizzie
+  last_name: Trzupek
+  description: I work on large preparations of nematode strains for genomics and anthelmintic resistance.
+  title: Research Technician
+  photo: LizzieTrzupek.jpg
+  email: Lizzie.Trzupek@northwestern.edu
+  
+- first_name: Lauren
+  last_name: Seeley
+  description: I work on genome editing and anthelmintic resistance.
+  title: Research Technician
+  photo: LaurenSeeley.jpg
+  email: Lauren.Seeley@northwestern.edu
 
 #===================#
 # Graduate Students #
@@ -92,6 +105,13 @@
   photo: Ryan.jpg
   email: ryanmckeown2021@u.northwestern.edu
   
+- first_name: Sol
+  last_name: Retamales
+  description: I work on gene expression during dauer development.
+  title: Visiting Graduate Student
+  photo: SolRetamales.jpg
+  email: eretven@gmail.com
+  
 #========================#
 # Undergraduates         #
 #========================#
@@ -100,6 +120,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Jose Luis
+  last_name: Tellez
+  title: Postdoctoral Researcher
+  former: true
+  pub_names: ["Tellez JL"]
+  description: I am interested in creating new transgenic tools in wild nematode strains.
+  photo: JL.jpg
+  email: sirjlister@gmail.com
 
 - first_name: Joy
   last_name: Nyaanga
