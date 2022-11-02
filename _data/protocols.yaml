@@ -157,6 +157,3 @@
 - name: Quantitative Western Blotting
   file: Quantitative-Western-Blot-Protocol.pdf
   group: Protein Methods
-- name: CRISPR/Cas 9 Genome Editing by RNP Injection
-  file: 20211130_CRISPR-Cas9genome-editingbyRNPinjection.pdf
-  group: DNA Methods
