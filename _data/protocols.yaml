@@ -13,17 +13,8 @@
 - name: L1 arrest survival
   file: Quantitative-L1-arrest-protocol.pdf
   group: <em>C. elegans</em> Phenotyping Methods
-- name: COPAS BIOSORT StartUp/ShutDown
-  file: AndersenSorterProtocols.pdf
-  group: COPAS BIOSORT
-- name: COPAS High-Throughput Assay
-  file: High-ThroughputBroodSizePumpingAssayV2.0.pdf
-  group: COPAS BIOSORT
 - name: COPAS Conversion of Bubble Trap
   file: ConvertBubbletoNonBubble.pdf
-  group: COPAS BIOSORT
-- name: Tips for Using the COPAS BIOSORT
-  file: Sorterbestpractices.pdf
   group: COPAS BIOSORT
 - name: Yeast-mediated ligation plasmid construction
   file: yeast-mediated-ligation-protocol.pdf
@@ -52,9 +43,6 @@
 - name: 96-Well DNAPrep - Gentra Purgene
   file: 96-wellDNAPrepGentra.pdf
   group: DNA Methods
-- name: Generating Libraries for MinION (R7.3)
-  file: MinION_R7.3.pdf
-  group: DNA Methods
 - name: EMS mutagenesis
   file: EMS-mutagenesis.pdf
   group: General <em>C. elegans</em>
@@ -82,9 +70,6 @@
 - name: Microinjection
   file: Microinjection.pdf
   group: General <em>C. elegans</em>
-- name: Collecting Nematodes from the Wild
-  file: WormCollectionProtocol.pdf
-  group: General <em>C. elegans</em>
 - name: Cleaning Worms
   file: CleaningWorms.pdf
   group: General <em>C. elegans</em>
@@ -109,9 +94,6 @@
 - name: Seeding NGMA Plates With Bacteria
   file: SeedingNGMAPlatesWithBacteria.pdf
   group: General <em>C. elegans</em>
-- name: Bacterial Food Growth Protocol for High-Throughput Assay
-  file: Bacterial Food Growth Protocol for HTA.pdf
-  group: General <em>C. elegans</em>
 - name: Bleaching and Dispensing of C. elegans using the BioTek MicroFlo Select
   file: 96-well bleaching and automated dispensing.pdf
   group: General <em>C. elegans</em>
@@ -121,20 +103,11 @@
 - name: Media and Solutions Recipes
   file: MediaAndSolutionsRecipes.pdf
   group: General Laboratory Methods
-- name: Expanding Fosmid Libraries from 384-Well plates to 96-Well plates
-  file: Copy384WellTo96WellLibraryPlates.pdf
-  group: General Laboratory Methods
 - name: How to Dilute DNA Ladder
   file: HowtodiluteDNAladder.pdf
   group: General Laboratory Methods
 - name: Autoclave Sterilizing Liquids & Labware
   file: AutoclaveSterilizingLiquids&Labware.pdf
-  group: General Laboratory Methods
-- name: Filling the Liquid Nitrogen Tank
-  file: FillingLiquidNitrogen.pdf
-  group: General Laboratory Methods
-- name: Changing the Carousel on the Plate Pourer
-  file: PlatePourerMachine-ChangingTheCarousel.pdf
   group: General Laboratory Methods
 - name: Washing Labware
   file: WashingProtocols.pdf
@@ -157,3 +130,7 @@
 - name: Quantitative Western Blotting
   file: Quantitative-Western-Blot-Protocol.pdf
   group: Protein Methods
+- name: Synthetic sgRNA
+  file: 20190524_synthego-quickstart-sgrna.pdf
+  group: DNA Methods
+  
