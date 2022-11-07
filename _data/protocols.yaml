@@ -133,4 +133,39 @@
 - name: Synthetic sgRNA
   file: 20190524_synthego-quickstart-sgrna.pdf
   group: DNA Methods
-  
+- name: Andersen Lab Strain Intake
+  file: 20190624_WildIsolateStrainIntake.pdf
+  group: General <em>C. elegans</em>
+- name: Worm Maintenance
+  file: 20191005_WormMaintenance.pdf
+  group: General <em>C. elegans</em>
+- name: High Throughput Genotyping for Wild Isolate Identification
+  file: 20200429_HighthroughputGenotyping.pdf
+  group: DNA Methods
+- name: CTAB DNA Prep of A. dissimilis
+  file: CTABDNAPrep.pdf
+  group: DNA Methods
+- name: Identifying New Wild Isolates
+  file: 20210426_IdentifyingWildIsolates.pdf
+  group: General <em>C. elegans</em>
+- name: Andersen Lab COPAS Sorter Best Practices
+  file: AndersenLabCOPASSorterBestPractices.pdf
+  group: COPAS BIOSORT
+- name: Andersen Lab Nematode Field Sampling Protocol
+  file: AndersenLabNematodeFieldSamplingProtocol.pdf
+  group: General <em>C. elegans</em>
+- name: Isolation of Metabolites and RNA from Liquid Cultures
+  file: IsolationofMetabolitesandRNAfromLiquidCultures.pdf
+  group: RNA Methods
+- name: Nematode Collection Protocol
+  file: NematodeCollectionProtocol.pdf
+  group: General <em>C. elegans</em>
+- name: Sorter Setup, Shutdown and Sterilization
+  file: SorterSetupandShutdown.pdf
+  group: COPAS BIOSORT
+- name: Tips for Using the COPAS BIOSORT
+  file: 20160611_TipsforUsingCOPASBiosort.pdf
+  group: COPAS BIOSORT
+- name: Worm Collecting Protocol - Citizen Scientist
+  file: WormCollectionProtocol.pdf
+  group: General <em>C. elegans</em>
