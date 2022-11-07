@@ -169,3 +169,15 @@
 - name: Worm Collecting Protocol - Citizen Scientist
   file: WormCollectionProtocol.pdf
   group: General <em>C. elegans</em>
+- name: 15-hour Bacterial Food Growth
+  file: 20221107_BacterialFoodGrowthProtocol.pdf
+  group: General <em>C. elegans</em>
+- name: CRISPR-Cas9 Genome Editing by RNP Injection
+  file: 20221107_CRISPR-Cas9Genome-EditingProtocol.pdf
+  group: DNA Methods
+- name: Cryopreservation and DNA Preps of Caenorhabditis Nematodes
+  file: 20221107_CryopreservationandDNAPrepsofCaenorhabditisNematodes.pdf
+  group: General <em>C. elegans</em>
+- name: High-throughput Phenotyping Assay - SORTER
+  file: 20221107_High-throughputSorterAssayProtocol.pdf
+  group: <em>C. elegans</em> Phenotyping Methods
