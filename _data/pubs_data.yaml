@@ -1,14 +1,24 @@
 - Authors:
-  - Gibson S
-  - Ness-Cohn E
+  - Shaver AO
+  - Garcia BM
+  - Gouveia GJ
+  - Morse AM
+  - Liu Z
+  - Asef CK
+  - Borges RM
+  - Leach FE
   - Andersen EC
+  - Amster J
+  - Fendandez FM
+  - Edison AS
+  - McIntyre LM
   Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1016/j.ijpddr.2022.10.004
-  Date_Published: 2022 October 16
-  Journal: International Journal for Parasitology, Drugs and Drug Resistance
-  PDF: 2022GibsonIJPDDR
-  Title: Benzimidazoles cause lethality by inhibiting the function of <em>Caenorhabditis elegans</em> neuronal beta-tubulin
+  - McIntyre LM: mcintyre@ufl.edu
+  DOI: 10.3389/fmolb.2022.930204
+  Date_Published: 2022 November 14
+  Journal: Frontiers in Molecular Biosciences
+  PDF: 2022ShaverFrontiers
+  Title: An anchored experimental design and meta-analysis approach to address batch effects in large-scale metabolomics
 - Authors:
   - Nyaanga J
   - Shirman S
@@ -21,6 +31,17 @@
   Journal: microPublication
   PDF: 2022NyaangamicroPub
   Title: Characterization of larval growth in <em>C. elegans</em> cuticle mutants
+- Authors:
+  - Gibson S
+  - Ness-Cohn E
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@gmail.com
+  DOI: 10.1016/j.ijpddr.2022.10.004
+  Date_Published: 2022 October 16
+  Journal: International Journal for Parasitology, Drugs and Drug Resistance
+  PDF: 2022GibsonIJPDDR
+  Title: Benzimidazoles cause lethality by inhibiting the function of <em>Caenorhabditis elegans</em> neuronal beta-tubulin
 - Authors:
   - Zhang G
   - Andersen EC
@@ -225,27 +246,6 @@
   Journal: Genome Biology and Evolution
   PDF: 2022StevensGBE
   Title: Chromosome-level reference genomes for two strains of <em>Caenorhabditis briggsae</em>, an improved platform for comparative genomics
-- Authors:
-  - Shaver AO
-  - Garcia BM
-  - Gouveia GJ
-  - Morse AM
-  - Liu Z
-  - Asef CK
-  - Borges RM
-  - Leach FE
-  - Andersen EC
-  - Amster J
-  - Fendandez FM
-  - Edison AS
-  - McIntyre LM
-  Corresponding_Authors:
-  - McIntyre LM: mcintyre@ufl.edu
-  DOI: 10.1101/2022.03.25.485859
-  Date_Published: 2022 March 25
-  Journal: bioRxiv
-  PDF: 2022ShaverbioRxiv
-  Title: An anchored experimental design and meta-analysis approach to address batch effects in large-scale metabolomics
 - Authors:
   - Lesack K
   - Mariene GM
