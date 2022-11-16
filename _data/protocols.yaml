@@ -175,6 +175,3 @@
 - name: High-throughput Phenotyping Assay - SORTER
   file: 20221107_High-throughputSorterAssayProtocol.pdf
   group: <em>C. elegans</em> Phenotyping Methods
-- name: High-throughput Phenotyping Imager Assay
-  file: 20210928_High-throughputPhenotypingImagerAssay.pdf
-  group: <em>C. elegans</em> Phenotyping Methods
