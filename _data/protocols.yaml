@@ -65,7 +65,7 @@
   file: SingleWormGenotyping.pdf
   group: General <em>C. elegans</em>
 - name: Defecation Assay
-  file: DefecationAssay.pdf
+  file: 20080221_DefecationAssay.pdf
   group: <em>C. elegans</em> Phenotyping Methods
 - name: Microinjection
   file: Microinjection.pdf
