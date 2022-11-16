@@ -28,9 +28,6 @@
 - name: Generating Libraries for Whole-Genome Sequencing
   file: NexteraLibraryGenerationLowMultiplexingTagmentation.pdf
   group: DNA Methods
-- name: Genome Editing Cas9 Protein Microinjection
-  file: GenomeEditing_Cas9ProteinMicroinjection.pdf
-  group: DNA Methods
 - name: Qiagen Gentra DNA preparation for C. elegans
   file: PurificationDNAfromnematodes.pdf
   group: DNA Methods
