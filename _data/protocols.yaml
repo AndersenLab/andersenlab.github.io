@@ -58,9 +58,6 @@
 - name: Flow Chart For A Cross
   file: IntrogressionCrossFlowChart.pdf
   group: General <em>C. elegans</em>
-- name: Isolating Wild Isolates
-  file: IsolatingWildIsolates.pdf
-  group: General <em>C. elegans</em>
 - name: Single Worm Genotyping
   file: SingleWormGenotyping.pdf
   group: General <em>C. elegans</em>
@@ -174,4 +171,7 @@
   group: General <em>C. elegans</em>
 - name: High-throughput Phenotyping Assay - SORTER
   file: 20221107_High-throughputSorterAssayProtocol.pdf
+  group: <em>C. elegans</em> Phenotyping Methods
+- name: High-throughput Phenotyping Imager Assay
+  file: 20210928_High-throughputPhenotypingImagerAssay.pdf
   group: <em>C. elegans</em> Phenotyping Methods
