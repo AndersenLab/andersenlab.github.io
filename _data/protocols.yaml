@@ -151,9 +151,6 @@
 - name: Andersen Lab Nematode Field Sampling Protocol
   file: AndersenLabNematodeFieldSamplingProtocol.pdf
   group: General <em>C. elegans</em>
-- name: Isolation of Metabolites and RNA from Liquid Cultures
-  file: IsolationofMetabolitesandRNAfromLiquidCultures.pdf
-  group: RNA Methods
 - name: Nematode Collection Protocol
   file: NematodeCollectionProtocol.pdf
   group: General <em>C. elegans</em>
