@@ -175,3 +175,6 @@
 - name: Steps to Freeze Wild Isolate DNA Samples
   file: 20221130_StepstoFreezeWildIsolateDNASamples.pdf
   group: General <em>C. elegans</em>
+- name: Image Xpress Protocol
+  file: 20221202_ImageXpressProtocol.pdf
+  group: General Laboratory Methods
