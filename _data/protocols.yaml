@@ -178,3 +178,6 @@
 - name: Image Xpress Protocol
   file: 20221202_ImageXpressProtocol.pdf
   group: General Laboratory Methods
+- name: DNAEasy Genomic Prep - QiaCube
+  file: 20221208_DNAEasyGenomicDNAPrep(QiaCube).pdf
+  group: DNA Methods
