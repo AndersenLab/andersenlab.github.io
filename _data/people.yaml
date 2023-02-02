@@ -22,14 +22,6 @@
   github: tcrombie
   website: https://tcrombie.github.io/
 
-- first_name: Gaotian
-  pub_names: ["Zhang G"]
-  last_name: Zhang
-  description: I'm interested in natural variation in metabolism and expression traits.
-  title: Postdoctoral Researcher
-  photo: ZhangGaotian.jpg
-  email: gaotian.zhang@northwestern.edu
-
 - first_name: JB
   last_name: Collins
   title: Postdoctoral Researcher
@@ -85,6 +77,12 @@
   title: Research Technician
   photo: LaurenSeeley.jpg
   email: Lauren.Seeley@northwestern.edu
+  
+- first_name: Tom
+  last_name: Volpe
+  title: Senior Research Scientist
+  photo: TomVolpe.jpg
+  email: thomas.volpe@northwestern.edu
 
 #===================#
 # Graduate Students #
@@ -113,6 +111,16 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Gaotian
+  pub_names: ["Zhang G"]
+  last_name: Zhang
+  description: I'm interested in natural variation in metabolism and expression traits.
+  title: Postdoctoral Researcher
+  former: true
+  photo: ZhangGaotian.jpg
+  email: gaotian.zhang@northwestern.edu
+  current_status: Post-doctoral researcher in Marie-Anne Felix lab in ENS-Paris
 
 - first_name: Jose Luis
   last_name: Tellez
