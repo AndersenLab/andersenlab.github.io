@@ -64,13 +64,6 @@
   photo: EttaShaye.jpg
   email: Etta.Schaye@northwestern.edu
   
-- first_name: Lizzie
-  last_name: Trzupek
-  description: I work on large preparations of nematode strains for genomics and anthelmintic resistance.
-  title: Research Technician
-  photo: LizzieTrzupek.jpg
-  email: Lizzie.Trzupek@northwestern.edu
-  
 - first_name: Lauren
   last_name: Seeley
   description: I work on genome editing and anthelmintic resistance.
@@ -111,6 +104,14 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Lizzie
+  last_name: Trzupek
+  description: I work on large preparations of nematode strains for genomics and anthelmintic resistance.
+  title: Research Technician
+  former: true
+  photo: LizzieTrzupek.jpg
+  email: Lizzie.Trzupek@northwestern.edu
 
 - first_name: Gaotian
   pub_names: ["Zhang G"]
