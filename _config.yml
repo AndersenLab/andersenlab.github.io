@@ -2,7 +2,7 @@
 name: Andersen Lab
 title: Andersen Lab
 email: lab@andersenlab.org
-description: "The Andersen Lab @ Northwestern"
+description: "The Andersen Lab @ Johns Hopkins University"
 baseurl: ""
 url: "http://www.andersenlab.org"
 permalink: /:categories/:title.html
