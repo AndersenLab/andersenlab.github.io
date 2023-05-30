@@ -6,7 +6,6 @@
   photo: Erik_C_Andersen.jpg
   cv: https://github.com/AndersenLab/cv/blob/master/Andersen_CV.pdf?raw=true
   email: Erik.Andersen@gmail.com
-  github: synmuv
 
 #========================#
 # Post-Doc               #
@@ -25,7 +24,7 @@
 - first_name: JB
   last_name: Collins
   title: Postdoctoral Researcher
-  pub_names: ["Collins JB"]
+  pub_names: ["Collins JB", "JB Collins"]
   description: I am interested in ascarid anthelmintic resistance.
   photo: JB.jpg
   email: james.collins@northwestern.edu
