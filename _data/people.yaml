@@ -63,13 +63,6 @@
   photo: EttaShaye.jpg
   email: Etta.Schaye@northwestern.edu
   
-- first_name: Lauren
-  last_name: Seeley
-  description: I work on genome editing and anthelmintic resistance.
-  title: Research Technician
-  photo: LaurenSeeley.jpg
-  email: Lauren.Seeley@northwestern.edu
-  
 - first_name: Tom
   last_name: Volpe
   title: Senior Research Scientist
@@ -95,13 +88,6 @@
   photo: Ryan.jpg
   email: ryanmckeown2021@u.northwestern.edu
 
-- first_name: Faruk
-  last_name: Dube
-  description: I work on macrocyclic lactone resistance.
-  title: Visiting Graduate Student
-  photo: FarukDube.jpg
-  email: faruk.dube@northwestern.edu 
-
 #========================#
 # Undergraduates         #
 #========================#
@@ -111,6 +97,24 @@
 # Former Members         #
 #========================#
 
+- first_name: Faruk
+  last_name: Dube
+  description: I work on macrocyclic lactone resistance.
+  title: Visiting Graduate Student
+  former: true
+  photo: FarukDube.jpg
+  email: faruk.dube@northwestern.edu 
+  current_status: Graduate student at Swedish University
+  
+- first_name: Lauren
+  last_name: Seeley
+  description: I work on genome editing and anthelmintic resistance.
+  title: Research Technician
+  former: true
+  photo: LaurenSeeley.jpg
+  email: Lauren.Seeley@northwestern.edu
+  current_status: High school biology/chemistry teacher
+
 - first_name: Lizzie
   last_name: Trzupek
   description: I work on large preparations of nematode strains for genomics and anthelmintic resistance.
@@ -118,6 +122,7 @@
   former: true
   photo: LizzieTrzupek.jpg
   email: Lizzie.Trzupek@northwestern.edu
+  current_status: Technician in the Wignall Lab (Northwestern U)
 
 - first_name: Gaotian
   pub_names: ["Zhang G"]
