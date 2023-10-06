@@ -48,13 +48,6 @@
   title: Research Assistant Professor
   photo: Robyn.jpg
   email: Robyn.Tanny@northwestern.edu
-
-- first_name: Emily
-  last_name: Koury
-  description: I manage the lab personnel, reagents, ordering, etc. I also make genome-edited and transgenic strains.
-  title: Lab manager
-  photo: Emily.jpg
-  email: Emily.Koury@northwestern.edu
   
 - first_name: Etta
   last_name: Schaye
@@ -96,6 +89,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Emily
+  last_name: Koury
+  description: I manage the lab personnel, reagents, ordering, etc. I also make genome-edited and transgenic strains.
+  title: Lab manager
+  former: true
+  photo: Emily.jpg
+  email: Emily.Koury@northwestern.edu
+  current_status: Lab manager in the Wignall lab
 
 - first_name: Faruk
   last_name: Dube
