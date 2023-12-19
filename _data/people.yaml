@@ -11,16 +11,6 @@
 # Post-Doc               #
 #========================#
 
-- first_name: Tim
-  last_name: Crombie
-  description: I'm interested in population genetics, molecular ecology, and developing high-throughput assays to quantify natural variation in fitness traits.
-  title: Postdoctoral Researcher
-  pub_names: ["TA Crombie", "Crombie TA", "Crombie T"]
-  photo: TimothyCrombie.jpg
-  email: tcrombie@northwestern.edu
-  github: tcrombie
-  website: https://tcrombie.github.io/
-
 - first_name: JB
   last_name: Collins
   title: Postdoctoral Researcher
@@ -89,6 +79,18 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Tim
+  last_name: Crombie
+  description: I'm interested in population genetics, molecular ecology, and developing high-throughput assays to quantify natural variation in fitness traits.
+  title: Postdoctoral Researcher
+  former: true
+  pub_names: ["TA Crombie", "Crombie TA", "Crombie T"]
+  photo: TimothyCrombie.jpg
+  email: tcrombie@northwestern.edu
+  github: tcrombie
+  website: https://tcrombie.github.io/
+  current_status: Assistant Professor at the Florida Institute of Technology
 
 - first_name: Emily
   last_name: Koury
