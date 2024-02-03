@@ -27,6 +27,14 @@
   photo: amanda-shaver.jpg
   email: amanda.shaver@northwestern.edu
 
+- first_name: Bowen
+  last_name: Wang
+  title: Postdoctoral Researcher
+  pub_names: ["Wang B"]
+  description: I am interested in metagenomics and wild nematode microbiomes.
+  photo: BowenWang.jpg
+  email: bowenw@zju.edu.cn
+
 #================#
 # Research Staff #
 #================#
