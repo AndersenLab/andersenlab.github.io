@@ -1,0 +1,7 @@
+---
+title: "Welcome to Bowen!"
+subtitle: "Bowen joins us as a post-doc. He will focus on C. tropicalis population genomics and metagenomics sampling of wild nematode populations."
+layout: post
+tags: news
+published: true
+---

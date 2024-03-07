@@ -1,0 +1,7 @@
+---
+title: "Welcome to Nikita!"
+subtitle: "Nikita joins us as a post-doc. She will focus on C. briggsae population genomics and improving reference genomes and gene models for this species."
+layout: post
+tags: news
+published: true
+---
