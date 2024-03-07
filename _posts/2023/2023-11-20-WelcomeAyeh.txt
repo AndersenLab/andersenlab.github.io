@@ -1,0 +1,7 @@
+---
+title: "Welcome to Ayeh!"
+subtitle: "Ayeh joins us as a lab volunteer and masters student to collect DNA for long-read sequencing."
+layout: post
+tags: news
+published: true
+---
