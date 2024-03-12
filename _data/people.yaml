@@ -25,7 +25,7 @@
   pub_names: ["Shaver AO"]
   description: I am interested in the genes that cause emodepside resistance in wild nematodes.
   photo: amanda-shaver.jpg
-  email: amanda.shaver@northwestern.edu
+  email: amanda.shaver@jhu.edu
 
 - first_name: Bowen
   last_name: Wang
@@ -39,13 +39,20 @@
 # Research Staff #
 #================#
 
+- first_name: Ayeh
+  last_name: Khorshidian
+  description: I am purifying DNA and RNA for short- and long-read sequencing.
+  title: Volunteer
+  photo: Ayeh.jpg
+  email: akhorsh1@jhu.edu
+
 - first_name: Robyn
   last_name: Tanny
   pub_names: ["RE Tanny", "Tanny RE", "Robyn E. Tanny", "Robyn E Tanny"]
   description: I manage the lab's strain collection, generate sequencing libraries, and manage CeNDR. I also handle incoming collection samples to identify new strains of <em>C. elegans</em>.
-  title: Research Assistant Professor
+  title: Research Associate Professor
   photo: Robyn.jpg
-  email: Robyn.Tanny@northwestern.edu
+  email: robyn.tanny@jhu.edu
   
 - first_name: Etta
   last_name: Schaye
@@ -70,7 +77,7 @@
   pub_names: ["ND Moya", "Moya ND"]
   description: I am interested in genome assembly and de novo gene models.
   photo: NicMoya.jpg
-  email: nicolasmoya2024@u.northwestern.edu
+  email: nmoya1@jh.edu
 
 - first_name: Ryan
   last_name: McKeown
