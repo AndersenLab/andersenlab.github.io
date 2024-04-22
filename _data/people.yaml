@@ -42,7 +42,7 @@
 - first_name: Ayeh
   last_name: Khorshidian
   description: I am purifying DNA and RNA for short- and long-read sequencing.
-  title: Volunteer
+  title: Research Technician
   photo: Ayeh.jpg
   email: akhorsh1@jhu.edu
 
@@ -61,12 +61,6 @@
   photo: EttaShaye.jpg
   email: Etta.Schaye@northwestern.edu
   
-- first_name: Tom
-  last_name: Volpe
-  title: Senior Research Scientist
-  photo: TomVolpe.jpg
-  email: thomas.volpe@northwestern.edu
-
 #===================#
 # Graduate Students #
 #===================#
@@ -94,6 +88,14 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Tom
+  last_name: Volpe
+  title: Senior Research Scientist
+  former: true
+  photo: TomVolpe.jpg
+  email: thomas.volpe@northwestern.edu
+  current_status: Technician in Morimoto Lab
 
 - first_name: Tim
   last_name: Crombie
