@@ -17,7 +17,7 @@
   pub_names: ["Collins JB", "JB Collins"]
   description: I am interested in ascarid anthelmintic resistance.
   photo: JB.jpg
-  email: james.collins@northwestern.edu
+  email: jcolli95@jh.edu
   
 - first_name: Amanda
   last_name: Shaver
@@ -34,6 +34,14 @@
   description: I am interested in metagenomics and wild nematode microbiomes.
   photo: BowenWang.jpg
   email: bwang97@jhu.edu
+
+- first_name: Jhaveri
+  last_name: Nikita
+  title: Postdoctoral Researcher
+  pub_names: ["Wang B"]
+  description: I am interested in C. briggsae quantitative and population genetics.
+  photo: NikitaJhaveri.jpg
+  email: njhaver4@jh.edu
 
 #================#
 # Research Staff #
@@ -58,7 +66,7 @@
   last_name: Schaye
   description: I work on large preparations of nematode strains for biochemistry and anthelmintic resistance.
   title: Research Technician
-  photo: EttaShaye.jpg
+  photo: EttaShaye2.jpg
   email: Etta.Schaye@northwestern.edu
   
 #===================#
