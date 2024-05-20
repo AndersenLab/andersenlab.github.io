@@ -57,7 +57,7 @@
 - first_name: Robyn
   last_name: Tanny
   pub_names: ["RE Tanny", "Tanny RE", "Robyn E. Tanny", "Robyn E Tanny"]
-  description: I manage the lab's strain collection, generate sequencing libraries, and manage CeNDR. I also handle incoming collection samples to identify new strains of <em>C. elegans</em>.
+  description: I manage our strain collection, generate sequencing libraries, and manage CaeNDR. I also handle incoming collection samples to identify new strains of <em>C. elegans</em>.
   title: Research Associate Professor
   photo: Robyn.jpg
   email: robyn.tanny@jhu.edu
@@ -68,6 +68,13 @@
   title: Research Technician
   photo: EttaSchaye2.jpg
   email: Etta.Schaye@northwestern.edu
+
+- first_name: Mike
+  last_name: Sauria
+  description: I manage CaeNDR data releases, pipeline construction, and other computational projects
+  title: Research Associate Professor
+  photo: MikeSauria.jpg
+  email: mike.sauria@jhu.edu
   
 #===================#
 # Graduate Students #
