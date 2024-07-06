@@ -61,13 +61,6 @@
   title: Research Associate Professor
   photo: Robyn.jpg
   email: robyn.tanny@jhu.edu
-  
-- first_name: Etta
-  last_name: Schaye
-  description: I work on large preparations of nematode strains for biochemistry and anthelmintic resistance.
-  title: Research Technician
-  photo: EttaSchaye2.jpg
-  email: Etta.Schaye@northwestern.edu
 
 - first_name: Mike
   last_name: Sauria
@@ -75,6 +68,13 @@
   title: Research Associate Professor
   photo: MikeSauria.jpg
   email: mike.sauria@jhu.edu
+
+- first_name: Cassia
+  last_name: Yeo
+  description: I aid in sequencing library construction and high-throughput assays.
+  title: Research Technician
+  photo: Cassia-edit.jpg
+  email: jyeo9@jh.edu
   
 #===================#
 # Graduate Students #
@@ -125,6 +125,13 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Etta
+  last_name: Schaye
+  former: true
+  title: Research Technician
+  photo: EttaSchaye2.jpg
+  email: Etta.Schaye@northwestern.edu
 
 - first_name: Tom
   last_name: Volpe
