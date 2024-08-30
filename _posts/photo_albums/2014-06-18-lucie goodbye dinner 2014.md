@@ -1,5 +1,5 @@
 ---
-album: Holiday Party 2015
+album: Lucie Goodbye Dinner 2014
 layout: gallery
 category: album
 menu: people

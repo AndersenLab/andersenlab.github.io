@@ -1,5 +1,5 @@
 ---
-album: Fall 2013 Apple Picking
+album: Dan Defense
 layout: gallery
 category: album
 menu: people

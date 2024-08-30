@@ -24,7 +24,7 @@ for pdf in `ls publications/*.pdf`; do
     p="`basename ${pdf}`"
     if [ ! -f publications/thumb_${p/pdf/png} ]; then
         echo "Generating thumbnail for ${p}"
-        convert -density 300 -resize 150 ${pdf}[0] publications/thumb_${p/pdf/png}
+        magick convert -density 300 -resize 150 ${pdf}[0] publications/thumb_${p/pdf/png}
     fi;
 done;
 
@@ -32,8 +32,8 @@ done;
 # Fetch Publication Information #
 #===============================#
 
-#echo "Fetching publication information"
-#python scripts/fetch_pubs.py
+echo "Fetching publication information"
+python scripts/fetch_pubs.py
 
 #========#
 # Albums #
