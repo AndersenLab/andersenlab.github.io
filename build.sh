@@ -52,6 +52,7 @@ layout: gallery
 category: album
 menu: people
 --- """ > _posts/photo_albums/${fname}
+  git add _posts/photo_albums/${fname}
 done;
 
 # Generate image thumbnails
@@ -61,7 +62,8 @@ for img in `ls people/albums/*/* | grep -v 'thumb' | grep -v '.DS' `; do
     # Generate thumbnail
     if [ ! -f ${directory}/thumb_${output_name} ]; then
         echo "Generating Thumbnail [${img}]"
-        magick convert -auto-orient -thumbnail 200 ${img} ${directory}/thumb_${output_name}
+        magick -auto-orient -thumbnail 200 ${img} ${directory}/thumb_${output_name}
+        git add ${directory}/thumb_${output_name}
     fi
     # Resize if the image is really big
     image_width=`exiftool -s3 -ImageWidth ${img}`
@@ -69,7 +71,8 @@ for img in `ls people/albums/*/* | grep -v 'thumb' | grep -v '.DS' `; do
     if [ ${image_width} -gt 1200 ]; then
         # Downsizing image
         echo "${image_width} --> 1200 [${img}]"
-        magick convert -auto-orient -resize 1200 "${img}" "${img}_tmp"
+        magick -auto-orient -resize 1200 "${img}" "${img}_tmp"
         mv "${img}_tmp" "${img}"
+        git add "${img}"
     fi
 done;

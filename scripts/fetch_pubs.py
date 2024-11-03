@@ -1,10 +1,15 @@
 from metapub import PubMedFetcher
 import yaml
+from yaml import load, dump
+try:
+    from yaml import CLoader as Loader, CDumper as Dumper
+except ImportError:
+    from yaml import Loader, Dumper
 import os
 from subprocess import Popen, PIPE
 
 git_dir, err = Popen(['git', 'rev-parse', '--show-toplevel'], stdout=PIPE).communicate()
-git_dir = git_dir.strip()
+git_dir = git_dir.strip().decode("utf8")
 pubs_yaml = os.path.join(git_dir, "_data/pubs_data.yaml")
 pubs_list = os.path.join(git_dir, "publications/publications_list.txt")
 
@@ -25,7 +30,7 @@ doc_list = []
 
 #  load current file
 with open(pubs_yaml, 'r') as f:
-    yaml_db = yaml.load(f)
+    yaml_db = yaml.load(f, Loader=Loader)
 
 existing_pmids = [str(x["PMID"]) for x in yaml_db if 'PMID' in x]
 
