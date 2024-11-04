@@ -14,7 +14,7 @@ menu: people
 {% if f.path contains album_name %}
 {% if f.path contains 'thumb_' %}
 <div class="col-sm-4">
-        <a data-lightbox="{{ page.album }}" href="{{ f.path | replace: 'thumb_', '' }}" data-title="{{ p|replace:".jpg","" }}" ><img class="thumbnail img-responsive" src="{{ f.path }}" /></a>
+        <a data-lightbox="{{ page.album }}" href="{{ f.path | replace: 'thumb_', '' }}" data-title="{{ p|replace_regex:"\.(jp[e]?g|png|tif[f]?)$", "" }}" ><img class="thumbnail img-responsive" src="{{ f.path }}" /></a>
 </div>
 {% cycle '', '',  '</div><div class="row" data-no-instant>' %}
   {% endif %}

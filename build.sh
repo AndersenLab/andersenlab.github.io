@@ -25,7 +25,9 @@ for pdf in `ls publications/*.pdf`; do
     if [ ! -f publications/thumb_${p/pdf/png} ]; then
         echo "Generating thumbnail for ${p}"
         magick convert -density 300 -resize 150 ${pdf}[0] publications/thumb_${p/pdf/png}
+        git add publications/thumb_${p/pdf/png}
     fi;
+    git add $pdf
 done;
 
 #===============================#
@@ -73,6 +75,6 @@ for img in `ls people/albums/*/* | grep -v 'thumb' | grep -v '.DS' `; do
         echo "${image_width} --> 1200 [${img}]"
         magick -auto-orient -resize 1200 "${img}" "${img}_tmp"
         mv "${img}_tmp" "${img}"
-        git add "${img}"
     fi
+    git add "${img}"
 done;
