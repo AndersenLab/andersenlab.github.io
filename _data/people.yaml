@@ -119,6 +119,7 @@
 
 - first_name: Cassia
   last_name: Yeo
+  former: true
   description: I aid in sequencing library construction and high-throughput assays.
   title: Research Technician
   photo: Cassia-edit.jpg
