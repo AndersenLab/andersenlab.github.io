@@ -47,13 +47,6 @@
 # Research Staff #
 #================#
 
-- first_name: Ayeh
-  last_name: Khorshidian
-  description: I am purifying DNA and RNA for short- and long-read sequencing.
-  title: Research Technician
-  photo: Ayeh.jpg
-  email: akhorsh1@jhu.edu
-
 - first_name: Robyn
   last_name: Tanny
   pub_names: ["RE Tanny", "Tanny RE", "Robyn E. Tanny", "Robyn E Tanny"]
@@ -116,6 +109,14 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Ayeh
+  last_name: Khorshidian
+  former: true
+  description: I am purifying DNA and RNA for short- and long-read sequencing.
+  title: Research Technician
+  photo: Ayeh.jpg
+  email: akhorsh1@jhu.edu
 
 - first_name: Cassia
   last_name: Yeo
