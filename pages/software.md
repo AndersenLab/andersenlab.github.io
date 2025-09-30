@@ -8,7 +8,7 @@ published: true
 
 ### NemaScan
 
-To enable genome-wide assiciation mappings and simulations using <em>Caenorhabditis</em> data, we build a wrapper for the Genome-wide Complex Trait Analysis package [GCTA](https://yanglab.westlake.edu.cn/software/gcta/#Overview) called NemaScan. Please follow the vignettes for use cases. Also, the <em>Caenorhabditis</em> Natural Diversity Resource [CaeNDR](www.elegansvariation.org) uses this mapping package for GWAS.
+To enable genome-wide assiciation mappings and simulations using <em>Caenorhabditis</em> data, we build a wrapper for the Genome-wide Complex Trait Analysis package [GCTA](https://yanglab.westlake.edu.cn/software/gcta/#Overview) called NemaScan. Please follow the vignettes for use cases. Also, the <em>Caenorhabditis</em> Natural Diversity Resource [CaeNDR](https://caendr.org) uses this mapping package for GWAS.
 
 * [NemaScan](https://github.com/AndersenLab/NemaScan)
 
