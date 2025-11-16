@@ -70,7 +70,7 @@
 - first_name: Nicolas
   last_name: Moya
   title: Graduate Student
-  pub_names: ["ND Moya", "Moya ND"]
+  pub_names: ["ND Moya", "Moya ND", "Moya N"]
   description: I am interested in genome assembly and de novo gene models.
   photo: NicMoya.jpg
   email: nmoya1@jh.edu
