@@ -22,7 +22,7 @@
 - first_name: Amanda
   last_name: Shaver
   title: NIH Postdoctoral Fellow
-  pub_names: ["Shaver AO"]
+  pub_names: ["Shaver AO", "Shaver A"]
   description: I am interested in the genes that cause emodepside resistance in wild nematodes.
   photo: amanda-shaver.jpg
   email: amanda.shaver@jhu.edu
@@ -38,7 +38,7 @@
 - first_name: Nikita
   last_name: Jhaveri
   title: Postdoctoral Researcher
-  pub_names: ["Wang B"]
+  pub_names: ["Jhaveri N", "Jhaveri NS"]
   description: I am interested in C. briggsae quantitative and population genetics.
   photo: NikitaJhaveri2.jpg
   email: njhaver4@jh.edu
@@ -57,6 +57,7 @@
 
 - first_name: Mike
   last_name: Sauria
+  pub_names: ["Sauria MG"]
   description: I manage CaeNDR data releases, pipeline construction, and other computational projects
   title: Research Associate Professor
   photo: MikeSauria.jpg
@@ -76,6 +77,7 @@
 
 - first_name: Ryan
   last_name: McKeown
+  pub_names: ["McKeown R"]
   description: I work on population genomics of selfing Caenorhabditis species.
   title: Graduate Student
   photo: Ryan.jpg
@@ -83,6 +85,7 @@
 
 - first_name: Lance
   last_name: O&#39;Connor
+  pub_names: ["O'Connor L"]
   description: I am interested in structural variation.
   title: Graduate Student
   photo: LanceOConnor2.jpg
@@ -90,6 +93,7 @@
 
 - first_name: Maya
   last_name: Mastronardo
+  pub_names: ["Mastronardo MK"]
   description: I am interested in natural variation in behavior
   title: Graduate Student
   photo: MayaMastronardo.jpg
@@ -97,6 +101,7 @@
 
 - first_name: Etta
   last_name: Schaye
+  pub_names: ["Schaye ES"]
   title: Graduate Student
   photo: EttaSchaye2.jpg
   email: eschaye1@jh.edu
