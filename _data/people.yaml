@@ -57,7 +57,7 @@
 
 - first_name: Mike
   last_name: Sauria
-  pub_names: ["Sauria MG"]
+  pub_names: ["Sauria MG", "Sauria MEG"]
   description: I manage CaeNDR data releases, pipeline construction, and other computational projects
   title: Research Associate Professor
   photo: MikeSauria.jpg
