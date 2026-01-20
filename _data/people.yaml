@@ -27,14 +27,6 @@
   photo: amanda-shaver.jpg
   email: amanda.shaver@jhu.edu
 
-- first_name: Bowen
-  last_name: Wang
-  title: Postdoctoral Researcher
-  pub_names: ["Wang B"]
-  description: I am interested in metagenomics and wild nematode microbiomes.
-  photo: BowenWang2.jpg
-  email: bwang97@jhu.edu
-
 - first_name: Nikita
   last_name: Jhaveri
   title: Postdoctoral Researcher
@@ -114,6 +106,15 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Bowen
+  last_name: Wang
+  former: true
+  title: Postdoctoral Researcher
+  pub_names: ["Wang B"]
+  description: I am interested in metagenomics and wild nematode microbiomes.
+  photo: BowenWang2.jpg
+  email: bwang97@jhu.edu
 
 - first_name: Ayeh
   last_name: Khorshidian
