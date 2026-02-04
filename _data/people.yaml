@@ -35,6 +35,22 @@
   photo: NikitaJhaveri2.jpg
   email: njhaver4@jh.edu
 
+- first_name: John
+  last_name: Li
+  title: Postdoctoral Researcher
+  pub_names: ["Li Z"]
+  description: I am interested in applying novel engineering solutions to high-throughput assays.
+  photo: JohnLi.jpg
+  email: zli435@jh.edu
+
+- first_name: Nicolas
+  last_name: Moya
+  title: Postdoctoral Researcher
+  pub_names: ["ND Moya", "Moya ND", "Moya N"]
+  description: I am interested in hyper-divergent regions.
+  photo: NicMoya.jpg
+  email: nmoya1@jh.edu
+
 #================#
 # Research Staff #
 #================#
@@ -58,14 +74,6 @@
 #===================#
 # Graduate Students #
 #===================#
-
-- first_name: Nicolas
-  last_name: Moya
-  title: Graduate Student
-  pub_names: ["ND Moya", "Moya ND", "Moya N"]
-  description: I am interested in genome assembly and de novo gene models.
-  photo: NicMoya.jpg
-  email: nmoya1@jh.edu
 
 - first_name: Ryan
   last_name: McKeown
