@@ -71,6 +71,14 @@
   photo: MikeSauria.jpg
   email: mike.sauria@jhu.edu
 
+- first_name: Alejandra
+  last_name: Zarate Potes
+  pub_names: ["Zarate Potes A"]
+  description: I am working on host-pathogen response variation
+  title: Visiting Professor
+  photo: AZP.jpg
+  email: Alejandra.Zarate-Potes@edgehill.ac.uk
+  
 #===================#
 # Graduate Students #
 #===================#
