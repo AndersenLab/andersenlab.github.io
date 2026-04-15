@@ -62,6 +62,14 @@
   title: Research Associate Professor
   photo: MikeSauria.jpg
   email: mike.sauria@jhu.edu
+
+- first_name: Lynn
+  last_name: Shambles
+  pub_names: ["Shambles L"]
+  description: I manage the rodent strains and maintenance of rodent parasites in the lab.
+  title: Technician
+  photo: LynnShambles.jpg
+  email: mshambl2@jhu.edu
   
 #===================#
 # Graduate Students #
