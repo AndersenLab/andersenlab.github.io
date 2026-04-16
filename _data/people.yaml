@@ -27,6 +27,14 @@
   photo: NikitaJhaveri2.jpg
   email: njhaver4@jh.edu
 
+- first_name: Connor
+  last_name: Leong
+  title: Postdoctoral Researcher
+  pub_names: ["Leong C"]
+  description: I am interested in rodent parasites and drug resistance.
+  photo: ConnorLeong.jpg
+  email: connor.leong@oregonstate.edu
+
 - first_name: John
   last_name: Li
   title: Postdoctoral Researcher
