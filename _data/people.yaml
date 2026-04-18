@@ -15,7 +15,6 @@
   last_name: Shaver
   title: NIH Postdoctoral Fellow
   pub_names: ["Shaver AO", "Shaver A"]
-  description: I am interested in the genes that cause emodepside resistance in wild nematodes.
   photo: amanda-shaver.jpg
   email: amanda.shaver@jhu.edu
 
@@ -23,7 +22,6 @@
   last_name: Jhaveri
   title: Postdoctoral Researcher
   pub_names: ["Jhaveri N", "Jhaveri NS"]
-  description: I am interested in C. briggsae quantitative and population genetics.
   photo: NikitaJhaveri2.jpg
   email: njhaver4@jh.edu
 
@@ -31,7 +29,6 @@
   last_name: Leong
   title: Postdoctoral Researcher
   pub_names: ["Leong C"]
-  description: I am interested in rodent parasites and drug resistance.
   photo: ConnorLeong.jpg
   email: connor.leong@oregonstate.edu
 
@@ -39,7 +36,6 @@
   last_name: Li
   title: Postdoctoral Researcher
   pub_names: ["Li Z"]
-  description: I am interested in applying novel engineering solutions to high-throughput assays.
   photo: JohnLi.jpg
   email: zli435@jh.edu
 
@@ -47,7 +43,6 @@
   last_name: Moya
   title: Postdoctoral Researcher
   pub_names: ["ND Moya", "Moya ND", "Moya N"]
-  description: I am interested in hyper-divergent regions.
   photo: NicMoya.jpg
   email: nmoya1@jh.edu
 
@@ -58,7 +53,6 @@
 - first_name: Robyn
   last_name: Tanny
   pub_names: ["RE Tanny", "Tanny RE", "Robyn E. Tanny", "Robyn E Tanny"]
-  description: I manage our strain collection, generate sequencing libraries, and manage CaeNDR. I also handle incoming collection samples to identify new strains of <em>C. elegans</em>.
   title: Research Associate Professor
   photo: Robyn.jpg
   email: robyn.tanny@jhu.edu
@@ -66,7 +60,6 @@
 - first_name: Mike
   last_name: Sauria
   pub_names: ["Sauria MG", "Sauria MEG"]
-  description: I manage CaeNDR data releases, pipeline construction, and other computational projects
   title: Research Associate Professor
   photo: MikeSauria.jpg
   email: mike.sauria@jhu.edu
@@ -74,7 +67,6 @@
 - first_name: Lynn
   last_name: Shambles
   pub_names: ["Shambles L"]
-  description: I manage the rodent strains and maintenance of rodent parasites in the lab.
   title: Technician
   photo: LynnShambles.jpg
   email: mshambl2@jhu.edu
@@ -86,7 +78,6 @@
 - first_name: Ryan
   last_name: McKeown
   pub_names: ["McKeown R"]
-  description: I work on population genomics of selfing Caenorhabditis species.
   title: Graduate Student
   photo: Ryan.jpg
   email: ryanmckeown2021@u.northwestern.edu
@@ -94,7 +85,6 @@
 - first_name: Lance
   last_name: O&#39;Connor
   pub_names: ["O'Connor L", "OConnor LM", "O'Connor LM"]
-  description: I am interested in structural variation.
   title: Graduate Student
   photo: LanceOConnor2.jpg
   email: loconn13@jh.edu
@@ -102,7 +92,6 @@
 - first_name: Maya
   last_name: Mastronardo
   pub_names: ["Mastronardo MK"]
-  description: I am interested in natural variation in behavior
   title: Graduate Student
   photo: MayaMastronardo.jpg
   email: mmastro5@jh.edu
@@ -140,6 +129,8 @@
   description: I am interested in ascarid anthelmintic resistance.
   photo: JB.jpg
   email: jcolli95@jh.edu
+  current_status: Assistant Professor at Utah State University
+
 
 - first_name: Bowen
   last_name: Wang
