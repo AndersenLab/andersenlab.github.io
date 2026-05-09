@@ -103,6 +103,27 @@
   photo: EttaSchaye2.jpg
   email: eschaye1@jh.edu
 
+- first_name: Lina
+  last_name: Blanco
+  pub_names: ["Blanco L"]
+  title: Graduate Student
+  photo: LinaBlanco.jpg
+  email: lblanco5@jh.edu
+
+- first_name: Rose
+  last_name: Runyan
+  pub_names: ["Runyan R"]
+  title: Graduate Student
+  photo: RoseRunyan.jpg
+  email: rrunyan1@jh.edu
+
+- first_name: Joy
+  last_name: Mompi
+  pub_names: ["Mompi J"]
+  title: Graduate Student
+  photo: JoyMompi.jpg
+  email: jmompi1@jh.edu
+
 #========================#
 # Undergraduates         #
 #========================#
