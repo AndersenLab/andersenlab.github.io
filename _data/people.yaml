@@ -39,13 +39,6 @@
   photo: JohnLi.jpg
   email: zli435@jh.edu
 
-- first_name: Nicolas
-  last_name: Moya
-  title: Postdoctoral Researcher
-  pub_names: ["ND Moya", "Moya ND", "Moya N"]
-  photo: NicMoya.jpg
-  email: nmoya1@jh.edu
-
 #================#
 # Research Staff #
 #================#
@@ -132,6 +125,14 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Nicolas
+  last_name: Moya
+  former: true
+  title: Graduate Student
+  pub_names: ["ND Moya", "Moya ND", "Moya N"]
+  photo: NicMoya.jpg
+  email: nmoya1@jh.edu
 
 - first_name: Alejandra
   last_name: Zarate Potes
