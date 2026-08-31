@@ -1,4 +1,52 @@
 - Authors:
+  - Moya ND
+  - Wang B
+  - Tanny RE
+  - Sauria MEG
+  - OConnor LM
+  - Khorshidian A
+  - McKeown R
+  - Gosse C
+  - Dilks CM
+  - Crombie TA
+  - Zhang G
+  - Rais E
+  - Frezal L
+  - Dang VD
+  - Haryoso E
+  - Devi MP
+  - Gimond C
+  - Cook DE
+  - Hsu JC
+  - Shaver AO
+  - Zdraljevic S
+  - Richaud A
+  - Wen T
+  - Mehraj A
+  - Sharanya H
+  - Arulprakasam KR
+  - Koury EJ
+  - Roberto NM
+  - Schaye ES
+  - Singh V
+  - Tarno H
+  - Ailion M
+  - Paaby AB
+  - Zhao Z
+  - Cutter AD
+  - Wang J
+  - Rockman MV
+  - Felix MA
+  - Braendle C
+  - Andersen EC
+  Corresponding_Authors:
+  - Andersen EC: erik.andersen@gmail.com
+  DOI: 10.1093/molbev/msag202
+  Date_Published: 2026 August 12
+  Journal: Molecular Biology and Evolution
+  PDF: 2026MoyaMBE
+  Title: Population structure and punctuated genomic hyper-diversity in <em>Caenorhabditis briggsae</em>
+- Authors:
   - Wang B
   - Moya ND
   - Tanny RE
@@ -29,10 +77,10 @@
   - Andersen EC
   Corresponding_Authors:
   - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.64898/2026.04.05.716573
+  DOI: 10.1093/genetics/iyag196
   Date_Published: 2026 July 14
   Journal: Genetics
-  PDF: 2026WangbioRxiv
+  PDF: 2026WangGenetics
   Title: Global genomic diversity of the selfing nematode <em>Caenorhabditis tropicalis</em> correlates with geography
 - Authors:
   - Li Z
@@ -212,54 +260,6 @@
   Journal: Environmental Science and Technology
   PDF: 2026CrombieEST
   Title: High-Throughput Toxicity Screening with <em>C. elegans</em> - Current Platforms, Key Advantages, and Future Directions
-- Authors:
-  - Moya ND
-  - Wang B
-  - Tanny RE
-  - Sauria MEG
-  - OConnor LM
-  - Khorshidian A
-  - McKeown R
-  - Gosse C
-  - Dilks CM
-  - Crombie TA
-  - Zhang G
-  - Rais E
-  - Frezal L
-  - Dang VD
-  - Haryoso E
-  - Devi MP
-  - Gimond C
-  - Cook DE
-  - Hsu JC
-  - Shaver AO
-  - Zdraljevic S
-  - Richaud A
-  - Wen T
-  - Mehraj A
-  - Sharanya H
-  - Arulprakasam KR
-  - Koury EJ
-  - Roberto NM
-  - Schaye ES
-  - Singh V
-  - Tarno H
-  - Ailion M
-  - Paaby AB
-  - Zhao Z
-  - Cutter AD
-  - Wang J
-  - Rockman MV
-  - Felix MA
-  - Braendle C
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.64898/2025.12.08.693002
-  Date_Published: 2025 December 8
-  Journal: bioRxiv
-  PDF: 2025MoyabioRxiv
-  Title: <em>Caenorhabditis briggsae</em> ancestral genomic hyper-diversity contrasts with globally distributed genome-wide haplotypes
 - Authors:
   - Polk EA
   - Aqil A
