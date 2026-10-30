@@ -68,13 +68,6 @@
 # Graduate Students #
 #===================#
 
-- first_name: Ryan
-  last_name: McKeown
-  pub_names: ["McKeown R"]
-  title: Graduate Student
-  photo: Ryan.jpg
-  email: ryanmckeown2021@u.northwestern.edu
-
 - first_name: Lance
   last_name: O&#39;Connor
   pub_names: ["O'Connor L", "OConnor LM", "O'Connor LM"]
@@ -125,6 +118,14 @@
 #========================#
 # Former Members         #
 #========================#
+
+- first_name: Ryan
+  last_name: McKeown
+  former: true
+  pub_names: ["McKeown R"]
+  title: Graduate Student
+  photo: Ryan.jpg
+  email: ryanmckeown2021@u.northwestern.edu
 
 - first_name: Nicolas
   last_name: Moya
